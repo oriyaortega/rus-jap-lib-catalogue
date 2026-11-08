@@ -17291,7 +17291,21 @@
    "title_romaji": null,
    "work_note": "Гора Фудзи, лепестки сакуры, роботы, аниме и манга — Япония ассоциируется с целым набором образов. Но несмотря на то, что японская культура активно проникает на Запад, эта страна продолжает оставаться загадочной и непознанной. Эта книга познакомит вас со Страной восходящего солнца, расскажет об истории и религии, искусстве и культурном влиянии на другие страны.",
    "source": "https://www.livelib.ru/book/1002952076",
-   "cover": "https://s1.livelib.ru/boocover/1002952076/200x305/e654/Anna_Pushakova__Yaponiya._Vvedenie_v_iskusstvo_i_kulturu.jpg"
+   "cover": "https://s1.livelib.ru/boocover/1002952076/200x305/e654/Anna_Pushakova__Yaponiya._Vvedenie_v_iskusstvo_i_kulturu.jpg",
+   "editions": [
+    {
+     "city": "Москва",
+     "publisher": "Бомбора",
+     "year": 2021,
+     "pages": 128,
+     "isbn": "978-5-04-095630-2",
+     "size": "220×160×17 мм",
+     "binding": "твёрдая, чёрно-белые и цветные иллюстрации",
+     "note": "Переиздание книги 2019 года в той же серии «Синхронизация. Включайтесь в культуру», с тем же ISBN. Редактор И. Останина.",
+     "cover": "https://imo10.labirint.ru/books/679330/cover.jpg/484-0",
+     "source": "https://www.labirint.ru/books/679330/"
+    }
+   ]
   },
   {
    "id": "x93",
