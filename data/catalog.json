@@ -1649,7 +1649,7 @@
   },
   {
    "wikidata": null,
-   "name_ru": "Осипова Мария",
+   "name_ru": "Осипова Марина",
    "name_orig": null,
    "sort": "Осипова",
    "id": "osipovamariya"
@@ -3263,6 +3263,13 @@
    "name_orig": "笙野 頼子 Shono Yoriko",
    "sort": "Сёно",
    "id": "senoeriko"
+  },
+  {
+   "wikidata": null,
+   "name_ru": "Климов Артём",
+   "name_orig": null,
+   "sort": "Климов",
+   "id": "klimovartem"
   }
  ],
  "translators": [
@@ -25080,15 +25087,16 @@
     "klimovvadim",
     "osipovamariya",
     "schepkinvasil",
-    "klimovaolga"
+    "klimovaolga",
+    "klimovartem"
    ],
    "year": 2020,
    "city": "Санкт-Петербург",
-   "publisher": "Лема",
-   "pages": null,
+   "publisher": "ЛЕМА",
+   "pages": 255,
    "genre": "история",
-   "work_note": "Под общ. ред. В. В. Щепкина.",
-   "source": "https://www.hse.ru/org/persons/190995505/#sci",
+   "work_note": "Коллективная монография под ред. В. В. Щепкина. В XVIII веке айны сыграли важную роль в установлении отношений между Россией и Японией. Однако начавшееся в результате этого приграничное размежевание Японии и России привело к коренным изменениям в культуре и хозяйственной деятельности айнов, поставив под угрозу само их существование. В этой книге собраны результаты последних исследований российских историков, посвященных месту и роли айнов в истории ранних российско-японских отношений.",
+   "source": "https://www.orientalstudies.ru/rus/index.php?option=com_publications&Itemid=75&pub=9947",
    "sources": [
     "hse"
    ],
@@ -25102,7 +25110,9 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "isbn": "978-5-00105-503-7",
+   "cover": "https://www.orientalstudies.ru/rus/images/pdf/pictures/b_shchepkin_ed_2020.jpg"
   },
   {
    "id": "h7",
