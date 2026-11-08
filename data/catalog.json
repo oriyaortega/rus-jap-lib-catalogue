@@ -17301,9 +17301,10 @@
      "isbn": "978-5-04-095630-2",
      "size": "220×160×17 мм",
      "binding": "твёрдая, чёрно-белые и цветные иллюстрации",
-     "note": "Переиздание книги 2019 года в той же серии «Синхронизация. Включайтесь в культуру», с тем же ISBN. Редактор И. Останина.",
+     "note": "Переиздание книги 2019 года в той же серии, с тем же ISBN. Редактор И. Останина.",
      "cover": "https://imo10.labirint.ru/books/679330/cover.jpg/484-0",
-     "source": "https://www.labirint.ru/books/679330/"
+     "source": "https://www.labirint.ru/books/679330/",
+     "book": "lb679330"
     }
    ]
   },
@@ -37938,6 +37939,53 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null
+  },
+  {
+   "id": "lb679330",
+   "title_ru": "Япония. Введение в искусство и культуру",
+   "authors": [
+    "pushakovaanna"
+   ],
+   "year": 2021,
+   "city": "Москва",
+   "publisher": "Бомбора",
+   "pages": 128,
+   "isbn": "978-5-04-095630-2",
+   "genre": "искусство",
+   "series": {
+    "id": "sinkhronizatsiyavklyuchaytesvk"
+   },
+   "work_note": "Гора Фудзи, лепестки сакуры, роботы, аниме и манга — Япония ассоциируется с целым набором образов. Но несмотря на то, что японская культура активно проникает на Запад, эта страна продолжает оставаться загадочной и непознанной. Эта книга познакомит вас со Страной восходящего солнца, расскажет об истории и религии, искусстве и культурном влиянии на другие страны.",
+   "cover": "https://imo10.labirint.ru/books/679330/cover.jpg/484-0",
+   "source": "https://www.labirint.ru/books/679330/",
+   "sources": [
+    "labirint"
+   ],
+   "added": "2026-11-08",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "искусство"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "editions": [
+    {
+     "city": "Москва",
+     "publisher": "Эксмо",
+     "year": 2019,
+     "pages": 128,
+     "isbn": "978-5-04-095630-2",
+     "size": "145×200 мм",
+     "binding": "твёрдая",
+     "note": "Первое издание.",
+     "book": "x92",
+     "cover": "https://s1.livelib.ru/boocover/1002952076/200x305/e654/Anna_Pushakova__Yaponiya._Vvedenie_v_iskusstvo_i_kulturu.jpg",
+     "source": "https://www.livelib.ru/book/1002952076"
+    }
+   ]
   }
  ],
  "series": [
