@@ -736,7 +736,7 @@
         e.title && ['Название', esc(e.title)],
         e.city && ['Место издания', esc(e.city)],
         e.publisher && ['Издательство', esc(e.publisher)],
-        e.year && ['Год издания', esc(e.year)],
+        e.year && ['Год издания', `<a href="#/editions/${esc(e.year)}">${esc(e.year)}</a>`],
         e.pages && ['Страниц', esc(e.pages)],
         e.isbn && ['ISBN', esc(e.isbn)],
         e.size && ['Формат', esc(e.size)],
