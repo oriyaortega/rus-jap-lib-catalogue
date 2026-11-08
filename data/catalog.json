@@ -1,5 +1,5 @@
 {
- "_note": "Книги b1–b13 (кроме «Ветки сакуры») — демонстрационные данные. Остальное внесено 8 ноября 2026 г. из таблицы пользователя, Фантлаба (серия «Библиотека японской литературы», переводы Е. А. Рябовой, поиск произведений по стране «Япония»), каталога «Поляндрии NoAge», «Лабиринта» (серия Orientalia et Classica), профиля В. В. Щепкина на сайте ВШЭ и статьи о Е. С. Штейнере в Википедии.",
+ "_note": "Издания внесены 8 ноября 2026 г. из таблицы пользователя, Фантлаба (серия «Библиотека японской литературы», переводы Е. А. Рябовой, поиск произведений по стране «Япония»), каталога «Поляндрии NoAge», «Лабиринта» (серия Orientalia et Classica), профиля В. В. Щепкина на сайте ВШЭ и статьи о Е. С. Штейнере в Википедии.",
  "news": [
   {
    "date": "2026-11-08",
@@ -4555,18 +4555,24 @@
    "title_orig": "吾輩は猫である",
    "title_romaji": "Wagahai wa neko de aru",
    "work_note": "Первый роман писателя, сатира на интеллигенцию эпохи Мэйдзи, рассказанная от лица кота.",
-   "translators": [],
+   "translators": [
+    "korshikovlev",
+    "strugatsky"
+   ],
    "year": 1960,
    "city": "Москва",
    "publisher": "Гослитиздат",
-   "pages": 504,
+   "pages": 432,
    "tags": [
     "художественная",
     "переводная",
     "роман",
     "Мэйдзи",
     "сатира"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/86870",
+   "source": "https://fantlab.ru/edition86870",
+   "print_run": 75000
   },
   {
    "id": "b2",
@@ -4587,14 +4593,17 @@
    "year": 1974,
    "city": "Москва",
    "publisher": "Художественная литература",
-   "pages": 384,
+   "pages": 704,
    "tags": [
     "художественная",
     "переводная",
     "новеллы",
     "Тайсё",
     "сборник"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/31073",
+   "source": "https://fantlab.ru/edition31073",
+   "print_run": 303000
   },
   {
    "id": "b3",
@@ -4604,7 +4613,7 @@
    "genre": "роман",
    "orig_year": "1935–1948",
    "added": "2026-11-03",
-   "title_ru": "Снежная страна",
+   "title_ru": "Тысячекрылый журавль. Снежная страна. Новеллы, рассказы, эссе",
    "title_orig": "雪国",
    "title_romaji": "Yukiguni",
    "work_note": "Одно из произведений, упомянутых при вручении Нобелевской премии 1968 года.",
@@ -4613,15 +4622,17 @@
    ],
    "year": 1971,
    "city": "Москва",
-   "publisher": "Художественная литература",
-   "pages": 272,
+   "publisher": "Прогресс",
+   "pages": 400,
    "tags": [
     "художественная",
     "переводная",
     "роман",
     "Сёва",
     "Нобелевская премия"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/455889",
+   "source": "https://fantlab.ru/edition455889"
   },
   {
    "id": "b4",
@@ -4641,13 +4652,17 @@
    "year": 1993,
    "city": "Санкт-Петербург",
    "publisher": "Северо-Запад",
-   "pages": 304,
+   "pages": 478,
    "tags": [
     "художественная",
     "переводная",
     "роман",
     "Сёва"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/58599",
+   "source": "https://fantlab.ru/edition58599",
+   "print_run": 55000,
+   "isbn": "5-8352-0291-1"
   },
   {
    "id": "b5",
@@ -4664,16 +4679,20 @@
    "translators": [
     "kovalenin"
    ],
-   "year": 2002,
-   "city": "Москва",
-   "publisher": "Эксмо",
-   "pages": 384,
+   "year": 2001,
+   "city": "Санкт-Петербург",
+   "publisher": "Амфора",
+   "pages": 480,
    "tags": [
     "художественная",
     "переводная",
     "роман",
     "современность"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/6678",
+   "source": "https://fantlab.ru/edition6678",
+   "print_run": 13000,
+   "isbn": "5-94278-259-8"
   },
   {
    "id": "b6",
@@ -4693,14 +4712,17 @@
    "year": 1975,
    "city": "Москва",
    "publisher": "Художественная литература",
-   "pages": 416,
+   "pages": 368,
    "tags": [
     "художественная",
     "переводная",
     "дзуйхицу",
     "Хэйан",
     "классика"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/260286",
+   "source": "https://fantlab.ru/edition260286",
+   "print_run": 100000
   },
   {
    "id": "b7",
@@ -4720,14 +4742,18 @@
    "year": 1991,
    "city": "Москва",
    "publisher": "Наука",
-   "pages": 720,
+   "pages": 336,
    "tags": [
     "художественная",
     "переводная",
     "моногатари",
     "Хэйан",
     "классика"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/466084",
+   "source": "https://fantlab.ru/edition466084",
+   "print_run": 25000,
+   "isbn": "5-02-016875-0"
   },
   {
    "id": "b8",
@@ -4744,10 +4770,10 @@
    "translators": [
     "markova"
    ],
-   "year": 1985,
+   "year": 1964,
    "city": "Москва",
    "publisher": "Художественная литература",
-   "pages": 302,
+   "pages": 196,
    "tags": [
     "художественная",
     "переводная",
@@ -4755,7 +4781,9 @@
     "хайку",
     "Эдо",
     "классика"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/256157",
+   "source": "https://fantlab.ru/edition256157"
   },
   {
    "id": "b9",
@@ -4765,21 +4793,27 @@
    "genre": "повесть",
    "orig_year": "1948",
    "added": "2026-11-05",
-   "title_ru": "Исповедь «неполноценного» человека",
+   "title_ru": "Цветы шутовства",
    "title_orig": "人間失格",
    "title_romaji": "Ningen shikkaku",
    "work_note": "Последняя завершённая повесть писателя.",
-   "translators": [],
-   "year": 2004,
+   "translators": [
+    "skalnikvikto"
+   ],
+   "year": 2001,
    "city": "Москва",
-   "publisher": "Иностранка",
-   "pages": 288,
+   "publisher": "Восточная литература",
+   "pages": 294,
    "tags": [
     "художественная",
     "переводная",
     "повесть",
     "Сёва"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/143525",
+   "source": "https://fantlab.ru/edition143525",
+   "print_run": 2500,
+   "isbn": "5-02-017467-X"
   },
   {
    "id": "b10",
@@ -4789,23 +4823,26 @@
    "genre": "роман",
    "orig_year": "1962",
    "added": "2026-11-05",
-   "title_ru": "Женщина в песках",
+   "title_ru": "Женщина в песках. Чужое лицо",
    "title_orig": "砂の女",
    "title_romaji": "Suna no onna",
    "work_note": "Роман-притча, экранизирован Хироси Тэсигахарой в 1964 году.",
    "translators": [
     "grivnin"
    ],
-   "year": 1966,
+   "year": 1969,
    "city": "Москва",
-   "publisher": "Прогресс",
-   "pages": 240,
+   "publisher": "Художественная литература",
+   "pages": 368,
    "tags": [
     "художественная",
     "переводная",
     "роман",
     "Сёва"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/34625",
+   "source": "https://fantlab.ru/edition34625",
+   "print_run": 50000
   },
   {
    "id": "b11",
@@ -4823,7 +4860,7 @@
    "year": 1971,
    "city": "Москва",
    "publisher": "Молодая гвардия",
-   "pages": 320,
+   "pages": 256,
    "tags": [
     "нехудожественная",
     "на русском",
@@ -4833,7 +4870,10 @@
    "sources": [
     "xlsx",
     "xlsx"
-   ]
+   ],
+   "cover": "https://fantlab.ru/images/editions/big/426980",
+   "source": "https://fantlab.ru/edition426980",
+   "print_run": 65000
   },
   {
    "id": "b12",
