@@ -434,7 +434,8 @@
   function pageAuthor(id) {
     if (!authorsById.has(id)) return notFound();
     const a = authorInfo(id);
-    const books = booksOf(id).sort((x, y) => (x.year || 9999) - (y.year || 9999));
+    // hide_on_author: издание показано в разделе «Другое издание» другой карточки, в списке автора не повторяем
+    const books = booksOf(id).filter((b) => !b.hide_on_author).sort((x, y) => (x.year || 9999) - (y.year || 9999));
     const works = new Map();
     for (const b of books) {
       const key = b.title_orig || b.title_ru;

@@ -34909,7 +34909,8 @@
    "title_orig": null,
    "title_romaji": null,
    "work_note": null,
-   "cover": "https://imo10.labirint.ru/books/592889/cover.jpg/484-0"
+   "cover": "https://imo10.labirint.ru/books/592889/cover.jpg/484-0",
+   "hide_on_author": true
   },
   {
    "id": "ms1",
