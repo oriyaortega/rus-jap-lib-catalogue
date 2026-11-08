@@ -184,7 +184,7 @@
   // Биография: своё поле bio важнее; иначе — вступление статьи Википедии (подгружается после отрисовки).
   // Короткие описания Викиданных не показываем: их может править кто угодно, встречается вандализм.
   function bioHtml(person, hash) {
-    if (person.bio) return `<p>${esc(person.bio)}</p>`;
+    if (person.bio) return `<p>${esc(person.bio)}</p>${person.bio_src ? `<p class="src">Источник: <a href="${esc(person.bio_src.url)}" target="_blank" rel="noopener">${esc(person.bio_src.name)}</a></p>` : ''}`;
     const title = person.w?.ruwiki;
     if (title) {
       wikiSummary(title).then((s) => {
@@ -308,8 +308,9 @@
     const name = p.kanji
       ? `<span class="fuda-v" lang="ja">${esc(p.kanji)}</span>`
       : `<span class="fuda-v ru">${esc(orig)}</span>`;
-    const pic = p.w?.image
-      ? `<img class="portrait" src="${esc(p.w.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    const img = p.w?.image || p.image;
+    const pic = img
+      ? `<img class="portrait" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
       : `<div class="portrait none">${esc(orig[0])}</div>`;
     return `<div class="fuda yomi" style="--fc:${personColor(p)}" aria-hidden="true">${pic}${name}</div>`;
   }
