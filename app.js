@@ -723,7 +723,33 @@
         </div>
       </div>
       ${contents}
+      ${otherEditions(b)}
       <p class="back"><a href="javascript:history.back()">← назад</a></p>`;
+  }
+
+  // Другие издания той же книги (поле editions): обложка и выходные данные
+  function otherEditions(b) {
+    const eds = b.editions || [];
+    if (!eds.length) return '';
+    return `${section(eds.length > 1 ? `Другие издания · ${eds.length}` : 'Другое издание')}${eds.map((e) => {
+      const rows = [
+        e.title && ['Название', esc(e.title)],
+        e.city && ['Место издания', esc(e.city)],
+        e.publisher && ['Издательство', esc(e.publisher)],
+        e.year && ['Год издания', esc(e.year)],
+        e.pages && ['Страниц', esc(e.pages)],
+        e.isbn && ['ISBN', esc(e.isbn)],
+        e.size && ['Формат', esc(e.size)],
+        e.binding && ['Обложка', esc(e.binding)],
+        e.note && ['Примечание', esc(e.note)],
+        e.book && bookNo.has(e.book) && ['Карточка', `<a href="#/book/${esc(e.book)}"><span lang="ja">${kanjiNum(bookNo.get(e.book))}</span> (№ ${bookNo.get(e.book)})</a>`],
+        e.source && ['Источник', `<a href="${esc(e.source)}" target="_blank" rel="noopener">${esc(sourceName(e.source))}</a>`],
+      ].filter(Boolean);
+      return `<div class="edition-other">
+        ${e.cover ? `<img class="ed-cover" src="${esc(e.cover)}" alt="Обложка издания ${esc(e.year || '')} года" loading="lazy" referrerpolicy="no-referrer">` : '<div></div>'}
+        <table class="card">${rows.map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('')}</table>
+      </div>`;
+    }).join('')}`;
   }
 
   function pageNonfiction(params) {

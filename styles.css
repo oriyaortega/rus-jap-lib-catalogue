@@ -353,3 +353,9 @@ details.contents-more[open] > summary { margin-bottom: 16px; }
 .view-switch { flex-wrap: wrap; }
 .view-switch a { white-space: nowrap; }
 @media (max-width: 520px) { .view-switch a { padding: 5px 10px; } .ed-sort-label { flex-basis: 100%; margin-bottom: -4px; } }
+
+/* Другие издания книги */
+.edition-other { display: grid; grid-template-columns: 140px 1fr; gap: 28px; align-items: start; margin: 0 0 28px; }
+.edition-other .ed-cover { width: 100%; height: auto; display: block; box-shadow: 0 1px 4px rgba(0,0,0,.18); }
+.edition-other table.card { margin-top: 0; }
+@media (max-width: 620px) { .edition-other { grid-template-columns: 1fr; gap: 14px; } .edition-other .ed-cover { max-width: 140px; } }
