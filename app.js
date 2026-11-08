@@ -165,7 +165,7 @@
   const imprintText = (b) => [b.publisher && `«${esc(b.publisher)}»`, b.city && esc(b.city), b.year || 'б. г.'].filter(Boolean).join(', ');
   const worksOf = (id) => (catalog.works || []).filter((w) => w.authors.includes(id));
   const sourceName = (url) => (/fantlab/.test(url) ? 'Фантлаб' : /polyandria/.test(url) ? 'сайт «Поляндрии»' : /labirint/.test(url) ? 'Лабиринт'
-    : /hse\.ru/.test(url) ? 'сайт ВШЭ' : /wikipedia/.test(url) ? 'Википедия' : /azbooka/.test(url) ? 'сайт «Азбуки»'
+    : /hse\.ru/.test(url) ? 'сайт ВШЭ' : /dvfu\.ru/.test(url) ? 'библиотека ДВФУ' : /wikipedia/.test(url) ? 'Википедия' : /azbooka/.test(url) ? 'сайт «Азбуки»'
     : /bombora/.test(url) ? 'сайт «Бомборы»' : /livelib/.test(url) ? 'LiveLib' : /mann-ivanov-ferber/.test(url) ? 'сайт МИФ' : 'ссылка');
   const SOURCE_NAMES = { xlsx: 'картотека составителя', gsheet: 'таблица составителя', fantlab: 'Фантлаб', polyandria: 'сайт «Поляндрии»', labirint: 'Лабиринт',
     hse: 'сайт ВШЭ', wikipedia: 'Википедия', azbuka: 'сайт «Азбуки»', bombora: 'сайт «Бомборы»', livelib: 'LiveLib', mif: 'сайт МИФ' };
