@@ -167,7 +167,7 @@
   const sourceName = (url) => (/fantlab/.test(url) ? 'Фантлаб' : /polyandria/.test(url) ? 'сайт «Поляндрии»' : /labirint/.test(url) ? 'Лабиринт'
     : /hse\.ru/.test(url) ? 'сайт ВШЭ' : /dvfu\.ru/.test(url) ? 'библиотека ДВФУ' : /orientalstudies/.test(url) ? 'сайт ИВ РАН' : /wikipedia/.test(url) ? 'Википедия' : /azbooka/.test(url) ? 'сайт «Азбуки»'
     : /bombora/.test(url) ? 'сайт «Бомборы»' : /livelib/.test(url) ? 'LiveLib' : /mann-ivanov-ferber/.test(url) ? 'сайт МИФ' : 'ссылка');
-  const SOURCE_NAMES = { xlsx: 'картотека составителя', gsheet: 'таблица составителя', fantlab: 'Фантлаб', polyandria: 'сайт «Поляндрии»', labirint: 'Лабиринт',
+  const SOURCE_NAMES = { gsheet: 'таблица составителя', fantlab: 'Фантлаб', polyandria: 'сайт «Поляндрии»', labirint: 'Лабиринт',
     hse: 'сайт ВШЭ', wikipedia: 'Википедия', azbuka: 'сайт «Азбуки»', bombora: 'сайт «Бомборы»', livelib: 'LiveLib', mif: 'сайт МИФ' };
   // Серия одной строкой: «Название», № N
   const seriesText = (b, link = true) => {
@@ -532,7 +532,7 @@
       </table>` : '<p class="muted">Ничего не найдено.</p>');
     return `
       <h1>Произведения</h1>
-      <p class="sub">художественные произведения на русском языке · ${plural(all.length, ['произведение', 'произведения', 'произведений'])} · по данным Фантлаба, картотеки и издательств</p>
+      <p class="sub">художественные произведения на русском языке · ${plural(all.length, ['произведение', 'произведения', 'произведений'])} · по данным Фантлаба и издательств</p>
       <form class="searchbar" id="works-form">
         <input id="wq" type="search" value="${esc(q)}" placeholder="Название, автор или иероглифы" aria-label="Поиск по произведениям" autocomplete="off">
         <select id="wkind" aria-label="Вид произведения"><option value="">все виды</option>${kinds.map((k) => `<option value="${esc(k)}" ${k === kind ? 'selected' : ''}>${esc(k)}</option>`).join('')}</select>
@@ -683,6 +683,10 @@
   function pageBook(id) {
     const b = catalog.books.find((x) => x.id === id);
     if (!b) return notFound();
+    const srcList = [
+      b.source && `<a href="${esc(b.source)}" target="_blank" rel="noopener">${esc(sourceName(b.source))}</a>`,
+      ...(b.sources || []).filter((x) => SOURCE_NAMES[x] && (!b.source || SOURCE_NAMES[x] !== sourceName(b.source))).map((x) => esc(SOURCE_NAMES[x])),
+    ].filter(Boolean);
     const rows = [
       b.authors.length && [b.authors.length > 1 ? 'Авторы' : 'Автор', b.authors.map((aid) => { const a = authorInfo(aid); return `${authorLink(aid)}${a.kanji ? ` <span lang="ja">${esc(a.kanji)}</span>` : ''}`; }).join(', ')],
       b.title_orig && ['Оригинал', `<span lang="ja">${esc(b.title_orig)}</span>${b.title_romaji ? ` (<i>${esc(b.title_romaji)}</i>)` : ''}`],
@@ -698,10 +702,7 @@
       ['Жанр', esc(b.genre)],
       ['Теги', b.tags.map((t) => `<a href="#/search?tags=${encodeURIComponent(t)}">${esc(t)}</a>`).join(', ')],
       ['Карточка', `<span lang="ja">${kanjiNum(bookNo.get(b.id))}</span> (№ ${bookNo.get(b.id)})`],
-      (b.source || b.sources) && ['Источник', [
-        b.source && `<a href="${esc(b.source)}" target="_blank" rel="noopener">${esc(sourceName(b.source))}</a>`,
-        ...(b.sources || []).filter((x) => !b.source || SOURCE_NAMES[x] !== sourceName(b.source)).map((x) => esc(SOURCE_NAMES[x] || x)),
-      ].filter(Boolean).join(', ')],
+      srcList.length > 0 && ['Источник', srcList.join(', ')],
     ].filter(Boolean);
     const items = b.contents || [];
     const list = `<ol class="contents">${items.map((w) => `<li>
@@ -777,7 +778,7 @@
     <p>«Библиография русскоязычной японской литературы» — каталог книг, изданных на русском языке: переводов японских авторов и книг о Японии, написанных по-русски.</p>
     <p>Оформление навеяно карутой — японской карточной игрой. Каждая книга здесь — карточка-торифуда с японским названием и порядковым номером, записанным японскими цифрами, как на карточках «Хякунин иссю». Авторы и переводчики — карточки-ёмифуда с портретом.</p>
     <p>Выходные данные изданий хранятся в собственной базе сайта. Сведения о людях — имена иероглифами и каной, латиницей, годы и место рождения, портреты — подгружаются из <a href="https://www.wikidata.org" target="_blank" rel="noopener">Викиданных</a>, краткие биографии — из <a href="https://ru.wikipedia.org" target="_blank" rel="noopener">Википедии</a>.</p>
-    <p>Книги внесены по картотеке и таблице составителя и открытым источникам: <a href="https://fantlab.ru" target="_blank" rel="noopener">Фантлаб</a> (серия «Библиотека японской литературы», переводы Е. А. Рябовой и Е. М. Байбиковой, поиск произведений японских авторов), сайты издательств «Азбука», «Бомбора», «Поляндрия NoAge», МИФ, «Лабиринт» (серия Orientalia et Classica, книги издательства «Гиперион»), LiveLib, сайт ВШЭ (книги В. В. Щепкина и А. Н. Мещерякова) и Википедия (книги Е. С. Штейнера и А. Н. Мещерякова). Обложки показываются с сайтов-источников.</p>
+    <p>Книги внесены по таблице составителя и открытым источникам: <a href="https://fantlab.ru" target="_blank" rel="noopener">Фантлаб</a> (серия «Библиотека японской литературы», переводы Е. А. Рябовой и Е. М. Байбиковой, поиск произведений японских авторов), сайты издательств «Азбука», «Бомбора», «Поляндрия NoAge», МИФ, «Лабиринт» (серия Orientalia et Classica, книги издательства «Гиперион»), LiveLib, сайт ВШЭ (книги В. В. Щепкина и А. Н. Мещерякова) и Википедия (книги Е. С. Штейнера и А. Н. Мещерякова). Обложки показываются с сайтов-источников.</p>
     <p>В каталог входят: художественные книги японских авторов в русском переводе, художественные книги о Японии авторов из других стран и России, нехудожественные книги о Японии — история, культура, мифология, искусство, язык. Не входят практические пособия (рукоделие, кулинария, здоровье), раскраски, блокноты, путеводители и подарочные комплекты.</p>`;
 
   const notFound = () => '<h1>Страница не найдена</h1><p><a href="#/">На главную</a></p>';
