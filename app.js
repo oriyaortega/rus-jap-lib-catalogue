@@ -309,7 +309,7 @@
     const name = p.kanji
       ? `<span class="fuda-v" lang="ja">${esc(p.kanji)}</span>`
       : `<span class="fuda-v ru">${esc(orig)}</span>`;
-    const img = p.w?.image || p.image;
+    const img = p.image || p.w?.image;  // своя (локальная) копия важнее ссылки на Викисклад
     const pic = img
       ? `<img class="portrait" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
       : `<div class="portrait none">${esc(orig[0])}</div>`;
