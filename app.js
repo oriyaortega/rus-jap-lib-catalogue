@@ -408,9 +408,14 @@
 
   function profile(p, hash, role) {
     const w = p.w;
+    // Автор с русским именем: в заголовке полное имя (своё поле full_name или из Викиданных),
+    // строки «Имя на русском» и «Полное имя» не нужны
+    const ruName = p.kind === 'author' && !p.kanji && p.orig === p.name_ru;
+    const wdFull = w?.ru && w.ru.includes(',') && norm(w.ru).startsWith(norm(p.sort)) ? w.ru.replace(',', '') : null;
+    const heading = ruName ? (p.full_name || wdFull || p.name_ru) : p.name_ru;
     const facts = [
-      p.kind === 'author' && ['Имя на русском', esc(p.name_ru)],
-      p.full_name && ['Полное имя', esc(p.full_name)],
+      p.kind === 'author' && !ruName && ['Имя на русском', esc(p.name_ru)],
+      !ruName && p.full_name && ['Полное имя', esc(p.full_name)],
       p.kind === 'translator' && w?.ru && norm(w.ru).includes(norm(p.sort)) && norm(w.ru) !== norm(p.name_ru) && ['Полное имя', esc(w.ru.replace(',', ''))],
       w?.ru && !norm(w.ru).includes(norm(p.sort)) && !norm(w.ru).includes(norm(p.name_ru.split(' ').pop())) && ['Также известен(а) как', esc(w.ru)],
       p.kind === 'author' && !p.kanji && p.orig !== p.name_ru && ['Имя в оригинале', esc(p.orig)],
@@ -423,7 +428,7 @@
     return `<div class="profile">
       ${yomifuda(p)}
       <div>
-        <h1>${esc(p.name_ru)}</h1>
+        <h1>${esc(heading)}</h1>
         ${p.kanji ? `<p class="orig" lang="ja">${esc(p.kanji)}</p>` : p.orig && p.orig !== p.name_ru ? `<p class="orig">${esc(p.orig)}</p>` : ''}
         <p class="role">${role}</p>
         <div class="facts">${facts.map(([k, v]) => `<b>${k}:</b> ${v}`).join('<br>')}</div>

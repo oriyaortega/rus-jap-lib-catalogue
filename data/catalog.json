@@ -122,7 +122,8 @@
    "wikidata": "Q3737597",
    "name_ru": "Конрад Николай",
    "name_orig": null,
-   "sort": "Конрад"
+   "sort": "Конрад",
+   "full_name": "Конрад Николай Иосифович"
   },
   {
    "id": "grigorieva",
@@ -1070,7 +1071,8 @@
    "bio_src": {
     "name": "сайт издательства МИФ",
     "url": "https://www.mann-ivanov-ferber.ru/people/person/(pushakova)-anna/"
-   }
+   },
+   "full_name": "Пак (Пушакова) Анна Эдуардовна"
   },
   {
    "wikidata": "Q347412",
@@ -2599,7 +2601,8 @@
    "name_ru": "Мещеряков Александр",
    "name_orig": null,
    "sort": "Мещеряков",
-   "id": "mescheryakovaleks"
+   "id": "mescheryakovaleks",
+   "full_name": "Мещеряков Александр Николаевич"
   },
   {
    "wikidata": null,
