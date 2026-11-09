@@ -48090,6 +48090,142 @@
    "title_romaji": null,
    "isbn": "978-5-907671-77-5",
    "cover_src": "https://book.ivran.ru/sites/31/files/Novyi-proekt_1.jpg"
+  },
+  {
+   "id": "zh1945",
+   "title_ru": "Японский империализм — враг свободолюбивых народов",
+   "authors": [
+    "iva6b9ae0bd"
+   ],
+   "year": 1945,
+   "city": "Москва",
+   "publisher": "Госполитиздат",
+   "pages": 32,
+   "genre": "история",
+   "work_note": "Брошюра, вышедшая в 1945 году, в последние месяцы войны на Тихом океане. В «Биографике СПбГУ» название дано сокращённо: «Японский империализм – враг свободолюбивых».",
+   "links": [
+    {
+     "name": "Биографика СПбГУ",
+     "url": "https://bioslovhist.spbu.ru/person/3644-zukov-evgenij-mihajlovic.html"
+    },
+    {
+     "name": "диссертация О. А. Клочковой (2005), список литературы",
+     "url": "https://www.dissercat.com/content/pechatnye-sredstva-massovoi-informatsii-v-voenno-politicheskom-protivostoyanii-sssr-i-yaponi"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "история"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null
+  },
+  {
+   "id": "zh1951",
+   "title_ru": "Международные отношения на Дальнем Востоке (1870–1945 гг.)",
+   "authors": [
+    "iva6b9ae0bd"
+   ],
+   "year": 1951,
+   "city": "Москва",
+   "publisher": "Госполитиздат",
+   "pages": 790,
+   "genre": "история",
+   "work_note": "Под общ. ред. чл.-корр. АН СССР Е. М. Жукова; АН СССР, Институт востоковедения. Авторы: Г. Н. Войтинский, А. Л. Гальперин, А. А. Губер, А. М. Дубинский, Е. М. Жуков, Л. И. Зубок, А. Л. Нарочницкий. Книга излагает историю международных отношений на Дальнем Востоке, в том числе политику Японии, от 1870 года до окончания Второй мировой войны. В конце дан краткий обзор важнейших послевоенных событий.",
+   "links": [
+    {
+     "name": "Биографика СПбГУ",
+     "url": "https://bioslovhist.spbu.ru/person/3644-zukov-evgenij-mihajlovic.html"
+    },
+    {
+     "name": "lawlibrary.ru",
+     "url": "http://lawlibrary.ru/izdanie12853.html"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "история"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null
+  },
+  {
+   "id": "zh1963",
+   "title_ru": "Паназиатизм как идейное оружие японской экспансии",
+   "authors": [
+    "iva6b9ae0bd"
+   ],
+   "year": 1963,
+   "city": "Москва",
+   "publisher": "",
+   "pages": 9,
+   "genre": "история",
+   "work_note": "Доклад на XXVI Международном конгрессе востоковедов. Издан отдельной брошюрой в серии «Доклады делегации СССР» (М., 1963; издательство не указано).",
+   "links": [
+    {
+     "name": "Биографика СПбГУ",
+     "url": "https://bioslovhist.spbu.ru/person/3644-zukov-evgenij-mihajlovic.html"
+    },
+    {
+     "name": "«Научное наследие России»",
+     "url": "http://books.e-heritage.ru/Catalog/ShowPers/4711"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "история"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null
+  },
+  {
+   "id": "zh1972",
+   "title_ru": "Японский милитаризм (Военно-историческое исследование)",
+   "authors": [
+    "iva6b9ae0bd"
+   ],
+   "year": 1972,
+   "city": "Москва",
+   "publisher": "Наука",
+   "pages": 376,
+   "genre": "история",
+   "work_note": "Под ред. и со вступ. статьёй акад. Е. М. Жукова; АН СССР, Институт военной истории Министерства обороны СССР. Коллективное военно-историческое исследование японского милитаризма.",
+   "links": [
+    {
+     "name": "НЭБ",
+     "url": "https://rusneb.ru/catalog/000200_000018_rc_3224744/"
+    },
+    {
+     "name": "Google Книги",
+     "url": "https://books.google.com/books/about/?id=W-SfAAAAMAAJ"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "история"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null
   }
  ],
  "series": [
