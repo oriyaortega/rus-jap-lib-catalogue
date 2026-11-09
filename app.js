@@ -706,8 +706,10 @@
       ['Жанр', esc(b.genre)],
       ['Теги', b.tags.map((t) => `<a href="#/search?tags=${encodeURIComponent(t)}">${esc(t)}</a>`).join(', ')],
       ['Карточка', `<span lang="ja">${kanjiNum(bookNo.get(b.id))}</span> (№ ${bookNo.get(b.id)})`],
-      (b.source || b.sources) && ['Источник', [
+      (b.source || b.sources || b.links) && ['Источник', [
         b.source && `<a href="${esc(b.source)}" target="_blank" rel="noopener">${esc(sourceName(b.source))}</a>`,
+        // дополнительные ссылки: [{name, url}]
+        ...(b.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>`),
         ...(b.sources || []).filter((x) => !b.source || SOURCE_NAMES[x] !== sourceName(b.source)).map((x) => esc(SOURCE_NAMES[x] || x)),
       ].filter(Boolean).join(', ')],
     ].filter(Boolean);
