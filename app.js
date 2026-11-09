@@ -201,6 +201,7 @@
       p.wikidata && `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">Викиданные (${esc(p.wikidata)})</a>`,
       w?.ruwiki && `<a href="https://ru.wikipedia.org/wiki/${encodeURIComponent(w.ruwiki)}" target="_blank" rel="noopener">Википедия</a>`,
       w?.jawiki && `<a href="https://ja.wikipedia.org/wiki/${encodeURIComponent(w.jawiki)}" target="_blank" rel="noopener" lang="ja">ウィキペディア</a>`,
+      ...(p.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>`),
     ].filter(Boolean).join(' · ');
   }
   const lifeYears = (w) => (w?.born ? `${w.born.year}–${w.died ? w.died.year : ''}` : '');
@@ -409,6 +410,7 @@
     const w = p.w;
     const facts = [
       p.kind === 'author' && ['Имя на русском', esc(p.name_ru)],
+      p.full_name && ['Полное имя', esc(p.full_name)],
       p.kind === 'translator' && w?.ru && norm(w.ru).includes(norm(p.sort)) && norm(w.ru) !== norm(p.name_ru) && ['Полное имя', esc(w.ru.replace(',', ''))],
       w?.ru && !norm(w.ru).includes(norm(p.sort)) && !norm(w.ru).includes(norm(p.name_ru.split(' ').pop())) && ['Также известен(а) как', esc(w.ru)],
       p.kind === 'author' && !p.kanji && p.orig !== p.name_ru && ['Имя в оригинале', esc(p.orig)],

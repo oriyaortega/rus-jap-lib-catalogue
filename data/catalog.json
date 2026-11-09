@@ -1623,7 +1623,14 @@
    "name_ru": "Щепкин Василий",
    "name_orig": null,
    "sort": "Щепкин",
-   "id": "schepkinvasil"
+   "id": "schepkinvasil",
+   "full_name": "Щепкин Василий Владимирович",
+   "links": [
+    {
+     "name": "Лабиринт",
+     "url": "https://www.labirint.ru/authors/259696/"
+    }
+   ]
   },
   {
    "wikidata": null,
