@@ -145,7 +145,10 @@
    "name_ru": "Конрад Николай",
    "name_orig": null,
    "sort": "Конрад",
-   "full_name": "Конрад Николай Иосифович"
+   "full_name": "Конрад Николай Иосифович",
+   "hide_latin": true,
+   "image": "images/person_konrad.jpg",
+   "image_src": "https://upload.wikimedia.org/wikipedia/ru/4/43/Konrad_Nikolai.jpg"
   },
   {
    "id": "grigorieva",

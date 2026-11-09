@@ -419,7 +419,7 @@
       p.kind === 'translator' && w?.ru && norm(w.ru).includes(norm(p.sort)) && norm(w.ru) !== norm(p.name_ru) && ['Полное имя', esc(w.ru.replace(',', ''))],
       w?.ru && !norm(w.ru).includes(norm(p.sort)) && !norm(w.ru).includes(norm(p.name_ru.split(' ').pop())) && ['Также известен(а) как', esc(w.ru)],
       p.kind === 'author' && !p.kanji && p.orig !== p.name_ru && ['Имя в оригинале', esc(p.orig)],
-      w?.en && w.en !== p.orig && ['Латиницей', esc(w.en)],
+      !p.hide_latin && w?.en && w.en !== p.orig && ['Латиницей', esc(w.en)],
       p.kanji && ['По-японски', `<span lang="ja">${esc(p.kanji)}</span>${w?.kana ? ` <span lang="ja">（${esc(w.kana)}）</span>` : ''}`],
       (w?.born || w?.died) && ['Годы жизни', `${w.born ? w.born.text : '?'}${w.died ? ` – ${w.died.text}` : ''}`],
       w?.birthplace && ['Место рождения', esc(w.birthplace)],
