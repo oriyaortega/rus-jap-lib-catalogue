@@ -16,21 +16,8 @@
   --serif: "Noto Serif", Georgia, serif;
   --sans: "Noto Sans", system-ui, sans-serif;
   --jp: "Shippori Mincho", "Noto Serif JP", "Yu Mincho", serif;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --tatami: #1d1f1a; --tatami-line: rgba(255, 255, 255, .025); --card: #f4f0e3; --ink: #e9e6dc; --muted: #a8a496;
-    --faint: #6f6c62; --line: #34362f; --edge: #4f7a63; --gold: #b59a5b;
-    --shadow: 0 1px 1px rgba(0,0,0,.4), 0 6px 14px -6px rgba(0,0,0,.7); --shadow-up: 0 2px 2px rgba(0,0,0,.4), 0 14px 22px -8px rgba(0,0,0,.8);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --tatami: #1d1f1a; --tatami-line: rgba(255, 255, 255, .025); --card: #f4f0e3; --ink: #e9e6dc; --muted: #a8a496;
-  --faint: #6f6c62; --line: #34362f; --edge: #4f7a63; --gold: #b59a5b;
-  --shadow: 0 1px 1px rgba(0,0,0,.4), 0 6px 14px -6px rgba(0,0,0,.7); --shadow-up: 0 2px 2px rgba(0,0,0,.4), 0 14px 22px -8px rgba(0,0,0,.8);
-  color-scheme: dark;
+  /* Сайт всегда светлый, независимо от системной темы */
+  color-scheme: only light;
 }
 
 * { box-sizing: border-box; }
@@ -274,9 +261,6 @@ table.list a { text-decoration-color: #a8a394; }
   --edge: #2b4c7e;                         /* 藍 — индиго для рамок интерфейса */
   --gold: #c9a548;                         /* более яркое золото */
   --accent: #a83a4a;                       /* 紅 */
-}
-@media (prefers-color-scheme: dark) {
-  :root[data-palette="color"]:not([data-theme="light"]) { --tatami: #1a2018; --tatami-line: rgba(160, 200, 120, .04); --edge: #5b7fb8; }
 }
 
 [data-palette="color"] .fuda { border-color: var(--fc, var(--edge)); }
