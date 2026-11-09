@@ -849,7 +849,8 @@
       if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
 
-    document.getElementById('wd-status').textContent = {
+    const wdStatus = document.getElementById('wd-status');
+    if (wdStatus) wdStatus.textContent = {
       loading: 'Викиданные: загрузка…',
       ok: `Викиданные: загружено записей — ${Object.keys(wd).length}`,
       partial: 'Викиданные: часть сведений из кэша',
