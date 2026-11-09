@@ -48102,7 +48102,7 @@
    "publisher": "Госполитиздат",
    "pages": 32,
    "genre": "история",
-   "work_note": "Брошюра, вышедшая в 1945 году, в последние месяцы войны на Тихом океане. В «Биографике СПбГУ» название дано сокращённо: «Японский империализм – враг свободолюбивых».",
+   "work_note": "Брошюра (ОГИЗ — Госполитиздат), вышедшая в 1945 году, в последние месяцы войны на Тихом океане. В «Биографике СПбГУ» название дано сокращённо: «Японский империализм – враг свободолюбивых».",
    "links": [
     {
      "name": "Биографика СПбГУ",
@@ -48123,7 +48123,9 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_zh1945.jpg",
+   "cover_src": "https://meshok.net/i/347184579.0.jpg"
   },
   {
    "id": "zh1951",
@@ -48157,7 +48159,9 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_zh1951.webp",
+   "cover_src": "https://djvu.online/jpg/L/m/I/LmIgp3OoNGwRL/001.webp"
   },
   {
    "id": "zh1963",
@@ -48225,7 +48229,9 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_zh1972.webp",
+   "cover_src": "https://djvu.online/jpg/h/6/5/h65LohLgV3xiB/001.webp"
   }
  ],
  "series": [
