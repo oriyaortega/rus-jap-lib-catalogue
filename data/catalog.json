@@ -1430,11 +1430,17 @@
    "sort": "Марчук",
    "id": "marchukivan",
    "full_name": "Марчук Иван Александрович",
-   "bio": "Иван Александрович Марчук — исследователь военной истории средневековой Японии, автор книг «Осадное искусство феодальной Японии» и «Пехота самурайских армий».",
+   "bio": "Иван Александрович Марчук — историк-любитель, исследователь военной истории, архитектуры и культурного наследия Японии. Участник движения исторической реконструкции с 1997 года, руководил военно-историческими клубами «Путь Меча» (1998–2003) и «Ивакири» (2003–2011). Один из основателей и эксперт Ассоциации «Сэнгоку Дзидай», автор и соавтор интернет-публикаций по истории Японии. Владеет английским и японским языками, неоднократно бывал в Японии и лично посетил более 150 японских замков и укреплений. Автор книг «Цитадели самураев» (2011), «Национальные сокровища Японии» и «Объекты всемирного наследия Японии» (2017), «Осадное искусство феодальной Японии» (2019), «Пехота самурайских армий» (2023), «Японские замки и другие фортификационные сооружения» (2026).",
    "bio_src": {
     "name": "сайт sengoku.ru",
-    "url": "https://sengoku.ru/books/Ashigaru.htm"
-   }
+    "url": "https://sengoku.ru/books/"
+   },
+   "links": [
+    {
+     "name": "Книги о Японии (sengoku.ru)",
+     "url": "https://sengoku.ru/books/"
+    }
+   ]
   },
   {
    "wikidata": "Q290021",
@@ -28322,12 +28328,20 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null,
+   "work_note": "Эволюция японского пехотинца от появления японского государства до буржуазной революции XIX века: комплектование, социальный состав, вооружение, защитное снаряжение и тактика пеших воинов самурайских армий. Много иллюстраций.",
    "cover": "images/cover_x78.jpg",
    "links": [
     {
      "name": "LiveLib",
      "url": "https://www.livelib.ru/book/1008394390"
+    },
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/Ashigaru.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/Ashigaru%202023.pdf"
     }
    ],
    "cover_src": "https://s1.livelib.ru/boocover/1008394390/200x305/3cb6/boocover.jpg"
@@ -28357,12 +28371,20 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null,
+   "work_note": "Фортификационные сооружения Японии и соседних стран, тактика и приёмы осады, применявшиеся самурайскими армиями в Японии и в зарубежных кампаниях XVI–XVII вв., осадная техника; отдельная глава посвящена знаменитым осадам XIV–XVII вв.",
    "cover": "images/cover_x79.jpg",
    "links": [
     {
      "name": "LiveLib",
      "url": "https://www.livelib.ru/book/1000741531"
+    },
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/SiegesJapan.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/Sieges%20Japan.pdf"
     }
    ],
    "cover_src": "https://s1.livelib.ru/boocover/1000741531/200x305/7664/boocover.jpg"
@@ -59989,6 +60011,157 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null
+  },
+  {
+   "id": "mr2011",
+   "title_ru": "Цитадели самураев. Исторический обзор замков Японии",
+   "authors": [
+    "marchukivan"
+   ],
+   "year": 2011,
+   "city": "Москва",
+   "publisher": "Золотое сечение",
+   "pages": 296,
+   "isbn": "978-5-904020-29-3",
+   "genre": "справочник",
+   "work_note": "История (от основания до наших дней) и цветные фотографии 115 японских замков: все сохранившиеся, почти все реконструированные и большинство частично сохранившихся; для каждого указан официальный статус исторического наследия. Книга может служить путеводителем по замкам Японии.",
+   "links": [
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/SamuraiCitadel.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/Samurai%20Citadel.pdf"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "справочник",
+    "архитектура"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_mr2011.jpg",
+   "cover_src": "https://sengoku.ru/books/images/01-30.jpg"
+  },
+  {
+   "id": "mr2017a",
+   "title_ru": "Национальные сокровища Японии: памятники архитектуры",
+   "authors": [
+    "marchukivan"
+   ],
+   "year": 2017,
+   "city": "Санкт-Петербург",
+   "publisher": "Сидорович",
+   "pages": 272,
+   "isbn": "978-5-905909-85-6",
+   "genre": "справочник",
+   "work_note": "Исторический обзор архитектурных памятников, получивших в Японии высший статус культурного наследия — «национальное сокровище»: замков, храмов и святилищ, других построек. Для каждого объекта указаны местонахождение и год присвоения статуса; значительная часть фотографий — авторские.",
+   "links": [
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/NationalTreasure.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/National%20Treasure.pdf"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "справочник",
+    "архитектура"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_mr2017a.jpg",
+   "cover_src": "https://sengoku.ru/books/images/02.jpg"
+  },
+  {
+   "id": "mr2017b",
+   "title_ru": "Объекты всемирного наследия Японии",
+   "authors": [
+    "marchukivan"
+   ],
+   "year": 2017,
+   "city": "Санкт-Петербург",
+   "publisher": "Сидорович",
+   "pages": 208,
+   "isbn": null,
+   "genre": "справочник",
+   "work_note": "Объекты Японии из Списка всемирного наследия ЮНЕСКО (на момент издания): Киото и Нара, замок Химэдзи, гора Фудзи, святилище Ицукусима, атомный купол в Хиросиме, замки Окинавы и другие. Текст на русском и английском языках; большая часть фотографий — авторские. Параллельное английское название: World Heritage Sites of Japan.",
+   "links": [
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/UNESCO.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/UNESCOrus.pdf"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "справочник",
+    "архитектура"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_mr2017b.jpg",
+   "cover_src": "https://sengoku.ru/books/images/01.jpg"
+  },
+  {
+   "id": "mr2026",
+   "title_ru": "Японские замки и другие фортификационные сооружения",
+   "authors": [
+    "marchukivan"
+   ],
+   "year": 2026,
+   "city": null,
+   "publisher": null,
+   "pages": null,
+   "isbn": null,
+   "genre": "история",
+   "work_note": "Долговременные фортификационные сооружения Японии с древнейших времён до конца феодального периода, а также временные (полевые) укрепления. Большинство фотографий — авторские: автор лично посетил более 150 японских замков и укреплений.",
+   "links": [
+    {
+     "name": "сайт sengoku.ru",
+     "url": "https://sengoku.ru/books/castles.htm"
+    },
+    {
+     "name": "электронная версия (PDF)",
+     "url": "https://sengoku.ru/books/pdf/Japanese%20castles.pdf"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-09",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "история"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_mr2026.jpg",
+   "cover_src": "https://sengoku.ru/books/images/castles.jpg"
   },
   {
    "id": "bja1",
