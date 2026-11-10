@@ -285,7 +285,13 @@
    "name_ru": "Коломиец Максим",
    "name_orig": null,
    "sort": "Коломиец",
-   "id": "kolomietsmaksi"
+   "id": "kolomietsmaksi",
+   "full_name": "Коломиец Максим Викторович",
+   "bio": "Максим Викторович Коломиец (род. 1968, Москва) — российский военный историк и писатель, кандидат исторических наук, автор книг по истории бронетехники.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Коломиец,_Максим_Викторович"
+   }
   },
   {
    "wikidata": "Q352561",
@@ -1144,7 +1150,13 @@
    "name_ru": "Беляев Александр",
    "name_orig": null,
    "sort": "Беляев",
-   "id": "belyaevaleks"
+   "id": "belyaevaleks",
+   "full_name": "Беляев Александр Павлович",
+   "bio": "Александр Павлович Беляев — японист, выпускник Института лингвистики РГГУ (2004); переводчик поэзии и прозы с японского и английского, каллиграф-ориенталист.",
+   "bio_src": {
+    "name": "Orientalia Rossica",
+    "url": "https://orientaliarossica.com/orientalist/97798"
+   }
   },
   {
    "wikidata": "Q228822",
@@ -1160,7 +1172,13 @@
    "name_ru": "Бродский Владимир",
    "name_orig": null,
    "sort": "Бродский",
-   "id": "brodskiyvladi"
+   "id": "brodskiyvladi",
+   "full_name": "Бродский Владимир Евсеевич",
+   "bio": "Владимир Евсеевич Бродский — искусствовед, кандидат искусствоведения (1967), исследователь японского классического искусства.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": "Q97315374",
@@ -1335,7 +1353,8 @@
    "bio_src": {
     "name": "«Известные учёные»",
     "url": "https://famous-scientists.ru/anketa/kuzhel-yurij-leonidovich-17034"
-   }
+   },
+   "full_name": "Кужель Юрий Леонидович"
   },
   {
    "wikidata": null,
@@ -1370,14 +1389,26 @@
    "name_ru": "Лебедева Ольга",
    "name_orig": null,
    "sort": "Лебедева",
-   "id": "lebedevaolga"
+   "id": "lebedevaolga",
+   "full_name": "Лебедева Ольга Игоревна",
+   "bio": "Ольга Игоревна Лебедева — искусствовед-японист, доцент кафедры современного Востока РГГУ, исследователь японского искусства эпохи Мэйдзи.",
+   "bio_src": {
+    "name": "сайт РГГУ",
+    "url": "https://rsuh.ru/who_is_who/list.php?ELEMENT_ID=1192911"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Марчук Иван",
    "name_orig": null,
    "sort": "Марчук",
-   "id": "marchukivan"
+   "id": "marchukivan",
+   "full_name": "Марчук Иван Александрович",
+   "bio": "Иван Александрович Марчук — исследователь военной истории средневековой Японии, автор книг «Осадное искусство феодальной Японии» и «Пехота самурайских армий».",
+   "bio_src": {
+    "name": "сайт sengoku.ru",
+    "url": "https://sengoku.ru/books/Ashigaru.htm"
+   }
   },
   {
    "wikidata": "Q290021",
@@ -1416,7 +1447,13 @@
    "name_ru": "Прасол Александр",
    "name_orig": null,
    "sort": "Прасол",
-   "id": "prasolaleks"
+   "id": "prasolaleks",
+   "full_name": "Прасол Александр Фёдорович",
+   "bio": "Александр Фёдорович Прасол — японовед, доктор исторических наук; более двадцати лет прожил в Японии. Его книга «Япония: лики времени» вошла в шорт-лист премии «Просветитель» (2010).",
+   "bio_src": {
+    "name": "Лабиринт",
+    "url": "https://www.labirint.ru/books/367318/"
+   }
   },
   {
    "wikidata": "Q2046011",
@@ -1492,7 +1529,13 @@
    "name_ru": "Зайцев Евгений",
    "name_orig": null,
    "sort": "Зайцев",
-   "id": "zaytsevevgen"
+   "id": "zaytsevevgen",
+   "full_name": "Зайцев Евгений Борисович",
+   "bio": "Евгений Борисович Зайцев — журналист-международник, соавтор Л. Н. Смирнова по книге «Суд в Токио» о Токийском процессе.",
+   "bio_src": {
+    "name": "Военная литература",
+    "url": "http://militera.lib.ru/research/zaytsev_smirnov01/index.html"
+   }
   },
   {
    "wikidata": "Q21148945",
@@ -1513,14 +1556,20 @@
    "bio_src": {
     "name": "сайт НИУ ВШЭ",
     "url": "https://hum.hse.ru/news/author/223725176/"
-   }
+   },
+   "full_name": "Торопыгина Мария Владимировна"
   },
   {
    "wikidata": null,
    "name_ru": "Уолш Лен",
    "name_orig": null,
    "sort": "Уолш",
-   "id": "uolshlen"
+   "id": "uolshlen",
+   "bio": "Лен Уолш (1931–2014) — американский японист, окончил Университет Софии в Токио, изучал и преподавал японский язык в США и Японии; автор самоучителя «Read Japanese Today».",
+   "bio_src": {
+    "name": "издательство Tuttle",
+    "url": "https://www.tuttlepublishing.com/japan/read-japanese-today-9784805319574"
+   }
   },
   {
    "wikidata": null,
@@ -1532,7 +1581,8 @@
    "bio_src": {
     "name": "библиотека ImWerden",
     "url": "https://imwerden.de/author-21177"
-   }
+   },
+   "full_name": "Успенский Михаил Владимирович"
   },
   {
    "wikidata": "Q11623021",
@@ -1551,14 +1601,26 @@
    "name_ru": "Хованчук Ольга",
    "name_orig": null,
    "sort": "Хованчук",
-   "id": "khovanchukolga"
+   "id": "khovanchukolga",
+   "full_name": "Хованчук Ольга Александровна",
+   "bio": "Ольга Александровна Хованчук — японист, кандидат исторических наук (2006); исследователь истории японского костюма, работала в Восточном институте Дальневосточного государственного университета.",
+   "bio_src": {
+    "name": "narodko.ru",
+    "url": "https://www.narodko.ru/article/avtoref/ictoria_aponckogo_koctuma.htm"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Жирнов Родион",
    "name_orig": null,
    "sort": "Жирнов",
-   "id": "zhirnovrb"
+   "id": "zhirnovrb",
+   "full_name": "Жирнов Родион Борисович",
+   "bio": "Родион Борисович Жирнов — автор книг о японском искусстве: «47 ронинов. Легенда как искусство», «Великие мастера укиё-э».",
+   "bio_src": {
+    "name": "designbook.ru",
+    "url": "https://www.designbook.ru/knigi/iskusstvo/strany-i-kultury/"
+   }
   },
   {
    "wikidata": "Q1066026",
@@ -1771,7 +1833,12 @@
    "name_ru": "Окамото Наоми",
    "name_orig": "Naomi Okamoto",
    "sort": "Окамото",
-   "id": "okamotonaomi"
+   "id": "okamotonaomi",
+   "bio": "Наоми Окамото (род. 1951) — японская художница, мастер живописи тушью суми-э; училась живописи и каллиграфии в Токио, с 1976 года живёт в Германии.",
+   "bio_src": {
+    "name": "Barnes & Noble",
+    "url": "https://www.barnesandnoble.com/w/the-art-of-sumi-e-naomi-okamoto/1120934116"
+   }
   },
   {
    "wikidata": "Q11520833",
@@ -1785,7 +1852,13 @@
    "name_ru": "Тумаркин Петр",
    "name_orig": null,
    "sort": "Тумаркин",
-   "id": "tumarkinpetr"
+   "id": "tumarkinpetr",
+   "full_name": "Тумаркин Пётр Семёнович",
+   "bio": "Пётр Семёнович Тумаркин (род. 1949) — российский лингвист-японист, кандидат филологических наук (1999).",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Тумаркин"
+   }
   },
   {
    "wikidata": "Q107657242",
@@ -1813,7 +1886,12 @@
    "name_ru": "Вурдов Александр",
    "name_orig": null,
    "sort": "Вурдов",
-   "id": "vurdovaleks"
+   "id": "vurdovaleks",
+   "bio": "Александр Вурдов — автор книги об иероглифике «Японский для души. Кандзявые эссе» (первое издание — 2006).",
+   "bio_src": {
+    "name": "hellojapan.ru",
+    "url": "https://hellojapan.ru/yaponskiy-dlya-dushi-kandzyavye-esse/"
+   }
   },
   {
    "wikidata": "Q316217",
@@ -2216,7 +2294,13 @@
    "name_ru": "Хомченкова Варвара",
    "name_orig": null,
    "sort": "Хомченкова",
-   "id": "khomchenkovavera"
+   "id": "khomchenkovavera",
+   "full_name": "Хомченкова Варвара Валентиновна",
+   "bio": "Варвара Валентиновна Хомченкова — японист, выпускница РГГУ (2016) и магистратуры НИУ ВШЭ (2022), сотрудник Института классического Востока и античности ВШЭ; переводчица с японского.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://www.hse.ru/org/persons/263513016/"
+   }
   },
   {
    "wikidata": null,
@@ -2253,7 +2337,8 @@
    "bio_src": {
     "name": "Летопись МГУ",
     "url": "http://www.letopis.msu.ru/peoples/7334"
-   }
+   },
+   "full_name": "Трубникова Надежда Николаевна"
   },
   {
    "wikidata": null,
@@ -2265,21 +2350,34 @@
    "bio_src": {
     "name": "Ассоциация японоведов",
     "url": "http://japanstudies.ru/index.php?option=com_content&task=view&id=1266&Itemid=1"
-   }
+   },
+   "full_name": "Гришачёв Сергей Владимирович"
   },
   {
    "wikidata": null,
    "name_ru": "Соколов Андрей",
    "name_orig": null,
    "sort": "Соколов",
-   "id": "sokolovandre"
+   "id": "sokolovandre",
+   "full_name": "Соколов Андрей Михайлович",
+   "bio": "Андрей Михайлович Соколов — этнограф, кандидат исторических наук, научный сотрудник Отдела этнографии Восточной и Юго-Восточной Азии МАЭ РАН (Кунсткамера); исследователь материальной культуры айнов.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://publications.hse.ru/pubs/share/direct/828225557.pdf"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Климов Вадим",
    "name_orig": null,
    "sort": "Климов",
-   "id": "klimovvadim"
+   "id": "klimovvadim",
+   "full_name": "Климов Вадим Юрьевич",
+   "bio": "Вадим Юрьевич Климов — историк, кандидат исторических наук, ведущий научный сотрудник отдела Дальнего Востока Института восточных рукописей РАН.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://publications.hse.ru/pubs/share/direct/828225557.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -2287,32 +2385,49 @@
    "name_orig": null,
    "sort": "Осипова",
    "id": "osipovamariya",
-   "bio": "Марина Васильевна Осипова — этнограф-японист, исследователь традиционной культуры айнов.",
+   "bio": "Марина Викторовна Осипова — этнограф, кандидат исторических наук, старший научный сотрудник Отдела этнографии Сибири МАЭ РАН (Кунсткамера); исследователь культуры айнов.",
    "bio_src": {
-    "name": "«Этнографическое обозрение»",
-    "url": "https://eo.iea.ras.ru/authors/4119/"
-   }
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://publications.hse.ru/pubs/share/direct/828225557.pdf"
+   },
+   "full_name": "Осипова Марина Викторовна"
   },
   {
    "wikidata": null,
    "name_ru": "Горбунов Сергей",
    "name_orig": null,
    "sort": "Горбунов",
-   "id": "gorbunovserge"
+   "id": "gorbunovserge",
+   "bio": "Сергей Горбунов — археолог, соавтор (с Я. С. Зайцевым) исследования древних айнских поселений Сахалина.",
+   "bio_src": {
+    "name": "japanjournal.ru",
+    "url": "https://www.japanjournal.ru/jour/article/download/283/235"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Зайцев Ярослав",
    "name_orig": null,
    "sort": "Зайцев",
-   "id": "zaytsevyarosl"
+   "id": "zaytsevyarosl",
+   "bio": "Ярослав Зайцев — археолог, соавтор (с С. В. Горбуновым) исследования древних айнских поселений Сахалина.",
+   "bio_src": {
+    "name": "japanjournal.ru",
+    "url": "https://www.japanjournal.ru/jour/article/download/283/235"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Климова Ольга",
    "name_orig": null,
    "sort": "Климова",
-   "id": "klimovaolga"
+   "id": "klimovaolga",
+   "full_name": "Климова Ольга Вадимовна",
+   "bio": "Ольга Вадимовна Климова — японист, PhD, заведующая кафедрой японоведения Института востоковедения и африканистики НИУ ВШЭ в Санкт-Петербурге.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://publications.hse.ru/pubs/share/direct/828225557.pdf"
+   }
   },
   {
    "wikidata": "Q4526806",
@@ -2363,7 +2478,12 @@
    "name_ru": "Менини Элиза",
    "name_orig": "Elisa Menini",
    "sort": "Менини",
-   "id": "meninieliza"
+   "id": "meninieliza",
+   "bio": "Элиза Менини (род. 1990, Римини) — итальянская художница комиксов, адаптирует японские легенды и фольклор; лауреат премии Микелуцци за лучший рисунок (2022).",
+   "bio_src": {
+    "name": "BettyB Festival",
+    "url": "https://www.bettybfestival.it/ospiti/elisa-menini/"
+   }
   },
   {
    "wikidata": "Q130118388",
@@ -2401,7 +2521,12 @@
    "name_ru": "Судзуки Нобуо",
    "name_orig": null,
    "sort": "Судзуки",
-   "id": "sudzukinobuo"
+   "id": "sudzukinobuo",
+   "bio": "Нобуо Судзуки (род. 1968) — писатель, поэт и философ, изучал искусство и литературу в Европе; его книга «Ваби-саби: магия несовершенства» стала европейским бестселлером.",
+   "bio_src": {
+    "name": "сайт «Азбуки»",
+    "url": "https://azbooka.ru/books/vabi-sabi-magiya-nesovershenstva"
+   }
   },
   {
    "wikidata": "Q130534546",
@@ -2658,7 +2783,12 @@
    "name_ru": "Куцувада Тиэ",
    "name_orig": null,
    "sort": "Куцувада",
-   "id": "kutsuvadatie"
+   "id": "kutsuvadatie",
+   "bio": "Тиэ Куцувада — японская мангака и иллюстратор, живущая в Великобритании, выпускница Королевского колледжа искусств; вместе с Джулианом Седжвиком создала «Девочку и цунами».",
+   "bio_src": {
+    "name": "сайт автора",
+    "url": "https://chitangarden.wixsite.com/chiekutsuwada/copy-of-about"
+   }
   },
   {
    "wikidata": "Q2607536",
@@ -2672,7 +2802,12 @@
    "name_ru": "Хармон Кеннет",
    "name_orig": "Kenneth Harmon",
    "sort": "Хармон",
-   "id": "kharmonkenne"
+   "id": "kharmonkenne",
+   "bio": "Кеннет У. Хармон — американский писатель из Колорадо, автор исторических романов. «В царстве пепла и скорби» — роман о сбитом над Японией американском лётчике, ставшем призраком-юрэй.",
+   "bio_src": {
+    "name": "Google Play",
+    "url": "https://play.google.com/store/info/name/Kenneth_W_Harmon?id=113sgynpx"
+   }
   },
   {
    "wikidata": "Q1100772",
@@ -2700,7 +2835,12 @@
    "name_ru": "Скотти Франческа",
    "name_orig": "Francesca Scotti",
    "sort": "Скотти",
-   "id": "skottifranch"
+   "id": "skottifranch",
+   "bio": "Франческа Скотти (род. 1981, Милан) — итальянская писательница; с 2011 года живёт попеременно в Японии и Италии. Автор романов и книги «Симагуни. Атлас мифов и чудес японских островов» (2023).",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://it.wikipedia.org/wiki/Francesca_Scotti"
+   }
   },
   {
    "wikidata": "Q7327682",
@@ -2719,7 +2859,12 @@
    "name_ru": "Кайгер Джон",
    "name_orig": null,
    "sort": "Кайгер",
-   "id": "kaygerdzhon"
+   "id": "kaygerdzhon",
+   "bio": "Джон Кайгер — австралийский историк-японист, родился в Японии; окончил Сиднейский университет, защитил диссертацию в Австралийском национальном университете и преподавал там с 1966 года. Соавтор Ричарда Мейсона по «Истории Японии».",
+   "bio_src": {
+    "name": "Target",
+    "url": "https://www.target.com/p/a-history-of-japan-2nd-edition-by-r-h-p-mason-j-g-caiger-paperback/-/A-83219960"
+   }
   },
   {
    "wikidata": "Q8962193",
@@ -2791,7 +2936,12 @@
    "name_ru": "Шрив Крейг",
    "name_orig": null,
    "sort": "Шрив",
-   "id": "shrivkreyg"
+   "id": "shrivkreyg",
+   "bio": "Крейг Шрив — канадский писатель из Норт-Бакстона (Онтарио), автор романов «Одна ночь в Миссисипи» и «Африканский самурай» (2023) о Ясукэ.",
+   "bio_src": {
+    "name": "CBC",
+    "url": "https://www.cbc.ca/books/yasuke-was-a-samurai-of-african-descent-craig-shreve-s-new-novel-will-give-him-the-attention-he-deserves-1.6738294"
+   }
   },
   {
    "wikidata": null,
@@ -2859,21 +3009,38 @@
    "name_ru": "Чижова Марина",
    "name_orig": null,
    "sort": "Чижова",
-   "id": "chizhovamarin"
+   "id": "chizhovamarin",
+   "bio": "Марина Чижова — переводчица и автор книг о Японии, более двадцати лет живёт в Японии, владелица турагентства и блогер.",
+   "bio_src": {
+    "name": "сайт «Бомборы»",
+    "url": "https://bombora.ru/ebook/87227/"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Рудаков Николай",
    "name_orig": null,
    "sort": "Рудаков",
-   "id": "rudakovnikol"
+   "id": "rudakovnikol",
+   "full_name": "Рудаков Николай Энгельсович",
+   "bio": "Николай Энгельсович Рудаков — кандидат экономических наук, мастер спорта по спортивной гимнастике, инструктор айкидо; член Союза писателей России, автор более сорока книг о боевых искусствах.",
+   "bio_src": {
+    "name": "РСБИ",
+    "url": "https://rsbi.ru/news/14189"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Третьякова Евгения",
    "name_orig": null,
    "sort": "Третьякова",
-   "id": "tretyakovaevgen"
+   "id": "tretyakovaevgen",
+   "full_name": "Третьякова Евгения Андреевна",
+   "bio": "Евгения Андреевна Третьякова — преподаватель японского языка и переводчик с опытом более пятнадцати лет, автор блога о японском языке.",
+   "bio_src": {
+    "name": "сайт «Эксмо»",
+    "url": "https://eksmo.ru/book/yaponskiy-za-chashkoy-kofe-uchi-kogda-udobno-tebe-ITD1492131/"
+   }
   },
   {
    "wikidata": null,
@@ -2887,7 +3054,12 @@
    "name_ru": "Аркуша Андрей",
    "name_orig": null,
    "sort": "Аркуша",
-   "id": "arkushaandre"
+   "id": "arkushaandre",
+   "bio": "Андрей Аркуша — основатель крупнейшей в СНГ онлайн-школы японского языка, автор самоучителя «Японский на максималках».",
+   "bio_src": {
+    "name": "сайт «Эксмо»",
+    "url": "https://eksmo.ru/book/samouchitel-yaponskogo-yazyka-kaiju-school-ITD1439485/"
+   }
   },
   {
    "wikidata": null,
@@ -2897,7 +3069,7 @@
    "id": "rustaevrusla"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4360761",
    "name_ru": "Петров Дмитрий",
    "name_orig": null,
    "sort": "Петров",
@@ -2967,7 +3139,12 @@
    "name_ru": "Харитонова Арина",
    "name_orig": null,
    "sort": "Харитонова",
-   "id": "kharitonovaarina"
+   "id": "kharitonovaarina",
+   "bio": "Арина Харитонова — блогер, живущая в Токио; пишет о криминальной и неприглядной стороне японской столицы.",
+   "bio_src": {
+    "name": "сайт «Эксмо»",
+    "url": "https://eksmo.ru/book/neveroyatnaya-yaponiya-sekrety-strany-voskhodyashchego-solntsa-ITD1397223/"
+   }
   },
   {
    "wikidata": "Q4717298",
@@ -2986,7 +3163,13 @@
    "name_ru": "Воронина Нина",
    "name_orig": null,
    "sort": "Воронина",
-   "id": "voroninanina"
+   "id": "voroninanina",
+   "full_name": "Воронина Нина Альбертовна",
+   "bio": "Нина Альбертовна Воронина — востоковед-японист, автор книги «Мыслить как японец».",
+   "bio_src": {
+    "name": "сайт «Эксмо»",
+    "url": "https://eksmo.ru/book/20-urokov-po-yaponskomu-mentalitetu-ITD1350184/"
+   }
   },
   {
    "wikidata": "Q2964768",
@@ -3026,7 +3209,12 @@
    "name_ru": "Шапталь Стефани",
    "name_orig": null,
    "sort": "Шапталь",
-   "id": "shaptalstefa"
+   "id": "shaptalstefa",
+   "bio": "Стефани Шапталь — французская журналистка и переводчица, автор книг о японской анимации и поп-культуре (о Хаяо Миядзаки, Исао Такахате, японском хорроре).",
+   "bio_src": {
+    "name": "Fnac",
+    "url": "https://www.fnac.com/a21414970/Stephanie-Chaptal-L-Horreur-venue-du-Japon"
+   }
   },
   {
    "wikidata": "Q3806267",
@@ -3059,7 +3247,12 @@
    "name_ru": "Гиг Арно",
    "name_orig": null,
    "sort": "Гиг",
-   "id": "gigarno"
+   "id": "gigarno",
+   "bio": "Арно Гиг — французский писатель и киновед, автор эссе о Франсуа Трюффо; роман о Сада Абэ — его первый роман.",
+   "bio_src": {
+    "name": "Le Monde",
+    "url": "https://www.lemonde.fr/livres/article/2024/11/17/je-suis-celle-que-vous-cherchez-d-arnaud-guigue-ecrire-sous-l-empire-d-abe-sada_6398266_3260.html"
+   }
   },
   {
    "wikidata": "Q120602148",
@@ -3116,7 +3309,12 @@
    "name_ru": "Биттингер Натали",
    "name_orig": "Nathalie Bittinger",
    "sort": "Биттингер",
-   "id": "bittingernatal"
+   "id": "bittingernatal",
+   "bio": "Натали Биттингер — французский киновед, доцент Страсбургского университета, исследователь кинематографа Азии, автор книги о сокровищах японской анимации (2022).",
+   "bio_src": {
+    "name": "Unipop",
+    "url": "https://unipop.fr/nos-invites/bittinger-nathalie/"
+   }
   },
   {
    "wikidata": null,
@@ -3137,21 +3335,36 @@
    "name_ru": "Олешкевич Кирилл",
    "name_orig": null,
    "sort": "Олешкевич",
-   "id": "oleshkevichkiril"
+   "id": "oleshkevichkiril",
+   "bio": "Кирилл Олешкевич — продюсер и автор, специалист по кросс-культурным коммуникациям; запустил в России лицензионный мюзикл по «Тетради смерти».",
+   "bio_src": {
+    "name": "сайт «Эксмо»",
+    "url": "https://eksmo.ru/book/fenomen-anime-death-note-v-sovremennoy-massovoy-kulture-u-n--ITD1324170/"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Пинон Матье",
    "name_orig": "Matthieu Pinon",
    "sort": "Пинон",
-   "id": "pinonmate"
+   "id": "pinonmate",
+   "bio": "Матьё Пинон — французский журналист, бывший учитель математики и физики; с 1998 года пишет о японской поп-культуре, соавтор книг по истории манги и аниме.",
+   "bio_src": {
+    "name": "Google Книги",
+    "url": "https://books.google.com/books/about/100_Years_of_Anime.html?id=5aRFEQAAQBAJ"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Бюнель Филипп",
    "name_orig": null,
    "sort": "Бюнель",
-   "id": "byunelfilip"
+   "id": "byunelfilip",
+   "bio": "Филипп Бюнель — французский журналист и лектор, специалист по японской анимации и кино, автор журнала «Animeland».",
+   "bio_src": {
+    "name": "Google Книги",
+    "url": "https://books.google.com/books/about/100_Years_of_Anime.html?id=5aRFEQAAQBAJ"
+   }
   },
   {
    "wikidata": "Q315152",
@@ -3191,9 +3404,14 @@
   {
    "wikidata": null,
    "name_ru": "Симура Хироюки",
-   "name_orig": null,
+   "name_orig": "志村弘強",
    "sort": "Симура",
-   "id": "khiroyukisimur"
+   "id": "khiroyukisimur",
+   "bio": "Симура Хироюки — японский учёный эпохи Эдо, соавтор Оцуки Гэнтаку по книге «Канкай ибун» (1807) — записи рассказов японских моряков, побывавших в России.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Удивительные_сведения_об_окружающих_морях"
+   }
   },
   {
    "wikidata": "Q712734",
@@ -3443,7 +3661,12 @@
    "name_ru": "Кано Хироко",
    "name_orig": null,
    "sort": "Кано",
-   "id": "kanokhirok"
+   "id": "kanokhirok",
+   "bio": "Кано Хироко — японский русист, автор «Словаря аллегорий, образов, ассоциаций и символов в русском языке».",
+   "bio_src": {
+    "name": "издательство «Гиперион»",
+    "url": "https://hyperion-book.ru/7862/kano-hiroko-slovar-allegorij-obraz/chitat-fragment/"
+   }
   },
   {
    "wikidata": "Q316213",
@@ -3487,7 +3710,12 @@
    "name_ru": "Кикнадзе Диана",
    "name_orig": null,
    "sort": "Кикнадзе",
-   "id": "kiknadzediana"
+   "id": "kiknadzediana",
+   "bio": "Диана Кикнадзе — японист, исследователь истории женского вопроса и интимной культуры Японии.",
+   "bio_src": {
+    "name": "портал СПбГУ",
+    "url": "https://pureportal.spbu.ru/ru/publications/-(88c71dbf-d5a7-4ef2-9e78-98a052c69a57).html"
+   }
   },
   {
    "wikidata": "Q4292588",
@@ -3509,7 +3737,8 @@
    "bio_src": {
     "name": "сайт ГАУГН",
     "url": "https://gaugn.ru/obrazovanie/faculties/oriental/employee/2020/"
-   }
+   },
+   "full_name": "Грачёв Максим Васильевич"
   },
   {
    "wikidata": null,
@@ -3523,7 +3752,13 @@
    "name_ru": "Комаровский Георгий",
    "name_orig": null,
    "sort": "Комаровский",
-   "id": "komarovskiygeorg"
+   "id": "komarovskiygeorg",
+   "full_name": "Комаровский Георгий Евгеньевич",
+   "bio": "Георгий Евгеньевич Комаровский (публиковался также как Светлов; 1933–2004) — востоковед-японист, кандидат исторических наук (1959), исследователь синто.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Комаровский,_Георгий_Евгеньевич"
+   }
   },
   {
    "wikidata": null,
@@ -3535,7 +3770,8 @@
    "bio_src": {
     "name": "сайт НИУ ВШЭ",
     "url": "https://iocs.hse.ru/rc19"
-   }
+   },
+   "full_name": "Симонова-Гудзенко Екатерина Константиновна"
   },
   {
    "wikidata": "Q97210303",
@@ -3554,10 +3790,16 @@
   },
   {
    "wikidata": null,
-   "name_ru": "Полхов Станислав",
+   "name_ru": "Полхов Святослав",
    "name_orig": null,
    "sort": "Полхов",
-   "id": "polkhovstani"
+   "id": "polkhovstani",
+   "full_name": "Полхов Святослав Александрович",
+   "bio": "Святослав Александрович Полхов — историк-японист, кандидат исторических наук, старший научный сотрудник ИВ РАН; исследователь и переводчик источников эпохи Сэнгоку.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/articles?artid=16325"
+   }
   },
   {
    "wikidata": "Q5369952",
@@ -3599,14 +3841,21 @@
    "bio_src": {
     "name": "сайт МГИМО",
     "url": "https://mgimo.ru/people/chugrov/"
-   }
+   },
+   "full_name": "Чугров Сергей Владиславович"
   },
   {
    "wikidata": null,
    "name_ru": "Виноградова Татьяна",
    "name_orig": null,
    "sort": "Виноградова",
-   "id": "vinogradovatatya"
+   "id": "vinogradovatatya",
+   "full_name": "Виноградова Татьяна Ивановна",
+   "bio": "Татьяна Ивановна Виноградова — филолог-японист, исследователь и переводчик классической японской литературы, соавтор М. В. Торопыгиной по переводу «Кара моногатари».",
+   "bio_src": {
+    "name": "Ежегодник «Япония»",
+    "url": "https://www.yearbookjapan.ru/jour/article/view/50/51"
+   }
   },
   {
    "wikidata": "Q11419132",
@@ -3644,7 +3893,12 @@
    "name_ru": "Исида Сё",
    "name_orig": "石田祥",
    "sort": "Исида",
-   "id": "isidase"
+   "id": "isidase",
+   "bio": "Исида Сё (род. 1975, Киото) — японская писательница. Дебютировала в 2014 году романом «Учитель-помидор» (Гран-при Japan Love Story); цикл «Вам прописана кошка» получил Киотскую книжную премию.",
+   "bio_src": {
+    "name": "издательство PHP",
+    "url": "https://www.php.co.jp/books/nekowosyohou/"
+   }
   },
   {
    "wikidata": "Q107585585",
@@ -3665,7 +3919,12 @@
    "name_ru": "Симэно Наги",
    "name_orig": "標野凪",
    "sort": "Симэно",
-   "id": "simenonagi"
+   "id": "simenonagi",
+   "bio": "Симэно Наги — японская писательница из Хамамацу, владелица небольшого кафе в Токио; дебютировала в 2019 году, автор серий «Кафе „Додо“» и «Кот-вестник».",
+   "bio_src": {
+    "name": "Kadobun",
+    "url": "https://kadobun.jp/feature/readings/entry-87700.html"
+   }
   },
   {
    "wikidata": "Q24871921",
@@ -3696,16 +3955,26 @@
   {
    "wikidata": null,
    "name_ru": "Курису Хиёко",
-   "name_orig": null,
+   "name_orig": "栗栖ひよ子",
    "sort": "Курису",
-   "id": "kurisukhieko"
+   "id": "kurisukhieko",
+   "bio": "Курису Хиёко — японская писательница и сценаристка манги из префектуры Ибараки, автор цикла «Сумеречная аллея» и других книг, переведённых на многие языки.",
+   "bio_src": {
+    "name": "X (Twitter)",
+    "url": "https://x.com/chrishiyoko"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Аоно Кэй",
-   "name_orig": null,
+   "name_orig": "碧野圭",
    "sort": "Аоно",
-   "id": "keiaono"
+   "id": "keiaono",
+   "bio": "Аоно Кэй (род. 1959, Нагоя) — японская писательница, выпускница Токийского университета искусств, бывший редактор ранобэ. Цикл «Девушки из книжного» получил книжную премию Сидзуоки.",
+   "bio_src": {
+    "name": "Emily Books Agency",
+    "url": "https://www.emilybooksagency.com/books/bookstore-girl%0D"
+   }
   },
   {
    "wikidata": "Q11477529",
@@ -3746,9 +4015,14 @@
   {
    "wikidata": null,
    "name_ru": "Аоцуки Каири",
-   "name_orig": null,
+   "name_orig": "蒼月海里",
    "sort": "Аоцуки",
-   "id": "aotsukikairi"
+   "id": "aotsukikairi",
+   "bio": "Аоцуки Каири — японский писатель из Сэндая, работающий продавцом в токийском книжном магазине; автор цикла «Кофе в фантастической букинистической лавке» и других серий.",
+   "bio_src": {
+    "name": "издательство Gentosha",
+    "url": "https://www.gentosha.jp/author/540/"
+   }
   },
   {
    "wikidata": "Q24201523",
@@ -3841,14 +4115,24 @@
    "name_ru": "Уэда Кэндзи",
    "name_orig": "上田健次",
    "sort": "Уэда",
-   "id": "kendziueda"
+   "id": "kendziueda",
+   "bio": "Уэда Кэндзи (род. 1969, Токио) — японский писатель и топ-менеджер крупной компании; дебютировал в 2021 году, автор серии о канцелярском магазине «Сихо-до» в Гиндзе.",
+   "bio_src": {
+    "name": "NEWSポストセブン",
+    "url": "https://www.news-postseven.com/archives/20241211_2010335.html/2"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Канэко Юми",
-   "name_orig": null,
+   "name_orig": "金子ユミ",
    "sort": "Канэко",
-   "id": "kanekoyumi"
+   "id": "kanekoyumi",
+   "bio": "Канэко Юми — японская писательница, автор романа «Подводная библиотека» (2022) и развлекательной прозы.",
+   "bio_src": {
+    "name": "издательство Poplar",
+    "url": "https://www.poplar.co.jp/book/search/result/archive/8111324.html"
+   }
   },
   {
    "wikidata": "Q28690182",
@@ -3955,7 +4239,12 @@
    "name_ru": "Чумин Максим",
    "name_orig": null,
    "sort": "Чумин",
-   "id": "chuminmaksi"
+   "id": "chuminmaksi",
+   "bio": "Максим Чумин — автор (вместе с художницей Екатериной Бровкиной) графического романа «Вакканай» о самом северном городе Японии.",
+   "bio_src": {
+    "name": "сайт «Поляндрии»",
+    "url": "https://polyandria.ru/noage/articles/intervyu_s_sozdatelyami_graficheskogo_romana_vakkanay/"
+   }
   },
   {
    "wikidata": "Q719250",
@@ -4408,7 +4697,12 @@
    "name_orig": null,
    "sort": "Крупянко",
    "id": "ivab1496345",
-   "full_name": "Крупянко Иван Михайлович"
+   "full_name": "Крупянко Иван Михайлович",
+   "bio": "Иван Михайлович Крупянко — японовед, кандидат исторических наук; окончил школу в Японии, ИСАА МГУ (2005) и аспирантуру ИВ РАН (2008).",
+   "bio_src": {
+    "name": "издательство «Международные отношения»",
+    "url": "https://imobook.ru/book/seriya-udivitelnaya-yaponiya/Modern_Japanese_etiquette_diversity_in_harmony"
+   }
   },
   {
    "wikidata": null,
@@ -4429,7 +4723,12 @@
    "name_orig": null,
    "sort": "Кириченко",
    "id": "iva1987cbee",
-   "full_name": "Кириченко Алексей Алексеевич"
+   "full_name": "Кириченко Алексей Алексеевич",
+   "bio": "Алексей Алексеевич Кириченко (1936–2019) — полковник КГБ в отставке, работавший на японском направлении; с 1980-х годов сотрудник ИВ РАН, исследователь истории японских военнопленных и российско-японских отношений.",
+   "bio_src": {
+    "name": "ИноСМИ",
+    "url": "https://inosmi.ru/20160824/237627286.html"
+   }
   },
   {
    "wikidata": null,
@@ -4488,7 +4787,12 @@
    "name_orig": null,
    "sort": "Луцкий",
    "id": "iva40f973e2",
-   "full_name": "Луцкий Александр Леонидович"
+   "full_name": "Луцкий Александр Леонидович",
+   "bio": "Александр Леонидович Луцкий — японист, кандидат филологических наук (1987); окончил философский факультет МГУ, работал на Гостелерадио и телевидении, журналист и исследователь японской культуры.",
+   "bio_src": {
+    "name": "independent-academy.net",
+    "url": "http://independent-academy.net/science/library/puti_jk.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -4644,7 +4948,12 @@
    "name_orig": null,
    "sort": "Кравцевич",
    "id": "ivaf172728a",
-   "full_name": "Кравцевич Андрей Иванович"
+   "full_name": "Кравцевич Андрей Иванович",
+   "bio": "Андрей Иванович Кравцевич (род. 1949) — японовед-экономист, кандидат экономических наук (1977), главный редактор ежегодника «Япония» ИВ РАН.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/yaponiya?id=&page=2"
+   }
   },
   {
    "wikidata": "Q4368178",
@@ -4660,7 +4969,12 @@
    "name_orig": null,
    "sort": "Брагинский",
    "id": "ivae07d5d97",
-   "full_name": "Брагинский Сергей Владимирович"
+   "full_name": "Брагинский Сергей Владимирович",
+   "bio": "Сергей Владимирович Брагинский — японовед-экономист, кандидат экономических наук (1986).",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": null,
@@ -4668,7 +4982,12 @@
    "name_orig": null,
    "sort": "Власов",
    "id": "ivac1a9a677",
-   "full_name": "Власов Виктор Алексеевич"
+   "full_name": "Власов Виктор Алексеевич",
+   "bio": "Виктор Алексеевич Власов (1927–1978) — японовед-экономист, кандидат экономических наук (1958).",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": "Q109485883",
@@ -4705,7 +5024,12 @@
    "name_orig": null,
    "sort": "Жуков",
    "id": "iva9798f9cf",
-   "full_name": "Жуков Александр Евгеньевич"
+   "full_name": "Жуков Александр Евгеньевич",
+   "bio": "Александр Евгеньевич Жуков — японовед, ответственный редактор двухтомной «Истории Японии» (ИВ РАН, 1998) и ряда коллективных трудов ИВ РАН.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=515"
+   }
   },
   {
    "wikidata": null,
@@ -4713,7 +5037,12 @@
    "name_orig": null,
    "sort": "Динкевич",
    "id": "iva669cff2b",
-   "full_name": "Динкевич Анатолий Иосифович"
+   "full_name": "Динкевич Анатолий Иосифович",
+   "bio": "Анатолий Иосифович Динкевич (род. 1923) — японовед-экономист, доктор экономических наук (1965), автор работ по экономике и финансам послевоенной Японии.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": null,
@@ -4781,7 +5110,12 @@
    "name_orig": null,
    "sort": "Подалко",
    "id": "iva92a701dd",
-   "full_name": "Подалко Петр Эдуардович"
+   "full_name": "Подалко Петр Эдуардович",
+   "bio": "Пётр Эдуардович Подалко — историк-японист, PhD, преподаёт в Университете Аояма Гакуин (Токио); исследует историю российско-японских отношений.",
+   "bio_src": {
+    "name": "Вестник НГУ",
+    "url": "https://vestnik.nsu.ru/historyphilology/16-1-podalko"
+   }
   },
   {
    "wikidata": "Q11551556",
@@ -4809,7 +5143,12 @@
    "name_orig": null,
    "sort": "Еремин",
    "id": "ivad9c9dc89",
-   "full_name": "Еремин Владимир Николаевич"
+   "full_name": "Еремин Владимир Николаевич",
+   "bio": "Владимир Николаевич Ерёмин (1928–2004) — японовед-правовед, кандидат юридических наук (1973), исследователь японского права и территориальной проблемы.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": "Q1029656",
@@ -4825,7 +5164,12 @@
    "name_ru": "Аллисон Г.",
    "name_orig": null,
    "sort": "Аллисон",
-   "id": "iva80f5b4bb"
+   "id": "iva80f5b4bb",
+   "bio": "Грэм Аллисон (род. 1940) — американский политолог, профессор Гарвардского университета, автор книги «Сущность решения» и концепции «ловушки Фукидида».",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Graham_T._Allison"
+   }
   },
   {
    "wikidata": "Q11518977",
@@ -4845,7 +5189,12 @@
    "name_orig": null,
    "sort": "Гришелева",
    "id": "iva6d9dbc09",
-   "full_name": "Гришелева Лидия Диомидовна"
+   "full_name": "Гришелева Лидия Диомидовна",
+   "bio": "Лидия Диомидовна Гришелёва (1926–1993) — японовед, доктор филологических наук (1990), исследователь японской культуры Нового и Новейшего времени, соавтор Н. И. Чегодарь.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Гришелёва,_Лидия_Диомидовна"
+   }
   },
   {
    "wikidata": null,
@@ -4853,7 +5202,12 @@
    "name_orig": null,
    "sort": "Вербицкий",
    "id": "iva9d135b87",
-   "full_name": "Вербицкий Соломон Ильич"
+   "full_name": "Вербицкий Соломон Ильич",
+   "bio": "С. И. Вербицкий (род. 1922) — японовед-историк, кандидат исторических наук (1970), исследователь внешней политики Японии и японо-американского союза.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": null,
@@ -4861,7 +5215,12 @@
    "name_orig": null,
    "sort": "Сутягина",
    "id": "ivad173fb81",
-   "full_name": "Сутягина Маргарита Васильевна"
+   "full_name": "Сутягина Маргарита Васильевна",
+   "bio": "Маргарита Васильевна Сутягина (род. 1932) — японовед-экономист, кандидат экономических наук (1973).",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": "Q78171745",
@@ -4906,7 +5265,12 @@
    "name_orig": null,
    "sort": "Топеха",
    "id": "iva0d176e09",
-   "full_name": "Топеха Петр Павлович"
+   "full_name": "Топеха Петр Павлович",
+   "bio": "Пётр Павлович Топеха (1905–1985) — японовед-историк, доктор исторических наук (1973), исследователь рабочего движения в Японии.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Топеха,_Пётр_Павлович"
+   }
   },
   {
    "wikidata": null,
@@ -4914,7 +5278,12 @@
    "name_orig": null,
    "sort": "Лукьянова",
    "id": "iva042f35ba",
-   "full_name": "Лукьянова Мария Ивановна"
+   "full_name": "Лукьянова Мария Ивановна",
+   "bio": "Мария Ивановна Лукьянова (1904–1977) — японовед-экономист, доктор экономических наук (1953), исследователь японских монополий.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Лукьянова,_Мария_Ивановна"
+   }
   },
   {
    "wikidata": null,
@@ -4930,7 +5299,12 @@
    "name_orig": null,
    "sort": "Демич",
    "id": "iva576a4dbb",
-   "full_name": "Демич Кирилл Игоревич"
+   "full_name": "Демич Кирилл Игоревич",
+   "bio": "Кирилл Игоревич Демич — японист-лингвист, сотрудник ИВ РАН, специалист по японско-русской электронной лексикографии.",
+   "bio_src": {
+    "name": "КиберЛенинка",
+    "url": "https://cyberleninka.ru/article/n/rameya-i-avtomatizirovannoe-rabochee-mesto-yazykoveda-dlya-ieroglificheskih-yazykov-1"
+   }
   },
   {
    "wikidata": null,
@@ -4972,7 +5346,12 @@
    "name_orig": null,
    "sort": "Бабкова",
    "id": "iva19bd4d9f",
-   "full_name": "Бабкова Майя Владимировна"
+   "full_name": "Бабкова Майя Владимировна",
+   "bio": "Майя Владимировна Бабкова — религиовед-японист, кандидат философских наук (МГУ, 2012), научный сотрудник Центра японских исследований ИВ РАН; исследователь учения Догэна.",
+   "bio_src": {
+    "name": "«Шаги/Steps»",
+    "url": "https://steps.ranepa.ru/jour/article/view/1037/0"
+   }
   },
   {
    "wikidata": null,
@@ -4980,7 +5359,12 @@
    "name_orig": null,
    "sort": "Каткова",
    "id": "iva3d2b9a60",
-   "full_name": "Каткова Зоя Дмитриевна"
+   "full_name": "Каткова Зоя Дмитриевна",
+   "bio": "Зоя Дмитриевна Каткова (1932–2014) — китаист, кандидат исторических наук, старший научный сотрудник Отдела Китая ИВ РАН (с 1971); исследователь внешней политики республиканского Китая.",
+   "bio_src": {
+    "name": "«Восток»",
+    "url": "https://vostokoriens.ru/articles/gde-zhili-srednevekovye-indiytsy/pdf/"
+   }
   },
   {
    "wikidata": "Q4517697",
@@ -4996,7 +5380,12 @@
    "name_orig": null,
    "sort": "Милеев",
    "id": "iva973fe3fe",
-   "full_name": "Милеев Дмитрий Александрович"
+   "full_name": "Милеев Дмитрий Александрович",
+   "bio": "Дмитрий Александрович Милеев — японист, научный сотрудник ИВ РАН; исследует внешнюю политику Японии и японо-германские отношения.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/persons/DmitryMileev"
+   }
   },
   {
    "wikidata": null,
@@ -5017,7 +5406,12 @@
    "name_orig": null,
    "sort": "Дулина",
    "id": "iva0db8db35",
-   "full_name": "Дулина Анна Михайловна"
+   "full_name": "Дулина Анна Михайловна",
+   "bio": "Анна Михайловна Дулина — японист, кандидат исторических наук, выпускница аспирантуры ИСАА МГУ; исследователь культа божества Хатиман.",
+   "bio_src": {
+    "name": "«Религиоведение»",
+    "url": "https://religio.amursu.ru/images/Volumes/2018/2/5/5-Dulina.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -5068,7 +5462,12 @@
    "name_orig": null,
    "sort": "Ханин",
    "id": "ivac6f849dd",
-   "full_name": "Ханин Зиновий Яковлевич"
+   "full_name": "Ханин Зиновий Яковлевич",
+   "bio": "Зиновий Яковлевич Ханин (род. 1927) — японовед-историк, доктор исторических наук (1985), исследователь аграрных отношений и социальной истории Японии.",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_русскоязычных_японистов"
+   }
   },
   {
    "wikidata": null,
@@ -5101,21 +5500,38 @@
    "name_ru": "Климов Артём",
    "name_orig": null,
    "sort": "Климов",
-   "id": "klimovartem"
+   "id": "klimovartem",
+   "full_name": "Климов Артём Вадимович",
+   "bio": "Артём Вадимович Климов — японист, старший преподаватель кафедры японоведения НИУ ВШЭ в Санкт-Петербурге.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://www.hse.ru/org/persons/190995513/"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Шаброва Надежда",
    "name_orig": null,
    "sort": "Шаброва",
-   "id": "shabrovanadezh"
+   "id": "shabrovanadezh",
+   "bio": "Надежда Шаброва — исследователь истории сахалинских айнов.",
+   "bio_src": {
+    "name": "japanjournal.ru",
+    "url": "https://www.japanjournal.ru/jour/article/download/283/235"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Голда Анна",
    "name_orig": null,
    "sort": "Голда",
-   "id": "goldaanna"
+   "id": "goldaanna",
+   "full_name": "Голда Анна Ивановна",
+   "bio": "Анна Ивановна Голда — искусствовед, историк анимации, сотрудник Государственного музея Востока; лектор по японской культуре и анимации.",
+   "bio_src": {
+    "name": "сайт МИФ",
+    "url": "https://www.mann-ivanov-ferber.ru/courses/product/japfenomen/"
+   }
   },
   {
    "wikidata": null,
@@ -5129,21 +5545,38 @@
    "name_ru": "Мельникова Ирина",
    "name_orig": null,
    "sort": "Мельникова",
-   "id": "melnikovairinaa"
+   "id": "melnikovairinaa",
+   "bio": "Ирина Мельникова — востоковед и культуролог, кандидат филологических наук, переводчица японской литературы, профессор Университета Досися (Япония).",
+   "bio_src": {
+    "name": "Arzamas",
+    "url": "https://arzamas.academy/authors/157"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Синицын Александр",
    "name_orig": null,
    "sort": "Синицын",
-   "id": "sinitsynaleks"
+   "id": "sinitsynaleks",
+   "full_name": "Синицын Александр Юрьевич",
+   "bio": "Александр Юрьевич Синицын (род. 1962) — востоковед, кандидат исторических наук, старший научный сотрудник МАЭ РАН (Кунсткамера); исследователь традиционной культуры и искусства Японии, японского меча и доспеха.",
+   "bio_src": {
+    "name": "сайт Кунсткамеры",
+    "url": "https://www.kunstkamera.ru/museums_structure/research_departments/department_of_east_and_southeast_asia/sinicyn_ayu1/"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Тягунова Елена",
    "name_orig": null,
    "sort": "Тягунова",
-   "id": "tyagunovaelena"
+   "id": "tyagunovaelena",
+   "full_name": "Тягунова Елена Олеговна",
+   "bio": "Елена Олеговна Тягунова — искусствовед-японист, выпускница Академии Штиглица; исследует японскую гравюру XIX–XXI веков.",
+   "bio_src": {
+    "name": "сайт Академии Штиглица",
+    "url": "https://www.ghpa.ru/academy/all/item/aspirantov-akademii-shtiglitsa-nagradili-za-vysokie-nauchnye-dostizheniya-i-aktivnoe-uchastie-v-meropriyatiyakh-goda-nauki-i-tekhnologij"
+   }
   }
  ],
  "translators": [
