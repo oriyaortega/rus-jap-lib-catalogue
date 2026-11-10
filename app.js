@@ -421,6 +421,9 @@
       p.kind === 'author' && !p.kanji && p.orig !== p.name_ru && ['Имя в оригинале', esc(p.orig)],
       // Русские имена (авторы с русским именем и переводчики) латиницей не дублируем
       !p.hide_latin && !ruName && p.kind !== 'translator' && w?.en && w.en !== p.orig && ['Латиницей', esc(w.en)],
+      // Псевдонимы: другие имена, под которыми человек печатался, и настоящее имя, если в заголовке — псевдоним
+      p.pseudonym && ['Псевдоним', esc(p.pseudonym)],
+      p.real_name && ['Настоящее имя', esc(p.real_name)],
       p.kanji && ['По-японски', `<span lang="ja">${esc(p.kanji)}</span>${w?.kana ? ` <span lang="ja">（${esc(w.kana)}）</span>` : ''}`],
       (w?.born || w?.died) && ['Годы жизни', `${w.born ? w.born.text : '?'}${w.died ? ` – ${w.died.text}` : ''}`],
       w?.birthplace && ['Место рождения', esc(w.birthplace)],

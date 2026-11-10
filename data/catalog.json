@@ -42,6 +42,7 @@
    "name_orig": "夏目漱石",
    "sort": "Нацумэ",
    "era": "Мэйдзи",
+   "real_name": "Нацумэ Кинноскэ",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Natsume%20Soseki%20photo.jpg?width=240",
    "image": "images/person_soseki.jpg"
   },
@@ -52,6 +53,7 @@
    "name_orig": "芥川龍之介",
    "sort": "Акутагава",
    "era": "Тайсё",
+   "pseudonym": "Гаки (хайку-имя)",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Akutagawa%20Ryunosuke%20photo.jpg?width=240",
    "image": "images/person_akutagawa.jpg"
   },
@@ -70,6 +72,7 @@
    "name_ru": "Мисима Юкио",
    "name_orig": "三島由紀夫",
    "sort": "Мисима",
+   "real_name": "Хираока Кимитакэ",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukio%20Mishima%2C%201955%20%28cropped%20850%C3%97950%20px%29.jpg?width=240",
    "image": "images/person_mishima.jpg"
   },
@@ -109,6 +112,8 @@
    "name_orig": "松尾芭蕉",
    "sort": "Мацуо",
    "era": "Эдо",
+   "pseudonym": "Тосэй (ранний псевдоним)",
+   "real_name": "Мацуо Мунэфуса",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Basho%20by%20Buson.jpg?width=240",
    "image": "images/person_basho.jpg"
   },
@@ -118,6 +123,7 @@
    "name_ru": "Дадзай Осаму",
    "name_orig": "太宰治",
    "sort": "Дадзай",
+   "real_name": "Цусима Сюдзи",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Osamu%20Dazai.jpg?width=240",
    "image": "images/person_dazai.jpg"
   },
@@ -127,6 +133,7 @@
    "name_ru": "Абэ Кобо",
    "name_orig": "安部公房",
    "sort": "Абэ",
+   "real_name": "Абэ Кимифуса",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abe%20Kobo%20cooks%20jiaozi.JPG?width=240",
    "image": "images/person_abe.jpg"
   },
@@ -182,6 +189,7 @@
    "name_orig": "兼好法師",
    "sort": "Кэнко-хоси",
    "era": "Камакура",
+   "real_name": "Урабэ Канэёси (мирское имя)",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshida%20Kenko.jpg?width=240",
    "image": "images/person_kenko.jpg"
   },
@@ -216,6 +224,7 @@
    "name_orig": "近松門左衛門",
    "sort": "Тикамацу",
    "era": "Эдо",
+   "real_name": "Сугимори Нобумори",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Chikamatsu2.jpg?width=240",
    "image": "images/person_chikamatsu.jpg"
   },
@@ -239,6 +248,7 @@
    "name_orig": "森鷗外",
    "sort": "Мори",
    "era": "Мэйдзи",
+   "real_name": "Мори Ринтаро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%A3%AE%20%E9%B7%97%E5%A4%96.jpg?width=240",
    "image": "images/person_ogai.jpg"
   },
@@ -249,6 +259,7 @@
    "name_orig": "島崎藤村",
    "sort": "Симадзаки",
    "era": "Мэйдзи",
+   "real_name": "Симадзаки Харуки",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shimazaki%20Toson2.jpg?width=240",
    "image": "images/person_toson.jpg"
   },
@@ -268,6 +279,7 @@
    "name_orig": "水木 しげる",
    "sort": "Мидзуки",
    "id": "midzukisiger",
+   "real_name": "Мура Сигэру",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shigeru%20Mizuki%20at%20age%2018.jpg?width=240",
    "image": "images/person_midzukisiger.jpg"
   },
@@ -277,6 +289,7 @@
    "name_orig": "夢野 久作",
    "sort": "Юмэно",
    "id": "yumenokyusak",
+   "real_name": "Сугияма Тайдо",
    "image_src": "https://commons.wikimedia.org/wiki/File:Kyusaku_Yumeno.jpg",
    "image": "images/person_yumenokyusak.jpg"
   },
@@ -299,6 +312,8 @@
    "name_orig": "井原西鶴",
    "sort": "Ихара",
    "id": "ikharasayka",
+   "pseudonym": "Какуэй (ранний псевдоним)",
+   "real_name": "Хираяма Того",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ihara-Saikaku-Portrait.png?width=240",
    "image": "images/person_ikharasayka.png"
   },
@@ -308,6 +323,7 @@
    "name_orig": "上田 秋成",
    "sort": "Уэда",
    "id": "uedaakina",
+   "pseudonym": "Сэнси Кидзин",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ueda%20Akinari.jpg?width=240",
    "image": "images/person_uedaakina.jpg"
   },
@@ -412,6 +428,7 @@
    "name_orig": "小林一茶",
    "sort": "Исса",
    "id": "issa",
+   "real_name": "Кобаяси Ятаро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobayashi%20Issa-Portrait.jpg?width=240",
    "image": "images/person_issa.jpg"
   },
@@ -839,6 +856,7 @@
    "name_orig": "西行",
    "sort": "Сайгё",
    "id": "sayge",
+   "real_name": "Сато Норикиё (мирское имя)",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyakuninisshu%20086.jpg?width=240",
    "image": "images/person_sayge.jpg"
   },
@@ -1164,6 +1182,7 @@
    "name_orig": "Ruth Benedict",
    "sort": "Бенедикт",
    "id": "benediktrut",
+   "pseudonym": "Энн Синглтон (под этим именем публиковала стихи)",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth%20Benedict.jpg?width=240",
    "image": "images/person_benediktrut.jpg"
   },
@@ -1282,6 +1301,7 @@
    "name_orig": "井伏 鱒二",
    "sort": "Ибусэ",
    "id": "ibusemasud",
+   "real_name": "Ибусэ Масуми",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Masuji%20Ibuse%2001.jpg?width=240",
    "image": "images/person_ibusemasud.jpg"
   },
@@ -1317,6 +1337,7 @@
    "name_orig": "杜夫 北",
    "sort": "Кита",
    "id": "kitamorio",
+   "real_name": "Сайто Сокити",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kita%20Morio.jpg?width=240",
    "image": "images/person_kitamorio.jpg"
   },
@@ -1366,7 +1387,8 @@
    "bio_src": {
     "name": "Википедия",
     "url": "https://ru.wikipedia.org/wiki/Оскар_Курганов"
-   }
+   },
+   "real_name": "Яков Иеремеевич Эстеркин"
   },
   {
    "wikidata": "Q8006",
@@ -1483,6 +1505,7 @@
    "name_orig": "江戸川 乱歩",
    "sort": "Эдогава",
    "id": "ranpoedoga",
+   "real_name": "Хираи Таро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rampo%20Edogawa%2002.jpg?width=240",
    "image": "images/person_ranpoedoga.jpg"
   },
@@ -1628,6 +1651,7 @@
    "name_orig": "北原 白秋",
    "sort": "Китахара",
    "id": "kitakharakhakus",
+   "real_name": "Китахара Рюкити",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitahara%20Hakushu.jpg?width=240",
    "image": "images/person_kitakharakhakus.jpg"
   },
@@ -1670,6 +1694,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E4%B8%8B%E6%9D%A2%E5%A4%AA%E9%83%8E"
    },
+   "real_name": "Ота Масао",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Masao%20Ohta1934.jpg?width=240",
    "image": "images/person_kinositamokut.jpg"
   },
@@ -1684,6 +1709,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%BE%8E%E5%8D%97%E5%90%89"
    },
+   "real_name": "Ниими Сёхати",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/NiimiNankichi-Portrait-ca1941-42.png?width=240",
    "image": "images/person_niiminanki.png"
   },
@@ -1698,6 +1724,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E6%9C%AA%E6%98%8E"
    },
+   "real_name": "Огава Кэнсаку",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimei%20Ogawa%2001.jpg?width=240",
    "image": "images/person_ogavamimey.jpg"
   },
@@ -1768,6 +1795,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%B0%E8%8D%89%E5%B9%B3"
    },
+   "real_name": "Морита Ёнэмацу",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Morita%20Sohei.jpg?width=240",
    "image": "images/person_moritasokhey.jpg"
   },
@@ -1777,6 +1805,7 @@
    "name_orig": "菊池 寛",
    "sort": "Кикути",
    "id": "kikutikan",
+   "real_name": "Кикути Хироси",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo-Author-Kan-Kikuchi-Smoking.png?width=240",
    "image": "images/person_kikutikan.png"
   },
@@ -1795,6 +1824,7 @@
    "name_orig": "泉 鏡花",
    "sort": "Идзуми",
    "id": "idzumikeka",
+   "real_name": "Идзуми Кётаро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyoka%20Izumi.jpg?width=240",
    "image": "images/person_idzumikeka.jpg"
   },
@@ -1908,6 +1938,7 @@
    "name_orig": "村上龍",
    "sort": "Мураками",
    "id": "murakamiryu",
+   "real_name": "Мураками Рюноскэ",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryu%20Murakami.jpg?width=240",
    "image": "images/person_murakamiryu.jpg"
   },
@@ -1930,7 +1961,8 @@
    "name_ru": "Кубо Титэ",
    "name_orig": "久保帯人",
    "sort": "Кубо",
-   "id": "kubotite"
+   "id": "kubotite",
+   "real_name": "Кубо Нориаки"
   },
   {
    "wikidata": "Q558858",
@@ -2045,7 +2077,8 @@
    "name_ru": "Нагацуки Таппэй",
    "name_orig": "長月達平",
    "sort": "Нагацуки",
-   "id": "nagatsukitappe"
+   "id": "nagatsukitappe",
+   "pseudonym": "Нэдзумииро Нэко (сетевой псевдоним)"
   },
   {
    "wikidata": "Q600217",
@@ -2245,7 +2278,8 @@
    "bio_src": {
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E6%BE%81%E6%BE%A4%E9%BE%8D%E5%BD%A6"
-   }
+   },
+   "real_name": "Сибусава Тацуо"
   },
   {
    "wikidata": "Q3881072",
@@ -2444,6 +2478,7 @@
    "name_orig": "葛飾北斎",
    "sort": "Кацусика",
    "id": "katsusikakhokus",
+   "pseudonym": "Сюнро, Сори, Тайто, Иицу, Гакё-родзин Мандзи и др.",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai%20as%20an%20old%20man.jpg?width=240",
    "image": "images/person_katsusikakhokus.jpg"
   },
@@ -2452,7 +2487,8 @@
    "name_ru": "Торияма Сэкиэн",
    "name_orig": "鳥山石燕",
    "sort": "Торияма",
-   "id": "toriyamasekie"
+   "id": "toriyamasekie",
+   "real_name": "Сано Тоёфуса"
   },
   {
    "wikidata": "Q11531207",
@@ -2574,6 +2610,7 @@
    "name_orig": "吉川英治",
    "sort": "Ёсикава",
    "id": "esikavaeydzi",
+   "real_name": "Ёсикава Хидэцугу",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiji%20Yoshikawa.jpg?width=240",
    "image": "images/person_esikavaeydzi.jpg"
   },
@@ -2602,6 +2639,7 @@
    "name_orig": "坂口安吾",
    "sort": "Сакагути",
    "id": "sakagutiango",
+   "real_name": "Сакагути Хэйго",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ango%20Sakaguchi%20%28cropped%29.jpg?width=240",
    "image": "images/person_sakagutiango.jpg"
   },
@@ -2749,6 +2787,7 @@
    "name_orig": "宮本武蔵",
    "sort": "Миямото",
    "id": "miyamotomusas",
+   "pseudonym": "Нитэн (художественное имя)",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyamoto%20Musashi-Portrait-Edo-period.png?width=240",
    "image": "images/person_miyamotomusas.png"
   },
@@ -2819,7 +2858,8 @@
    "bio_src": {
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E7%82%BA%E6%B0%B8%E6%98%A5%E6%B0%B4"
-   }
+   },
+   "real_name": "Сасаки Садатака"
   },
   {
    "wikidata": "Q1396764",
@@ -2827,6 +2867,7 @@
    "name_orig": "徳冨蘆花",
    "sort": "Токутоми",
    "id": "tokutomiroka",
+   "real_name": "Токутоми Кэндзиро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/TOKUTOMI%20ROKA%20at%201920.jpg?width=240",
    "image": "images/person_tokutomiroka.jpg"
   },
@@ -2893,6 +2934,7 @@
    "name_orig": "三遊亭円朝",
    "sort": "Санъютэй",
    "id": "entesanyu",
+   "real_name": "Идэбути Дзиро",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/San%27y%C5%ABtei%20Ench%C5%8D%20sitting.jpg?width=240",
    "image": "images/person_entesanyu.jpg"
   },
@@ -3372,6 +3414,7 @@
    "name_orig": "正岡子規",
    "sort": "Масаока",
    "id": "sikimasao",
+   "real_name": "Масаока Цунэнори",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiki%20Masaoka.jpg?width=240",
    "image": "images/person_sikimasao.jpg"
   },
@@ -3451,7 +3494,7 @@
    "id": "nakagamikendz"
   },
   {
-   "wikidata": "Q4401514",
+   "wikidata": null,
    "name_ru": "Рыбин Виктор",
    "name_orig": null,
    "sort": "Рыбин",
@@ -3498,6 +3541,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%9D%91%E4%BA%AC%E5%A4%AA%E9%83%8E"
    },
+   "real_name": "Ядзима Кихатиро",
    "image_src": "https://commons.wikimedia.org/wiki/File:Nishimura_Kyotaro_Museum-P1010867.JPG",
    "image": "images/person_ketaronisim.jpg"
   },
@@ -3520,7 +3564,8 @@
    "name_ru": "Цусима Юко",
    "name_orig": "津島佑子",
    "sort": "Цусима",
-   "id": "tsusimayuko"
+   "id": "tsusimayuko",
+   "real_name": "Цусима Сатоко"
   },
   {
    "wikidata": "Q4164893",
@@ -3595,7 +3640,8 @@
    "bio_src": {
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E5%A6%B9%E5%B0%BE%E6%B2%B3%E7%AB%A5"
-   }
+   },
+   "real_name": "Сэноо Хадзимэ"
   },
   {
    "wikidata": "Q2753679",
@@ -3758,7 +3804,8 @@
    "bio_src": {
     "name": "Википедия",
     "url": "https://ru.wikipedia.org/wiki/Комаровский,_Георгий_Евгеньевич"
-   }
+   },
+   "pseudonym": "Г. Е. Светлов"
   },
   {
    "wikidata": null,
@@ -3879,7 +3926,8 @@
    "bio_src": {
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E6%9F%8F%E6%9C%A8%E5%9C%AD%E4%B8%80%E9%83%8E"
-   }
+   },
+   "pseudonym": "Касиваги Кэйитиро (детективы)"
   },
   {
    "wikidata": "Q125970",
@@ -4453,6 +4501,7 @@
     "name": "Википедия (яп.)",
     "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%BD%9B%E6%AC%A1%E9%83%8E"
    },
+   "real_name": "Нодзири Киёхико",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiro%20Osaragi%201925.jpg?width=240",
    "image": "images/person_osaragidziro.jpg"
   },
@@ -5156,6 +5205,7 @@
    "name_orig": null,
    "sort": "Танэда",
    "id": "ivaf75e84fd",
+   "real_name": "Танэда Сёити",
    "image_src": "https://commons.wikimedia.org/wiki/File:Taneda_Santoka%2C_year_unknown.jpg",
    "image": "images/person_ivaf75e84fd.jpg"
   },
@@ -5233,7 +5283,8 @@
    "bio_src": {
     "name": "Викиданные",
     "url": "https://www.wikidata.org/wiki/Q78171745"
-   }
+   },
+   "pseudonym": "У. Хаяма"
   },
   {
    "wikidata": "Q4181364",
@@ -5453,6 +5504,7 @@
    "name_orig": null,
    "sort": "Таяма",
    "id": "ivae502124a",
+   "real_name": "Таяма Рокуя",
    "image_src": "https://commons.wikimedia.org/wiki/File:Tayama_Katai%2C_November_1927.jpg",
    "image": "images/person_ivae502124a.jpg"
   },
