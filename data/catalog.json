@@ -225,7 +225,12 @@
    "name_ru": "Ходзуми Икан",
    "name_orig": "穂積以貫",
    "sort": "Ходзуми",
-   "era": "Эдо"
+   "era": "Эдо",
+   "bio": "1692–1769. Конфуцианский учёный из Осаки, друг Тикамацу Мондзаэмона; известен записью его взглядов на драму («Нанива миягэ»).",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E7%A9%82%E7%A9%8D%E4%BB%A5%E8%B2%AB-133622"
+   }
   },
   {
    "id": "ogai",
@@ -267,11 +272,13 @@
    "image": "images/person_midzukisiger.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1005559",
    "name_ru": "Юмэно Кюсаку",
    "name_orig": "夢野 久作",
    "sort": "Юмэно",
-   "id": "yumenokyusak"
+   "id": "yumenokyusak",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Kyusaku_Yumeno.jpg",
+   "image": "images/person_yumenokyusak.jpg"
   },
   {
    "wikidata": null,
@@ -312,7 +319,12 @@
    "name_ru": "Аривара Мотоката",
    "name_orig": "在原元方",
    "sort": "Аривара",
-   "id": "arivaramotok"
+   "id": "arivaramotok",
+   "bio": "Поэт вака периода Хэйан (IX–X вв.), внук Аривара Нарихиры. Его танка открывает антологию «Кокинсю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%9C%A8%E5%8E%9F%E5%85%83%E6%96%B9-1051416"
+   }
   },
   {
    "wikidata": "Q451991",
@@ -329,6 +341,11 @@
    "name_orig": "野沢 凡兆",
    "sort": "Бонтё",
    "id": "bonte",
+   "bio": "?–1714. Поэт хайкай из Канадзавы, врач в Киото, ученик Басё; вместе с Кёраем составил сборник «Соломенный плащ обезьяны» («Сарумино», 1691).",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E9%87%8E%E6%B2%A2%E5%87%A1%E5%85%86-112159"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Boncho%201.jpg?width=240",
    "image": "images/person_bonte.jpg"
   },
@@ -342,18 +359,28 @@
    "image": "images/person_buson.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q30398138",
    "name_ru": "Гёдай",
    "name_orig": "暁台",
    "sort": "Гёдай",
-   "id": "geday"
+   "id": "geday",
+   "bio": "Като Гёдай (1732–1792) — поэт хайкай из Нагои, один из главных участников движения за возрождение стиля Басё во второй половине XVIII века.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%8A%A0%E8%97%A4%E6%9A%81%E5%8F%B0-21132"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Дзёсо",
    "name_orig": "丈草",
    "sort": "Дзёсо",
-   "id": "dzeso"
+   "id": "dzeso",
+   "bio": "Найто Дзёсо (1662–1704) — поэт хайкай, бывший самурай, ставший монахом; один из «десяти мудрецов» школы Басё.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%86%85%E8%97%A4%E4%B8%88%E8%8D%89-17062"
+   }
   },
   {
    "wikidata": "Q357249",
@@ -387,14 +414,26 @@
    "name_ru": "Иссё",
    "name_orig": "一笑",
    "sort": "Иссё",
-   "id": "isse"
+   "id": "isse",
+   "bio": "Косуги Иссё (1653–1688) — поэт хайкай из Канадзавы, торговец чаем, почитатель Басё; Басё оплакал его раннюю смерть в «Тропинках Севера».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%B0%8F%E6%9D%89%E4%B8%80%E7%AC%91-1074879"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q272077",
    "name_ru": "Исэ",
    "name_orig": "伊勢",
    "sort": "Исэ",
-   "id": "ise"
+   "id": "ise",
+   "bio": "Исэ (ок. 872 — ок. 938) — придворная поэтесса периода Хэйан, одна из «тридцати шести бессмертных поэтов»; много её стихов в «Кокинсю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E4%BC%8A%E5%8B%A2"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Lady-ise.png",
+   "image": "images/person_ise.png"
   },
   {
    "wikidata": "Q1721095",
@@ -419,7 +458,12 @@
    "name_ru": "Какэй",
    "name_orig": "荷兮",
    "sort": "Какэй",
-   "id": "kakey"
+   "id": "kakey",
+   "bio": "Ямамото Какэй (1648–1716) — поэт хайкай и врач из Нагои; редактор сборников школы Басё «Зимние дни», «Весенние дни» и «Пустошь» («Арано»).",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E8%8D%B7%E5%85%AE-461022"
+   }
   },
   {
    "wikidata": "Q1343397",
@@ -427,6 +471,11 @@
    "name_orig": "賀茂 真淵",
    "sort": "Камо",
    "id": "kamomabut",
+   "bio": "Камо Мабути (1697–1769) — филолог и поэт эпохи Эдо, один из основателей школы кокугаку («национальной науки»), исследователь «Манъёсю», учитель Мотоори Норинаги.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/賀茂真淵"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamo%20no%20Mabuchi.jpg?width=240",
    "image": "images/person_kamomabut.jpg"
   },
@@ -435,7 +484,12 @@
    "name_ru": "Каса Канамура",
    "name_orig": "笠 金村",
    "sort": "Каса",
-   "id": "kasakanam"
+   "id": "kasakanam",
+   "bio": "Каса Канамура — придворный поэт эпохи Нара (первая треть VIII века); его стихи сохранились в «Манъёсю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/笠金村"
+   }
   },
   {
    "wikidata": "Q541000",
@@ -469,7 +523,12 @@
    "name_ru": "Ки-но Мотиюки",
    "name_orig": null,
    "sort": "Ки-но",
-   "id": "kinomotiyu"
+   "id": "kinomotiyu",
+   "bio": "Ки-но Мотиюки — поэт периода Хэйан (IX в.), отец Ки-но Цураюки; его стихи есть в «Кокинсю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/紀貫之"
+   }
   },
   {
    "wikidata": "Q1092686",
@@ -494,7 +553,12 @@
    "name_ru": "Кито",
    "name_orig": "几董",
    "sort": "Кито",
-   "id": "kito"
+   "id": "kito",
+   "bio": "Такаи Кито (1741–1789) — поэт хайкай из Киото, ученик и ближайший последователь Ёсы Бусона.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/高井几董"
+   }
   },
   {
    "wikidata": null,
@@ -508,7 +572,12 @@
    "name_ru": "Кока-монъин бэтто",
    "name_orig": "皇嘉門院別當",
    "sort": "Кока-монъин",
-   "id": "kokamoninbetto"
+   "id": "kokamoninbetto",
+   "bio": "Кока-монъин-но Бэтто — поэтесса конца периода Хэйан (XII в.), служила императрице Кока-монъин; её танка вошла в «Хякунин иссю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/皇嘉門院別当"
+   }
   },
   {
    "wikidata": "Q1886933",
@@ -524,7 +593,12 @@
    "name_ru": "Минамото Масадзуми",
    "name_orig": "源当纯",
    "sort": "Минамото",
-   "id": "minamotomasad"
+   "id": "minamotomasad",
+   "bio": "Минамото Масадзуми (IX — нач. X в.) — поэт периода Хэйан; его стихи вошли в «Кокинсю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/源当純"
+   }
   },
   {
    "wikidata": "Q2983100",
@@ -549,7 +623,12 @@
    "name_ru": "Ноин-зоси",
    "name_orig": null,
    "sort": "Ноин-зоси",
-   "id": "noinzosi"
+   "id": "noinzosi",
+   "bio": "Ноин-хоси (988 — ок. 1050) — поэт-монах периода Хэйан, странствовавший по стране; его танка вошла в «Хякунин иссю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/能因"
+   }
   },
   {
    "wikidata": "Q119461",
@@ -564,22 +643,39 @@
    "name_orig": "入道前太政大臣",
    "sort": "Нюдо-саки-но",
    "id": "nyudosakinodaydz",
+   "bio": "Сайондзи Кинцунэ (1171–1244), в монашестве — «Нюдо саки-но дайдзё-дайдзин»: государственный деятель и поэт периода Камакура; его танка вошла в «Хякунин иссю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/西園寺公経"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyakuninisshu%20096.jpg?width=240",
    "image": "images/person_nyudosakinodaydz.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1530764",
    "name_ru": "Одзава Роан",
    "name_orig": "小沢蘆庵",
    "sort": "Одзава",
-   "id": "odzavaroan"
+   "id": "odzavaroan",
+   "bio": "Одзава Роан (1723–1801) — поэт вака и теоретик из Киото эпохи Эдо, сторонник поэзии «простых слов» (тадагото-ута).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/小沢蘆庵"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11441784",
    "name_ru": "Окума Котомити",
    "name_orig": "大隈言道",
    "sort": "Окума",
-   "id": "okumakotom"
+   "id": "okumakotom",
+   "bio": "Окума Котомити (1798–1868) — поэт вака из Фукуоки конца эпохи Эдо, ценивший живое, неканоническое слово.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/大隈言道"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:%C5%8Ckuma_Kotomichi_2.jpg",
+   "image": "images/person_okumakotom.jpg"
   },
   {
    "wikidata": "Q240176",
@@ -595,7 +691,12 @@
    "name_ru": "Оно Садаки",
    "name_orig": "小野貞樹",
    "sort": "Оно",
-   "id": "onosadak"
+   "id": "onosadak",
+   "bio": "Оно Садаки — поэт периода Хэйан (IX в.); его стихи вошли в «Кокинсю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/小野貞樹"
+   }
   },
   {
    "wikidata": "Q1139928",
@@ -672,7 +773,12 @@
    "name_ru": "Ранран",
    "name_orig": "嵐蘭",
    "sort": "Ранран",
-   "id": "ranran"
+   "id": "ranran",
+   "bio": "Мацукура Ранран (1647–1693) — поэт хайкай, самурай, ученик Басё.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/松倉嵐蘭"
+   }
   },
   {
    "wikidata": "Q4496564",
@@ -684,25 +790,42 @@
    "image": "images/person_ransetsu.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q5338269",
    "name_ru": "Рёкан",
    "name_orig": "良寛",
    "sort": "Рёкан",
-   "id": "rekan"
+   "id": "rekan",
+   "bio": "Рёкан (1758–1831) — дзэнский монах-странник эпохи Эдо, поэт вака, китайских стихов и каллиграф.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E8%89%AF%E5%AF%9B"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:RYOKAN_PORTRAITE.JPG",
+   "image": "images/person_rekan.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Рёта",
    "name_orig": "蓼太",
    "sort": "Рёта",
-   "id": "reta"
+   "id": "reta",
+   "bio": "Осима Рёта (1718–1787) — поэт хайкай эпохи Эдо, ученик Сакураи Рито, глава школы Сэцутюан в Эдо.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B3%B6%E8%93%BC%E5%A4%AA"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Сагами",
    "name_orig": "相模",
    "sort": "Сагами",
-   "id": "sagami"
+   "id": "sagami",
+   "bio": "Поэтесса XI века, придворная дама; её стихи вошли в императорские антологии и в «Хякунин иссю» («Сто стихотворений ста поэтов»).",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E7%9B%B8%E6%A8%A1"
+   }
   },
   {
    "wikidata": "Q224689",
@@ -727,21 +850,36 @@
    "name_ru": "Сампу",
    "name_orig": "杉風",
    "sort": "Сампу",
-   "id": "sampu"
+   "id": "sampu",
+   "bio": "Сугияма Сампу (1647–1732) — поэт хайкай, эдоский торговец рыбой, один из первых учеников Басё и его покровитель.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E6%9D%89%E9%A2%A8-71377"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Сёку-сёнин",
    "name_orig": null,
    "sort": "Сёку-сёнин",
-   "id": "sekusenin"
+   "id": "sekusenin",
+   "bio": "Сёку-сёнин (ок. 910–1007) — буддийский монах периода Хэйан, основатель храма Энгёдзи на горе Сёся.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E6%80%A7%E7%A9%BA"
+   }
   },
   {
    "wikidata": "Q1692314",
    "name_ru": "Сётэцу",
    "name_orig": "正徹",
    "sort": "Сётэцу",
-   "id": "setetsu"
+   "id": "setetsu",
+   "bio": "Сётэцу (1381–1459) — поэт вака и дзэнский монах периода Муромати, ученик Имагавы Рёсюна, автор трактата «Беседы Сётэцу».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E6%AD%A3%E5%BE%B9"
+   }
   },
   {
    "wikidata": "Q735939",
@@ -757,7 +895,12 @@
    "name_ru": "Сико",
    "name_orig": "支考",
    "sort": "Сико",
-   "id": "siko"
+   "id": "siko",
+   "bio": "Какагами Сико (1665–1731) — поэт хайкай, один из «десяти мудрецов» школы Басё, основатель влиятельной школы Мино.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%90%84%E5%8B%99%E6%94%AF%E8%80%83"
+   }
   },
   {
    "wikidata": "Q1035285",
@@ -796,11 +939,18 @@
    "image": "images/person_sugavaramitid.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q349287",
    "name_ru": "Сутоку-ин",
    "name_orig": "崇徳院",
    "sort": "Сутоку-ин",
-   "id": "sutokuin"
+   "id": "sutokuin",
+   "bio": "Сутоку-ин (1119–1164) — 75-й император Японии, поэт вака; после поражения в смуте Хогэн сослан в Сануки.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%B4%87%E5%BE%B3%E5%A4%A9%E7%9A%87"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Emperor_Sutoku2.jpg",
+   "image": "images/person_sutokuin.jpg"
   },
   {
    "wikidata": null,
@@ -823,7 +973,12 @@
    "name_ru": "Такэти Курохито",
    "name_orig": "高市黒人",
    "sort": "Такэти",
-   "id": "taketikurokh"
+   "id": "taketikurokh",
+   "bio": "Такэти Курохито (конец VII — нач. VIII в.) — поэт эпохи Асука–Нара; в «Манъёсю» сохранились его стихи, по большей части о странствиях.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B8%82%E9%BB%92%E4%BA%BA"
+   }
   },
   {
    "wikidata": "Q635122",
@@ -835,11 +990,18 @@
    "image": "images/person_tatibanaakemi.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2439046",
    "name_ru": "Таясу Мунэтакэ",
    "name_orig": "田安宗武",
    "sort": "Таясу",
-   "id": "tayasumunet"
+   "id": "tayasumunet",
+   "bio": "Таясу Мунэтакэ (1715–1771) — сын сёгуна Токугавы Ёсимунэ, основатель дома Таясу; поэт вака и знаток кокугаку, покровитель Камо Мабути.",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E7%94%B0%E5%AE%89%E5%AE%97%E6%AD%A6"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Munetake_Tokugawa.jpg",
+   "image": "images/person_tayasumunet.jpg"
   },
   {
    "wikidata": "Q2964050",
@@ -851,18 +1013,30 @@
    "image": "images/person_tie.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1004233",
    "name_ru": "Фудзивара Иэтака",
    "name_orig": "藤原家隆",
    "sort": "Фудзивара",
-   "id": "fudzivaraietak"
+   "id": "fudzivaraietak",
+   "bio": "Фудзивара Иэтака (1158–1237) — поэт вака периода Камакура, один из составителей антологии «Синкокинсю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E8%97%A4%E5%8E%9F%E5%AE%B6%E9%9A%86"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Fujiwara_Ietaka.jpg",
+   "image": "images/person_fudzivaraietak.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Фудзивара Котонао",
    "name_orig": "藤原言直",
    "sort": "Фудзивара",
-   "id": "fudzivarakoton"
+   "id": "fudzivarakoton",
+   "bio": "Фудзивара Котонао — поэт периода Хэйан (рубеж IX–X вв.); его стихи вошли в «Кокинсю».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/藤原言直"
+   }
   },
   {
    "wikidata": "Q928451",
@@ -897,6 +1071,11 @@
    "name_orig": "藤原 敏行",
    "sort": "Фудзивара",
    "id": "fudzivaratosiyu",
+   "bio": "Фудзивара Тосиюки (?–901 или 907) — поэт и каллиграф периода Хэйан, один из «тридцати шести бессмертных поэтов»; его стихи есть в «Кокинсю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E8%97%A4%E5%8E%9F%E6%95%8F%E8%A1%8C"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyakuninisshu%20018.jpg?width=240",
    "image": "images/person_fudzivaratosiyu.jpg"
   },
@@ -905,7 +1084,12 @@
    "name_ru": "Фудзивара Хидэёси",
    "name_orig": "藤原秀能",
    "sort": "Фудзивара",
-   "id": "fudzivarakhidee"
+   "id": "fudzivarakhidee",
+   "bio": "Фудзивара Хидэёси (Хидэто, 1184–1240) — воин и поэт вака, приближённый экс-императора Го-Тоба; его стихи вошли в «Синкокинсю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E8%97%A4%E5%8E%9F%E7%A7%80%E8%83%BD"
+   }
   },
   {
    "wikidata": "Q127490",
@@ -1011,7 +1195,12 @@
    "name_ru": "Делэ Нелли",
    "name_orig": null,
    "sort": "Делэ",
-   "id": "delenelli"
+   "id": "delenelli",
+   "bio": "Нелли Делэ — французский историк искусства, специалист по старому японскому искусству; организатор выставок японского искусства в Париже, автор книг «Японская гравюра» и «Вечная Япония».",
+   "bio_src": {
+    "name": "издательство Hazan",
+    "url": "https://www.editions-hazan.fr/auteur/nelly-delay/"
+   }
   },
   {
    "wikidata": "Q1086650",
@@ -1044,14 +1233,19 @@
    "id": "kudryashovaav"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q16682200",
    "name_ru": "Елисеефф Вадим",
    "name_orig": "Vadime Elisséeff",
    "sort": "Елисеефф",
-   "id": "eliseeffvadim"
+   "id": "eliseeffvadim",
+   "bio": "Вадим Елисеев (1918–2002) — французский историк искусства и востоковед, родился в Петрограде в семье японоведа Сергея Елисеева; работал в парижских музеях Чернуски и Гиме.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q16682200"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q3014988",
    "name_ru": "Елисеефф Даниель",
    "name_orig": "Danielle Elisseeff",
    "sort": "Елисеефф",
@@ -1088,11 +1282,16 @@
    "id": "karlsonkitya"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q120611282",
    "name_ru": "Кемптон Бет",
    "name_orig": "Beth Kempton",
    "sort": "Кемптон",
-   "id": "kemptonbet"
+   "id": "kemptonbet",
+   "bio": "Бет Кемптон (род. 1977, Саутгемптон) — британская писательница и японистка, много лет жившая в Японии; автор популярных книг о японских жизненных практиках.",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Beth_Kempton"
+   }
   },
   {
    "wikidata": "Q944894",
@@ -1109,6 +1308,11 @@
    "name_orig": "眉村 卓",
    "sort": "Маюмура",
    "id": "mayumurataku",
+   "bio": "Маюмура Таку (1934–2019) — японский писатель-фантаст из Осаки, один из основателей японской послевоенной научной фантастики.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%9C%89%E6%9D%91%E5%8D%93"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/SF-Magazine-1964-September-1.jpg?width=240",
    "image": "images/person_mayumurataku.jpg"
   },
@@ -1126,14 +1330,24 @@
    "name_ru": "Кужель Юрий",
    "name_orig": null,
    "sort": "Кужель",
-   "id": "kuzhelyuriy"
+   "id": "kuzhelyuriy",
+   "bio": "Юрий Леонидович Кужель — японовед, доктор искусствоведения, кандидат филологических наук, профессор; исследователь японского театра (Нингё дзёрури), искусства и культуры.",
+   "bio_src": {
+    "name": "«Известные учёные»",
+    "url": "https://famous-scientists.ru/anketa/kuzhel-yurij-leonidovich-17034"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Курганов Оскар",
    "name_orig": null,
    "sort": "Курганов",
-   "id": "kurganovoskar"
+   "id": "kurganovoskar",
+   "bio": "Оскар Курганов (настоящее имя Яков Иеремеевич Эстеркин, 1907–1997) — советский писатель, журналист и сценарист; в 1934–1949 гг. специальный корреспондент «Правды», соавтор сценария киноэпопеи «Освобождение».",
+   "bio_src": {
+    "name": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Оскар_Курганов"
+   }
   },
   {
    "wikidata": "Q8006",
@@ -1236,18 +1450,28 @@
    "image": "images/person_ranpoedoga.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q47113427",
    "name_ru": "Ратти Оскар",
    "name_orig": "Oscar Ratti",
    "sort": "Ратти",
-   "id": "rattioskar"
+   "id": "rattioskar",
+   "bio": "Оскар Ратти (1928–2005) — художник-иллюстратор и исследователь боевых искусств итальянского происхождения; вместе с Адель Вестбрук написал классический труд «Secrets of the Samurai» (1973).",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q47113427"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q47113437",
    "name_ru": "Вестбрук Адель",
    "name_orig": "Adele Westbrook",
    "sort": "Вестбрук",
-   "id": "vestbrukadel"
+   "id": "vestbrukadel",
+   "bio": "Адель Вестбрук — американская писательница и инструктор айкидо, соавтор Оскара Ратти по книге «Secrets of the Samurai» (1973).",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q47113437"
+   }
   },
   {
    "wikidata": "Q97211322",
@@ -1257,7 +1481,7 @@
    "id": "sadokovaanast"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4424699",
    "name_ru": "Смирнов Лев",
    "name_orig": null,
    "sort": "Смирнов",
@@ -1271,18 +1495,25 @@
    "id": "zaytsevevgen"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q21148945",
    "name_ru": "Смоленский Вадим",
    "name_orig": null,
    "sort": "Смоленский",
-   "id": "smolenskiyvadim"
+   "id": "smolenskiyvadim",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Vadim_Smolensky.jpg",
+   "image": "images/person_smolenskiyvadim.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Торопыгина Мария",
    "name_orig": null,
    "sort": "Торопыгина",
-   "id": "toropyginamariya"
+   "id": "toropyginamariya",
+   "bio": "Мария Владимировна Торопыгина — филолог-японист, кандидат филологических наук, профессор Института классического Востока и античности НИУ ВШЭ, исследователь и переводчик японской классической поэзии и прозы.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://hum.hse.ru/news/author/223725176/"
+   }
   },
   {
    "wikidata": null,
@@ -1296,14 +1527,24 @@
    "name_ru": "Успенский Михаил",
    "name_orig": null,
    "sort": "Успенский",
-   "id": "uspenskiymikhai"
+   "id": "uspenskiymikhai",
+   "bio": "Михаил Владимирович Успенский (1953–1997) — искусствовед-востоковед, кандидат искусствоведения (1985), хранитель коллекции японского искусства в Отделе Востока Эрмитажа (1981–1997); исследователь нэцкэ.",
+   "bio_src": {
+    "name": "библиотека ImWerden",
+    "url": "https://imwerden.de/author-21177"
+   }
   },
   {
    "wikidata": "Q11623021",
    "name_ru": "Фудзивара Иори",
    "name_orig": "藤原 伊織",
    "sort": "Фудзивара",
-   "id": "fudzivaraiori"
+   "id": "fudzivaraiori",
+   "bio": "Фудзивара Иори (1948–2007) — японский писатель из Осаки, автор детективов. Роман «Зонтик для террориста» (1995) получил премию Эдогавы Рампо и премию Наоки.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%97%A4%E5%8E%9F%E4%BC%8A%E7%B9%94"
+   }
   },
   {
    "wikidata": null,
@@ -1334,15 +1575,27 @@
    "name_orig": "上司 小 剣",
    "sort": "Камицукаса",
    "id": "kamitsukasaseken",
+   "bio": "Камицукаса Сёкэн (1874–1947) — японский писатель и журналист, близкий к натурализму.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E5%8F%B8%E5%B0%8F%E5%89%A3"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamitsukasa%20Sh%C5%8Dken.jpg?width=240",
    "image": "images/person_kamitsukasaseken.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11644976",
    "name_ru": "Ногами Тоёитиро",
    "name_orig": "野上豊一郎",
    "sort": "Ногами",
-   "id": "nogamitoeit"
+   "id": "nogamitoeit",
+   "bio": "Ногами Тоёитиро (1883–1950) — японский литературовед, исследователь английской литературы и театра но, ректор Университета Хосэй; муж писательницы Ногами Яэко.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E4%B8%8A%E8%B1%8A%E4%B8%80%E9%83%8E"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Toyoichiro_Nogami_1939.jpg",
+   "image": "images/person_nogamitoeit.jpg"
   },
   {
    "wikidata": "Q1343550",
@@ -1350,6 +1603,11 @@
    "name_orig": "木下 杢太郎",
    "sort": "Киносита",
    "id": "kinositamokut",
+   "bio": "Киносита Мокутаро (1885–1945) — японский поэт, драматург и искусствовед, по профессии врач-дерматолог, профессор Токийского университета.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E4%B8%8B%E6%9D%A2%E5%A4%AA%E9%83%8E"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Masao%20Ohta1934.jpg?width=240",
    "image": "images/person_kinositamokut.jpg"
   },
@@ -1359,6 +1617,11 @@
    "name_orig": "新美 南吉",
    "sort": "Ниими",
    "id": "niiminanki",
+   "bio": "Ниими Нанкити (1913–1943) — японский детский писатель из Ханды (префектура Айти), автор сказки «Лис Гон», входящей в школьные хрестоматии.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%BE%8E%E5%8D%97%E5%90%89"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/NiimiNankichi-Portrait-ca1941-42.png?width=240",
    "image": "images/person_niiminanki.png"
   },
@@ -1368,6 +1631,11 @@
    "name_orig": "小川 未 明",
    "sort": "Огава",
    "id": "ogavamimey",
+   "bio": "Огава Мимэй (1882–1961) — японский писатель, один из основоположников современной японской детской литературы («японский Андерсен»); автор сказки «Красные свечи и русалка».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E6%9C%AA%E6%98%8E"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimei%20Ogawa%2001.jpg?width=240",
    "image": "images/person_ogavamimey.jpg"
   },
@@ -1379,11 +1647,16 @@
    "id": "nagatakhideo"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11550046",
    "name_ru": "Нагасима Наоаки",
    "name_orig": "永島直昭",
    "sort": "Нагасима",
-   "id": "nagasimanaoak"
+   "id": "nagasimanaoak",
+   "bio": "Нагасима Наоаки (1894–1930) — японский переводчик и литератор.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%B0%B8%E5%B3%B6%E7%9B%B4%E6%98%AD"
+   }
   },
   {
    "wikidata": "Q328931",
@@ -1400,15 +1673,27 @@
    "name_orig": "中島 敦",
    "sort": "Накадзима",
    "id": "nakadzimaatsusi",
+   "bio": "Накадзима Ацуси (1909–1942) — японский писатель, мастер новелл на сюжеты китайской классики («Луна над горами», «Лисий оборотень»).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B3%B6%E6%95%A6"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Atsushi%20Nakajima.jpg?width=240",
    "image": "images/person_nakadzimaatsusi.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11398818",
    "name_ru": "Кано Сакудзиро",
    "name_orig": "加能作次郎",
    "sort": "Кано",
-   "id": "kanosakud"
+   "id": "kanosakud",
+   "bio": "Кано Сакудзиро (1885–1941) — японский писатель из префектуры Исикава, автор реалистической прозы.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%83%BD%E4%BD%9C%E6%AC%A1%E9%83%8E"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Kan%C5%8D_Sakujir%C5%8D.jpg",
+   "image": "images/person_kanosakud.jpg"
   },
   {
    "wikidata": "Q6912360",
@@ -1416,6 +1701,11 @@
    "name_orig": "森田 草 平",
    "sort": "Морита",
    "id": "moritasokhey",
+   "bio": "Морита Сохэй (1881–1949) — японский писатель и переводчик, ученик Нацумэ Сосэки, автор романа «Копоть» («Баиэн», 1909).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%B0%E8%8D%89%E5%B9%B3"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Morita%20Sohei.jpg?width=240",
    "image": "images/person_moritasokhey.jpg"
   },
@@ -1447,11 +1737,18 @@
    "image": "images/person_idzumikeka.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q3305753",
    "name_ru": "Ричардсон Майк",
    "name_orig": "Mike Richardson",
    "sort": "Ричардсон",
-   "id": "richardsonmayk"
+   "id": "richardsonmayk",
+   "bio": "Майк Ричардсон (род. 1950) — американский издатель, писатель и продюсер, основатель издательства комиксов Dark Horse Comics, автор графического романа «47 ронинов».",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q3305753"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:10.11.13MikeRichardsonByLuigiNovi1.jpg",
+   "image": "images/person_richardsonmayk.jpg"
   },
   {
    "wikidata": "Q4058091",
@@ -1491,18 +1788,25 @@
    "id": "tumarkinpetr"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q107657242",
    "name_ru": "Данн Чарльз",
    "name_orig": "Charles Dunn",
    "sort": "Данн",
-   "id": "danncharl"
+   "id": "danncharl",
+   "bio": "Чарльз Данн (1915–1995) — британский японист, автор книги «Повседневная жизнь в традиционной Японии».",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q107657242"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q12696",
    "name_ru": "Нитобэ Инадзо",
    "name_orig": "新渡戸稲造",
    "sort": "Нитобэ",
-   "id": "nitobeinadz"
+   "id": "nitobeinadz",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Monsieur_Inaz%C5%8D_Nitobe.jpg",
+   "image": "images/person_nitobeinadz.jpg"
   },
   {
    "wikidata": null,
@@ -1530,14 +1834,21 @@
    "image": "images/person_murakamiryu.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q519158",
    "name_ru": "Кадзии Мотодзиро",
    "name_orig": "梶井基次郎",
    "sort": "Кадзии",
-   "id": "motodzirokadzi"
+   "id": "motodzirokadzi",
+   "bio": "Кадзии Мотодзиро (1901–1932) — японский писатель из Осаки, классик короткой прозы; его рассказ «Лимон» (1925) входит в школьную программу.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%A2%B6%E4%BA%95%E5%9F%BA%E6%AC%A1%E9%83%8E"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Motojir%C5%8D_Kajii%2C_January_1931.jpg",
+   "image": "images/person_motodzirokadzi.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q295073",
    "name_ru": "Кубо Титэ",
    "name_orig": "久保帯人",
    "sort": "Кубо",
@@ -1551,11 +1862,16 @@
    "id": "oobatsugum"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11607308",
    "name_ru": "Аямура Кирихито",
    "name_orig": "綾村切人",
    "sort": "Аямура",
-   "id": "ayamurakirikh"
+   "id": "ayamurakirikh",
+   "bio": "Аямура Кирихито (род. 1973) — японский мангака.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%B6%BE%E6%9D%91%E5%88%87%E4%BA%BA"
+   }
   },
   {
    "wikidata": "Q1993",
@@ -1565,11 +1881,16 @@
    "id": "kisimotomasas"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q564197",
    "name_ru": "Хирои Одзи",
    "name_orig": "広井王子",
    "sort": "Хирои",
-   "id": "khiroiodzi"
+   "id": "khiroiodzi",
+   "bio": "Хирои Одзи (род. 1954, Токио) — японский сценарист и продюсер игр и манги, создатель серии «Sakura Wars».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E4%BA%95%E7%8E%8B%E5%AD%90"
+   }
   },
   {
    "wikidata": "Q715725",
@@ -1602,11 +1923,16 @@
    "image": "images/person_naytoyasukhi.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11445983",
    "name_ru": "Окусэ Саки",
    "name_orig": "奥瀬サキ",
    "sort": "Окусэ",
-   "id": "okusesaki"
+   "id": "okusesaki",
+   "bio": "Окусэ Саки (род. 1966) — японская мангака, автор хоррор- и мистической манги.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E7%80%AC%E3%82%B5%E3%82%AD"
+   }
   },
   {
    "wikidata": "Q534001",
@@ -1625,11 +1951,16 @@
    "image": "images/person_khiranokota.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1138133",
    "name_ru": "Адзума Хидэо",
    "name_orig": "吾妻ひでお",
    "sort": "Адзума",
-   "id": "adzumakhideo"
+   "id": "adzumakhideo",
+   "bio": "Адзума Хидэо (1950–2019) — японский мангака с Хоккайдо. Автобиографическая манга «Дневник моих исчезновений» (2005) получила премию Тэдзуки Осаму.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%90%BE%E5%A6%BB%E3%81%B2%E3%81%A7%E3%81%8A"
+   }
   },
   {
    "wikidata": "Q26764773",
@@ -1648,11 +1979,18 @@
    "image": "images/person_asanoinio.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q535004",
    "name_ru": "Коно Фумиё",
    "name_orig": "こうの史代",
    "sort": "Коно",
-   "id": "konofumie"
+   "id": "konofumie",
+   "bio": "Коно Фумиё (род. 1968, Хиросима) — японская мангака, автор манги о Хиросиме «Город, где вечером стихает ветер» и «В этом уголке мира».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%86%E3%81%AE%E5%8F%B2%E4%BB%A3"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Fumiyo_Kouno_%282018%29.jpg",
+   "image": "images/person_konofumie.jpg"
   },
   {
    "wikidata": "Q556244",
@@ -1675,28 +2013,50 @@
    "name_ru": "Масумура Хироси",
    "name_orig": "ますむら・ひろし",
    "sort": "Масумура",
-   "id": "masumurakhiros"
+   "id": "masumurakhiros",
+   "bio": "Масумура Хироси (род. 1952, префектура Ямагата) — японский мангака, автор цикла «Атагоал» и манга-версии «Ночи на Галактической железной дороге» Миядзавы Кэндзи.",
+   "bio_src": {
+    "name": "издательство Кайсэйся",
+    "url": "https://www.kaiseisha.co.jp/authors/13478"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q957814",
    "name_ru": "Самура Хироаки",
    "name_orig": "沙村広明",
    "sort": "Самура",
-   "id": "samurakhiroa"
+   "id": "samurakhiroa",
+   "bio": "Самура Хироаки (род. 1970, Тиба) — японский мангака, автор самурайской манги «Клинок бессмертного» (1993–2012).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%B2%99%E6%9D%91%E5%BA%83%E6%98%8E"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q30933986",
    "name_ru": "Аояма Митико",
    "name_orig": "青山美智子",
    "sort": "Аояма",
-   "id": "aoyamamitik"
+   "id": "aoyamamitik",
+   "bio": "Аояма Митико (род. 1970, префектура Айти) — японская писательница, автор романов «Какао по четвергам» и «Вы найдёте это в библиотеке».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E5%B1%B1%E7%BE%8E%E6%99%BA%E5%AD%90"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q910874",
    "name_ru": "Хирано Кэйитиро",
    "name_orig": "平野啓一郎",
    "sort": "Хирано",
-   "id": "keyitirokhiran"
+   "id": "keyitirokhiran",
+   "bio": "Хирано Кэйитиро (род. 1975) — японский писатель. Дебютный роман «Затмение» (1998) получил премию Акутагавы, роман «Незнакомец» — премию Ёмиури.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E9%87%8E%E5%95%93%E4%B8%80%E9%83%8E"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Keiichiro_Hirano_in_2004.jpg",
+   "image": "images/person_keyitirokhiran.jpg"
   },
   {
    "wikidata": "Q3247979",
@@ -1706,18 +2066,28 @@
    "id": "morimitomikh"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2279206",
    "name_ru": "Миура Сион",
    "name_orig": "三浦しをん",
    "sort": "Миура",
-   "id": "miurasion"
+   "id": "miurasion",
+   "bio": "Миура Сион (род. 1976, Токио) — японская писательница, лауреат премии Наоки; её роман «Рассекая ветер» о беге-эстафете экранизирован.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B5%A6%E3%81%97%E3%82%92%E3%82%93"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11472962",
    "name_ru": "Окадзаки Такума",
    "name_orig": "岡崎琢磨",
    "sort": "Окадзаки",
-   "id": "okadzakitakum"
+   "id": "okadzakitakum",
+   "bio": "Окадзаки Такума (род. 1986, Дадзайфу) — японский писатель, автор серии детективов «Тайны кофейни в Киото».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B2%A1%E5%B4%8E%E7%90%A2%E7%A3%A8"
+   }
   },
   {
    "wikidata": "Q80095",
@@ -1729,11 +2099,18 @@
    "image": "images/person_oekendz.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q16265091",
    "name_ru": "Оямада Хироко",
    "name_orig": "小山田浩子",
    "sort": "Оямада",
-   "id": "oyamadakhirok"
+   "id": "oyamadakhirok",
+   "bio": "Оямада Хироко (род. 1983, Хиросима) — японская писательница. Повесть «Дыра» получила премию Акутагавы (2014), роман «Комбинат» — её дебют.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B1%B1%E7%94%B0%E6%B5%A9%E5%AD%90"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Hiroko_Oyamad_DSC01393_LiteratureXchange_Festival.jpg",
+   "image": "images/person_oyamadakhirok.jpg"
   },
   {
    "wikidata": "Q451058",
@@ -1745,32 +2122,52 @@
    "image": "images/person_tavadaeko.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11414045",
    "name_ru": "Ёсида Ацухиро",
    "name_orig": "吉田篤弘",
    "sort": "Ёсида",
-   "id": "esidaatsukhi"
+   "id": "esidaatsukhi",
+   "bio": "Ёсида Ацухиро (род. 1962, Токио) — японский писатель и книжный дизайнер, вместе с женой основал творческое объединение «Craft Ebbing & Co.».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E7%AF%A4%E5%BC%98"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q455652",
    "name_ru": "Аояма Нанаэ",
    "name_orig": "青山七恵",
    "sort": "Аояма",
-   "id": "aoyamananae"
+   "id": "aoyamananae",
+   "bio": "Аояма Нанаэ (род. 1983, Сайтама) — японская писательница, лауреат премии Акутагавы (2007) за роман «Хорошая погода для одиночества» («Хитори биёри»).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E5%B1%B1%E4%B8%83%E6%81%B5"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q48760904",
    "name_ru": "Исии Юка",
    "name_orig": "石井遊佳",
    "sort": "Исии",
-   "id": "isiiyuka"
+   "id": "isiiyuka",
+   "bio": "Исии Юка (род. 1963, Хиракато) — японская писательница. Повесть «Вековая грязь» получила премию Акутагавы (2018).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E4%BA%95%E9%81%8A%E4%BD%B3"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2278628",
    "name_ru": "Сибусава Тацухико",
    "name_orig": "澁澤龍彦",
    "sort": "Сибусава",
-   "id": "tatsukhikosibus"
+   "id": "tatsukhikosibus",
+   "bio": "Сибусава Тацухико (1928–1987) — японский писатель, переводчик маркиза де Сада и исследователь европейской эзотерики. Роман «Записки о путешествии принца Такаоки» получил премию Ёмиури.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%BE%81%E6%BE%A4%E9%BE%8D%E5%BD%A6"
+   }
   },
   {
    "wikidata": "Q3881072",
@@ -1803,11 +2200,16 @@
    "id": "ogavaeko"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1059911",
    "name_ru": "Арикава Хиро",
    "name_orig": "有川ひろ",
    "sort": "Арикава",
-   "id": "arikavakhiro"
+   "id": "arikavakhiro",
+   "bio": "Арикава Хиро (род. 1972, Коти) — японская писательница, автор романов «Электричка Ханкю», «Хроники странствующего кота» и цикла «Война библиотек».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9C%89%E5%B7%9D%E3%81%B2%E3%82%8D"
+   }
   },
   {
    "wikidata": null,
@@ -1846,14 +2248,24 @@
    "name_ru": "Трубникова Надежда",
    "name_orig": null,
    "sort": "Трубникова",
-   "id": "trubnikovanadezh"
+   "id": "trubnikovanadezh",
+   "bio": "Надежда Николаевна Трубникова (род. 1970, Москва) — философ-японист, доктор философских наук (2011), профессор кафедры истории и культуры Японии ИСАА МГУ; исследователь японской буддийской мысли.",
+   "bio_src": {
+    "name": "Летопись МГУ",
+    "url": "http://www.letopis.msu.ru/peoples/7334"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Гришачев Сергей",
    "name_orig": null,
    "sort": "Гришачев",
-   "id": "grishachevserge"
+   "id": "grishachevserge",
+   "bio": "Сергей Владимирович Гришачёв — историк-японист, доцент РГГУ и НИУ ВШЭ, исполнительный секретарь Ассоциации японоведов; исследователь истории российско-японских отношений.",
+   "bio_src": {
+    "name": "Ассоциация японоведов",
+    "url": "http://japanstudies.ru/index.php?option=com_content&task=view&id=1266&Itemid=1"
+   }
   },
   {
    "wikidata": null,
@@ -1874,7 +2286,12 @@
    "name_ru": "Осипова Марина",
    "name_orig": null,
    "sort": "Осипова",
-   "id": "osipovamariya"
+   "id": "osipovamariya",
+   "bio": "Марина Васильевна Осипова — этнограф-японист, исследователь традиционной культуры айнов.",
+   "bio_src": {
+    "name": "«Этнографическое обозрение»",
+    "url": "https://eo.iea.ras.ru/authors/4119/"
+   }
   },
   {
    "wikidata": null,
@@ -1923,11 +2340,16 @@
    "id": "toriyamasekie"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11531207",
    "name_ru": "Мацумото Наоя",
    "name_orig": "松本直也",
    "sort": "Мацумото",
-   "id": "matsumotonaoya"
+   "id": "matsumotonaoya",
+   "bio": "Мацумото Наоя (род. 1982) — японский мангака, автор манги «Кайдзю № 8».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%9C%AC%E7%9B%B4%E4%B9%9F"
+   }
   },
   {
    "wikidata": "Q60231010",
@@ -1944,18 +2366,28 @@
    "id": "meninieliza"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q130118388",
    "name_ru": "Цурумаикада",
    "name_orig": "つるまいかだ",
    "sort": "Цурумаикада",
-   "id": "tsurumaikada"
+   "id": "tsurumaikada",
+   "bio": "Цурумаикада — японская мангака из префектуры Айти, автор манги о фигурном катании «Медалистка».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E3%81%A4%E3%82%8B%E3%81%BE%E3%81%84%E3%81%8B%E3%81%A0"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1385598",
    "name_ru": "Катаяма Кёити",
    "name_orig": "片山恭一",
    "sort": "Катаяма",
-   "id": "katayamakeiti"
+   "id": "katayamakeiti",
+   "bio": "Катаяма Кёити (род. 1959, Увадзима) — японский писатель. Роман «Оплакивая любовь в самом центре мира» (2001) стал бестселлером и экранизирован.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%89%87%E5%B1%B1%E6%81%AD%E4%B8%80"
+   }
   },
   {
    "wikidata": null,
@@ -1972,11 +2404,16 @@
    "id": "sudzukinobuo"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q130534546",
    "name_ru": "Ханада Нанако",
    "name_orig": "花田菜々子",
    "sort": "Ханада",
-   "id": "khanadananak"
+   "id": "khanadananak",
+   "bio": "Ханада Нанако (род. 1979) — японская книготорговка и писательница, автор автобиографической книги «Девушка из книжного магазина».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E7%94%B0%E8%8F%9C%E3%80%85%E5%AD%90"
+   }
   },
   {
    "wikidata": null,
@@ -2023,11 +2460,16 @@
    "id": "fudzimototatsuk"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q111708863",
    "name_ru": "Лонгхёрст Эрин Ниими",
    "name_orig": "Erin Niimi Longhurst",
    "sort": "Лонгхёрст",
-   "id": "longkhersterin"
+   "id": "longkhersterin",
+   "bio": "Эрин Ниими Лонгхёрст — британская писательница японского происхождения, автор книг о японской жизненной философии («Японизм»).",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q111708863"
+   }
   },
   {
    "wikidata": "Q132111",
@@ -2055,7 +2497,7 @@
    "id": "zadornovnikol"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q316802",
    "name_ru": "Клавелл Джеймс",
    "name_orig": "James Clavell",
    "sort": "Клавелл",
@@ -2097,11 +2539,18 @@
    "id": "isidasui"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q76218",
    "name_ru": "Херригель Ойген",
    "name_orig": "Eugen Herrigel",
    "sort": "Херригель",
-   "id": "kherrigeloygen"
+   "id": "kherrigeloygen",
+   "bio": "Ойген Херригель (1884–1955) — немецкий философ-неокантианец, в 1924–1929 гг. преподавал в Японии; автор книги «Дзэн в искусстве стрельбы из лука» (1948).",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Eugen_Herrigel"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Eugen_Herrigel_%281922%29.jpg",
+   "image": "images/person_kherrigeloygen.jpg"
   },
   {
    "wikidata": null,
@@ -2120,25 +2569,40 @@
    "image": "images/person_khoritatsuo.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11566417",
    "name_ru": "Сэо Майко",
    "name_orig": "瀬尾まいこ",
    "sort": "Сэо",
-   "id": "seomayko"
+   "id": "seomayko",
+   "bio": "Сэо Майко (род. 1974, Осака) — японская писательница, бывшая учительница. Роман «Эстафета передаётся» получил Премию книжных магазинов (2019).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%80%AC%E5%B0%BE%E3%81%BE%E3%81%84%E3%81%93"
+   }
   },
   {
    "wikidata": null,
    "name_ru": "Мацумура Венди",
    "name_orig": "Wendy Matsumura",
    "sort": "Мацумура",
-   "id": "matsumuravendi"
+   "id": "matsumuravendi",
+   "bio": "Венди Мацумура — американский историк, доцент Калифорнийского университета в Сан-Диего, исследователь истории Окинавы и японского капитализма, автор книги «The Limits of Okinawa» (2015).",
+   "bio_src": {
+    "name": "сайт Калифорнийского университета",
+    "url": "https://history.ucsd.edu/people/faculty/matsumura.html"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q15428390",
    "name_ru": "Доунер Лесли",
    "name_orig": "Lesley Downer",
    "sort": "Доунер",
-   "id": "dounerlesli"
+   "id": "dounerlesli",
+   "bio": "Лесли Доунер (род. 1949, Лондон) — британская писательница и журналистка, автор книг о Японии и гейшах.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q15428390"
+   }
   },
   {
    "wikidata": null,
@@ -2164,18 +2628,30 @@
    "image": "images/person_miyamotomusas.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q7705612",
    "name_ru": "Морис-Судзуки Тесса",
    "name_orig": "Tessa Morris-Suzuki",
    "sort": "Морис-Судзуки",
-   "id": "morissudzukitessa"
+   "id": "morissudzukitessa",
+   "bio": "Тесса Морис-Судзуки (род. 1951) — австралийский историк британского происхождения, специалист по истории Японии и Кореи, профессор Австралийского национального университета.",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Tessa_Morris-Suzuki"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Lecture_by_Visiting_Professor_Tessa_Morris-Suzuki.jpg",
+   "image": "images/person_morissudzukitessa.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Седжвик Джулиан",
    "name_orig": "Julian Sedgwick",
    "sort": "Седжвик",
-   "id": "sedzhvikdzhuli"
+   "id": "sedzhvikdzhuli",
+   "bio": "Джулиан Седжвик — британский писатель, автор книг для подростков; изучал в Кембридже китаистику и философию. Роман «Девочка и цунами» (2021), действие которого происходит в Фукусиме, вошёл в шорт-лист медали Карнеги.",
+   "bio_src": {
+    "name": "NHK World (YouTube)",
+    "url": "https://www.youtube.com/watch?v=rpYN51ALdrE"
+   }
   },
   {
    "wikidata": null,
@@ -2185,7 +2661,7 @@
    "id": "kutsuvadatie"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2607536",
    "name_ru": "Дэлби Лиза",
    "name_orig": "Liza Crihfield Dalby",
    "sort": "Дэлби",
@@ -2199,11 +2675,16 @@
    "id": "kharmonkenne"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1100772",
    "name_ru": "Сюнсуй Тамэнага",
    "name_orig": "為永春水",
    "sort": "Сюнсуй",
-   "id": "syunsuytamen"
+   "id": "syunsuytamen",
+   "bio": "Тамэнага Сюнсуй (1790–1844) — японский писатель эпохи Эдо, классик жанра «книг о чувствах» (ниндзёбон), автор «Сливового календаря любви» («Сюнсёку умэгоёми»).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%82%BA%E6%B0%B8%E6%98%A5%E6%B0%B4"
+   }
   },
   {
    "wikidata": "Q1396764",
@@ -2222,11 +2703,16 @@
    "id": "skottifranch"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q7327682",
    "name_ru": "Мейсон Ричард Генри Питт",
    "name_orig": "Richard Henry Pitt Mason",
    "sort": "Мейсон",
-   "id": "meysonrichar"
+   "id": "meysonrichar",
+   "bio": "Ричард Мейсон (1934–2009) — австралийский историк-японист, профессор Австралийского национального университета, соавтор «Краткой истории Японии».",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Richard_Mason_(historian)"
+   }
   },
   {
    "wikidata": null,
@@ -2236,11 +2722,18 @@
    "id": "kaygerdzhon"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q8962193",
    "name_ru": "Миральес Франсеск",
    "name_orig": "Francesc Miralles",
    "sort": "Миральес",
-   "id": "miralesfrans"
+   "id": "miralesfrans",
+   "bio": "Франсеск Миральес (род. 1968, Барселона) — испанский писатель и журналист, соавтор Эктора Гарсиа по книгам о японской жизненной философии («Икигай»).",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Francesc_Miralles"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Francesc_Miralles_Contijoch.jpg",
+   "image": "images/person_miralesfrans.jpg"
   },
   {
    "wikidata": null,
@@ -2263,21 +2756,35 @@
    "name_ru": "Огита Ансэй",
    "name_orig": "荻田安静",
    "sort": "Огита",
-   "id": "anseyogita"
+   "id": "anseyogita",
+   "bio": "Огита Ансэй (?–1669) — японский поэт хайкай раннего Эдо, составитель сборника рассказов о сверхъестественном «Тоноигуса» («Рассказы ночной стражи»).",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/search?q=荻田安静"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1070220",
    "name_ru": "Судзуки Сёсан",
    "name_orig": "鈴木正三",
    "sort": "Судзуки",
-   "id": "sesansudzu"
+   "id": "sesansudzu",
+   "bio": "Судзуки Сёсан (1579–1655) — японский самурай, затем дзэн-монах, автор буддийских наставлений и прозы «канадзоси».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E6%AD%A3%E4%B8%89"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Suzuki_Sh%C3%B4san.jpg",
+   "image": "images/person_sesansudzu.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q40479",
    "name_ru": "Митчелл Дэвид",
    "name_orig": "David Mitchell",
    "sort": "Митчелл",
-   "id": "mitchelldevid"
+   "id": "mitchelldevid",
+   "image_src": "https://commons.wikimedia.org/wiki/File:David_Mitchell_by_Kubik.JPG",
+   "image": "images/person_mitchelldevid.jpg"
   },
   {
    "wikidata": null,
@@ -2294,11 +2801,16 @@
    "id": "vidalingrafae"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q5771054",
    "name_ru": "Сакурадзака Хироси",
    "name_orig": "桜坂洋",
    "sort": "Сакурадзака",
-   "id": "sakuradzakakhiros"
+   "id": "sakuradzakakhiros",
+   "bio": "Сакурадзака Хироси (род. 1970, Токио) — японский писатель-фантаст, автор ранобэ «All You Need Is Kill», экранизированного в Голливуде.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E5%9D%82%E6%B4%8B"
+   }
   },
   {
    "wikidata": "Q2010",
@@ -2315,11 +2827,13 @@
    "id": "m"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q235731",
    "name_ru": "Барбери Мюриель",
    "name_orig": "Muriel Barbery",
    "sort": "Барбери",
-   "id": "barberimyurie"
+   "id": "barberimyurie",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Muriel_Barbery_cropped.jpg",
+   "image": "images/person_barberimyurie.jpg"
   },
   {
    "wikidata": "Q290896",
@@ -2329,11 +2843,16 @@
    "id": "motidzukidzyun"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11530019",
    "name_ru": "Мацуока Сэйго",
    "name_orig": "松岡正剛",
    "sort": "Мацуока",
-   "id": "matsuokaseygo"
+   "id": "matsuokaseygo",
+   "bio": "Мацуока Сэйго (1944–2024) — японский писатель, редактор и исследователь культуры, основатель журнала «Ю» и проекта «Сэнъя сэнсацу».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B2%A1%E6%AD%A3%E5%89%9B"
+   }
   },
   {
    "wikidata": null,
@@ -2410,7 +2929,12 @@
    "name_ru": "Гарсиа Эктор",
    "name_orig": "Héctor García",
    "sort": "Гарсиа",
-   "id": "garsiaektor"
+   "id": "garsiaektor",
+   "bio": "Эктор Гарсиа — испанский инженер-программист и писатель, работал в ЦЕРН, затем переехал в Японию; автор блога kirainet.com и книги «A Geek in Japan», соавтор Франсеска Миральеса по «Икигай».",
+   "bio_src": {
+    "name": "издательство Tuttle",
+    "url": "https://www.tuttlepublishing.com/blog/author-interview-hctor-garca/"
+   }
   },
   {
    "wikidata": null,
@@ -2424,7 +2948,12 @@
    "name_ru": "Ли Цин",
    "name_orig": "Li Qing",
    "sort": "Ли",
-   "id": "litsin"
+   "id": "litsin",
+   "bio": "Цин Ли — врач-иммунолог, профессор Медицинской школы Ниппон (Токио), президент Японского общества лесной медицины; исследователь воздействия «лесных ванн» (синрин-ёку) на здоровье.",
+   "bio_src": {
+    "name": "PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9665958/"
+   }
   },
   {
    "wikidata": null,
@@ -2441,11 +2970,16 @@
    "id": "kharitonovaarina"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4717298",
    "name_ru": "Керр Алекс",
    "name_orig": "Alex Kerr",
    "sort": "Керр",
-   "id": "kerraleks"
+   "id": "kerraleks",
+   "bio": "Алекс Керр (род. 1952) — американский японист, писатель и коллекционер, автор книг «Потерянная Япония» (премия Синтё Гакугэй) и «Собаки и демоны».",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Alex_Kerr_(Japanologist)"
+   }
   },
   {
    "wikidata": null,
@@ -2455,11 +2989,16 @@
    "id": "voroninanina"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2964768",
    "name_ru": "Колер Крис",
    "name_orig": "Chris Kohler",
    "sort": "Колер",
-   "id": "kolerkris"
+   "id": "kolerkris",
+   "bio": "Крис Колер (род. 1980) — американский журналист, пишущий о видеоиграх, автор книги «Power Up! Как японские видеоигры дали миру новую жизнь».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9%E3%83%BC"
+   }
   },
   {
    "wikidata": "Q11478754",
@@ -2475,7 +3014,12 @@
    "name_ru": "Садзанами Сандзин",
    "name_orig": null,
    "sort": "Садзанами",
-   "id": "sadzanamisandz"
+   "id": "sadzanamisandz",
+   "bio": "Садзанами Сандзин (Ивая Садзанами, 1870–1933) — японский писатель, один из основоположников японской детской литературы, собиратель сказок и легенд.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/巌谷小波"
+   }
   },
   {
    "wikidata": null,
@@ -2485,18 +3029,30 @@
    "id": "shaptalstefa"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q3806267",
    "name_ru": "Адельштейн Джейк",
    "name_orig": "Jake Adelstein",
    "sort": "Адельштейн",
-   "id": "adelshteyndzheyk"
+   "id": "adelshteyndzheyk",
+   "bio": "Джейк Адельштейн (род. 1969) — американский журналист, много лет работавший криминальным репортёром газеты «Ёмиури» в Токио; автор книг о якудза.",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Jake_Adelstein"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Jake_Adelstein_%28born_1969%29_in_the_video_%27Jake_Adelstein_-_Tokyo_vice%27.png",
+   "image": "images/person_adelshteyndzheyk.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11564461",
    "name_ru": "Мидзогути Ацуси",
    "name_orig": "溝口敦",
    "sort": "Мидзогути",
-   "id": "midzogutiatsusi"
+   "id": "midzogutiatsusi",
+   "bio": "Мидзогути Ацуси (род. 1942, Токио) — японский журналист, автор многочисленных книг о якудза.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%BA%9D%E5%8F%A3%E6%95%A6"
+   }
   },
   {
    "wikidata": null,
@@ -2506,11 +3062,16 @@
    "id": "gigarno"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q120602148",
    "name_ru": "Альт Мэтт",
    "name_orig": "Matt Alt",
    "sort": "Альт",
-   "id": "altmett"
+   "id": "altmett",
+   "bio": "Мэтт Альт (род. 1973) — американский писатель и переводчик, живущий в Токио, автор книги «Чистый вымысел» о японской поп-культуре.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q120602148"
+   }
   },
   {
    "wikidata": null,
@@ -2527,18 +3088,28 @@
    "id": "muazanvikto"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q106906681",
    "name_ru": "Де-Воллан Григорий",
    "name_orig": null,
    "sort": "Де-Воллан",
-   "id": "devollangrigo"
+   "id": "devollangrigo",
+   "full_name": "Де-Воллан Григорий Александрович",
+   "image_src": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B5-%D0%92%D0%BE%D0%BB%D0%BB%D0%B0%D0%BD_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87.jpg",
+   "image": "images/person_devollangrigo.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q53820435",
    "name_ru": "Стакманн Крис",
    "name_orig": "Chris Stuckmann",
    "sort": "Стакманн",
-   "id": "stakmannkris"
+   "id": "stakmannkris",
+   "bio": "Крис Стакманн (род. 1988, Огайо) — американский кинокритик и видеоблогер, автор книги об аниме «Anime World».",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Chris_Stuckmann"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Chris_Stuckmann_2015.jpg",
+   "image": "images/person_stakmannkris.jpg"
   },
   {
    "wikidata": null,
@@ -2592,18 +3163,30 @@
    "image": "images/person_sikimasao.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11365306",
    "name_ru": "Накамура Кэнноскэ",
    "name_orig": "中村健之介",
    "sort": "Накамура",
-   "id": "kennoskenakam"
+   "id": "kennoskenakam",
+   "bio": "Накамура Кэнноскэ (1939–2022) — японский литературовед-русист, исследователь Достоевского, профессор Токийского университета.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E5%81%A5%E4%B9%8B%E4%BB%8B"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q6531075",
    "name_ru": "Оцуки Гэнтаку",
    "name_orig": "大槻玄沢",
    "sort": "Оцуки",
-   "id": "gentakuotsuki"
+   "id": "gentakuotsuki",
+   "bio": "Оцуки Гэнтаку (1757–1827) — японский врач и учёный-рангакуся (знаток «голландских наук»), записавший рассказы моряков, побывавших в России («Канкай ибун»).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A7%BB%E7%8E%84%E6%B2%A2"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:%C3%94tsuki_Gentaku.jpg",
+   "image": "images/person_gentakuotsuki.jpg"
   },
   {
    "wikidata": null,
@@ -2622,11 +3205,16 @@
    "image": "images/person_inoueyasusi.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11638067",
    "name_ru": "Хэмми Ё",
    "name_orig": "辺見庸",
    "sort": "Хэмми",
-   "id": "ekhemmi"
+   "id": "ekhemmi",
+   "bio": "Хэмми Ё (род. 1944, Исиномаки) — японский писатель, поэт и журналист. Повесть «Будильник-автомат» («Дзидо кисё соти») получила премию Акутагавы (1991).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%BE%BA%E8%A6%8B%E5%BA%B8"
+   }
   },
   {
    "wikidata": "Q7986901",
@@ -2652,11 +3240,18 @@
    "id": "rybinvikto"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q447073",
    "name_ru": "Экуни Каори",
    "name_orig": "江國香織",
    "sort": "Экуни",
-   "id": "ekunikaori"
+   "id": "ekunikaori",
+   "bio": "Экуни Каори (род. 1964, Токио) — японская писательница, переводчица и детский автор, лауреат премии Наоки (2004).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E5%9C%8B%E9%A6%99%E7%B9%94"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Kaori_Ekuni.svg",
+   "image": "images/person_ekunikaori.jpg"
   },
   {
    "wikidata": "Q552356",
@@ -2675,11 +3270,18 @@
    "id": "khinokeydz"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1051441",
    "name_ru": "Нисимура Кётаро",
    "name_orig": "西村京太郎",
    "sort": "Нисимура",
-   "id": "ketaronisim"
+   "id": "ketaronisim",
+   "bio": "Нисимура Кётаро (1930–2022) — японский автор детективов, прежде всего «железнодорожных» (серия об инспекторе Тоцугаве).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%9D%91%E4%BA%AC%E5%A4%AA%E9%83%8E"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Nishimura_Kyotaro_Museum-P1010867.JPG",
+   "image": "images/person_ketaronisim.jpg"
   },
   {
    "wikidata": "Q1091123",
@@ -2689,7 +3291,7 @@
    "id": "kurumatanitekits"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q716359",
    "name_ru": "Кикути Хидэюки",
    "name_orig": "菊地 秀行",
    "sort": "Кикути",
@@ -2712,74 +3314,129 @@
    "image": "images/person_dolinaleks.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1620313",
    "name_ru": "Ицуки Хироюки",
    "name_orig": "五木寛之",
    "sort": "Ицуки",
-   "id": "khiroyukiitsuki"
+   "id": "khiroyukiitsuki",
+   "bio": "Ицуки Хироюки (род. 1932) — японский писатель и эссеист, детство провёл в Корее; лауреат премии Наоки, автор цикла «Врата юности».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E6%9C%A8%E5%AF%9B%E4%B9%8B"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Chunichi1967-02-22-2.jpg",
+   "image": "images/person_khiroyukiitsuki.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11411152",
    "name_ru": "Фурукава Хидэо",
    "name_orig": "古川日出男",
    "sort": "Фурукава",
-   "id": "furukavakhideo"
+   "id": "furukavakhideo",
+   "bio": "Фурукава Хидэо (род. 1966, Корияма) — японский писатель и драматург, автор романа «Белка, голос!» и современного перевода «Повести о доме Тайра».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%8F%A4%E5%B7%9D%E6%97%A5%E5%87%BA%E7%94%B7"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Paris_-_Salon_du_livre_2012_-_Furukawa_Hideo_-_003.jpg",
+   "image": "images/person_furukavakhideo.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q439860",
    "name_ru": "Ю Мири",
    "name_orig": "柳美里",
    "sort": "Ю",
-   "id": "yumiri"
+   "id": "yumiri",
+   "bio": "Ю Мири (род. 1968) — японская писательница и драматург корейского происхождения, лауреат премии Акутагавы (1997).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%BE%8E%E9%87%8C"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Miri_Yu.png",
+   "image": "images/person_yumiri.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q8435594",
    "name_ru": "Бандо Масако",
    "name_orig": "坂東眞砂子",
    "sort": "Бандо",
-   "id": "bandomasak"
+   "id": "bandomasak",
+   "bio": "Бандо Масако (1958–2014) — японская писательница из префектуры Коти, автор мистической прозы, лауреат премии Наоки.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%9D%82%E6%9D%B1%E7%9C%9E%E7%A0%82%E5%AD%90"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q10943102",
    "name_ru": "Сэноо Каппа",
    "name_orig": "妹尾河童",
    "sort": "Сэноо",
-   "id": "senookappa"
+   "id": "senookappa",
+   "bio": "Сэноо Каппа (род. 1930, Кобе) — японский театральный художник и писатель, автор автобиографического романа «Мальчик по прозвищу Эйч».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A6%B9%E5%B0%BE%E6%B2%B3%E7%AB%A5"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2753679",
    "name_ru": "Нисикава Дзёкэн",
    "name_orig": "西川如見",
    "sort": "Нисикава",
-   "id": "nisikavadzeke"
+   "id": "nisikavadzeke",
+   "bio": "Нисикава Дзёкэн (1648–1724) — японский астроном и географ из Нагасаки, конфуцианский учёный эпохи Эдо.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%B7%9D%E5%A6%82%E8%A6%8B"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1721396",
    "name_ru": "Кайбара Экикэн",
    "name_orig": "貝原益軒",
    "sort": "Кайбара",
-   "id": "ekikenkeybe"
+   "id": "ekikenkeybe",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Portrait-Kaibara-Ekiken-%28cropped%29-c1700.png",
+   "image": "images/person_ekikenkeybe.png"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q2980907",
    "name_ru": "Укон",
    "name_orig": "右近",
    "sort": "Укон",
-   "id": "ukon"
+   "id": "ukon",
+   "bio": "Укон — придворная поэтесса X века, служила императрице Онси; её танка вошла в «Хякунин иссю».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E5%8F%B3%E8%BF%91"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:The_poetess_Ukon.jpg",
+   "image": "images/person_ukon.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Накацукаса",
    "name_orig": "中務",
    "sort": "Накацукаса",
-   "id": "nakatsukasa"
+   "id": "nakatsukasa",
+   "bio": "Накацукаса (ок. 912 — ок. 991) — поэтесса периода Хэйан, дочь принца Ацуёси и поэтессы Исэ; одна из «тридцати шести бессмертных поэтов».",
+   "bio_src": {
+    "name": "Котобанк",
+    "url": "https://kotobank.jp/word/%E4%B8%AD%E5%8B%99"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11451658",
    "name_ru": "Анно Масаки",
    "name_orig": "安野眞幸",
    "sort": "Анно",
-   "id": "annomasak"
+   "id": "annomasak",
+   "bio": "Анно Масаки (род. 1940) — японский историк, исследователь средневековой Японии и истории Нагасаки.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8E%E7%9C%9E%E5%B9%B8"
+   }
   },
   {
    "wikidata": null,
@@ -2805,11 +3462,16 @@
    "id": "sudzukikodzi"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q3194485",
    "name_ru": "Юмото Кадзуми",
    "name_orig": "湯本香樹実",
    "sort": "Юмото",
-   "id": "yumotokadzu"
+   "id": "yumotokadzu",
+   "bio": "Юмото Кадзуми (род. 1959, Токио) — японская писательница и сценаристка, автор повести «Друзья» («Нацу-но нива»).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%9C%AC%E9%A6%99%E6%A8%B9%E5%AE%9F"
+   }
   },
   {
    "wikidata": "Q3194491",
@@ -2828,19 +3490,26 @@
    "id": "kiknadzediana"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4292588",
    "name_ru": "Мещеряков Александр",
    "name_orig": null,
    "sort": "Мещеряков",
    "id": "mescheryakovaleks",
-   "full_name": "Мещеряков Александр Николаевич"
+   "full_name": "Мещеряков Александр Николаевич",
+   "image_src": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%89%D0%B5%D1%80%D1%8F%D0%BA%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87.jpg",
+   "image": "images/person_mescheryakovaleks.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Грачёв Максим",
    "name_orig": null,
    "sort": "Грачёв",
-   "id": "grachevmaksi"
+   "id": "grachevmaksi",
+   "bio": "Максим Васильевич Грачёв — историк-японист, кандидат исторических наук, доцент ИСАА МГУ; специалист по истории древней и средневековой Японии, соавтор А. Н. Мещерякова по «Истории древней Японии».",
+   "bio_src": {
+    "name": "сайт ГАУГН",
+    "url": "https://gaugn.ru/obrazovanie/faculties/oriental/employee/2020/"
+   }
   },
   {
    "wikidata": null,
@@ -2861,14 +3530,20 @@
    "name_ru": "Симонова-Гудзенко Екатерина",
    "name_orig": null,
    "sort": "Симонова-Гудзенко",
-   "id": "simonovagudzenkoekate"
+   "id": "simonovagudzenkoekate",
+   "bio": "Екатерина Константиновна Симонова-Гудзенко — историк-японист, преподаватель Института стран Азии и Африки МГУ, исследователь японской картографии и культуры.",
+   "bio_src": {
+    "name": "сайт НИУ ВШЭ",
+    "url": "https://iocs.hse.ru/rc19"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q97210303",
    "name_ru": "Ермакова Людмила",
    "name_orig": null,
    "sort": "Ермакова",
-   "id": "ermakovalyudmi"
+   "id": "ermakovalyudmi",
+   "full_name": "Ермакова Людмила Михайловна"
   },
   {
    "wikidata": null,
@@ -2885,32 +3560,46 @@
    "id": "polkhovstani"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q5369952",
    "name_ru": "Ёмота Инухико",
    "name_orig": "四方田犬彦",
    "sort": "Ёмота",
-   "id": "inukhikoemota"
+   "id": "inukhikoemota",
+   "bio": "Ёмота Инухико (род. 1953) — японский критик и исследователь кино и культуры, автор книги «Теория каваии».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E6%96%B9%E7%94%B0%E7%8A%AC%E5%BD%A6"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4719754",
    "name_ru": "Панов Александр",
    "name_orig": null,
    "sort": "Панов",
-   "id": "panovaleks"
+   "id": "panovaleks",
+   "full_name": "Панов Александр Николаевич"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q21644586",
    "name_ru": "Стрельцов Дмитрий",
    "name_orig": null,
    "sort": "Стрельцов",
-   "id": "streltsovdmitr"
+   "id": "streltsovdmitr",
+   "full_name": "Стрельцов Дмитрий Викторович",
+   "image_src": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D1%86%D0%BE%D0%B2.jpg",
+   "image": "images/person_streltsovdmitr.jpg"
   },
   {
    "wikidata": null,
    "name_ru": "Чугров Сергей",
    "name_orig": null,
    "sort": "Чугров",
-   "id": "chugrovserge"
+   "id": "chugrovserge",
+   "bio": "Сергей Владиславович Чугров — японовед и социолог, выпускник МГИМО (1973), кандидат исторических наук, доктор социологических наук, профессор МГИМО, главный редактор журнала «Полис».",
+   "bio_src": {
+    "name": "сайт МГИМО",
+    "url": "https://mgimo.ru/people/chugrov/"
+   }
   },
   {
    "wikidata": null,
@@ -2920,18 +3609,28 @@
    "id": "vinogradovatatya"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11419132",
    "name_ru": "Китагава Ясуси",
    "name_orig": "喜多川泰",
    "sort": "Китагава",
-   "id": "kitagavayasusi"
+   "id": "kitagavayasusi",
+   "bio": "Китагава Ясуси (род. 1970) — японский писатель, автор вдохновляющих романов-притч.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%96%9C%E5%A4%9A%E5%B7%9D%E6%B3%B0"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11533795",
    "name_ru": "Касивай Хисаси",
    "name_orig": "柏井壽",
    "sort": "Касивай",
-   "id": "kasivaykhisas"
+   "id": "kasivaykhisas",
+   "bio": "Касивай Хисаси (род. 1952, Киото) — японский писатель и стоматолог, автор серии «Ресторанчик Камогава».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9F%8F%E6%9C%A8%E5%9C%AD%E4%B8%80%E9%83%8E"
+   }
   },
   {
    "wikidata": "Q125970",
@@ -2948,11 +3647,18 @@
    "id": "isidase"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q107585585",
    "name_ru": "Кавагути Тосикадзу",
    "name_orig": "川口俊和",
    "sort": "Кавагути",
-   "id": "kavagutitosik"
+   "id": "kavagutitosik",
+   "bio": "Кавагути Тосикадзу (род. 1971, Осака) — японский драматург и писатель, автор цикла «Пока не остыл кофе».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A3%E4%BF%8A%E5%92%8C"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Toshikazu_Kawaguchi_%282%29.jpg",
+   "image": "images/person_kavagutitosik.jpg"
   },
   {
    "wikidata": null,
@@ -2962,18 +3668,30 @@
    "id": "simenonagi"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q24871921",
    "name_ru": "Ягисава Сатоси",
    "name_orig": "八木沢里志",
    "sort": "Ягисава",
-   "id": "yagisavasatos"
+   "id": "yagisavasatos",
+   "bio": "Ягисава Сатоси (род. 1977, Тиба) — японский писатель, автор романов «Дни в книжном Морисаки» и «Вечера в книжном Морисаки».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%85%AB%E6%9C%A8%E6%B2%A2%E9%87%8C%E5%BF%97"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Satoshi_Yagisawa.jpg",
+   "image": "images/person_yagisavasatos.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11671442",
    "name_ru": "Такахаси Юта",
    "name_orig": "高橋由太",
    "sort": "Такахаси",
-   "id": "takakhasiyuta"
+   "id": "takakhasiyuta",
+   "bio": "Такахаси Юта (род. 1972, префектура Тиба) — японский писатель, автор развлекательной прозы.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%94%B1%E5%A4%AA"
+   }
   },
   {
    "wikidata": null,
@@ -2990,25 +3708,40 @@
    "id": "keiaono"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11477529",
    "name_ru": "Каваками Тэцуя",
    "name_orig": "川上徹也",
    "sort": "Каваками",
-   "id": "kavakamitetsuya"
+   "id": "kavakamitetsuya",
+   "bio": "Каваками Тэцуя — японский писатель и копирайтер из префектуры Осака, автор романа «Что я узнала в книжном Кобаяси».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E4%B8%8A%E5%BE%B9%E4%B9%9F"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11469030",
    "name_ru": "Ямамото Юкихиса",
    "name_orig": "山本幸久",
    "sort": "Ямамото",
-   "id": "yamamotoyukikhi"
+   "id": "yamamotoyukikhi",
+   "bio": "Ямамото Юкихиса (род. 1966, Токио) — японский писатель, автор романа «Цветочная лавка на краю ночи».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E6%9C%AC%E5%B9%B8%E4%B9%85"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11414754",
    "name_ru": "Натори Савако",
    "name_orig": "名取佐和子",
    "sort": "Натори",
-   "id": "natorisavak"
+   "id": "natorisavak",
+   "bio": "Натори Савако (род. 1973, Кобе) — японская писательница, автор «Книжного магазинчика по пятницам».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%96%E4%BD%90%E5%92%8C%E5%AD%90"
+   }
   },
   {
    "wikidata": null,
@@ -3018,53 +3751,90 @@
    "id": "aotsukikairi"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q24201523",
    "name_ru": "Мотидзуки Маи",
    "name_orig": "望月麻衣",
    "sort": "Мотидзуки",
-   "id": "motidzukimai"
+   "id": "motidzukimai",
+   "bio": "Мотидзуки Маи (род. 1975, Хоккайдо) — японская писательница, автор серии «Кошачье кафе „Полнолуние“».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9C%9B%E6%9C%88%E9%BA%BB%E8%A1%A3_(%E4%BD%9C%E5%AE%B6)"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q24068773",
    "name_ru": "Сукэгава Дуриан",
    "name_orig": "ドリアン助川",
    "sort": "Сукэгава",
-   "id": "sukegavaduria"
+   "id": "sukegavaduria",
+   "bio": "Дуриан Сукэгава (род. 1962, Токио) — японский писатель, поэт и музыкант, автор романа «Сладкая бобовая паста» («Ан»), экранизированного Наоми Кавасэ.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%E5%8A%A9%E5%B7%9D"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:OIFF_2015-07-18_131257_-_Durian_Sukegawa.jpg",
+   "image": "images/person_sukegavaduria.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11364035",
    "name_ru": "Накаяма Ситири",
    "name_orig": "中山七里",
    "sort": "Накаяма",
-   "id": "nakayamasitir"
+   "id": "nakayamasitir",
+   "bio": "Накаяма Ситири (род. 1961, префектура Гифу) — японский автор детективов, лауреат премии «Этот детектив потрясающий!».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B1%B1%E4%B8%83%E9%87%8C_(%E5%B0%8F%E8%AA%AC%E5%AE%B6)"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q549145",
    "name_ru": "Хигасигава Токуя",
    "name_orig": "東川篤哉",
    "sort": "Хигасигава",
-   "id": "khigasigavatokuya"
+   "id": "khigasigavatokuya",
+   "bio": "Хигасигава Токуя (род. 1968, Ономити) — японский автор юмористических детективов; «Загадки после ужина» получили Премию книжных магазинов (2011).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B7%9D%E7%AF%A4%E5%93%89"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11429993",
    "name_ru": "Нацукава Сосукэ",
    "name_orig": "夏川草介",
    "sort": "Нацукава",
-   "id": "natsukavasosuk"
+   "id": "natsukavasosuk",
+   "bio": "Нацукава Сосукэ (род. 1978, Осака) — японский писатель и врач, автор цикла «Доктор Курихара» и романа «Кот, который любил книги».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E5%B7%9D%E8%8D%89%E4%BB%8B"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11538751",
    "name_ru": "Нисики Кахо",
    "name_orig": "梨木香歩",
    "sort": "Нисики",
-   "id": "nasikikakho"
+   "id": "nasikikakho",
+   "bio": "Нисики Кахо (род. 1959, Кагосима) — японская писательница, автор повести «Ведьма Запада мертва» (1994).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%A2%A8%E6%9C%A8%E9%A6%99%E6%AD%A9"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11609494",
    "name_ru": "Мурэ Йоко",
    "name_orig": "群ようこ",
    "sort": "Мурэ",
-   "id": "mureyoko"
+   "id": "mureyoko",
+   "bio": "Мурэ Йоко (род. 1954) — японская писательница и эссеистка, автор романа «Кафе „Чайка“» и «Дней хлеба, супа и котов».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%88%E3%81%86%E3%81%93"
+   }
   },
   {
    "wikidata": null,
@@ -3081,60 +3851,104 @@
    "id": "kanekoyumi"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q28690182",
    "name_ru": "Матида Соноко",
    "name_orig": "町田そのこ",
    "sort": "Матида",
-   "id": "matidasonok"
+   "id": "matidasonok",
+   "bio": "Матида Соноко (род. 1980, префектура Фукуока) — японская писательница; роман «Песнь одиноких китов на частоте 52 Гц» получил Премию книжных магазинов (2021).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E7%94%BA%E7%94%B0%E3%81%9D%E3%81%AE%E3%81%93"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q7703910",
    "name_ru": "Цудзимура Мидзуки",
    "name_orig": "辻村深月",
    "sort": "Цудзимура",
-   "id": "tsudzimuramidzu"
+   "id": "tsudzimuramidzu",
+   "bio": "Цудзимура Мидзуки (род. 1980, Фуэфуки) — японская писательница, лауреат премии Наоки (2012). «Одинокий замок в зазеркалье» получил Премию книжных магазинов (2018).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E8%BE%BB%E6%9D%91%E6%B7%B1%E6%9C%88"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q844318",
    "name_ru": "Хасэ Сэйсю",
    "name_orig": "馳星周",
    "sort": "Хасэ",
-   "id": "khaseseysyu"
+   "id": "khaseseysyu",
+   "bio": "Хасэ Сэйсю (род. 1965, Хоккайдо) — японский писатель, автор нуар-романов. «Мальчик и пёс» получил премию Наоки (2020).",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E9%A6%B3%E6%98%9F%E5%91%A8"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q20041193",
    "name_ru": "Такэда Аяно",
    "name_orig": "武田綾乃",
    "sort": "Такэда",
-   "id": "takedaayano"
+   "id": "takedaayano",
+   "bio": "Такэда Аяно (род. 1992, префектура Киото) — японская писательница, автор цикла «Звучи, эуфониум!», экранизированного студией Kyoto Animation.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%AD%A6%E7%94%B0%E7%B6%BE%E4%B9%83"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q17215922",
    "name_ru": "Хиираги Санаки",
    "name_orig": "柊サナカ",
    "sort": "Хиираги",
-   "id": "khiiragisanak"
+   "id": "khiiragisanak",
+   "bio": "Хиираги Санаки (род. 1974, префектура Кагава) — японская писательница, автор романа «Фотоателье господина Хирасаки».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9F%8A%E3%82%B5%E3%83%8A%E3%82%AB"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11409739",
    "name_ru": "Харада Хика",
    "name_orig": "原田ひ香",
    "sort": "Харада",
-   "id": "kharadakhika"
+   "id": "kharadakhika",
+   "bio": "Харада Хика (род. 1970, префектура Канагава) — японская писательница и сценаристка, автор романа «Дневник преступлений Кирико».",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%94%B0%E3%81%B2%E9%A6%99"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1934587",
    "name_ru": "Флашар Милена Митико",
    "name_orig": "Milena Michiko Flašar",
    "sort": "Флашар",
-   "id": "flasharmilen"
+   "id": "flasharmilen",
+   "bio": "Милена Митико Флашар (род. 1980, Санкт-Пёльтен) — австрийская писательница японско-австрийского происхождения; роман «Я назвал его Галстук» переведён на многие языки.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q1934587"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Milena_Michiko_Flasar_-_Buch_Wien_2025.JPG",
+   "image": "images/person_flasharmilen.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q28464796",
    "name_ru": "Дюсапен Элиза Суа",
    "name_orig": "Elisa Shua Dusapin",
    "sort": "Дюсапен",
-   "id": "dyusapeneliza"
+   "id": "dyusapeneliza",
+   "bio": "Элиза Суа Дюсапен (род. 1992) — швейцарская писательница французско-корейского происхождения. Роман «Зима в Сокчхо» получил Национальную книжную премию США за переводную литературу (2021).",
+   "bio_src": {
+    "name": "Википедия (англ.)",
+    "url": "https://en.wikipedia.org/wiki/Elisa_Shua_Dusapin"
+   },
+   "image_src": "https://commons.wikimedia.org/wiki/File:Elisa_Shua_Dusapin%2C_2018_%28cropped%29.jpg",
+   "image": "images/person_dyusapeneliza.jpg"
   },
   {
    "wikidata": null,
@@ -3345,6 +4159,11 @@
    "name_orig": "大佛次郎",
    "sort": "Осараги",
    "id": "osaragidziro",
+   "bio": "Осараги Дзиро (1897–1973) — японский писатель из Иокогамы, мастер исторической прозы, автор романа «Верные вассалы» («Ако росси») и цикла о Курама Тэнгу.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%BD%9B%E6%AC%A1%E9%83%8E"
+   },
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiro%20Osaragi%201925.jpg?width=240",
    "image": "images/person_osaragidziro.jpg"
   },
@@ -3560,7 +4379,7 @@
    "id": "senoeriko"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4141766",
    "name_ru": "Головачев Валентин",
    "name_orig": null,
    "sort": "Головачев",
@@ -3568,7 +4387,7 @@
    "full_name": "Головачев Валентин Цуньлиевич"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4300717",
    "name_ru": "Молодяков Василий",
    "name_orig": null,
    "sort": "Молодяков",
@@ -3576,7 +4395,7 @@
    "full_name": "Молодяков Василий Элинархович"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q96184235",
    "name_ru": "Арешидзе Лиана",
    "name_orig": null,
    "sort": "Арешидзе",
@@ -3597,7 +4416,12 @@
    "name_orig": null,
    "sort": "Крупянко",
    "id": "iva7d305bdd",
-   "full_name": "Крупянко Михаил Иванович"
+   "full_name": "Крупянко Михаил Иванович",
+   "bio": "Михаил Иванович Крупянко — японовед, доктор политических наук, исследователь внешней политики Японии и японо-российских отношений.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=40"
+   }
   },
   {
    "wikidata": null,
@@ -3613,7 +4437,14 @@
    "name_orig": null,
    "sort": "Лебедева",
    "id": "ivad60d6736",
-   "full_name": "Лебедева Ирина Павловна"
+   "full_name": "Лебедева Ирина Павловна",
+   "bio": "Ирина Павловна Лебедева — японовед-экономист, доктор экономических наук, главный научный сотрудник Центра японских исследований ИВ РАН, где работает с 1972 года.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/persons/Lebedeva_Irina"
+   },
+   "image_src": "https://ivran.ru/sites/28/files/Lebedeva.jpg",
+   "image": "images/person_ivad60d6736.jpg"
   },
   {
    "wikidata": null,
@@ -3621,7 +4452,14 @@
    "name_orig": null,
    "sort": "Маркарьянц (Маркарьян)",
    "id": "iva4fbca916",
-   "full_name": "Маркарьянц (Маркарьян) Седа Багдасаровна"
+   "full_name": "Маркарьянц (Маркарьян) Седа Багдасаровна",
+   "bio": "Седа Багдасаровна Маркарьянц (род. 1928, Москва) — японовед-экономист, доктор экономических наук (1989). Окончила Московский институт востоковедения (1950), сотрудник ИВ РАН; автор более 200 работ о социально-экономических проблемах Японии.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/persons/98"
+   },
+   "image_src": "https://ivran.ru/sites/28/files/Markaryan_Seda_Bagdasarovna.jpg",
+   "image": "images/person_iva4fbca916.jpg"
   },
   {
    "wikidata": null,
@@ -3629,10 +4467,15 @@
    "name_orig": null,
    "sort": "Добринская",
    "id": "ivae17e9289",
-   "full_name": "Добринская Ольга Алексеевна"
+   "full_name": "Добринская Ольга Алексеевна",
+   "bio": "Ольга Алексеевна Добринская — японовед, кандидат исторических наук; преподаватель Дипломатической академии МИД России и МГУ, научный сотрудник ИВ РАН. Исследует внешнюю политику Японии.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/book?id=5133"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4300716",
    "name_ru": "Молодякова Эльгена",
    "name_orig": null,
    "sort": "Молодякова",
@@ -3653,10 +4496,17 @@
    "name_orig": null,
    "sort": "Скворцова",
    "id": "iva4428c0ba",
-   "full_name": "Скворцова Елена Львовна"
+   "full_name": "Скворцова Елена Львовна",
+   "bio": "Елена Львовна Скворцова — философ-японист, доктор философских наук, ведущий научный сотрудник Отдела сравнительного культуроведения ИВ РАН.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/persons/SkvortsovaElena"
+   },
+   "image_src": "https://ivran.ru/sites/28/files/Skvorcova-1.jpg",
+   "image": "images/person_iva4428c0ba.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q97210562",
    "name_ru": "Катасонова Елена",
    "name_orig": null,
    "sort": "Катасонова",
@@ -3669,7 +4519,12 @@
    "name_orig": null,
    "sort": "Матрусова",
    "id": "iva8b1ec240",
-   "full_name": "Матрусова Татьяна Николаевна"
+   "full_name": "Матрусова Татьяна Николаевна",
+   "bio": "Татьяна Николаевна Матрусова — японовед-экономист, кандидат экономических наук, член Ассоциации японоведов.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/sites/31/files/yaponskaya-kulturana-sajt.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -3677,7 +4532,12 @@
    "name_orig": null,
    "sort": "Полхов",
    "id": "iva63432f7b",
-   "full_name": "Полхов Святослав Александрович"
+   "full_name": "Полхов Святослав Александрович",
+   "bio": "Святослав Александрович Полхов — историк-японист, кандидат исторических наук, старший научный сотрудник ИВ РАН; переводчик «Записей о князе Нобунага» О:ты Гю:ити.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/articles?artid=16325"
+   }
   },
   {
    "wikidata": null,
@@ -3685,7 +4545,12 @@
    "name_orig": null,
    "sort": "Федянина",
    "id": "iva307fd13a",
-   "full_name": "Федянина Владлена Анаталоьевна"
+   "full_name": "Федянина Владлена Анаталоьевна",
+   "bio": "Владлена Анатольевна Федянина — историк-японист, кандидат исторических наук, доцент, заведующая кафедрой японского языка Института иностранных языков МГПУ.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://www.ivran.ru/novosti?artid=18307"
+   }
   },
   {
    "wikidata": null,
@@ -3693,10 +4558,15 @@
    "name_orig": null,
    "sort": "Лещенко",
    "id": "iva1f087573",
-   "full_name": "Лещенко Нелли Федоровна"
+   "full_name": "Лещенко Нелли Федоровна",
+   "bio": "Нелли Фёдоровна Лещенко — историк-японист, кандидат исторических наук (1984), сотрудник ИВ РАН; исследует историю Японии периода Мэйдзи.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ooh.ivran.ru/sites/74/files/Interviu_s_Sarkisovym_Konstantinom_Oganesovichem.pdf"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q97211774",
    "name_ru": "Чегодарь Нина",
    "name_orig": null,
    "sort": "Чегодарь",
@@ -3709,7 +4579,12 @@
    "name_orig": null,
    "sort": "Герасимова",
    "id": "iva971c60ec",
-   "full_name": "Герасимова Майя Петровна"
+   "full_name": "Герасимова Майя Петровна",
+   "bio": "Майя Петровна Герасимова — японист, кандидат филологических наук, старший научный сотрудник ИВ РАН.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ivran.ru/f/%C2%ABVestnik_Instituta_vostokovedeniya_RAN%C2%BB_2020_%E2%84%963.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -3717,10 +4592,15 @@
    "name_orig": null,
    "sort": "Авдаков",
    "id": "ivae69f07ed",
-   "full_name": "Авдаков Игорь Юрьевич"
+   "full_name": "Авдаков Игорь Юрьевич",
+   "bio": "Игорь Юрьевич Авдаков — японовед-экономист, кандидат экономических наук.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=363"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q97209072",
    "name_ru": "Тимонина Ирина",
    "name_orig": null,
    "sort": "Тимонина",
@@ -3728,23 +4608,30 @@
    "full_name": "Тимонина Ирина Львовна"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4062861",
    "name_ru": "Алпатов Владимир",
    "name_orig": null,
    "sort": "Алпатов",
    "id": "ivaa7fe96e9",
-   "full_name": "Алпатов Владимир Михайлович"
+   "full_name": "Алпатов Владимир Михайлович",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Vladimir_Alpatov.jpg",
+   "image": "images/person_ivaa7fe96e9.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q120489911",
    "name_ru": "Аркадьев Петр",
    "name_orig": null,
    "sort": "Аркадьев",
    "id": "ivaa8c74a3e",
-   "full_name": "Аркадьев Петр Михайлович"
+   "full_name": "Аркадьев Петр Михайлович",
+   "bio": "Пётр Аркадьев (род. 1982, Москва) — российский лингвист-типолог, сотрудник Института славяноведения РАН.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q120489911"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q97211186",
    "name_ru": "Подлесская Вера",
    "name_orig": null,
    "sort": "Подлесская",
@@ -3760,7 +4647,7 @@
    "full_name": "Кравцевич Андрей Иванович"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4368178",
    "name_ru": "Подпалова Галина",
    "name_orig": null,
    "sort": "Подпалова",
@@ -3784,7 +4671,7 @@
    "full_name": "Власов Виктор Алексеевич"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q109485883",
    "name_ru": "Попов Вадим",
    "name_orig": null,
    "sort": "Попов",
@@ -3797,7 +4684,12 @@
    "name_orig": null,
    "sort": "Лепехова",
    "id": "iva26fc35bb",
-   "full_name": "Лепехова Елена Сергеевна"
+   "full_name": "Лепехова Елена Сергеевна",
+   "bio": "Елена Сергеевна Лепехова — буддолог, доктор философских наук, старший научный сотрудник ИВ РАН.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://lk.ivran.ru/media/VIOS-2020-1-0033-46.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -3829,7 +4721,12 @@
    "name_orig": null,
    "sort": "Дерюгина",
    "id": "ivaf75fb9b5",
-   "full_name": "Дерюгина Ирина Владимировна"
+   "full_name": "Дерюгина Ирина Владимировна",
+   "bio": "Ирина Владимировна Дерюгина — востоковед-экономист, кандидат экономических наук, исследователь аграрного развития.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=214"
+   }
   },
   {
    "wikidata": null,
@@ -3837,7 +4734,12 @@
    "name_orig": null,
    "sort": "Растянников",
    "id": "iva8cac917d",
-   "full_name": "Растянников Виктор Георгиевич"
+   "full_name": "Растянников Виктор Георгиевич",
+   "bio": "Виктор Георгиевич Растянников — востоковед-экономист, доктор экономических наук, профессор, исследователь аграрных проблем стран Востока.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=34"
+   }
   },
   {
    "wikidata": null,
@@ -3845,10 +4747,15 @@
    "name_orig": null,
    "sort": "Денисов",
    "id": "ivaf28f4fb7",
-   "full_name": "Денисов Юрий Дмитриевич"
+   "full_name": "Денисов Юрий Дмитриевич",
+   "bio": "Юрий Дмитриевич Денисов — японовед, кандидат технических наук, исследователь научно-технического развития Японии.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=369"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4255068",
    "name_ru": "Латышев Игорь",
    "name_orig": null,
    "sort": "Латышев",
@@ -3861,7 +4768,12 @@
    "name_orig": null,
    "sort": "Саркисов",
    "id": "iva378882af",
-   "full_name": "Саркисов Константин Оганесович"
+   "full_name": "Саркисов Константин Оганесович",
+   "bio": "Константин Оганесович Саркисов (род. 1942) — историк-японист, исследователь внешней политики Японии и советско-японских отношений; работал в ИВ РАН и японских университетах.",
+   "bio_src": {
+    "name": "сайт ИВ РАН",
+    "url": "https://ooh.ivran.ru/sites/74/files/Interviu_s_Sarkisovym_Konstantinom_Oganesovichem.pdf"
+   }
   },
   {
    "wikidata": null,
@@ -3872,11 +4784,16 @@
    "full_name": "Подалко Петр Эдуардович"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11551556",
    "name_ru": "Икэгути Экан",
    "name_orig": null,
    "sort": "Икэгути",
-   "id": "iva5f475538"
+   "id": "iva5f475538",
+   "bio": "Икэгути Экан (род. 1936) — японский буддийский монах школы Сингон, настоятель храма Сайфукудзи в Кагосиме, известный огненными обрядами гома.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%B1%A0%E5%8F%A3%E6%81%B5%E8%A6%B3"
+   }
   },
   {
    "wikidata": null,
@@ -3895,11 +4812,13 @@
    "full_name": "Еремин Владимир Николаевич"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q1029656",
    "name_ru": "Танэда Сантока",
    "name_orig": null,
    "sort": "Танэда",
-   "id": "ivaf75e84fd"
+   "id": "ivaf75e84fd",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Taneda_Santoka%2C_year_unknown.jpg",
+   "image": "images/person_ivaf75e84fd.jpg"
   },
   {
    "wikidata": null,
@@ -3909,11 +4828,16 @@
    "id": "iva80f5b4bb"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q11518977",
    "name_ru": "Кимура Хироси",
    "name_orig": null,
    "sort": "Кимура",
-   "id": "ivaa3cfef3c"
+   "id": "ivaa3cfef3c",
+   "bio": "Кимура Хироси (1936–2019) — японский политолог-русист, профессор Хоккайдского университета и Международного центра японских исследований.",
+   "bio_src": {
+    "name": "Википедия (яп.)",
+    "url": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%9D%91%E6%B1%8E"
+   }
   },
   {
    "wikidata": null,
@@ -3940,12 +4864,17 @@
    "full_name": "Сутягина Маргарита Васильевна"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q78171745",
    "name_ru": "Эйдус Хаим",
    "name_orig": null,
    "sort": "Эйдус",
    "id": "ivab000f4c0",
-   "full_name": "Эйдус Хаим Тевелевич"
+   "full_name": "Эйдус Хаим Тевелевич",
+   "bio": "Хаим Тевелевич Эйдус (1896–1972) — советский японовед, доктор исторических наук, профессор; автор и редактор работ по истории Японии XX века.",
+   "bio_src": {
+    "name": "Викиданные",
+    "url": "https://www.wikidata.org/wiki/Q78171745"
+   }
   },
   {
    "wikidata": "Q4181364",
@@ -3964,7 +4893,7 @@
    "image_src": "https://upload.wikimedia.org/wikipedia/ru/1/1f/%D0%96%D1%83%D0%BA%D0%BE%D0%B2%2C_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87.jpg"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q16635648",
    "name_ru": "Гальперин Александр",
    "name_orig": null,
    "sort": "Гальперин",
@@ -4009,10 +4938,15 @@
    "name_orig": null,
    "sort": "Костыркин",
    "id": "ivab195667a",
-   "full_name": "Костыркин Александр Вячеславович"
+   "full_name": "Костыркин Александр Вячеславович",
+   "bio": "Александр Вячеславович Костыркин — японист-лингвист, кандидат филологических наук, специалист по японско-русской лексикографии.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=241"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4519802",
    "name_ru": "Шаляпина Зоя",
    "name_orig": null,
    "sort": "Шаляпина",
@@ -4025,7 +4959,12 @@
    "name_orig": null,
    "sort": "Серова",
    "id": "iva774bdf4d",
-   "full_name": "Серова Светлана Андреевна"
+   "full_name": "Серова Светлана Андреевна",
+   "bio": "Светлана Андреевна Серова — востоковед, исследователь театральной культуры, доктор наук; сотрудник ИВ РАН.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=50"
+   }
   },
   {
    "wikidata": null,
@@ -4044,7 +4983,7 @@
    "full_name": "Каткова Зоя Дмитриевна"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4517697",
    "name_ru": "Чудодеев Юрий",
    "name_orig": null,
    "sort": "Чудодеев",
@@ -4065,7 +5004,12 @@
    "name_orig": null,
    "sort": "Досовицкая",
    "id": "ivab4ad3043",
-   "full_name": "Досовицкая Вера Валерьевна"
+   "full_name": "Досовицкая Вера Валерьевна",
+   "bio": "Вера Валерьевна Досовицкая — историк-японист, кандидат исторических наук.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=121"
+   }
   },
   {
    "wikidata": null,
@@ -4081,7 +5025,12 @@
    "name_orig": null,
    "sort": "Нелидов",
    "id": "iva7e1a44b6",
-   "full_name": "Нелидов Владимир Владимирович"
+   "full_name": "Нелидов Владимир Владимирович",
+   "bio": "Владимир Владимирович Нелидов — японовед, кандидат исторических наук, магистр политологии и регионоведения; исследует внешнюю политику Японии.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=1188"
+   }
   },
   {
    "wikidata": null,
@@ -4089,10 +5038,15 @@
    "name_orig": null,
    "sort": "Ледовская",
    "id": "ivad0b4bcfd",
-   "full_name": "Ледовская Ольга Андреевна"
+   "full_name": "Ледовская Ольга Андреевна",
+   "bio": "Ольга Андреевна Ледовская — востоковед, кандидат исторических наук.",
+   "bio_src": {
+    "name": "каталог ИВ РАН",
+    "url": "https://book.ivran.ru/authors?id=349"
+   }
   },
   {
-   "wikidata": null,
+   "wikidata": "Q109492248",
    "name_ru": "Кадырбаев Александр",
    "name_orig": null,
    "sort": "Кадырбаев",
@@ -4100,11 +5054,13 @@
    "full_name": "Кадырбаев Александр Шайдатович"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q332975",
    "name_ru": "Таяма Катай",
    "name_orig": null,
    "sort": "Таяма",
-   "id": "ivae502124a"
+   "id": "ivae502124a",
+   "image_src": "https://commons.wikimedia.org/wiki/File:Tayama_Katai%2C_November_1927.jpg",
+   "image": "images/person_ivae502124a.jpg"
   },
   {
    "wikidata": null,
@@ -4131,12 +5087,14 @@
    "full_name": "Попов Герман Васильевич"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q4246023",
    "name_ru": "Куланов Александр",
    "name_orig": null,
    "sort": "Куланов",
    "id": "iva08616307",
-   "full_name": "Куланов Александр Евгеньевич"
+   "full_name": "Куланов Александр Евгеньевич",
+   "image_src": "https://commons.wikimedia.org/wiki/File:IMG_Kulanov.jpg",
+   "image": "images/person_iva08616307.jpg"
   },
   {
    "wikidata": null,
@@ -5064,7 +6022,9 @@
    "name_ru": "Мещеряков Александр",
    "short": "А. Мещеряков",
    "sort": "Мещеряков",
-   "id": "mescheryakovaleks"
+   "id": "mescheryakovaleks",
+   "image_src": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%89%D0%B5%D1%80%D1%8F%D0%BA%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87.jpg",
+   "image": "images/person_mescheryakovaleks.jpg"
   },
   {
    "wikidata": null,
@@ -5902,7 +6862,15 @@
     "эстетика",
     "культура"
    ],
-   "source": "https://ru.wikipedia.org/wiki/Григорьева,_Татьяна_Петровна"
+   "source": "https://ru.wikipedia.org/wiki/Григорьева,_Татьяна_Петровна",
+   "cover": "images/cover_b13.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000574175"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000574175/200x305/5980/boocover.jpg"
   },
   {
    "id": "s1",
@@ -6865,7 +7833,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x1.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001282169"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001282169/200x305/08f8/boocover.jpg"
   },
   {
    "id": "x2",
@@ -6980,7 +7956,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x5.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1009931431"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1009931431/200x305/14e6/boocover.jpg"
   },
   {
    "id": "x6",
@@ -7135,7 +8119,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x10.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000013794"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000013794/200x305/cef1/boocover.jpg"
   },
   {
    "id": "x11",
@@ -7160,7 +8152,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x11.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000202089"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000202089/200x305/8238/boocover.jpg"
   },
   {
    "id": "x12",
@@ -7222,7 +8222,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x14.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000581321"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000581321/200x305/3ba4/boocover.jpg"
   },
   {
    "id": "x16",
@@ -7247,7 +8255,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x16.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000463259"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000463259/200x305/2dd2/boocover.jpg"
   },
   {
    "id": "x17",
@@ -7813,7 +8829,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x18.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002620515"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002620515/200x305/d822/boocover.jpg"
   },
   {
    "id": "x19",
@@ -8001,7 +9025,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x19.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000602156"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000602156/200x305/28d7/boocover.jpg"
   },
   {
    "id": "x20",
@@ -8142,7 +9174,15 @@
    "added": "2026-11-08",
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x21.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000230494"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000230494/200x305/29ef/boocover.jpg"
   },
   {
    "id": "x22",
@@ -8176,7 +9216,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x22.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002044494"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002044494/200x305/de30/boocover.jpg"
   },
   {
    "id": "x23",
@@ -8288,7 +9336,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x27.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000600886"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000600886/200x305/8524/boocover.jpg"
   },
   {
    "id": "x28",
@@ -8390,7 +9446,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x30.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001518030"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001518030/200x305/f4a1/boocover.jpg"
   },
   {
    "id": "x31",
@@ -8467,7 +9531,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x32.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1007871163"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1007871163/200x305/261f/boocover.jpg"
   },
   {
    "id": "x33",
@@ -8501,7 +9573,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x33.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1005918610"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1005918610/200x305/261f/boocover.jpg"
   },
   {
    "id": "x34",
@@ -8574,7 +9654,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x35.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1004154190"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1004154190/200x305/bec9/boocover.jpg"
   },
   {
    "id": "x36",
@@ -8605,7 +9693,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x36.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000153512"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000153512/200x305/0cf5/boocover.jpg"
   },
   {
    "id": "x37",
@@ -16121,7 +17217,15 @@
    "added": "2026-11-08",
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x37.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000015404"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000015404/200x305/cd9c/boocover.jpg"
   },
   {
    "id": "x38",
@@ -16260,7 +17364,15 @@
    "added": "2026-11-08",
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x38.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000007552"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000007552/200x305/43a1/boocover.jpg"
   },
   {
    "id": "x39",
@@ -16295,7 +17407,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x39.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002596936"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002596936/200x305/49c8/boocover.jpg"
   },
   {
    "id": "x40",
@@ -16323,7 +17443,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x40.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1003694912"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1003694912/200x305/df89/boocover.jpg"
   },
   {
    "id": "x42",
@@ -16375,7 +17503,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x42.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000007249"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000007249/200x305/ad9b/boocover.jpg"
   },
   {
    "id": "x43",
@@ -16402,7 +17538,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x43.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000382685"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000382685/200x305/73ae/boocover.jpg"
   },
   {
    "id": "x44",
@@ -16477,7 +17621,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x45.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000626505"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000626505/200x305/cdd3/boocover.jpg"
   },
   {
    "id": "x46",
@@ -16511,7 +17663,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x46.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001446582"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001446582/200x305/d845/boocover.jpg"
   },
   {
    "id": "x48",
@@ -16538,7 +17698,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x48.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000117653"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000117653/200x305/a0de/boocover.jpg"
   },
   {
    "id": "x49",
@@ -16568,7 +17736,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x49.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000109047"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000109047/200x305/f2c0/boocover.jpg"
   },
   {
    "id": "x50",
@@ -16595,7 +17771,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x50.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000203659"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000203659/200x305/796d/boocover.jpg"
   },
   {
    "id": "x51",
@@ -16622,7 +17806,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x51.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000574057"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000574057/200x305/5980/boocover.jpg"
   },
   {
    "id": "x52",
@@ -16649,7 +17841,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x52.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000542113"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000542113/200x305/3b80/boocover.jpg"
   },
   {
    "id": "x53",
@@ -16686,7 +17886,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x53.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000180021"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000180021/200x305/248f/boocover.jpg"
   },
   {
    "id": "x54",
@@ -16747,7 +17955,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x55.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000221876"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000221876/200x305/de84/boocover.jpg"
   },
   {
    "id": "x56",
@@ -16779,7 +17995,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x56.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008462338"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008462338/200x305/261f/boocover.jpg"
   },
   {
    "id": "x57",
@@ -16811,7 +18035,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x57.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002978547"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002978547/200x305/eaec/boocover.jpg"
   },
   {
    "id": "x58",
@@ -16844,7 +18076,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x58.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000121706"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000121706/200x305/b23f/boocover.jpg"
   },
   {
    "id": "x59",
@@ -16871,7 +18111,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x59.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000953321"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000953321/200x305/e276/boocover.jpg"
   },
   {
    "id": "x60",
@@ -16954,7 +18202,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x61.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000589439"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000589439/200x305/1491/boocover.jpg"
   },
   {
    "id": "x62",
@@ -17006,7 +18262,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x62.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000638789"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000638789/200x305/c125/boocover.jpg"
   },
   {
    "id": "x63",
@@ -17046,7 +18310,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x63.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000308548"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000308548/200x305/b685/boocover.jpg"
   },
   {
    "id": "x64",
@@ -17079,7 +18351,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x64.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000694363"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000694363/200x305/01f4/boocover.jpg"
   },
   {
    "id": "x66",
@@ -17156,7 +18436,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x67.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000589444"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000589444/200x305/1491/boocover.jpg"
   },
   {
    "id": "x68",
@@ -17186,7 +18474,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x68.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000309645"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000309645/200x305/2271/boocover.jpg"
   },
   {
    "id": "x69",
@@ -17309,7 +18605,15 @@
    "added": "2026-11-08",
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x70.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000482046"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000482046/200x305/8a63/boocover.jpg"
   },
   {
    "id": "x71",
@@ -17372,7 +18676,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x72.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002750096"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002750096/200x305/5d43/boocover.jpg"
   },
   {
    "id": "x73",
@@ -17402,7 +18714,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x73.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000087438"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000087438/200x305/244a/boocover.jpg"
   },
   {
    "id": "x74",
@@ -17459,7 +18779,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x75.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1005634279"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1005634279/200x305/769b/boocover.jpg"
   },
   {
    "id": "x76",
@@ -17486,7 +18814,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x76.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002222367"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002222367/200x305/fba7/boocover.jpg"
   },
   {
    "id": "x77",
@@ -17555,7 +18891,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x78.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008394390"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008394390/200x305/3cb6/boocover.jpg"
   },
   {
    "id": "x79",
@@ -17582,7 +18926,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x79.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000741531"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000741531/200x305/7664/boocover.jpg"
   },
   {
    "id": "x80",
@@ -17714,7 +19066,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x83.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000526906"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000526906/200x305/6616/boocover.jpg"
   },
   {
    "id": "x84",
@@ -17746,7 +19106,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x84.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000446009"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000446009/200x305/192d/boocover.jpg"
   },
   {
    "id": "x85",
@@ -18134,7 +19502,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x87.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001300257"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001300257/200x305/cf0b/boocover.jpg"
   },
   {
    "id": "x88",
@@ -18193,7 +19569,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x89.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001097310"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001097310/200x305/9ff7/boocover.jpg"
   },
   {
    "id": "x90",
@@ -18227,7 +19611,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x90.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000579643"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000579643/200x305/9088/boocover.jpg"
   },
   {
    "id": "x91",
@@ -18333,7 +19725,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x93.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000073441"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000073441/200x305/f96d/boocover.jpg"
   },
   {
    "id": "x94",
@@ -18364,7 +19764,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x94.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1013331901"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1013331901/200x305/261f/boocover.jpg"
   },
   {
    "id": "x95",
@@ -18420,7 +19828,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x96.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000576373"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000576373/200x305/d492/boocover.jpg"
   },
   {
    "id": "x99",
@@ -18447,7 +19863,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x99.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000486491"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000486491/200x305/7a34/boocover.jpg"
   },
   {
    "id": "x100",
@@ -18515,7 +19939,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x101.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000325681"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000325681/200x305/c0c8/boocover.jpg"
   },
   {
    "id": "x102",
@@ -18583,7 +20015,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x103.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000013079"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000013079/200x305/1596/boocover.jpg"
   },
   {
    "id": "x104",
@@ -18610,7 +20050,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x104.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001417802"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001417802/200x305/54b0/boocover.jpg"
   },
   {
    "id": "x105",
@@ -18643,7 +20091,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x105.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000460707"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000460707/200x305/f1b4/boocover.jpg"
   },
   {
    "id": "x106",
@@ -18675,7 +20131,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x106.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000289224"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000289224/200x305/0b36/boocover.jpg"
   },
   {
    "id": "x107",
@@ -18707,7 +20171,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x107.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000314328"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000314328/200x305/4f95/boocover.jpg"
   },
   {
    "id": "x108",
@@ -18739,7 +20211,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x108.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000118974"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000118974/200x305/fed1/boocover.jpg"
   },
   {
    "id": "x109",
@@ -18800,7 +20280,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x113.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1003164140"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1003164140/200x305/8dec/boocover.jpg"
   },
   {
    "id": "x115",
@@ -19116,7 +20604,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x116.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001524512"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001524512/200x305/b766/boocover.jpg"
   },
   {
    "id": "x117",
@@ -19211,7 +20707,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x117.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000217052"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000217052/200x305/5f6c/boocover.jpg"
   },
   {
    "id": "x118",
@@ -19243,7 +20747,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x118.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1007557339"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1007557339/200x305/fe41/boocover.jpg"
   },
   {
    "id": "x119",
@@ -19305,7 +20817,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x120.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1003461918"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1003461918/200x305/7f6d/boocover.jpg"
   },
   {
    "id": "x121",
@@ -19373,7 +20893,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x122.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1005054862"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1005054862/200x305/449f/boocover.jpg"
   },
   {
    "id": "x123",
@@ -19401,7 +20929,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x123.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002605519"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002605519/200x305/aba1/boocover.jpg"
   },
   {
    "id": "x124",
@@ -19436,7 +20972,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x124.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000531098"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000531098/200x305/d921/boocover.jpg"
   },
   {
    "id": "x126",
@@ -19465,7 +21009,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x126.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1003270782"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1003270782/200x305/a95c/boocover.jpg"
   },
   {
    "id": "x127",
@@ -19490,7 +21042,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x127.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002879674"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002879674/200x305/e330/boocover.jpg"
   },
   {
    "id": "x129",
@@ -19517,7 +21077,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x129.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000484561"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000484561/200x305/32d0/boocover.jpg"
   },
   {
    "id": "x130",
@@ -19544,7 +21112,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x130.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008974605"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008974605/200x305/2174/boocover.jpg"
   },
   {
    "id": "x131",
@@ -19635,7 +21211,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x133.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000184648"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000184648/200x305/b9df/boocover.jpg"
   },
   {
    "id": "x134",
@@ -19664,7 +21248,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x134.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001134461"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001134461/200x305/0190/boocover.jpg"
   },
   {
    "id": "x135",
@@ -19871,7 +21463,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x137.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000026527"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000026527/200x305/0968/boocover.jpg"
   },
   {
    "id": "x138",
@@ -19903,7 +21503,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x138.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000000086"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000000086/200x305/d9ff/boocover.jpg"
   },
   {
    "id": "x139",
@@ -19935,7 +21543,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x139.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000320520"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000320520/200x305/5810/boocover.jpg"
   },
   {
    "id": "x140",
@@ -20042,7 +21658,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x140.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000203156"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000203156/200x305/1377/boocover.jpg"
   },
   {
    "id": "x141",
@@ -20110,7 +21734,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x142.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1006154902"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1006154902/200x305/5813/boocover.jpg"
   },
   {
    "id": "x143",
@@ -20176,7 +21808,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x143.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1005631183"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1005631183/200x305/6f8f/boocover.jpg"
   },
   {
    "id": "x144",
@@ -20203,7 +21843,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x144.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001251954"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001251954/200x305/17b4/boocover.jpg"
   },
   {
    "id": "x145",
@@ -20268,7 +21916,15 @@
    ],
    "orig_year": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_x146.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000311952"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000311952/200x305/9af5/boocover.jpg"
   },
   {
    "id": "x147",
@@ -26446,7 +28102,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_st1.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000639087"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000639087/200x305/c125/boocover.jpg"
   },
   {
    "id": "st2",
@@ -26556,7 +28220,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-387-00276-2"
+   "isbn": "978-5-387-00276-2",
+   "cover": "images/cover_st5.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000487072"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000487072/200x305/6146/boocover.jpg"
   },
   {
    "id": "st6",
@@ -26585,7 +28257,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-387-02042-1"
+   "isbn": "978-5-387-02042-1",
+   "cover": "images/cover_st6.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1010185622"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1010185622/200x305/4ade/boocover.jpg"
   },
   {
    "id": "st7",
@@ -26671,7 +28351,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-85803-567-1"
+   "isbn": "978-5-85803-567-1",
+   "cover": "images/cover_st9.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008027352"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008027352/200x305/a84d/boocover.jpg"
   },
   {
    "id": "st10",
@@ -26703,7 +28391,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-17-136514-1"
+   "isbn": "978-5-17-136514-1",
+   "cover": "images/cover_st10.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1007365858"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1007365858/200x305/9749/boocover.jpg"
   },
   {
    "id": "st11",
@@ -26732,7 +28428,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-4448-1835-0"
+   "isbn": "978-5-4448-1835-0",
+   "cover": "images/cover_st11.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1007365849"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1007365849/200x305/b05a/boocover.jpg"
   },
   {
    "id": "st12",
@@ -26794,7 +28498,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-17-161438-6"
+   "isbn": "978-5-17-161438-6",
+   "cover": "images/cover_st13.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1013814061"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1013814061/200x305/261f/boocover.jpg"
   },
   {
    "id": "az1",
@@ -36268,7 +37980,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_mf1.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1012698397"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1012698397/200x305/ae3b/boocover.jpg"
   },
   {
    "id": "mf2",
@@ -36296,7 +38016,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "work_note": null
+   "work_note": null,
+   "cover": "images/cover_mf2.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1010748656"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1010748656/200x305/f950/boocover.jpg"
   },
   {
    "id": "ll2",
@@ -36461,7 +38189,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms1.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000331847"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000331847/200x305/24fa/boocover.jpg"
   },
   {
    "id": "ms2",
@@ -36488,7 +38224,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms2.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000516705"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000516705/200x305/b4e5/boocover.jpg"
   },
   {
    "id": "ms3",
@@ -36515,7 +38259,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms3.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000444319"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000444319/200x305/2a18/boocover.jpg"
   },
   {
    "id": "ms4",
@@ -36544,7 +38296,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-02-017291-X"
+   "isbn": "5-02-017291-X",
+   "cover": "images/cover_ms4.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001254508"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001254508/200x305/c194/boocover.jpg"
   },
   {
    "id": "ms5",
@@ -36573,7 +38333,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-8062-0007-8"
+   "isbn": "5-8062-0007-8",
+   "cover": "images/cover_ms5.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000461659"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000461659/200x305/58f6/boocover.jpg"
   },
   {
    "id": "ms6",
@@ -36602,7 +38370,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-89332-040-9"
+   "isbn": "5-89332-040-9",
+   "cover": "images/cover_ms6.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000516511"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000516511/200x305/c96c/boocover.jpg"
   },
   {
    "id": "ms7",
@@ -36659,7 +38435,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms8.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000014981"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000014981/200x305/8bd6/boocover.jpg"
   },
   {
    "id": "ms9",
@@ -36716,7 +38500,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-8062-0067-1"
+   "isbn": "5-8062-0067-1",
+   "cover": "images/cover_ms10.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000442259"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000442259/200x305/8e7f/boocover.jpg"
   },
   {
    "id": "ms11",
@@ -36828,7 +38620,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-89332-128-6"
+   "isbn": "5-89332-128-6",
+   "cover": "images/cover_ms14.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000187711"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000187711/200x305/2e65/boocover.jpg"
   },
   {
    "id": "ms15",
@@ -36857,7 +38657,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-8062-0213-5"
+   "isbn": "5-8062-0213-5",
+   "cover": "images/cover_ms15.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000165438"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000165438/200x305/a811/boocover.jpg"
   },
   {
    "id": "ms16",
@@ -36887,7 +38695,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-8062-0221-6"
+   "isbn": "5-8062-0221-6",
+   "cover": "images/cover_ms16.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000168400"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000168400/200x305/5682/boocover.jpg"
   },
   {
    "id": "ms17",
@@ -36943,7 +38759,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-8062-0248-3"
+   "isbn": "978-5-8062-0248-3",
+   "cover": "images/cover_ms18.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000368404"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000368404/200x305/e4b4/boocover.jpg"
   },
   {
    "id": "ms19",
@@ -36973,7 +38797,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-8062-0306-0"
+   "isbn": "978-5-8062-0306-0",
+   "cover": "images/cover_ms19.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000405275"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000405275/200x305/40ea/boocover.jpg"
   },
   {
    "id": "ms20",
@@ -37056,7 +38888,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-7281-1087-3"
+   "isbn": "978-5-7281-1087-3",
+   "cover": "images/cover_ms22.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000492383"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000492383/200x305/8a2d/boocover.jpg"
   },
   {
    "id": "ms23",
@@ -37146,7 +38986,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms25.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000513125"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000513125/200x305/91be/boocover.jpg"
   },
   {
    "id": "ms26",
@@ -37178,7 +39026,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms26.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000932963"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000932963/200x305/c2c3/boocover.jpg"
   },
   {
    "id": "ms27",
@@ -37207,7 +39063,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-7749-0867-7"
+   "isbn": "978-5-7749-0867-7",
+   "cover": "images/cover_ms27.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1001119645"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1001119645/200x305/331a/boocover.jpg"
   },
   {
    "id": "ms28",
@@ -37234,7 +39098,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-7749-1199-8"
+   "isbn": "978-5-7749-1199-8",
+   "cover": "images/cover_ms28.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002663047"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002663047/200x305/4aee/boocover.jpg"
   },
   {
    "id": "ms29",
@@ -37261,7 +39133,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms29.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1003632453"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1003632453/200x305/9342/boocover.jpg"
   },
   {
    "id": "ms30",
@@ -37290,7 +39170,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-7749-1356-5"
+   "isbn": "978-5-7749-1356-5",
+   "cover": "images/cover_ms30.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002889698"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002889698/200x305/e7bd/boocover.jpg"
   },
   {
    "id": "ms31",
@@ -37321,7 +39209,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "9785444807279"
+   "isbn": "9785444807279",
+   "cover": "images/cover_ms31.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1002727105"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1002727105/200x305/de32/boocover.jpg"
   },
   {
    "id": "ms32",
@@ -37350,7 +39246,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-082-4"
+   "isbn": "978-5-91922-082-4",
+   "cover": "images/cover_ms32.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1005582520"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1005582520/200x305/8c01/boocover.jpg"
   },
   {
    "id": "ms33",
@@ -37406,7 +39310,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-071-8"
+   "isbn": "978-5-91922-071-8",
+   "cover": "images/cover_ms34.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1004130592"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1004130592/200x305/ad3c/boocover.jpg"
   },
   {
    "id": "ms35",
@@ -37526,7 +39438,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-113-5"
+   "isbn": "978-5-91922-113-5",
+   "cover": "images/cover_ms38.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008350884"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008350884/200x305/261f/boocover.jpg"
   },
   {
    "id": "ms39",
@@ -37553,7 +39473,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms39.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1007961064"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1007961064/200x305/261f/boocover.jpg"
   },
   {
    "id": "ms40",
@@ -37608,7 +39536,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-114-2"
+   "isbn": "978-5-91922-114-2",
+   "cover": "images/cover_ms41.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008482550"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008482550/200x305/2557/boocover.jpg"
   },
   {
    "id": "ms42",
@@ -37638,7 +39574,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-120-3"
+   "isbn": "978-5-91922-120-3",
+   "cover": "images/cover_ms42.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1008960373"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1008960373/200x305/a73f/boocover.jpg"
   },
   {
    "id": "ms43",
@@ -37668,7 +39612,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "9785919221227"
+   "isbn": "9785919221227",
+   "cover": "images/cover_ms43.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1012250429"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1012250429/200x305/3822/boocover.jpg"
   },
   {
    "id": "ms44",
@@ -37697,7 +39649,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-121-0"
+   "isbn": "978-5-91922-121-0",
+   "cover": "images/cover_ms44.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1010024938"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1010024938/200x305/261f/boocover.jpg"
   },
   {
    "id": "ms45",
@@ -37726,7 +39686,15 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "978-5-91922-123-4"
+   "isbn": "978-5-91922-123-4",
+   "cover": "images/cover_ms45.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1012183289"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1012183289/200x305/c719/boocover.jpg"
   },
   {
    "id": "ms46",
@@ -37753,7 +39721,15 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "cover": "images/cover_ms46.jpg",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1013651017"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1013651017/200x305/6ed2/boocover.jpg"
   },
   {
    "id": "ms47",
@@ -41291,7 +43267,7 @@
    "pages": 184,
    "genre": "история",
    "work_note": "Монография посвящена совершенно не исследованной в отечественной и зарубежной науке теме — восприятию Японии и японцев в Европе и России в период от «открытия Японии» в середине XIX века до конца первой мировой войны. Этот многоаспектный процесс изучается на широком материале политики, идеологии, культуры, феноменов массового сознания с привлечением сюжетов и источников, лежавших вне поля зрения ученых-востоковедов. Книга рассчитана как на специалистов-востоковедов, так и на политологов, историков, филологов широкого профиля, читателей, интересующихся проблемами общеполитических и общекультурных процессов, эволюцией массового сознания.",
-   "cover": null,
+   "cover": "images/cover_iv343.jpg",
    "source": "https://book.ivran.ru/book?id=343",
    "sources": [
     "ivran"
@@ -41306,7 +43282,14 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null,
-   "isbn": "5-89282-016-5"
+   "isbn": "5-89282-016-5",
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1018542664"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1018542664/200x305/87b1/boocover.jpg"
   },
   {
    "id": "iv344",
@@ -45611,7 +47594,7 @@
    "pages": 230,
    "genre": "исследование",
    "work_note": "Книга посвящена исследованию обстоятельств принятия новой конституции Японии в 1947 г. Показывается значение основного закона в политической борьбе в послевоенной Японии.",
-   "cover": null,
+   "cover": "images/cover_iv1324.jpg",
    "source": "https://book.ivran.ru/book?id=1324",
    "sources": [
     "ivran"
@@ -45626,7 +47609,14 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1018539298"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1018539298/200x305/5ad4/boocover.jpg"
   },
   {
    "id": "iv1325",
@@ -47760,7 +49750,7 @@
    "pages": 231,
    "genre": "моногатари",
    "work_note": "Один из выдающихся памятников средневековой японской литературы в жанре моногатари впервые полностью переведен на русский язык. В исследовании, предваряющей перевод, подробно рассматриваются проблемы датировки текста, ряд текстологических вопросов, а также ключевое для данного памятника соотношение стихов и прозы.",
-   "cover": null,
+   "cover": "images/cover_iv5729.jpg",
    "source": "https://book.ivran.ru/book?id=5729",
    "sources": [
     "ivran"
@@ -47776,7 +49766,14 @@
    ],
    "orig_year": null,
    "title_orig": null,
-   "title_romaji": null
+   "title_romaji": null,
+   "links": [
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1000201107"
+    }
+   ],
+   "cover_src": "https://s1.livelib.ru/boocover/1000201107/200x305/670b/boocover.jpg"
   },
   {
    "id": "iv5734",
