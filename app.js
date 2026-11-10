@@ -388,10 +388,16 @@
     </section>`).join('')}</div>`;
   }
 
+  // Псевдонимы в перечне авторов: отдельная строка под своей буквой, ссылка ведёт на карточку настоящего автора
+  const aliasEntries = () => catalog.authors.flatMap((a) => (a.aliases || []).map((al) => {
+    const p = authorInfo(a.id);
+    return { ...p, name_ru: al.name_ru, sort: al.sort || al.name_ru, orig: al.name_ru, kanji: null, w: null, aliasOf: p };
+  }));
   const pageAuthors = (params) => lettersPage({ params,
     title: 'Авторы', sub: `по русскому алфавиту · ${plural(catalog.authors.length, ['автор', 'автора', 'авторов'])}`,
-    people: catalog.authors.map((a) => authorInfo(a.id)), hrefBase: 'author', prefix: 'A',
+    people: [...catalog.authors.map((a) => authorInfo(a.id)), ...aliasEntries()], hrefBase: 'author', prefix: 'A',
     extra: (p) => {
+      if (p.aliasOf) return `псевдоним; см. ${esc(p.aliasOf.name_ru)}`;
       const nb = booksOf(p.id).length, nw = worksOf(p.id).length;
       return [nb && plural(nb, ['издание', 'издания', 'изданий']), nw && plural(nw, ['произведение', 'произведения', 'произведений'])].filter(Boolean).join(' · ');
     },

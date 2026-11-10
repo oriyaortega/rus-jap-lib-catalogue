@@ -5291,6 +5291,12 @@
      "url": "https://ru.wikisource.org/wiki/Автор:Хаим_Тевелевич_Эйдус"
     }
    ],
+   "aliases": [
+    {
+     "name_ru": "Хаяма У.",
+     "sort": "Хаяма"
+    }
+   ],
    "image_src": "https://ru.wikisource.org/wiki/Файл:Хаим_Тевелевич_Эйдус.png",
    "image": "images/person_ivab000f4c0.png"
   },
