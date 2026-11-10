@@ -1440,7 +1440,9 @@
      "name": "Книги о Японии (sengoku.ru)",
      "url": "https://sengoku.ru/books/"
     }
-   ]
+   ],
+   "image": "images/person_marchukivan.jpg",
+   "image_src": "https://sengoku.ru/books/"
   },
   {
    "wikidata": "Q290021",
@@ -28375,19 +28377,19 @@
    "cover": "images/cover_x79.jpg",
    "links": [
     {
-     "name": "LiveLib",
-     "url": "https://www.livelib.ru/book/1000741531"
-    },
-    {
      "name": "сайт sengoku.ru",
      "url": "https://sengoku.ru/books/SiegesJapan.htm"
     },
     {
      "name": "электронная версия (PDF)",
      "url": "https://sengoku.ru/books/pdf/Sieges%20Japan.pdf"
+    },
+    {
+     "name": "LiveLib",
+     "url": "https://www.livelib.ru/book/1004770480-osadnoe-iskusstvo-feodalnoj-yaponii-i-marchuk"
     }
    ],
-   "cover_src": "https://s1.livelib.ru/boocover/1000741531/200x305/7664/boocover.jpg"
+   "cover_src": "https://s1.livelib.ru/boocover/1004770480/200x305/2315/I._Marchuk__Osadnoe_iskusstvo_feodalnoj_Yaponii.jpg"
   },
   {
    "id": "x80",
@@ -60033,6 +60035,10 @@
     {
      "name": "электронная версия (PDF)",
      "url": "https://sengoku.ru/books/pdf/Samurai%20Citadel.pdf"
+    },
+    {
+     "name": "издательство «Золотое сечение»",
+     "url": "https://www.zs-izdat.ru/books/tsitadeli-samuraev"
     }
    ],
    "sources": [],
@@ -60048,7 +60054,7 @@
    "title_orig": null,
    "title_romaji": null,
    "cover": "images/cover_mr2011.jpg",
-   "cover_src": "https://sengoku.ru/books/images/01-30.jpg"
+   "cover_src": "https://www.zs-izdat.ru/wp-content/uploads/2015/01/10002029.jpg"
   },
   {
    "id": "mr2017a",
