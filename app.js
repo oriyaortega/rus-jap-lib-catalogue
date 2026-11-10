@@ -299,7 +299,7 @@
     if (b.cover) return `<div class="fuda has-cover" style="--fc:${genreColor(b.genre)}"><img class="cover-img" src="${esc(b.cover)}" alt="Обложка: ${esc(b.title_ru)}" loading="lazy" referrerpolicy="no-referrer"></div>`;
     const title = b.title_orig
       ? `<span class="fuda-v" lang="ja">${esc(b.title_orig)}</span>`
-      : `<span class="fuda-v ru">${esc(b.title_ru)}</span>`;
+      : `<span class="fuda-v ru${b.title_ru.length > 100 ? ' long' : ''}">${esc(b.title_ru)}</span>`;
     return `<div class="fuda" style="--fc:${genreColor(b.genre)}" aria-hidden="true"><span class="fuda-no" lang="ja">${kanjiNum(bookNo.get(b.id))}</span>${title}<span class="fuda-foot">${esc(b.genre || '')}</span></div>`;
   }
 

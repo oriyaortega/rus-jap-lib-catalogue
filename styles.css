@@ -90,9 +90,15 @@ a:hover > .fuda, a:focus-visible > .fuda, .fuda-link:hover .fuda { transform: tr
 .fuda-no { position: absolute; top: 9px; left: 0; right: 0; text-align: center; font: 11px/1 var(--jp); color: #6c685c; letter-spacing: .1em; }
 .fuda-v {
   writing-mode: vertical-rl; font: 600 clamp(15px, 1.6vw, 19px)/1.35 var(--jp); letter-spacing: .18em;
-  max-height: 72%; overflow: hidden;
+  max-height: 100%; overflow: hidden;
 }
+/* название книги занимает только место между номером и жанром */
+.fuda:not(.yomi):not(.has-cover) { padding: 24px 8px 26px; }
 .fuda-v.ru { font: 500 13px/1.35 var(--serif); letter-spacing: .04em; }
+/* размер русского названия зависит от ширины карточки, длинные названия — мельче */
+.fuda:not(.yomi) { container-type: inline-size; }
+.fuda:not(.yomi) .fuda-v.ru { font-size: clamp(9px, 10cqw, 13px); }
+.fuda:not(.yomi) .fuda-v.ru.long { font-size: clamp(8px, 8.5cqw, 11px); line-height: 1.25; letter-spacing: 0; }
 /* латиница и кириллица читаются снизу вверх, как надпись на корешке — без поворота головы направо */
 .fuda-v.ru { writing-mode: sideways-lr; }
 @supports not (writing-mode: sideways-lr) { .fuda-v.ru { writing-mode: vertical-rl; transform: rotate(180deg); } }
@@ -273,7 +279,7 @@ table.list a { text-decoration-color: #a8a394; }
   border-bottom: 1px solid var(--gold);
 }
 [data-palette="color"] .fuda:not(.yomi) .fuda-no { color: #fff; top: 7%; transform: translateY(-50%); z-index: 1; font-size: 12px; }
-[data-palette="color"] .fuda:not(.yomi) .fuda-v { margin-top: 12%; }
+[data-palette="color"] .fuda:not(.yomi):not(.has-cover) { padding-top: calc(19.7% + 10px); }
 [data-palette="color"] .fuda-foot { color: var(--fc); font-weight: 500; }
 [data-palette="color"] .fuda.yomi { background: linear-gradient(180deg, color-mix(in srgb, var(--fc) 9%, var(--card)), var(--card) 55%); }
 [data-palette="color"] .fuda.yomi .portrait { filter: none; border-color: var(--fc); }
