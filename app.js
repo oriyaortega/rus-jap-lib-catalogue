@@ -42,8 +42,8 @@
   function kanjiNum(n) {
     const d = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
     const part = (x, unit) => (x === 0 ? '' : (x === 1 ? '' : d[x]) + unit);
-    const h = Math.floor(n / 100), t = Math.floor((n % 100) / 10), u = n % 10;
-    return part(h, '百') + part(t, '十') + d[u] || '〇';
+    const th = Math.floor(n / 1000), h = Math.floor((n % 1000) / 100), t = Math.floor((n % 100) / 10), u = n % 10;
+    return part(th, '千') + part(h, '百') + part(t, '十') + d[u] || '〇';
   }
 
   // Нормализация для поиска: регистр, ё/е, диакритика, разные транслитерации японских имён.
