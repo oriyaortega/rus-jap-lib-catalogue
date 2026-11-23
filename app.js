@@ -27,6 +27,8 @@
   const ALPHABET = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ';
   const letterRank = (s) => { const i = ALPHABET.indexOf((s || '')[0]?.toUpperCase()); return i < 0 ? 99 : i; };
   const alphaCompare = (a, b) => letterRank(a) - letterRank(b) || collator.compare(a, b);
+  // ключ сортировки названия: без кавычек, скобок и прочих знаков в начале
+  const titleKey = (s) => (s || '').replace(/^[^0-9A-Za-zА-Яа-яЁё]+/, '');
   const CJK = /[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;
   const MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
 
@@ -462,7 +464,10 @@
     return `
       ${profile(a, `#/author/${id}`, 'автор')}
       ${section(`Издания на русском · ${books.length}`)}
-      ${[...works.values()].map((eds) => {
+      ${[...works.values()]
+        // произведения — по алфавиту названий (кавычки и цифры в начале не учитываем), издания внутри — по году
+        .sort((x, y) => alphaCompare(titleKey(x[0].title_ru), titleKey(y[0].title_ru)))
+        .map((eds) => {
         const b = eds[0];
         return `<div class="work-row">
           <a href="#/book/${b.id}">${fuda(b)}</a>
