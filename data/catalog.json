@@ -2,6 +2,10 @@
  "_note": "Издания внесены 8 ноября 2026 г. из таблицы пользователя, Фантлаба (серия «Библиотека японской литературы», переводы Е. А. Рябовой, поиск произведений по стране «Япония»), каталога «Поляндрии NoAge», «Лабиринта» (серия Orientalia et Classica), профиля В. В. Щепкина на сайте ВШЭ и статьи о Е. С. Штейнере в Википедии.",
  "news": [
   {
+   "date": "2026-11-23",
+   "text": "Добавлены 16 книг издательства Ad Marginem о Японии: шесть книг {author:sekiguchiryoko}, серия «hide books» о Восточной Азии (Накадзима Ацуси, Миямото Юрико, Акутагава и Танидзаки, Хироки Адзума, Роман Ким), а также «Империя знаков» Ролана Барта, «Обратная сторона Луны» Клода Леви-Стросса, «Японский дом» Бруно Таута и «Генеалогия эксцентриков» Нобуо Цудзи."
+  },
+  {
    "date": "2026-11-09",
    "text": "Добавлены 2220 отдельных изданий из трёх томов «Библиографии Японии»: литература, изданная в России с 1734 по 1917 г. (899), в СССР с 1917 по 1958 г. (658) и с 1959 по 1973 г. (663). Это переводы японской литературы и сказок, а также книги о Японии: история, экономика, политика, Русско-японская война, язык, искусство, путевые заметки. Журнальные статьи и книги, лишь частично посвящённые Японии, не вносились. Источник указан у каждой книги с номером записи в библиографии."
   },
@@ -10520,11 +10524,17 @@
    "id": "vavilovni"
   },
   {
-   "wikidata": null,
-   "name_ru": "Ким Р. Н.",
+   "wikidata": "Q4220632",
+   "name_ru": "Ким Роман",
    "name_orig": null,
    "sort": "Ким",
-   "id": "kimrn"
+   "id": "kimrn",
+   "full_name": "Ким Роман Николаевич",
+   "bio": "Роман Николаевич Ким (ок. 1899–1967) — советский писатель корейского происхождения, автор популярных шпионских романов, видный японовед и сотрудник контрразведки ОГПУ — НКВД. Родился в семье эмигрировавшего в Россию корейского националиста, получил образование в Японии.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/tri-doma-naprotiv-sosednikh-dva/"
+   }
   },
   {
    "wikidata": null,
@@ -10583,11 +10593,16 @@
    "id": "kunikidadoppo"
   },
   {
-   "wikidata": null,
+   "wikidata": "Q464756",
    "name_ru": "Миямото Юрико",
-   "name_orig": null,
+   "name_orig": "宮本百合子",
    "sort": "Миямото",
-   "id": "miyamotoyuriko"
+   "id": "miyamotoyuriko",
+   "bio": "Миямото Юрико (1899–1951) — японская писательница, литературный критик, член Коммунистической партии Японии. В 1927–1930 годах вместе с русисткой Юасой Ёсико путешествовала по СССР; редактировала несколько пролетарских журналов, оставила обширное литературное наследие.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/cherez-novuyu-sibir/"
+   }
   },
   {
    "wikidata": null,
@@ -13492,6 +13507,86 @@
     "name": "сайт Академии Штиглица",
     "url": "https://www.ghpa.ru/academy/all/item/aspirantov-akademii-shtiglitsa-nagradili-za-vysokie-nauchnye-dostizheniya-i-aktivnoe-uchastie-v-meropriyatiyakh-goda-nauki-i-tekhnologij"
    }
+  },
+  {
+   "id": "sekiguchiryoko",
+   "wikidata": "Q454094",
+   "name_ru": "Секигути Рёко",
+   "name_orig": "関口涼子",
+   "sort": "Секигути",
+   "bio": "Рёко Секигути (род. 1970) — японская писательница, поэтесса и эссеистка, живущая во Франции; автор двух десятков книг стихов, прозы и эссе, написанных по-японски и по-французски. Изучала историю искусств в Сорбонне, получила докторскую степень по сравнительному литературоведению и культурологии в Токийском университете. Её излюбленная тема — языки эмоций: вкусы, запахи, переживания, а также то, как устроено время и как мы с ним «договариваемся».",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/book-author/ryoko_sekiguchi/"
+   },
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/book-author/ryoko_sekiguchi/"
+    }
+   ],
+   "image": "images/person_sekiguchiryoko.jpg",
+   "image_src": "https://admarginem.ru/wp-content/uploads/2022/09/La-eat-list-de-Ryoko-Sekiguchi-poetesse-de-la-cuisine-libanaise.jpg"
+  },
+  {
+   "id": "bartrolan",
+   "wikidata": "Q179109",
+   "name_ru": "Барт Ролан",
+   "name_orig": null,
+   "sort": "Барт",
+   "bio": "Ролан Барт (1915–1980) — французский философ, литературовед и критик, один из ведущих представителей структурализма. Изучал различные сферы культуры как семиотические системы, исследовал отношения языка и власти. Автор книг «Мифологии» (1957), «Фрагменты речи влюбленного» (1977), «Camera lucida» (1980).",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/imperiya-znakov/"
+   }
+  },
+  {
+   "id": "levistrossklod",
+   "wikidata": "Q128126",
+   "name_ru": "Леви-Стросс Клод",
+   "name_orig": null,
+   "sort": "Леви-Стросс",
+   "bio": "Клод Леви-Стросс (1908–2009) — французский этнолог, социолог и философ, создатель структурной антропологии. Преподавал в Бразилии, США, а с 1959 по 1982 год — в Коллеж де Франс; член Французской академии. Автор книг «Печальные тропики», «Структурная антропология», «Мифологики».",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/obratnaya-storona-luny-zametki-o-yaponii/"
+   }
+  },
+  {
+   "id": "tautbruno",
+   "wikidata": "Q76729",
+   "name_ru": "Таут Бруно",
+   "name_orig": null,
+   "sort": "Таут",
+   "bio": "Бруно Таут (1880–1938) — немецкий архитектор и градостроитель, один из крупнейших представителей архитектуры модернизма и движения «Новое строительство», известный цветными социальными жилыми комплексами в Берлине и Магдебурге. В 1933 году покинул нацистскую Германию и три с половиной года прожил в Японии.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/yaponskij-dom-i-ego-zhizn/"
+   }
+  },
+  {
+   "id": "adzumakhiroki",
+   "wikidata": "Q921584",
+   "name_ru": "Адзума Хироки",
+   "name_orig": "東浩紀",
+   "sort": "Адзума",
+   "bio": "Хироки Адзума (род. 1971) — японский культурный критик, писатель, независимый философ, основатель платформы и издательства «Гэнрон». Лауреат премий Mainichi и Suntory в области культуры, социальных и гуманитарных наук.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/opyt-o-solzheniczyne-prikosnovenie-veroyatnosti/"
+   }
+  },
+  {
+   "id": "tsudzinobuo",
+   "wikidata": "Q3541643",
+   "name_ru": "Цудзи Нобуо",
+   "name_orig": "辻惟雄",
+   "sort": "Цудзи",
+   "bio": "Нобуо Цудзи (род. 1932) — японский историк искусства, специалист по живописи периода Эдо. Внёс вклад в переоценку художников-«эксцентриков»: Ивасы Матабэя, Кано Сансэцу, Ито Дзякутю, Соги Сёхаку, Нагасавы Росэцу и Утагавы Куниёси.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/genealogiya-ekstsentrikov-ot-matabeya-do-kuniyosi/"
+   }
   }
  ],
  "translators": [
@@ -15892,6 +15987,97 @@
    "short": "В. Марков",
    "sort": "Марков",
    "id": "markovv"
+  },
+  {
+   "id": "popovaalina",
+   "wikidata": null,
+   "name_ru": "Попова Алина",
+   "short": "А. Попова",
+   "sort": "Попова"
+  },
+  {
+   "id": "akimovaolga",
+   "wikidata": null,
+   "name_ru": "Акимова Ольга",
+   "short": "О. Акимова",
+   "sort": "Акимова"
+  },
+  {
+   "id": "shestakovalekse",
+   "wikidata": null,
+   "name_ru": "Шестаков Алексей",
+   "short": "А. Шестаков",
+   "sort": "Шестаков"
+  },
+  {
+   "id": "panayottiolga",
+   "wikidata": null,
+   "name_ru": "Панайотти Ольга",
+   "short": "О. Панайотти",
+   "sort": "Панайотти"
+  },
+  {
+   "id": "chugunovatatyan",
+   "wikidata": null,
+   "name_ru": "Чугунова Татьяна",
+   "short": "Т. Чугунова",
+   "sort": "Чугунова"
+  },
+  {
+   "id": "chertushkinaevgeni",
+   "wikidata": null,
+   "name_ru": "Чертушкина Евгения",
+   "short": "Е. Чертушкина",
+   "sort": "Чертушкина"
+  },
+  {
+   "id": "selimovmazay",
+   "wikidata": null,
+   "name_ru": "Селимов Мазай",
+   "short": "М. Селимов",
+   "sort": "Селимов"
+  },
+  {
+   "id": "palaginasasha",
+   "wikidata": null,
+   "name_ru": "Палагина Саша",
+   "short": "С. Палагина",
+   "sort": "Палагина"
+  },
+  {
+   "id": "matveenkovalent",
+   "wikidata": null,
+   "name_ru": "Матвеенко Валентин",
+   "short": "В. Матвеенко",
+   "sort": "Матвеенко"
+  },
+  {
+   "id": "yanpolskayayana",
+   "wikidata": null,
+   "name_ru": "Янпольская Яна",
+   "short": "Я. Янпольская",
+   "sort": "Янпольская"
+  },
+  {
+   "id": "lebedevaelena",
+   "wikidata": null,
+   "name_ru": "Лебедева Елена",
+   "short": "Е. Лебедева",
+   "sort": "Лебедева"
+  },
+  {
+   "id": "serovvitali",
+   "wikidata": null,
+   "name_ru": "Серов Виталий",
+   "short": "В. Серов",
+   "sort": "Серов"
+  },
+  {
+   "id": "dulinaanna",
+   "wikidata": null,
+   "name_ru": "Дулина Анна",
+   "short": "А. Дулина",
+   "sort": "Дулина"
   }
  ],
  "books": [
@@ -121376,6 +121562,604 @@
    "orig_year": null,
    "title_orig": null,
    "title_romaji": null
+  },
+  {
+   "id": "am1",
+   "title_ru": "Нагори. Тоска по уходящему сезону",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2023,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 144,
+   "isbn": "978-5-908105-77-4",
+   "genre": "очерки",
+   "work_note": "Эссе, построенное вокруг японского слова нагори — конец сезона, всё позднее, запоздалое, переходящее из реальности в воспоминания; это понятие важно для японского отношения к еде, к поэзии (хайку), ко времени. Оригинальное название: Nagori: La nostalgie de la saison qui vient de nous quitter.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/nagori-toska-po-uhodyashhemu-sezonu/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "popovaalina"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am1.jpg",
+   "cover_src": "https://admarginem.ru/product/nagori-toska-po-uhodyashhemu-sezonu/"
+  },
+  {
+   "id": "am2",
+   "title_ru": "961 час в Бейруте (и 321 блюдо, которое их сопровождало)",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2023,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 288,
+   "isbn": "978-5-908105-85-9",
+   "genre": "очерки",
+   "work_note": "Кулинарная хроника поездки в Бейрут в 2018 году: лирический травелог из множества микроглав, перекликающихся с блюдами и вкусами города, рассказы ливанцев о войне, ностальгии и революции. Оригинальное название: 961 heures à Beyrouth (et 321 plats qui les accompagnent).",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/961-chas-v-bejrute-i-321-blyudo-kotoroe-ih-soprovozhdalo/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "akimovaolga"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе",
+    "путевые заметки"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am2.jpg",
+   "cover_src": "https://admarginem.ru/product/961-chas-v-bejrute-i-321-blyudo-kotoroe-ih-soprovozhdalo/"
+  },
+  {
+   "id": "am3",
+   "title_ru": "Голос в темноте",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2024,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 96,
+   "isbn": "978-5-91103-798-7",
+   "genre": "очерки",
+   "work_note": "Короткий текст на стыке дневниковых заметок, стихотворения в прозе и философского эссе — о переживании утраты и о голосе, способном звучать в настоящем даже после смерти человека. Оригинальное название: La Voix sombre.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/golos-v-temnote/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "shestakovalekse"
+   ],
+   "tags": [
+    "художественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am3.jpg",
+   "cover_src": "https://admarginem.ru/product/golos-v-temnote/"
+  },
+  {
+   "id": "am4",
+   "title_ru": "Зов запахов",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2025,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 272,
+   "isbn": "978-5-91103-850-2",
+   "genre": "очерки",
+   "work_note": "Дневник запахов: истории нескольких женщин разных стран и эпох, рассказанные через их обонятельные впечатления, вперемежку с цитатами и размышлениями о семиотической роли запахов. Оригинальное название: L’Appel des odeurs.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/zov-zapahov/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "panayottiolga"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am4.jpg",
+   "cover_src": "https://admarginem.ru/product/zov-zapahov/"
+  },
+  {
+   "id": "am5",
+   "title_ru": "Это не случайно. Японская хроника",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2025,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 144,
+   "isbn": "978-5-91103-887-8",
+   "genre": "очерки",
+   "work_note": "Хроника, которую автор вела в Париже после землетрясения, цунами и аварии на АЭС «Фукусима» 11 марта 2011 года: размышления о времени и памяти, о случайном и закономерном. Оригинальное название: Ce n’est pas un hasard. Chronique japonaise.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/eto-ne-sluchajno-yaponskaya-hronika/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "chugunovatatyan"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am5.jpg",
+   "cover_src": "https://admarginem.ru/product/eto-ne-sluchajno-yaponskaya-hronika/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am6",
+   "title_ru": "Земля — это один большой котел",
+   "authors": [
+    "sekiguchiryoko"
+   ],
+   "year": 2026,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 64,
+   "isbn": "978-5-908038-80-5",
+   "genre": "очерки",
+   "work_note": "Маленькая лекция о связи вкуса, мышления и языка: приготовление и поглощение пищи как способ исследования мира. Оригинальное название: La terre est une marmite.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/zemlya-eto-odin-bolshoj-kotel/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "panayottiolga"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am6.jpg",
+   "cover_src": "https://admarginem.ru/product/zemlya-eto-odin-bolshoj-kotel/"
+  },
+  {
+   "id": "am7",
+   "title_ru": "Атоллы",
+   "authors": [
+    "nakadzimaatsusi"
+   ],
+   "year": 2025,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 160,
+   "isbn": "978-5-908038-17-1",
+   "genre": "новеллы",
+   "work_note": "Сборник малой прозы: циклы «Истории Южных островов» (притчи и рассказы по местным мифам и преданиям) и «Атоллы» (лирический дневник странствий), написанные по впечатлениям от пребывания в Микронезии в 1941 году.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/atolly/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "yudinaekate"
+   ],
+   "tags": [
+    "художественная",
+    "переводная",
+    "новеллы"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am7.jpg",
+   "cover_src": "https://admarginem.ru/product/atolly/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am8",
+   "title_ru": "Через Новую Сибирь",
+   "authors": [
+    "miyamotoyuriko"
+   ],
+   "year": 2026,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 240,
+   "isbn": "978-5-908038-37-9",
+   "genre": "очерки",
+   "work_note": "Путевые заметки о трёхлетнем путешествии по СССР (с 1927 года) вместе с русисткой Юасой Ёсико: Москва и Ленинград, Транссибирская магистраль до Владивостока, наблюдения о жизни советских граждан, положении женщин и детей. Оригинальное название: 新しきシベリアを横切る.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/cherez-novuyu-sibir/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "slaschevaanna"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "путевые заметки"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am8.jpg",
+   "cover_src": "https://admarginem.ru/product/cherez-novuyu-sibir/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am9",
+   "title_ru": "Литературное, слишком литературное",
+   "authors": [
+    "akutagawa",
+    "tanidzakidzyun"
+   ],
+   "year": 2026,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 256,
+   "isbn": "978-5-908038-89-8",
+   "genre": "очерки",
+   "work_note": "Полемика Акутагавы Рюноскэ и Танидзаки Дзюнъитиро на страницах журнала «Кайдзо» в 1920-е годы о природе сюжета, поэтическом духе и границах реализма; завершается статьями Танидзаки. Составитель А. Слащёва. Оригинальное название: 文芸的な、余りに文芸的な.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/literaturnoe-slishkom-literaturnoe/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "chertushkinaevgeni",
+    "selimovmazay",
+    "palaginasasha"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "литературоведение"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am9.jpg",
+   "cover_src": "https://admarginem.ru/product/literaturnoe-slishkom-literaturnoe/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am10",
+   "title_ru": "Любовь и сладострастие. Избранные эссе",
+   "authors": [
+    "tanidzakidzyun"
+   ],
+   "year": 2027,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 336,
+   "isbn": "978-5-908105-54-5",
+   "genre": "очерки",
+   "work_note": "Четыре эссе 1925–1934 годов, написанные после переезда Танидзаки из разрушенного землетрясением Токио в Кансай; три публикуются на русском впервые, «Любовь и сладострастие» — в новой редакции. Комментарии и послесловие И. Тюленева и М. Селимова. Готовится к изданию (по данным издательства на ноябрь 2026 г.). Оригинальное название: 恋愛及び色情.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/lyubov-i-sladostrastie-izbrannye-esse/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "selimovmazay"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "эссе"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am10.jpg",
+   "cover_src": "https://admarginem.ru/product/lyubov-i-sladostrastie-izbrannye-esse/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am11",
+   "title_ru": "Опыт о Солженицыне. Прикосновение вероятности",
+   "authors": [
+    "adzumakhiroki"
+   ],
+   "year": 2026,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 80,
+   "isbn": "978-5-908105-29-3",
+   "genre": "очерки",
+   "work_note": "Взгляд японского философа на Солженицына через диалог с Достоевским, Хайдеггером и Кафкой: лагерный опыт как «неразрешимое» и понятие вероятности. Очерк 1991 года и интервью с автором 2026 года. Оригинальное название: ソルジェニーツィン試論 ── 確率の手触り.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/opyt-o-solzheniczyne-prikosnovenie-veroyatnosti/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "matveenkovalent"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "литературоведение"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am11.jpg",
+   "cover_src": "https://admarginem.ru/product/opyt-o-solzheniczyne-prikosnovenie-veroyatnosti/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am12",
+   "title_ru": "Три дома напротив соседних два",
+   "authors": [
+    "kimrn"
+   ],
+   "year": 2025,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 352,
+   "isbn": "978-5-908038-36-2",
+   "genre": "очерки",
+   "work_note": "Сборник текстов японоведа и контрразведчика о культуре и литературе Японии 1920–1930-х годов, включая памфлет «Три дома напротив соседних два» (1934). Составители А. Слащёва и П. Жуков.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/tri-doma-naprotiv-sosednikh-dva/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [],
+   "tags": [
+    "нехудожественная",
+    "на русском",
+    "очерки",
+    "литературоведение"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am12.jpg",
+   "cover_src": "https://admarginem.ru/product/tri-doma-naprotiv-sosednikh-dva/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am13",
+   "title_ru": "Империя знаков",
+   "authors": [
+    "bartrolan"
+   ],
+   "year": 2023,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 168,
+   "isbn": "978-5-91103-642-3",
+   "genre": "очерки",
+   "work_note": "«Иллюстрированный путеводитель» по Японии — реальной и воображаемой, вдохновлённый поездками Барта и его увлечением хайку, каллиграфией, театром бунраку. Перевод (впервые вышел в 2004 году) в новой редакции, с комментарием и послесловием переводчика и редактора. Оригинальное название: L’Empire des signes.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/imperiya-znakov/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "yanpolskayayana"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "о Японии"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am13.jpg",
+   "cover_src": "https://admarginem.ru/product/imperiya-znakov/"
+  },
+  {
+   "id": "am14",
+   "title_ru": "Обратная сторона Луны. Заметки о Японии",
+   "authors": [
+    "levistrossklod"
+   ],
+   "year": 2027,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 128,
+   "isbn": "978-5-908038-98-0",
+   "genre": "исследование",
+   "work_note": "Очерки, выступления и интервью о японской культуре — от «Кодзики» и «Нихонги» до ремёсел и кухни, путевые заметки о Токио и островной глубинке, параллели между японскими и другими мифами. Предисловие Юндзо Кавады. Предзаказ (по данным издательства на ноябрь 2026 г.). Оригинальное название: L’Autre Face de la lune. Écrits sur le Japon.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/obratnaya-storona-luny-zametki-o-yaponii/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "lebedevaelena"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "исследование",
+    "о Японии"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am14.jpg",
+   "cover_src": "https://admarginem.ru/product/obratnaya-storona-luny-zametki-o-yaponii/"
+  },
+  {
+   "id": "am15",
+   "title_ru": "Японский дом и его жизнь",
+   "authors": [
+    "tautbruno"
+   ],
+   "year": 2027,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 368,
+   "isbn": "978-5-908105-55-2",
+   "genre": "исследование",
+   "work_note": "Книга, написанная в Японии в 1933–1936 годах, — об обычном сельском доме как ключе к архитектурной истории страны. Предисловие и научная редактура А. Гусевой. Готовится к изданию (по данным издательства на ноябрь 2026 г.). Оригинальное название: Das japanische Haus und sein Leben.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/yaponskij-dom-i-ego-zhizn/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "serovvitali"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "исследование",
+    "о Японии",
+    "архитектура"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am15.jpg",
+   "cover_src": "https://admarginem.ru/product/yaponskij-dom-i-ego-zhizn/"
+  },
+  {
+   "id": "am16",
+   "title_ru": "Генеалогия эксцентриков: от Матабэя до Куниёси",
+   "authors": [
+    "tsudzinobuo"
+   ],
+   "year": 2018,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 208,
+   "isbn": "978-5-91103-440-5",
+   "genre": "искусство",
+   "work_note": "Книга 1970 года, открывшая японским читателям «эксцентричных» живописцев эпохи Эдо: Иваса Матабэй, Кано Сансэцу, Ито Дзякутю, Сога Сёхаку, Нагасава Росэцу и Утагава Куниёси. Тираж закончился. Оригинальное название: 奇想の系譜.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/genealogiya-ekstsentrikov-ot-matabeya-do-kuniyosi/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-23",
+   "translators": [
+    "dulinaanna"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "искусство"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am16.jpg",
+   "cover_src": "https://admarginem.ru/product/genealogiya-ekstsentrikov-ot-matabeya-do-kuniyosi/"
   }
  ],
  "series": [
@@ -122027,6 +122811,14 @@
   {
    "id": "nijk",
    "name": "Новые исследования по японской культуре"
+  },
+  {
+   "id": "hidebooks",
+   "name": "hide books",
+   "publisher": "Ad Marginem",
+   "city": "Москва",
+   "years": "2025–",
+   "note": "Серия издательства Ad Marginem, посвящённая Восточной Азии и Дальнему Востоку."
   }
  ],
  "works": [
