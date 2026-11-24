@@ -3,6 +3,8 @@ import { useCatalog } from '../context';
 import { SectionTitle, Join } from '../components/common';
 import { AuthorLink } from '../components/links';
 import { WorkTitleLink } from '../components/WorksList';
+import { useProgressive } from '../hooks/useProgressive';
+import { PORTION } from '../lib/progressive';
 import { replaceParams } from '../router';
 import { collator, plural } from '../lib/text';
 import { filterWorks, workComparator, workYear } from '../lib/works';
@@ -19,6 +21,12 @@ export function WorksPage({ params }: { params: URLSearchParams }) {
     .sort(workComparator(sort, (w) => m.authorsById.get(w.authors[0])?.sort || ''));
   const jp = rows.filter((w) => !w.foreign), fr = rows.filter((w) => w.foreign);
   const nJp = all.filter((w) => !w.foreign).length, nFr = all.length - nJp;
+  // строки таблиц рисуются постепенно: сначала японские авторы, затем неяпонские
+  const lazy = useProgressive(jp.length + fr.length, PORTION.rows, params.toString());
+  const jpShown = jp.slice(0, lazy.limit);
+  // раздел неяпонских авторов появляется, когда японские показаны целиком (и есть первая строка для него)
+  const frReached = fr.length ? lazy.limit > jp.length : lazy.limit >= jp.length;
+  const frShown = fr.slice(0, Math.max(0, lazy.limit - jp.length));
 
   const th = (k: string, label: string, cls = '') => (
     <th key={k} className={cls}><button type="button" data-works-sort={k} onClick={() => replaceParams('works', (p) => p.set('sort', k))}>{`${label}${sort === k ? ' ▾' : ''}`}</button></th>
@@ -54,9 +62,12 @@ export function WorksPage({ params }: { params: URLSearchParams }) {
         </select>
       </form>
       <SectionTitle>{`Японские авторы · ${jp.length === nJp ? nJp : `${jp.length} из ${nJp}`}`}</SectionTitle>
-      {table(jp, false)}
-      <SectionTitle>{`Неяпонские авторы · ${fr.length === nFr ? nFr : `${fr.length} из ${nFr}`}`}</SectionTitle>
-      {table(fr, true)}
+      {table(jpShown, false)}
+      {frReached && <>
+        <SectionTitle>{`Неяпонские авторы · ${fr.length === nFr ? nFr : `${fr.length} из ${nFr}`}`}</SectionTitle>
+        {table(frShown, true)}
+      </>}
+      {lazy.sentinel}
     </>
   );
 }

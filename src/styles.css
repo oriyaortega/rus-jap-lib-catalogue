@@ -349,3 +349,6 @@ details.contents-more[open] > summary { margin-bottom: 16px; }
 .edition-other .ed-cover { width: 100%; height: auto; display: block; box-shadow: 0 1px 4px rgba(0,0,0,.18); }
 .edition-other table.card { margin-top: 0; }
 @media (max-width: 620px) { .edition-other { grid-template-columns: 1fr; gap: 14px; } .edition-other .ed-cover { max-width: 140px; } }
+
+/* метка в конце постепенно отрисовываемого списка (useProgressive) */
+.lazy-sentinel { height: 1px; }

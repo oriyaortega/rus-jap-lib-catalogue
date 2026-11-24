@@ -7,18 +7,21 @@ import { AuthorLink } from '../components/links';
 import { Profile } from '../components/Profile';
 import { plural } from '../lib/text';
 import { ANON, translationsByAuthor } from '../lib/translator';
+import { useProgressive } from '../hooks/useProgressive';
+import { PORTION, takeGroups, totalOf } from '../lib/progressive';
 import { NotFound } from './NotFound';
 
 export function TranslatorPage({ id }: { id: string }) {
   const m = useCatalog();
-  if (!m.translatorsById.has(id)) return <NotFound />;
   const books = m.translationsOf(id);
   const groups = translationsByAuthor(id, books, (a) => m.authorsById.get(a)?.sort);
+  const lazy = useProgressive(totalOf(groups), PORTION.bookCards, id);
+  if (!m.translatorsById.has(id)) return <NotFound />;
   return (
     <>
       <Profile person={m.translatorInfo(id)} role="переводчик" />
       <SectionTitle>{`Переводы · ${plural(books.length, ['книга', 'книги', 'книг'])}`}</SectionTitle>
-      {groups.map(([a, list]) => {
+      {takeGroups(groups, lazy.limit).map(([a, list]) => {
         const withContents = list.filter((b) => b.contents);
         return (
           <Fragment key={a}>
@@ -36,6 +39,7 @@ export function TranslatorPage({ id }: { id: string }) {
           </Fragment>
         );
       })}
+      {lazy.sentinel}
     </>
   );
 }

@@ -4,6 +4,8 @@ import { BookDeck } from '../components/cards';
 import { BooksTable } from '../components/BooksTable';
 import { Legend } from '../components/Legend';
 import { SortSwitch, ViewSwitch, sortOf, viewOf } from '../components/switches';
+import { useProgressive } from '../hooks/useProgressive';
+import { PORTION } from '../lib/progressive';
 import { replaceParams } from '../router';
 import { parseTags, tagCloud, tagCounts, toggleTag, tokenize } from '../lib/tags';
 
@@ -15,6 +17,10 @@ export function SearchPage({ params }: { params: URLSearchParams }) {
   const found = m.catalog.books.filter((b) => [...tags].every((t) => b.tags.includes(t)) && m.matches(b, tokens)).sort(m.bookSorts[sortOf(params)]);
   const counts = tagCounts(found);
   const cloud = tagCloud(m.catalog.books);
+  const asList = viewOf(params) === 'list';
+  // найденное рисуется постепенно; новый запрос, теги, вид или сортировка — снова с первой порции
+  const lazy = useProgressive(found.length, asList ? PORTION.rows : PORTION.bookCards, params.toString());
+  const shown = found.slice(0, lazy.limit);
 
   const tagButton = (t: string) => {
     const n = counts.get(t) || 0, on = tags.has(t);
@@ -42,7 +48,8 @@ export function SearchPage({ params }: { params: URLSearchParams }) {
         <SortSwitch page="search" params={params} />
       </div>
       {!found.length ? <p>Ничего не найдено. Попробуйте снять часть тегов.</p>
-        : viewOf(params) === 'list' ? <BooksTable groups={[[null, found]]} /> : <><Legend kind="genre" /><BookDeck books={found} /></>}
+        : asList ? <BooksTable groups={[[null, shown]]} /> : <><Legend kind="genre" /><BookDeck books={shown} /></>}
+      {lazy.sentinel}
     </>
   );
 }

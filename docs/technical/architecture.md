@@ -15,7 +15,7 @@
 | `package.json`, `package-lock.json` | зависимости и команды (`npm run …`) |
 | `vite.config.ts` | сборка, dev-сервер, копирование `data/` и `images/` в `dist/`, настройки vitest |
 | `tsconfig*.json` | настройки TypeScript |
-| `tools/` | сверка со старой версией и извлечение её из git |
+| `tools/` | сверка со старой версией, извлечение её из git, замеры скорости |
 | `.github/workflows/pages.yml` | сборка и публикация на GitHub Pages |
 | `docs/` | эта документация и [скрипты импорта](../scripts/README.md) |
 | `dist/` | результат сборки; в git не хранится (`.gitignore`) |
@@ -37,6 +37,7 @@ lib/                   логика без React, покрыта тестами 
   people.ts            заголовок и строки сведений профиля
   colors.ts            цвета жанров и эпох
   sources.ts           подписи источников
+  progressive.ts       порции ленивой отрисовки: сколько элементов и групп показать
   tags.ts, works.ts, translator.ts, home.ts, book.ts — логика отдельных страниц
 components/            общие компоненты
   Layout.tsx           шапка, меню, переключатель палитры
@@ -45,6 +46,7 @@ components/            общие компоненты
   LettersPage.tsx      перечень людей по алфавиту (карточки или список)
   BooksTable.tsx, Legend.tsx, switches.tsx, JumpNav.tsx, WorksList.tsx, links.tsx, common.tsx
 pages/                 страница на каждый раздел
+hooks/useProgressive.tsx  ленивая отрисовка длинных списков (см. «Страницы и функции»)
 test/fixtures.ts       небольшой каталог для тестов
 ```
 

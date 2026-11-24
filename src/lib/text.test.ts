@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { alphaCompare, kanjiNum, letterRank, norm, plural, titleKey } from './text';
+import { alphaCompare, dayText, kanjiNum, letterRank, norm, plural, titleKey } from './text';
 
 describe('plural', () => {
   const forms: [string, string, string] = ['книга', 'книги', 'книг'];
@@ -52,5 +52,13 @@ describe('алфавитный порядок', () => {
     expect(titleKey('(Без названия)')).toBe('Без названия)');
     expect(titleKey('1984')).toBe('1984');
     expect(titleKey(null)).toBe('');
+  });
+});
+
+describe('dayText', () => {
+  it('дата словами', () => {
+    expect(dayText('2026-11-23')).toBe('23 ноября 2026');
+    expect(dayText('2026-01-05')).toBe('5 января 2026');
+    expect(dayText('не дата')).toBe('не дата');
   });
 });

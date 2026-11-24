@@ -1,5 +1,5 @@
 // Группировка и сортировка списков для страниц (чистые функции)
-import { ALPHABET, alphaCompare, collator, titleKey } from './text';
+import { ALPHABET, alphaCompare, collator, dayText, titleKey } from './text';
 import type { Book } from '../types';
 
 // Подряд идущие элементы с одинаковым ключом — в одну группу (порядок сохраняется)
@@ -33,14 +33,21 @@ export function authorWorks(books: Book[]): Book[][] {
 }
 
 // Раздел «Издания»: сортировка и группы
-export type EditionSort = 'title' | 'year' | 'publisher';
+export type EditionSort = 'title' | 'year' | 'publisher' | 'added';
+const EDITION_SORT_KEYS: EditionSort[] = ['title', 'year', 'publisher', 'added'];
+export const editionSortOf = (s: string | null): EditionSort => (EDITION_SORT_KEYS.includes(s as EditionSort) ? s as EditionSort : 'title');
 const edTitleKey = (b: Book) => (b.title_ru || '').replace(/^[«"„'(\[\s]+/, '');
 const byTitle = (x: Book, y: Book) => alphaCompare(edTitleKey(x), edTitleKey(y)) || (x.year || 0) - (y.year || 0);
-export const EDITION_SORTS: Record<EditionSort, (x: Book, y: Book) => number> = {
+export const EDITION_SORTS: Record<Exclude<EditionSort, 'added'>, (x: Book, y: Book) => number> = {
   title: byTitle,
   year: (x, y) => (x.year ?? 99999) - (y.year ?? 99999) || byTitle(x, y),
   publisher: (x, y) => (Number(!x.publisher) - Number(!y.publisher)) || collator.compare(x.publisher || '', y.publisher || '') || (x.year || 0) - (y.year || 0) || byTitle(x, y),
 };
+// Сравнение для сортировки изданий; «по дате добавления» — по номеру карточки, новые сверху
+export function editionComparator(sort: EditionSort, bookNo: Map<string, number>): (x: Book, y: Book) => number {
+  if (sort === 'added') return (x, y) => (bookNo.get(y.id) ?? 0) - (bookNo.get(x.id) ?? 0);
+  return EDITION_SORTS[sort];
+}
 export const EDITION_GROUP: Record<EditionSort, (b: Book) => string> = {
   title: (b) => {
     const c = edTitleKey(b)[0]?.toUpperCase() || '?';
@@ -48,6 +55,7 @@ export const EDITION_GROUP: Record<EditionSort, (b: Book) => string> = {
   },
   year: (b) => (b.year ? String(b.year) : 'год не указан'),
   publisher: (b) => b.publisher || 'издательство не указано',
+  added: (b) => (b.added ? `добавлены ${dayText(b.added)}` : 'дата добавления не указана'),
 };
 export const editionGroupId = (g: string): string => `E-${g.replace(/[^\wА-ЯЁа-яё]+/g, '_')}`;
 

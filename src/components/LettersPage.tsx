@@ -1,11 +1,14 @@
-// Перечень людей по алфавиту (авторы, переводчики): карточки или текстовый список
+// Перечень людей по алфавиту (авторы, переводчики): карточки или текстовый список.
+// Рисуется постепенно; переход по букве дорисовывает список до этой буквы.
 import type { ReactNode } from 'react';
 import { PeopleDeck, lifeYears } from './cards';
 import { SectionTitle } from './common';
 import { JumpNav } from './JumpNav';
 import { Legend } from './Legend';
 import { SwitchGroup, viewOf } from './switches';
+import { useProgressive } from '../hooks/useProgressive';
 import { groupRuns, letterOf, sortPeople } from '../lib/grouping';
+import { PORTION, groupStarts, takeGroups } from '../lib/progressive';
 import type { PersonInfo } from '../types';
 
 interface Props {
@@ -21,9 +24,11 @@ interface Props {
 export function LettersPage({ title, sub, people, hrefBase, prefix, extra, params }: Props) {
   const sorted = sortPeople(people);
   const asList = viewOf(params) === 'list';
-  const letters = [...new Set(sorted.map(letterOf))];
+  const groups = groupRuns(sorted, letterOf);
+  const starts = groupStarts(groups);
+  const lazy = useProgressive(sorted.length, asList ? PORTION.rows : PORTION.peopleCards, `${hrefBase}:${asList}`);
   // Буква-отметка встаёт в ряд перед первой карточкой на эту букву
-  const firstOfLetter = new Set(groupRuns(sorted, letterOf).map(([, ps]) => ps[0]));
+  const firstOfLetter = new Set(groups.map(([, ps]) => ps[0]));
   const marker = (p: PersonInfo) => {
     if (!firstOfLetter.has(p)) return null;
     const L = letterOf(p);
@@ -33,24 +38,26 @@ export function LettersPage({ title, sub, people, hrefBase, prefix, extra, param
     <>
       <h1>{title}</h1>
       <p className="sub">{sub}</p>
-      <JumpNav href={`#/${hrefBase}s`} items={letters.map((L) => ({ label: L, target: `${prefix}-${L}` }))} />
+      <JumpNav href={`#/${hrefBase}s`} onJump={lazy.reveal}
+        items={groups.map(([L], i) => ({ label: L, target: `${prefix}-${L}`, index: starts[i] }))} />
       <SwitchGroup label="Вид" current={asList ? 'list' : 'cards'} items={[
         ['cards', 'Карточки', `#/${hrefBase}s`],
         ['list', 'Список', `#/${hrefBase}s?view=list`],
       ]} />
       <SectionTitle>По алфавиту</SectionTitle>
       {asList
-        ? <PeopleList people={sorted} hrefBase={hrefBase} prefix={prefix} extra={extra} />
-        : <><Legend kind="era" /><PeopleDeck people={sorted} hrefBase={hrefBase} extra={extra} marker={marker} /></>}
+        ? <PeopleList groups={takeGroups(groups, lazy.limit)} hrefBase={hrefBase} prefix={prefix} extra={extra} />
+        : <><Legend kind="era" /><PeopleDeck people={sorted.slice(0, lazy.limit)} hrefBase={hrefBase} extra={extra} marker={marker} /></>}
+      {lazy.sentinel}
     </>
   );
 }
 
 // Текстовый список имён по буквам
-function PeopleList({ people, hrefBase, prefix, extra }: Pick<Props, 'people' | 'hrefBase' | 'prefix' | 'extra'>) {
+function PeopleList({ groups, hrefBase, prefix, extra }: { groups: [string, PersonInfo[]][] } & Pick<Props, 'hrefBase' | 'prefix' | 'extra'>) {
   return (
     <div className="name-list">
-      {groupRuns(people, letterOf).map(([L, ps]) => (
+      {groups.map(([L, ps]) => (
         <section className="name-group" key={L}>
           <h3 id={`${prefix}-${L}`}>{L}</h3>
           <ul>

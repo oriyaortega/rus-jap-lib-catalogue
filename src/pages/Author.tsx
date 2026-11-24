@@ -6,22 +6,27 @@ import { SeriesText, TranslatorsShort, imprintText } from '../components/links';
 import { Profile } from '../components/Profile';
 import { WorksList } from '../components/WorksList';
 import { authorWorks } from '../lib/grouping';
+import { useProgressive } from '../hooks/useProgressive';
+import { PORTION } from '../lib/progressive';
 import { NotFound } from './NotFound';
 import type { Book } from '../types';
 
 export function AuthorPage({ id }: { id: string }) {
   const m = useCatalog();
-  if (!m.authorsById.has(id)) return <NotFound />;
   // hide_on_author: издание показано в разделе «Другое издание» другой карточки, в списке автора не повторяем
   const works = authorWorks(m.booksOf(id));
+  // произведения рисуются постепенно; список «Произведения на русском языке» — после них
+  const lazy = useProgressive(works.length, PORTION.bookCards, id);
+  if (!m.authorsById.has(id)) return <NotFound />;
   const count = works.reduce((n, eds) => n + eds.length, 0);
   const list = m.worksOf(id);
   return (
     <>
       <Profile person={m.authorInfo(id)} role="автор" />
       <SectionTitle>{`Издания на русском · ${count}`}</SectionTitle>
-      {works.map((eds) => <WorkRow key={eds[0].id} editions={eds} />)}
-      <WorksList works={list} title={`Произведения на русском языке · ${list.length}`} />
+      {works.slice(0, lazy.limit).map((eds) => <WorkRow key={eds[0].id} editions={eds} />)}
+      {lazy.sentinel}
+      {lazy.limit >= works.length && <WorksList works={list} title={`Произведения на русском языке · ${list.length}`} />}
     </>
   );
 }

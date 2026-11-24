@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
-  EDITION_GROUP, EDITION_SORTS, authorWorks, booksOfYear, editionGroupId, groupRuns, letterOf, nonfictionGroups, nonfictionTitle, sortPeople,
+  EDITION_GROUP, EDITION_SORTS, authorWorks, editionComparator, editionSortOf, booksOfYear, editionGroupId, groupRuns, letterOf, nonfictionGroups, nonfictionTitle, sortPeople,
 } from './grouping';
 import { book, books } from '../test/fixtures';
 
@@ -66,6 +66,19 @@ describe('Издания', () => {
     expect(ids([...books].sort(EDITION_SORTS.title))).toEqual(['b1', 'b2', 'b6', 'b5', 'b4', 'b3', 'b7']);
     expect(ids([...books].sort(EDITION_SORTS.year)).at(-1)).toBe('b6');
     expect(ids([...books].sort(EDITION_SORTS.publisher)).slice(0, 3)).toEqual(['b2', 'b1', 'b4']);
+  });
+  it('по дате добавления — по номеру карточки, новые сверху; группы по дате', () => {
+    const bookNo = new Map(books.map((b, i) => [b.id, i + 1]));
+    expect(ids([...books].sort(editionComparator('added', bookNo)))).toEqual(['b7', 'b6', 'b5', 'b4', 'b3', 'b2', 'b1']);
+    expect(editionComparator('title', bookNo)).toBe(EDITION_SORTS.title);
+    expect(EDITION_GROUP.added(book({ id: 'a', added: '2026-11-23' }))).toBe('добавлены 23 ноября 2026');
+    expect(EDITION_GROUP.added(book({ id: 'a' }))).toBe('дата добавления не указана');
+  });
+  it('параметр сортировки', () => {
+    expect(editionSortOf('added')).toBe('added');
+    expect(editionSortOf('year')).toBe('year');
+    expect(editionSortOf('author')).toBe('title');
+    expect(editionSortOf(null)).toBe('title');
   });
   it('id группы для якоря', () => {
     expect(editionGroupId('A–Z')).toBe('E-A_Z');

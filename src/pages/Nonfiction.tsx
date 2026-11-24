@@ -6,6 +6,8 @@ import { BooksTable } from '../components/BooksTable';
 import { SectionTitle } from '../components/common';
 import { SortSwitch, ViewSwitch, sortOf, viewOf } from '../components/switches';
 import { TOPIC_TAGS, TYPE_TAGS } from '../lib/tags';
+import { useProgressive } from '../hooks/useProgressive';
+import { PORTION, takeGroups } from '../lib/progressive';
 import { nonfictionGroups, nonfictionTitle } from '../lib/grouping';
 import { collator, plural } from '../lib/text';
 
@@ -16,6 +18,7 @@ export function NonfictionPage({ params }: { params: URLSearchParams }) {
   const topics = [...new Set([...books.flatMap((b) => b.tags.filter((t) => !TYPE_TAGS.includes(t))), ...TOPIC_TAGS])].sort((a, b) => collator.compare(a, b));
   const nTopic = (t: string) => books.filter((b) => b.tags.includes(t)).length;
   const asList = viewOf(params) === 'list';
+  const lazy = useProgressive(books.length, asList ? PORTION.rows : PORTION.bookCards, params.toString());
   return (
     <>
       <h1>Нехудожественная литература</h1>
@@ -30,12 +33,13 @@ export function NonfictionPage({ params }: { params: URLSearchParams }) {
         })}
       </div>
       <div className="ed-controls"><ViewSwitch page="nonfiction" params={params} /><SortSwitch page="nonfiction" params={params} /></div>
-      {groups.map(([g, list]) => (
+      {takeGroups(groups, lazy.limit).map(([g, list], i) => (
         <Fragment key={g}>
-          <SectionTitle>{asList ? `${nonfictionTitle(g)} · ${list.length}` : nonfictionTitle(g)}</SectionTitle>
+          <SectionTitle>{asList ? `${nonfictionTitle(g)} · ${groups[i][1].length}` : nonfictionTitle(g)}</SectionTitle>
           {asList ? <BooksTable groups={[[null, list]]} /> : <BookDeck books={list} />}
         </Fragment>
       ))}
+      {lazy.sentinel}
     </>
   );
 }

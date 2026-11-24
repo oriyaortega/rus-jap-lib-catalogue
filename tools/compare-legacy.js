@@ -16,6 +16,8 @@ async () => {
     '#/book/s1', '#/book/ll2', '#/book/b1', '#/book/iv1371', '#/book/lb679330', '#/book/x92', '#/book/am1', '#/book/wj1046', '#/book/bja1',
     '#/series/bjl', '#/series/hidebooks', '#/about', '#/no-such-page',
   ];
+  // новые возможности, которых нет в старой версии: сортировка изданий по дате добавления
+  const IGNORE = window.__compareIgnore || ['#app a[href*="sort=added"]'];
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
   function frame(src) {
@@ -77,10 +79,14 @@ async () => {
     return { at: i, legacy: JSON.stringify(a.slice(Math.max(0, i - 40), i + 60)), react: JSON.stringify(b.slice(Math.max(0, i - 40), i + 60)) };
   }
 
+  // новая версия рисует длинные списки постепенно — для сверки рисуем всё сразу
+  localStorage.setItem('lazy', 'off');
   const results = [];
   for (const r of ROUTES) {
     const [fl, fr] = await Promise.all([frame(`/legacy/index.html${r}`), frame(`/${r}`)]);
     const [al, ar] = await Promise.all([settled(fl), settled(fr)]);
+    // элементы, которых нет в старой версии (новые возможности), из новой убираются перед сравнением
+    for (const sel of IGNORE) fr.contentDocument.querySelectorAll(sel).forEach((e) => e.remove());
     if (!al || !ar) { results.push({ route: r, ok: false, error: `нет #app: legacy=${!!al} react=${!!ar}` }); fl.remove(); fr.remove(); continue; }
     const s = firstDiff(skel(al), skel(ar));
     const t = textDiff(al.innerText, ar.innerText);
@@ -93,6 +99,7 @@ async () => {
     results.push({ route: r, ok: !s && !t && !lay && !title && nav[0] === nav[1], ...(s && { dom: s }), ...(lay && { layout: lay }), ...(t && { text: t }), ...(title && { title }), ...(nav[0] !== nav[1] && { nav }) });
     fl.remove(); fr.remove();
   }
+  localStorage.removeItem('lazy');
   const bad = results.filter((x) => !x.ok);
   return { total: results.length, same: results.length - bad.length, differences: bad };
 }
