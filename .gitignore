@@ -1,1 +1,6 @@
 .claude/
+node_modules/
+dist/
+*.tsbuildinfo
+# исходная версия для сверки (см. tools/compare-legacy.js)
+.legacy/

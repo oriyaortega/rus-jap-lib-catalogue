@@ -1,0 +1,3 @@
+export function NotFound() {
+  return <><h1>Страница не найдена</h1><p><a href="#/">На главную</a></p></>;
+}

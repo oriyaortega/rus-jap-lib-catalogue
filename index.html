@@ -8,45 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=49">
   <script>
     // Выбор палитры применяем до отрисовки, чтобы страница не мигала
     try { if (localStorage.getItem('palette') === 'color') document.documentElement.dataset.palette = 'color'; } catch (e) {}
   </script>
 </head>
 <body>
-  <header class="masthead">
-    <div class="page masthead-inner">
-      <a href="#/" class="logo-fuda" aria-hidden="true" tabindex="-1">
-        <span class="fuda-no">百</span>
-        <span lang="ja">日本文学</span>
-      </a>
-      <a href="#/" class="home-link">
-        <span class="kicker" lang="ja">にほんぶんがく · かるた</span>
-        <span class="site-title">Библиография русскоязычной японской литературы</span>
-      </a>
-    </div>
-  </header>
-  <div class="heri" aria-hidden="true"></div>
-
-  <nav class="topnav page" aria-label="Разделы">
-    <a href="#/">Главная</a>
-    <a href="#/authors">Авторы</a>
-    <a href="#/translators">Переводчики</a>
-    <a href="#/works">Произведения</a>
-    <a href="#/editions">Издания</a>
-    <a href="#/nonfiction">Нехудожественная литература</a>
-    <a href="#/search">Поиск</a>
-    <a href="#/about">О сайте</a>
-    <button type="button" id="palette-toggle" class="palette-toggle" aria-pressed="false">
-      <span class="sw" aria-hidden="true"></span><span class="lbl">Цвет</span>
-    </button>
-  </nav>
-
-  <main id="app" class="content page" tabindex="-1">
-    <p>Загрузка…</p>
-  </main>
-
-  <script src="app.js?v=49"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
