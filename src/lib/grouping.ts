@@ -32,31 +32,61 @@ export function authorWorks(books: Book[]): Book[][] {
   return [...works.values()].sort((x, y) => alphaCompare(titleKey(x[0].title_ru), titleKey(y[0].title_ru)));
 }
 
-// Раздел «Издания»: сортировка и группы
-export type EditionSort = 'title' | 'year' | 'publisher' | 'added';
-const EDITION_SORT_KEYS: EditionSort[] = ['title', 'year', 'publisher', 'added'];
+// Раздел «Издания»: сортировка и группы.
+// Порядок (по возрастанию или убыванию) меняет только основной ключ: издания без него (без года, издательства,
+// автора, серии) всегда в конце, а одинаковые по ключу — всегда по алфавиту названий.
+export type EditionSort = 'title' | 'author' | 'year' | 'publisher' | 'series' | 'added';
+export type SortOrder = 'asc' | 'desc';
+const EDITION_SORT_KEYS: EditionSort[] = ['title', 'author', 'year', 'publisher', 'series', 'added'];
 export const editionSortOf = (s: string | null): EditionSort => (EDITION_SORT_KEYS.includes(s as EditionSort) ? s as EditionSort : 'title');
+// порядок по умолчанию: новые добавления сверху, остальное — по возрастанию
+export const defaultOrder = (sort: EditionSort): SortOrder => (sort === 'added' ? 'desc' : 'asc');
+export const editionOrderOf = (sort: EditionSort, s: string | null): SortOrder => (s === 'asc' || s === 'desc' ? s : defaultOrder(sort));
+export const flipOrder = (o: SortOrder): SortOrder => (o === 'asc' ? 'desc' : 'asc');
+
 const edTitleKey = (b: Book) => (b.title_ru || '').replace(/^[«"„'(\[\s]+/, '');
 const byTitle = (x: Book, y: Book) => alphaCompare(edTitleKey(x), edTitleKey(y)) || (x.year || 0) - (y.year || 0);
-export const EDITION_SORTS: Record<Exclude<EditionSort, 'added'>, (x: Book, y: Book) => number> = {
-  title: byTitle,
-  year: (x, y) => (x.year ?? 99999) - (y.year ?? 99999) || byTitle(x, y),
-  publisher: (x, y) => (Number(!x.publisher) - Number(!y.publisher)) || collator.compare(x.publisher || '', y.publisher || '') || (x.year || 0) - (y.year || 0) || byTitle(x, y),
+const letterGroup = (s: string, none: string) => {
+  const c = s[0]?.toUpperCase();
+  if (!c) return none;
+  return ALPHABET.includes(c) ? c : /[A-Z]/.test(c) ? 'A–Z' : /\d/.test(c) ? '0–9' : c;
 };
-// Сравнение для сортировки изданий; «по дате добавления» — по номеру карточки, новые сверху
-export function editionComparator(sort: EditionSort, bookNo: Map<string, number>): (x: Book, y: Book) => number {
-  if (sort === 'added') return (x, y) => (bookNo.get(y.id) ?? 0) - (bookNo.get(x.id) ?? 0);
-  return EDITION_SORTS[sort];
+
+// Сведения о книге, которых нет в ней самой: номер карточки, фамилия первого автора, название серии
+export interface EditionKeys {
+  bookNo: Map<string, number>;
+  authorSort: (b: Book) => string;
+  seriesName: (b: Book) => string;
 }
-export const EDITION_GROUP: Record<EditionSort, (b: Book) => string> = {
-  title: (b) => {
-    const c = edTitleKey(b)[0]?.toUpperCase() || '?';
-    return ALPHABET.includes(c) ? c : /[A-Z]/.test(c) ? 'A–Z' : /\d/.test(c) ? '0–9' : c;
-  },
-  year: (b) => (b.year ? String(b.year) : 'год не указан'),
-  publisher: (b) => b.publisher || 'издательство не указано',
-  added: (b) => (b.added ? `добавлены ${dayText(b.added)}` : 'дата добавления не указана'),
-};
+
+// Сравнение для сортировки изданий; «по дате добавления» — по номеру карточки
+export function editionComparator(sort: EditionSort, order: SortOrder, k: EditionKeys): (x: Book, y: Book) => number {
+  const dir = order === 'desc' ? -1 : 1;
+  const no = (b: Book) => k.bookNo.get(b.id) ?? 0;
+  const keyed = (has: (b: Book) => boolean, primary: (x: Book, y: Book) => number, rest: (x: Book, y: Book) => number = byTitle) =>
+    (x: Book, y: Book) => (Number(!has(x)) - Number(!has(y))) || dir * primary(x, y) || rest(x, y);
+  switch (sort) {
+    case 'title': return (x, y) => dir * byTitle(x, y);
+    case 'added': return (x, y) => dir * (no(x) - no(y));
+    case 'author': return keyed((b) => !!k.authorSort(b), (x, y) => alphaCompare(k.authorSort(x), k.authorSort(y)));
+    case 'year': return keyed((b) => !!b.year, (x, y) => (x.year || 0) - (y.year || 0));
+    case 'publisher': return keyed((b) => !!b.publisher, (x, y) => collator.compare(x.publisher || '', y.publisher || ''),
+      (x, y) => (x.year || 0) - (y.year || 0) || byTitle(x, y));
+    case 'series': return keyed((b) => !!k.seriesName(b), (x, y) => collator.compare(k.seriesName(x), k.seriesName(y)),
+      (x, y) => (x.series?.no ?? 9999) - (y.series?.no ?? 9999) || byTitle(x, y));
+  }
+}
+// Заголовки групп; разбивка на группы — по подряд идущим одинаковым заголовкам (groupRuns)
+export function editionGroupOf(sort: EditionSort, k: EditionKeys): (b: Book) => string {
+  switch (sort) {
+    case 'title': return (b) => letterGroup(edTitleKey(b), '?');
+    case 'author': return (b) => letterGroup(k.authorSort(b), 'автор не указан');
+    case 'year': return (b) => (b.year ? String(b.year) : 'год не указан');
+    case 'publisher': return (b) => b.publisher || 'издательство не указано';
+    case 'series': return (b) => (k.seriesName(b) ? `«${k.seriesName(b)}»` : 'вне серий');
+    case 'added': return (b) => (b.added ? `добавлены ${dayText(b.added)}` : 'дата добавления не указана');
+  }
+}
 export const editionGroupId = (g: string): string => `E-${g.replace(/[^\wА-ЯЁа-яё]+/g, '_')}`;
 
 // Фильтр по году: число, 'early' (до 1950) или пусто

@@ -1,13 +1,34 @@
-// Таблица изданий; groups — [[заголовок группы или null, книги], …]
+// Таблица изданий; groups — [[заголовок группы или null, книги], …].
+// С sort заголовки столбцов — кнопки сортировки (как в таблице «Произведений»): повторное нажатие меняет направление.
 import { useCatalog } from '../context';
 import { SeriesText, authorsNames } from './links';
 import type { Book } from '../types';
+import type { SortOrder } from '../lib/grouping';
 
-export function BooksTable({ groups, groupId = () => '' }: { groups: [string | null, Book[]][]; groupId?: (g: string) => string }) {
+export type TableColumn = 'title' | 'author' | 'publisher' | 'year' | 'series';
+export interface TableSort { current: string; order: SortOrder; onSort: (column: TableColumn) => void }
+
+const COLUMNS: [TableColumn, string, string][] = [
+  ['title', 'Название', ''], ['author', 'Автор', ''], ['publisher', 'Издательство', 'hide-sm'], ['year', 'Год', 'num'], ['series', 'Серия', 'hide-sm'],
+];
+export const orderMark = (o: SortOrder): string => (o === 'asc' ? ' ▴' : ' ▾');
+export const orderTitle = (o: SortOrder): string => (o === 'asc' ? 'по возрастанию' : 'по убыванию');
+
+export function BooksTable({ groups, groupId = () => '', sort }: { groups: [string | null, Book[]][]; groupId?: (g: string) => string; sort?: TableSort }) {
   const m = useCatalog();
+  const th = ([k, label, cls]: [TableColumn, string, string]) => {
+    if (!sort) return <th key={k} className={cls || undefined}>{label}</th>;
+    const on = sort.current === k;
+    return (
+      <th key={k} className={cls || undefined} aria-sort={on ? (sort.order === 'asc' ? 'ascending' : 'descending') : undefined}>
+        <button type="button" data-ed-sort={k} title={on ? `${orderTitle(sort.order)}; нажмите, чтобы ${orderTitle(sort.order === 'asc' ? 'desc' : 'asc')}` : undefined}
+          onClick={() => sort.onSort(k)}>{`${label}${on ? orderMark(sort.order) : ''}`}</button>
+      </th>
+    );
+  };
   return (
     <table className="list ed-table">
-      <thead><tr><th>Название</th><th>Автор</th><th className="hide-sm">Издательство</th><th className="num">Год</th><th className="hide-sm">Серия</th></tr></thead>
+      <thead><tr>{COLUMNS.map(th)}</tr></thead>
       {groups.map(([g, list], i) => (
         <tbody key={i}>
           {g && <tr className="grp" id={groupId(g)}><th colSpan={5}>{g}</th></tr>}

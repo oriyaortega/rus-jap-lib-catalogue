@@ -16,7 +16,8 @@ async () => {
     '#/book/s1', '#/book/ll2', '#/book/b1', '#/book/iv1371', '#/book/lb679330', '#/book/x92', '#/book/am1', '#/book/wj1046', '#/book/bja1',
     '#/series/bjl', '#/series/hidebooks', '#/about', '#/no-such-page',
   ];
-  // новые возможности, которых нет в старой версии: сортировка изданий по дате добавления
+  // новые возможности, которых нет в старой версии: сортировка изданий по дате добавления.
+  // Стрелка направления у сортировки изданий и кнопки в заголовках их таблицы тоже новые — на #/editions будут отличия.
   const IGNORE = window.__compareIgnore || ['#app a[href*="sort=added"]'];
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

@@ -2,10 +2,11 @@
 import { hrefWith } from '../router';
 import type { BookSort } from '../lib/model';
 
-export function SwitchGroup({ items, current, label }: { items: [string, string, string][]; current: string; label?: string }) {
+// items — [ключ, подпись, ссылка, подсказка?]
+export function SwitchGroup({ items, current, label }: { items: [string, string, string, string?][]; current: string; label?: string }) {
   return (
     <div className="view-switch" role="group" aria-label={label}>
-      {items.map(([k, text, href]) => <a key={k} href={href} aria-current={k === current ? 'true' : undefined}>{text}</a>)}
+      {items.map(([k, text, href, title]) => <a key={k} href={href} title={title} aria-current={k === current ? 'true' : undefined}>{text}</a>)}
     </div>
   );
 }
