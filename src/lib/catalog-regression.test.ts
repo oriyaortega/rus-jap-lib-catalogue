@@ -8,7 +8,8 @@ import { authorWorks } from './grouping';
 import { newestBooks, recentlyAdded } from './home';
 import { tokenize } from './tags';
 import { kanjiNum } from './text';
-import type { Catalog } from '../types';
+import { catalogBooksOfWork } from './workPage';
+import type { Catalog, WorkEditions } from '../types';
 
 const file = path.resolve(__dirname, '../../data/catalog.json');
 const catalog = JSON.parse(fs.readFileSync(file, 'utf-8')) as Catalog;
@@ -56,5 +57,24 @@ describe('каталог', () => {
 
   it('номер последней карточки японскими цифрами', () => {
     expect(kanjiNum(catalog.books.length)).toBe('四千一');
+  });
+});
+
+describe('страницы произведений', () => {
+  const edFile = path.resolve(__dirname, '../../data/work-editions.json');
+  const editions = JSON.parse(fs.readFileSync(edFile, 'utf-8')) as WorkEditions;
+  const booksOf = (id: string) => catalogBooksOfWork(m.work(id)!, (a) => m.booksOf(a), (b) => m.book(b), editions[id]?.pubs, catalog.books).map((b) => b.id);
+  it('издания каталога находятся по названию, содержанию и Фантлабу', () => {
+    expect(booksOf('xw2')).toHaveLength(3);
+    expect(booksOf('w128586').length).toBeGreaterThanOrEqual(3);
+  });
+  it('в публикациях — существующие книги каталога и издания Фантлаба', () => {
+    for (const [wid, info] of Object.entries(editions)) {
+      expect(m.work(wid), wid).toBeTruthy();
+      for (const p of info.pubs) {
+        expect(p.fl, wid).toBeGreaterThan(0);
+        if (p.book) expect(m.book(p.book), `${wid}: ${p.book}`).toBeTruthy();
+      }
+    }
   });
 });

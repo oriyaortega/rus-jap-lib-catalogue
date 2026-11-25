@@ -33,7 +33,7 @@ export function useRoute(): Route {
 
 // Раздел меню, подсвечиваемый на странице: у страниц автора, переводчика — их перечни, у книги — ничего
 export function navKeyOf(section: string): string {
-  return ({ author: 'authors', translator: 'translators', book: '-' } as Record<string, string>)[section] ?? section;
+  return ({ author: 'authors', translator: 'translators', work: 'works', book: '-' } as Record<string, string>)[section] ?? section;
 }
 
 // Поиск и фильтры: меняем адрес без новой записи в истории (и без прокрутки наверх)

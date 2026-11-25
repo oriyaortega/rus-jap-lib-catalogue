@@ -1,20 +1,22 @@
-// Нехудожественная литература: разделы по жанру, темы, вид и сортировка
+// Нехудожественная литература: разделы по жанру, темы, вид и сортировка.
+// Сортировка внутри разделов — как в «Изданиях»: кнопками над списком или заголовками столбцов таблицы, повторное нажатие меняет направление.
 import { Fragment } from 'react';
 import { useCatalog } from '../context';
 import { BookDeck } from '../components/cards';
 import { BooksTable } from '../components/BooksTable';
 import { SectionTitle } from '../components/common';
-import { SortSwitch, ViewSwitch, sortOf, viewOf } from '../components/switches';
+import { EditionSortSwitch, ViewSwitch, editionSortState, viewOf } from '../components/switches';
 import { TOPIC_TAGS, TYPE_TAGS } from '../lib/tags';
 import { useProgressive } from '../hooks/useProgressive';
 import { PORTION, takeGroups } from '../lib/progressive';
-import { nonfictionGroups, nonfictionTitle } from '../lib/grouping';
+import { editionComparator, nonfictionGroups, nonfictionTitle } from '../lib/grouping';
 import { collator, plural } from '../lib/text';
 
 export function NonfictionPage({ params }: { params: URLSearchParams }) {
   const m = useCatalog();
   const books = m.catalog.books.filter((b) => b.tags.includes('нехудожественная'));
-  const groups = nonfictionGroups(books, m.bookSorts[sortOf(params)]);
+  const { sort, order, table } = editionSortState('nonfiction', params);
+  const groups = nonfictionGroups(books, editionComparator(sort, order, m.editionKeys));
   const topics = [...new Set([...books.flatMap((b) => b.tags.filter((t) => !TYPE_TAGS.includes(t))), ...TOPIC_TAGS])].sort((a, b) => collator.compare(a, b));
   const nTopic = (t: string) => books.filter((b) => b.tags.includes(t)).length;
   const asList = viewOf(params) === 'list';
@@ -32,11 +34,11 @@ export function NonfictionPage({ params }: { params: URLSearchParams }) {
             : <span key={t} className="tag-off">{`${t} · 0`}</span>;
         })}
       </div>
-      <div className="ed-controls"><ViewSwitch page="nonfiction" params={params} /><SortSwitch page="nonfiction" params={params} /></div>
+      <div className="ed-controls"><ViewSwitch page="nonfiction" params={params} /><EditionSortSwitch page="nonfiction" params={params} /></div>
       {takeGroups(groups, lazy.limit).map(([g, list], i) => (
         <Fragment key={g}>
           <SectionTitle>{asList ? `${nonfictionTitle(g)} · ${groups[i][1].length}` : nonfictionTitle(g)}</SectionTitle>
-          {asList ? <BooksTable groups={[[null, list]]} /> : <BookDeck books={list} />}
+          {asList ? <BooksTable groups={[[null, list]]} sort={table} /> : <BookDeck books={list} />}
         </Fragment>
       ))}
       {lazy.sentinel}

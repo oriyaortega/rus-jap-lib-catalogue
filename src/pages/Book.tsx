@@ -74,12 +74,15 @@ function Contents({ book: b }: { book: Book }) {
 function ContentRow({ item: w, book: b }: { item: ContentItem; book: Book }) {
   // автора произведения показываем, если он не единственный автор книги
   const showAuthor = w.a && (b.authors.length !== 1 || w.a !== b.authors[0]);
+  // название — ссылка на страницу произведения
+  const work = useCatalog().workOfItem(w);
   return (
     <li>
       <span className="w">
         {showAuthor && <AuthorLink id={w.a!} />}
-        {`${showAuthor ? '. ' : w.at ? `${w.at}. ` : ''}${w.t ?? ''}${w.o ? ' ' : ''}`}
-        {w.o && <span lang="ja">{w.o}</span>}
+        {showAuthor ? '. ' : w.at ? `${w.at}. ` : ''}
+        {/* оригинальное название — на странице произведения, в содержании не повторяется */}
+        {work ? <a href={`#/work/${work.id}`}>{w.t}</a> : w.t ?? ''}
       </span>
       {(w.k || w.tr.length > 0) && <>{' '}<span className="k">
         {`${w.k || ''}${w.k && w.tr.length > 0 ? ', ' : ''}${w.tr.length > 0 ? 'пер. ' : ''}`}

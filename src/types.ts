@@ -97,7 +97,27 @@ export interface Work {
   foreign?: boolean;
   lang?: string;
   books?: string[];
+  translators?: string[];
+  derived?: true;          // создано по содержанию сборника, в works его нет (lib/workPage.ts, contentWorks)
 }
+
+// data/work-editions.json: публикации произведений на русском по данным Фантлаба (загружается при открытии страницы произведения)
+export interface WorkPublication {
+  fl: number;               // номер издания на Фантлабе (fantlab.ru/edition<fl>)
+  title: string;            // название издания
+  kind: 'книга' | 'журнал'; // книга или периодика
+  year?: number | null;
+  publisher?: string;
+  pages?: number;
+  tr?: string[];            // переводчики произведения в этом издании
+  book?: string;            // такая же книга в каталоге
+}
+export interface WorkInfo {
+  tr?: string[];            // все переводчики произведения на русский
+  titles?: string[];        // русские названия переводов, если отличаются от основного
+  pubs: WorkPublication[];
+}
+export type WorkEditions = Record<string, WorkInfo>;
 
 export interface NewsItem { date: string; text: string }
 

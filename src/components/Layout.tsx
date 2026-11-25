@@ -27,8 +27,8 @@ export const NAV_ITEMS: [string, string][] = [
   ['#/authors', 'Авторы'],
   ['#/translators', 'Переводчики'],
   ['#/works', 'Произведения'],
-  ['#/editions', 'Издания'],
   ['#/nonfiction', 'Нехудожественная литература'],
+  ['#/editions', 'Издания'],
   ['#/search', 'Поиск'],
   ['#/about', 'О сайте'],
 ];

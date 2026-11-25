@@ -11,6 +11,7 @@
 | `index.html` | каркас страницы для Vite: шрифты, скрипт палитры до отрисовки, `<div id="root">`, подключение `src/main.tsx` |
 | `src/` | исходный код сайта, см. ниже |
 | `data/catalog.json` | данные каталога (около 8 МБ), см. [Модель данных](data-model.md) |
+| `data/work-editions.json` | публикации произведений по данным Фантлаба (загружается на странице произведения) |
 | `images/` | обложки и портреты, плюс `_index.csv` с их происхождением, см. [Картинки](images.md) |
 | `package.json`, `package-lock.json` | зависимости и команды (`npm run …`) |
 | `vite.config.ts` | сборка, dev-сервер, копирование `data/` и `images/` в `dist/`, настройки vitest |
@@ -38,6 +39,7 @@ lib/                   логика без React, покрыта тестами 
   colors.ts            цвета жанров и эпох
   sources.ts           подписи источников
   progressive.ts       порции ленивой отрисовки: сколько элементов и групп показать
+  workPage.ts          страница произведения: издания каталога, переводчики, публикации
   tags.ts, works.ts, translator.ts, home.ts, book.ts — логика отдельных страниц
 components/            общие компоненты
   Layout.tsx           шапка, меню, переключатель палитры
@@ -47,6 +49,7 @@ components/            общие компоненты
   BooksTable.tsx, Legend.tsx, switches.tsx, JumpNav.tsx, WorksList.tsx, links.tsx, common.tsx
 pages/                 страница на каждый раздел
 hooks/useProgressive.tsx  ленивая отрисовка длинных списков (см. «Страницы и функции»)
+hooks/useWorkEditions.ts  загрузка data/work-editions.json (один раз)
 test/fixtures.ts       небольшой каталог для тестов
 ```
 
@@ -79,6 +82,7 @@ test/fixtures.ts       небольшой каталог для тестов
 | `#/editions[/:year]?view=&sort=` | `pages/Editions.tsx` |
 | `#/nonfiction?view=&sort=` | `pages/Nonfiction.tsx` |
 | `#/search?q=&tags=&sort=&view=` | `pages/Search.tsx` |
+| `#/work/:id` | `pages/Work.tsx` |
 | `#/book/:id` | `pages/Book.tsx` |
 | `#/series/:id` | `pages/Series.tsx` |
 | `#/about` | `pages/About.tsx` |

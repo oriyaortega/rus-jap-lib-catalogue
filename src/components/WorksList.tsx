@@ -3,11 +3,9 @@ import { SectionTitle } from './common';
 import { collator } from '../lib/text';
 import type { Work } from '../types';
 
-// Японские произведения — ссылка на Фантлаб, остальные — на издание в каталоге
+// Название — ссылка на страницу произведения
 export function WorkTitleLink({ work: w }: { work: Work }) {
-  if (w.fantlab) return <a href={`https://fantlab.ru/work${w.fantlab}`} target="_blank" rel="noopener">{w.title_ru}</a>;
-  if (w.books?.length) return <a href={`#/book/${w.books[0]}`}>{w.title_ru}</a>;
-  return <>{w.title_ru}</>;
+  return <a href={`#/work/${w.id}`}>{w.title_ru}</a>;
 }
 
 export function WorksList({ works, title }: { works: Work[]; title: string }) {

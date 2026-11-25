@@ -1,7 +1,9 @@
 // Каталог с индексами и производными сведениями. Создаётся заново, когда приходят данные Викиданных.
 import { CJK, alphaCompare, collator, norm } from './text';
 import { ERA_COLORS, OTHER_COLOR, TRANSLATOR_COLOR, eraByBirthYear } from './colors';
-import type { Author, Book, Catalog, PersonInfo, Series, Translator, WdMap, WdState, Work } from '../types';
+import { contentWorks } from './workPage';
+import type { EditionKeys } from './grouping';
+import type { Author, Book, Catalog, ContentItem, PersonInfo, Series, Translator, WdMap, WdState, Work } from '../types';
 
 export type BookSort = 'author' | 'title' | 'year' | 'publisher';
 type Cmp<T> = (x: T, y: T) => number;
@@ -14,6 +16,8 @@ export class CatalogModel {
   private readonly booksByAuthor = new Map<string, Book[]>();
   private readonly booksByTranslator = new Map<string, Book[]>();
   private readonly worksByAuthor = new Map<string, Work[]>();
+  private readonly worksById = new Map<string, Work>();
+  private itemWorks: Map<ContentItem, Work> | null = null;
   private readonly booksById: Map<string, Book>;
   private readonly eraCache = new Map<string, string | null>();
   private index: Map<Book, { hay: string; raw: string }> | null = null;
@@ -31,7 +35,10 @@ export class CatalogModel {
       for (const id of new Set([...b.authors, ...(b.contents || []).map((w) => w.a).filter((a): a is string => !!a)])) push(this.booksByAuthor, id, b);
       for (const id of new Set(b.translators)) push(this.booksByTranslator, id, b);
     }
-    for (const w of catalog.works || []) for (const id of new Set(w.authors)) push(this.worksByAuthor, id, w);
+    for (const w of catalog.works || []) {
+      this.worksById.set(w.id, w);
+      for (const id of new Set(w.authors)) push(this.worksByAuthor, id, w);
+    }
 
     const titleKeyOf = (b: Book) => (b.title_ru || '').replace(/^[«"„'(\[\s]+/, '');
     const byBookTitle: Cmp<Book> = (x, y) => alphaCompare(titleKeyOf(x), titleKeyOf(y)) || (x.year || 0) - (y.year || 0);
@@ -71,8 +78,23 @@ export class CatalogModel {
   booksOf(id: string): Book[] { return this.booksByAuthor.get(id) || []; }
   translationsOf(id: string): Book[] { return this.booksByTranslator.get(id) || []; }
   worksOf(id: string): Work[] { return this.worksByAuthor.get(id) || []; }
+  work(id: string): Work | undefined { this.contentIndex(); return this.worksById.get(id); }
+  // произведение для пункта содержания сборника (индекс строится при первом обращении)
+  workOfItem(c: ContentItem): Work | undefined { return this.contentIndex().get(c); }
+  private contentIndex(): Map<ContentItem, Work> {
+    if (!this.itemWorks) {
+      const { byItem, derived } = contentWorks(this.catalog.books, this.catalog.works || []);
+      for (const w of derived) this.worksById.set(w.id, w);
+      this.itemWorks = byItem;
+    }
+    return this.itemWorks;
+  }
   firstAuthorSort(b: Book): string { return this.authorsById.get(b.authors[0])?.sort || ''; }
   seriesOf(b: Book): Series | null { return b.series ? this.seriesById.get(b.series.id) ?? null : null; }
+  // ключи сортировки изданий («Издания», «Нехудожественная литература»)
+  get editionKeys(): EditionKeys {
+    return { bookNo: this.bookNo, authorSort: (b) => this.firstAuthorSort(b), seriesName: (b) => this.seriesOf(b)?.name || '' };
+  }
   series(id: string): Series | undefined { return this.seriesById.get(id); }
 
   // ---------- цвета ----------

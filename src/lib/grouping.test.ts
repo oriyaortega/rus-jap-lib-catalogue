@@ -132,6 +132,16 @@ describe('Нехудожественная литература', () => {
       ['история', ['5', '2']], ['исследование', ['4']], ['учебник', ['1']], ['альбом', ['6']], ['путеводитель', ['3']],
     ]);
   });
+  it('внутри разделов — сортировка «Изданий», в обе стороны', () => {
+    const list = [
+      book({ id: '1', genre: 'история', year: 1990 }), book({ id: '2', genre: 'история', year: 2010 }),
+      book({ id: '3', genre: 'история' }), book({ id: '4', genre: 'учебник', year: 2000 }),
+    ];
+    const keys: EditionKeys = { bookNo: new Map(), authorSort: () => '', seriesName: () => '' };
+    const byYear = (o: SortOrder) => nonfictionGroups(list, editionComparator('year', o, keys)).map(([g, l]) => [g, ids(l)]);
+    expect(byYear('asc')).toEqual([['история', ['1', '2', '3']], ['учебник', ['4']]]);
+    expect(byYear('desc')).toEqual([['история', ['2', '1', '3']], ['учебник', ['4']]]);
+  });
   it('заголовки разделов', () => {
     expect(nonfictionTitle('справочник')).toBe('Справочники и словари');
     expect(nonfictionTitle('альбом')).toBe('Альбом');

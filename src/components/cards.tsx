@@ -1,10 +1,10 @@
 // Карточки каруты: торифуда (книга) и ёмифуда (человек), колоды с подписями
 import type { CSSProperties, ReactNode } from 'react';
 import { useCatalog } from '../context';
-import { genreColor } from '../lib/colors';
+import { genreColor, kindColor } from '../lib/colors';
 import { kanjiNum } from '../lib/text';
 import { SeriesText, TranslatorsShort, authorsNames, imprintText } from './links';
-import type { Book, PersonInfo, WdPerson } from '../types';
+import type { Book, PersonInfo, WdPerson, Work } from '../types';
 
 const fc = (color: string) => ({ '--fc': color }) as CSSProperties;
 export const lifeYears = (w: WdPerson | null): string => (w?.born ? `${w.born.year}–${w.died ? w.died.year : ''}` : '');
@@ -26,6 +26,20 @@ export function Fuda({ book: b }: { book: Book }) {
         ? <span className="fuda-v" lang="ja">{b.title_orig}</span>
         : <span className={`fuda-v ru${b.title_ru.length > 100 ? ' long' : ''}`}>{b.title_ru}</span>}
       <span className="fuda-foot">{b.genre || ''}</span>
+    </div>
+  );
+}
+
+// Карточка произведения: год создания сверху, вертикальное оригинальное название, вид внизу
+export function WorkFuda({ work: w }: { work: Work }) {
+  const orig = (w.title_orig || '').split(' / ')[0];
+  return (
+    <div className="fuda" style={fc(kindColor(w.kind))} aria-hidden="true">
+      {w.year != null && w.year > 0 && <span className="fuda-no" lang="ja">{kanjiNum(w.year)}</span>}
+      {orig && !w.foreign
+        ? <span className="fuda-v" lang="ja">{orig}</span>
+        : <span className={`fuda-v ru${w.title_ru.length > 100 ? ' long' : ''}`}>{w.title_ru}</span>}
+      <span className="fuda-foot">{w.kind || ''}</span>
     </div>
   );
 }

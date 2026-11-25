@@ -17,6 +17,7 @@ import { SearchPage } from './pages/Search';
 import { SeriesPage } from './pages/Series';
 import { TranslatorPage } from './pages/Translator';
 import { WorksPage } from './pages/Works';
+import { WorkPage } from './pages/Work';
 import type { Catalog, WdMap, WdState } from './types';
 
 type Load = { status: 'loading' } | { status: 'error' } | { status: 'ok'; catalog: Catalog };
@@ -74,6 +75,7 @@ function Page({ route }: { route: Route }) {
     case 'translators': return <TranslatorsPage params={params} />;
     case 'translator': return <TranslatorPage key={parts[1]} id={parts[1]} />;
     case 'works': return <WorksPage params={params} />;
+    case 'work': return <WorkPage key={parts[1]} id={parts[1]} />;
     case 'editions': return <EditionsPage year={parts[1]} params={params} />;
     case 'nonfiction': return <NonfictionPage params={params} />;
     case 'search': return <SearchPage params={params} />;
@@ -92,6 +94,7 @@ function pageTitle({ section, parts }: Route, m: CatalogModel): string {
     case 'translators': return 'Переводчики';
     case 'translator': return m.translatorsById.get(parts[1])?.name_ru || '';
     case 'works': return 'Произведения';
+    case 'work': return m.work(parts[1])?.title_ru || '';
     case 'editions': return 'Издания';
     case 'nonfiction': return 'Нехудожественная литература';
     case 'search': return 'Поиск';

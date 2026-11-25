@@ -47,7 +47,8 @@ export function LettersPage({ title, sub, people, hrefBase, prefix, extra, param
       <SectionTitle>По алфавиту</SectionTitle>
       {asList
         ? <PeopleList groups={takeGroups(groups, lazy.limit)} hrefBase={hrefBase} prefix={prefix} extra={extra} />
-        : <><Legend kind="era" /><PeopleDeck people={sorted.slice(0, lazy.limit)} hrefBase={hrefBase} extra={extra} marker={marker} /></>}
+        // легенда эпох нужна только авторам: у всех переводчиков кайма одного цвета
+        : <>{hrefBase === 'author' && <Legend kind="era" />}<PeopleDeck people={sorted.slice(0, lazy.limit)} hrefBase={hrefBase} extra={extra} marker={marker} /></>}
       {lazy.sentinel}
     </>
   );
