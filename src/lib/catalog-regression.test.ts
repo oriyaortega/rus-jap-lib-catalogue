@@ -1,4 +1,5 @@
-// Регрессия на настоящем каталоге (data/catalog.json): числа совпадают с тем, что показывает исходная версия сайта.
+// Регрессия на настоящем каталоге (data/catalog.json): числа совпадали с тем, что показывала исходная версия сайта;
+// 25 ноября 2026 г. добавлены 558 изданий с Фантлаба (fe…), числа обновлены.
 // Викиданные не загружаются, поэтому проверяются только запросы, не зависящие от них.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -26,15 +27,15 @@ describe('каталог', () => {
     }
   });
 
-  it('поиск — как в исходной версии', () => {
-    expect(search('мураками')).toHaveLength(17);
-    expect(search('Мишима')).toHaveLength(25);
-    expect(search('雪国')).toHaveLength(2);
+  it('поиск', () => {
+    expect(search('мураками')).toHaveLength(216);
+    expect(search('Мишима')).toHaveLength(93);
+    expect(search('雪国')).toHaveLength(3);
     // «Murakami» латиницей находится через метки Викиданных — здесь их нет
     expect(search('Murakami')).toHaveLength(0);
-    expect(search('', ['манга'])).toHaveLength(151);
-    expect(search('', ['манга', 'переводная'])).toHaveLength(149);
-    expect(search('', ['переводная'])).toHaveLength(820);
+    expect(search('', ['манга'])).toHaveLength(175);
+    expect(search('', ['манга', 'переводная'])).toHaveLength(173);
+    expect(search('', ['переводная'])).toHaveLength(1378);
     expect(search('', ['нехудожественная', 'политика'])).toHaveLength(583);
   });
 
@@ -56,7 +57,7 @@ describe('каталог', () => {
   });
 
   it('номер последней карточки японскими цифрами', () => {
-    expect(kanjiNum(catalog.books.length)).toBe('四千一');
+    expect(kanjiNum(catalog.books.length)).toBe('四千五百五十九');
   });
 });
 

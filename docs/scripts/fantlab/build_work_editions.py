@@ -1,11 +1,14 @@
 # Собирает data/work-editions.json — публикации произведений на русском по данным Фантлаба —
 # из карточек, скачанных fetch_work_editions.py.
 # Берутся блоки «Издания» (10), «Периодика» (20) и «Комиксы» (32); аудиокниги, самиздат, планы издательств
-# и издания на других языках пропускаются. Издание сопоставляется с книгой каталога по ISBN,
-# а без ISBN — по году, названию и автору.
-# Запуск: python build_work_editions.py data/catalog.json <папка с карточками> data/work-editions.json
+# и издания на других языках пропускаются. Издание сопоставляется с книгой каталога по ссылке на это издание
+# на Фантлабе (source), затем по ISBN, а без ISBN — по году, названию и автору.
+# Если указана папка карточек изданий (fetch_editions.py), ISBN, название и издательство берутся и из них:
+# в списке изданий на карточке произведения ISBN бывает не указан.
+# Запуск: python build_work_editions.py data/catalog.json <папка с карточками> data/work-editions.json [<папка изданий>]
 import json, os, re, sys
 cat_path, src, out = sys.argv[1:4]
+edir = sys.argv[4] if len(sys.argv) > 4 else None
 cat = json.load(open(cat_path, encoding='utf-8'))
 BLOCKS = {'10': 'книга', '20': 'журнал', '32': 'книга'}
 
@@ -17,14 +20,25 @@ def norm(s):
 def isbns(s):
     return {re.sub(r'[^0-9x]', '', p.lower()) for p in re.split(r'[,;]', s or '') if re.sub(r'[^0-9x]', '', p.lower())}
 
-by_isbn, by_year = {}, {}
+by_isbn, by_year, by_fl = {}, {}, {}
 for b in cat['books']:
+    m = re.search(r'fantlab\.ru/edition(\d+)', b.get('source') or '')
+    if m: by_fl.setdefault(int(m[1]), b)
     for i in isbns(b.get('isbn')): by_isbn.setdefault(i, b)
     if b.get('year'): by_year.setdefault(b['year'], []).append(b)
 
 def match(e, authors):
+    if e['edition_id'] in by_fl: return by_fl[e['edition_id']]['id']
     for i in isbns(e.get('isbn')):
         if i in by_isbn: return by_isbn[i]['id']
+    card = os.path.join(edir, f"{e['edition_id']}.json") if edir else ''
+    if card and os.path.exists(card):
+        d = json.load(open(card, encoding='utf-8'))
+        for i in isbns(', '.join(d.get('isbns') or [])):
+            if i in by_isbn: return by_isbn[i]['id']
+        pub = norm(', '.join(untag(p['name']) for p in (d.get('creators') or {}).get('publishers') or []))
+        for b in by_year.get(d.get('year'), []):
+            if norm(b['title_ru']) == norm(untag(d.get('edition_name'))) and norm(b.get('publisher')) == pub: return b['id']
     t = norm(untag(e.get('name')))
     for b in by_year.get(e.get('year'), []):
         if norm(b['title_ru']) == t and (set(b['authors']) & set(authors) or not authors): return b['id']
