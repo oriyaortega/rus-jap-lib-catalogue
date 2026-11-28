@@ -41,9 +41,11 @@ const KIND_GENRE: Record<string, string> = {
   'рассказ': 'новеллы', 'микрорассказ': 'новеллы', 'сборник': 'новеллы', 'цикл': 'новеллы', 'антология': 'новеллы',
   'эссе': 'дзуйхицу', 'статья': 'очерки', 'интервью': 'очерки', 'документальное произведение': 'очерки',
   'пьеса': 'драма', 'киносценарий': 'драма', 'стихотворение': 'поэзия', 'стихи': 'поэзия',
-  'сказки': 'сказки', 'манга': 'манга', 'комикс': 'манга',
+  'сказки': 'сказки', 'моногатари': 'моногатари', 'дзуйхицу': 'дзуйхицу', 'манга': 'манга', 'комикс': 'манга',
 };
-export const kindColor = (k: string | null | undefined): string => genreColor(k ? KIND_GENRE[k] : null);
+// жанр, цветом которого окрашена кайма карточки произведения
+export const kindGenre = (k: string | null | undefined): string | null => (k && KIND_GENRE[k]) || null;
+export const kindColor = (k: string | null | undefined): string => genreColor(kindGenre(k));
 
 // Эпоха японского автора по году рождения
 export function eraByBirthYear(born: number): string {

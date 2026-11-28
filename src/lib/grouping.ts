@@ -44,7 +44,7 @@ export const defaultOrder = (sort: EditionSort): SortOrder => (sort === 'added' 
 export const editionOrderOf = (sort: EditionSort, s: string | null): SortOrder => (s === 'asc' || s === 'desc' ? s : defaultOrder(sort));
 export const flipOrder = (o: SortOrder): SortOrder => (o === 'asc' ? 'desc' : 'asc');
 
-const edTitleKey = (b: Book) => (b.title_ru || '').replace(/^[«"„'(\[\s]+/, '');
+export const edTitleKey = (b: Book): string => (b.title_ru || '').replace(/^[«"„'(\[\s]+/, '');
 const byTitle = (x: Book, y: Book) => alphaCompare(edTitleKey(x), edTitleKey(y)) || (x.year || 0) - (y.year || 0);
 const letterGroup = (s: string, none: string) => {
   const c = s[0]?.toUpperCase();
@@ -89,24 +89,21 @@ export function editionGroupOf(sort: EditionSort, k: EditionKeys): (b: Book) => 
 }
 export const editionGroupId = (g: string): string => `E-${g.replace(/[^\wА-ЯЁа-яё]+/g, '_')}`;
 
+// Разбивка уже отсортированного по алфавиту списка на буквы и навигация по ним («Произведения»,
+// «Нехудожественная литература»): prefix — своё для каждого раздела страницы, base — номер первого элемента
+// раздела во всём списке страницы (для дорисовки ленивого списка до нужной буквы).
+// key — тот же ключ, по которому список отсортирован (иначе буквы разорвутся).
+export interface LetterJump { label: string; target: string; index: number }
+export function letterRuns<T>(all: T[], key: (x: T) => string, prefix: string, base = 0): { groups: [string, T[]][]; nav: LetterJump[]; id: (g: string) => string } {
+  const id = (g: string) => `${prefix}-${g.replace(/[^\wА-ЯЁа-яё]+/g, '_')}`;
+  const groups = groupRuns(all, (x) => letterGroup(key(x), '?'));
+  const nav: LetterJump[] = [];
+  let i = base;
+  for (const [g, l] of groups) { nav.push({ label: g, target: id(g), index: i }); i += l.length; }
+  return { groups, nav, id };
+}
+
 // Фильтр по году: число, 'early' (до 1950) или пусто
 export function booksOfYear(books: Book[], year: string | undefined): Book[] {
   return books.filter((b) => !year || (year === 'early' ? !!b.year && b.year < 1950 : b.year === +year));
 }
-
-// Нехудожественная литература: разделы в постоянном порядке, внутри — выбранная сортировка
-export const NONFICTION_ORDER = ['история', 'исследование', 'искусство', 'очерки', 'справочник', 'учебник'];
-export function nonfictionGroups(books: Book[], cmp: (x: Book, y: Book) => number): [string, Book[]][] {
-  const rank = (g: string) => { const i = NONFICTION_ORDER.indexOf(g); return i < 0 ? 99 : i; };
-  const groups = new Map<string, Book[]>();
-  for (const b of [...books].sort((x, y) => rank(x.genre) - rank(y.genre) || collator.compare(x.genre || '', y.genre || '') || cmp(x, y))) {
-    const g = b.genre || 'другое';
-    const l = groups.get(g);
-    if (l) l.push(b); else groups.set(g, [b]);
-  }
-  return [...groups];
-}
-export const nonfictionTitle = (g: string): string => ({
-  'исследование': 'Исследования', 'очерки': 'Очерки и публицистика', 'история': 'История', 'искусство': 'Искусство',
-  'справочник': 'Справочники и словари', 'учебник': 'Учебники и разговорники',
-} as Record<string, string>)[g] || g[0].toUpperCase() + g.slice(1);

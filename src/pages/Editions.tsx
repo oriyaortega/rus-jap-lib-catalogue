@@ -1,8 +1,10 @@
 // Издания: все книги карточками или списком; выбор года.
+// Порядок блоков — как во всех перечнях: фильтр (год) → вид и сортировка → легенда → буквы → записи.
 // Сортировка — кнопками над списком (по алфавиту, году, издательству, дате добавления) или заголовками столбцов таблицы
 // (ещё по автору и серии); повторное нажатие на выбранную сортировку меняет направление (?order=asc|desc).
 // Книги рисуются постепенно, по мере прокрутки.
 import { Fragment } from 'react';
+import { GroupHeading } from '../components/common';
 import { useCatalog } from '../context';
 import { BookDeck } from '../components/cards';
 import { BooksTable } from '../components/BooksTable';
@@ -35,31 +37,33 @@ export function EditionsPage({ year, params }: { year?: string; params: URLSearc
     <>
       <h1>Издания</h1>
       <p className="sub">
-        {`${plural(books.length, ['издание', 'издания', 'изданий'])}${year ? ` · ${year === 'early' ? 'до 1950 года' : `${year} год`} · ` : ''}`}
+        {`все книги каталога · ${plural(books.length, ['издание', 'издания', 'изданий'])}${year ? ` · ${year === 'early' ? 'до 1950 года' : `${year} год`} · ` : ''}`}
         {year && <a href={yearHref('')}>все годы</a>}
       </p>
-      <div className="ed-controls">
-        <SwitchGroup current={view} items={[['cards', 'Карточки', href((p) => p.delete('view'))], ['list', 'Список', href((p) => p.set('view', 'list'))]]} />
-        <EditionSortSwitch page={page} params={params} />
-      </div>
       <details className="year-filter" open={!!year}>
         <summary>Выбрать год издания</summary>
         <div className="years">
           {years.map((y) => <a key={y} href={yearHref(y)} aria-current={String(y) === year ? 'true' : undefined}>{y}</a>)}
         </div>
       </details>
-      {(sort === 'title' || sort === 'author') && <JumpNav href={href(() => {})} onJump={lazy.reveal}
-        items={groups.flatMap(([g], i) => (g.length > 3 ? [] : [{ label: g, target: editionGroupId(g), index: starts[i] }]))} />}
-      {!books.length ? <p>За этот год изданий пока нет.</p>
-        : view === 'cards'
-          ? <><Legend kind="genre" />{shown.map(([g, list], i) => (
+      <div className="ed-controls">
+        <SwitchGroup current={view} items={[['cards', 'Карточки', href((p) => p.delete('view'))], ['list', 'Список', href((p) => p.set('view', 'list'))]]} />
+        <EditionSortSwitch page={page} params={params} />
+      </div>
+      {!books.length ? <p>За этот год изданий пока нет.</p> : <>
+        {view === 'cards' && <Legend kind="genre" />}
+        {(sort === 'title' || sort === 'author') && <JumpNav href={href(() => {})} onJump={lazy.reveal}
+          items={groups.flatMap(([g], i) => (g.length > 3 ? [] : [{ label: g, target: editionGroupId(g), index: starts[i] }]))} />}
+        {view === 'cards'
+          ? shown.map(([g, list], i) => (
             <Fragment key={i}>
               {/* в заголовке — число книг всей группы, даже если она отрисована не целиком */}
-              <h3 className="group-h" id={editionGroupId(g)}>{`${g} `}<span>{groups[i][1].length}</span></h3>
+              <GroupHeading id={editionGroupId(g)} label={g} count={groups[i][1].length} />
               <BookDeck books={list} />
             </Fragment>
-          ))}</>
-          : <BooksTable groups={shown} groupId={editionGroupId} sort={table} />}
+          ))
+          : <BooksTable groups={shown} groupId={editionGroupId} sort={table} counts={groups.map(([, l]) => l.length)} />}
+      </>}
       {lazy.sentinel}
     </>
   );

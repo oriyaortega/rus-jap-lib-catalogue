@@ -1,7 +1,7 @@
 // Переключатели вида («Карточки / Список») и сортировки книг
 import { hrefWith, replaceParams } from '../router';
 import type { BookSort } from '../lib/model';
-import { type EditionSort, type SortOrder, defaultOrder, editionOrderOf, editionSortOf, flipOrder } from '../lib/grouping';
+import { type EditionSort, type SortOrder, defaultOrder, editionSortOf, flipOrder } from '../lib/grouping';
 import { orderMark, orderTitle, type TableColumn, type TableSort } from './BooksTable';
 
 // items — [ключ, подпись, ссылка, подсказка?]
@@ -45,38 +45,51 @@ export function SortSwitch({ page, params }: { page: string; params: URLSearchPa
   );
 }
 
-// Сортировка изданий («Издания», «Нехудожественная литература»): ?sort= и ?order=.
-// Повторное нажатие на выбранную сортировку меняет направление; по умолчанию (по алфавиту, по возрастанию) параметров в адресе нет.
-export function setEditionSort(p: URLSearchParams, s: EditionSort, o: SortOrder = defaultOrder(s)) {
-  if (s === 'title') p.delete('sort'); else p.set('sort', s);
-  if (o === defaultOrder(s)) p.delete('order'); else p.set('order', o);
-}
-export function editionSortState(page: string, params: URLSearchParams) {
-  const sort = editionSortOf(params.get('sort'));
-  const order = editionOrderOf(sort, params.get('order'));
+// Сортировка с направлением (?sort= и ?order=): «Издания», «Нехудожественная литература», «Произведения».
+// Повторное нажатие на выбранную сортировку меняет направление; сортировка по умолчанию в обычном направлении
+// в адрес не пишется.
+export interface SortSpec<S extends string> { parse: (s: string | null) => S; byDefault: S; defaultOrder: (s: S) => SortOrder }
+export function sortState<S extends string>(page: string, params: URLSearchParams, spec: SortSpec<S>) {
+  const sort = spec.parse(params.get('sort'));
+  const o = params.get('order');
+  const order: SortOrder = o === 'asc' || o === 'desc' ? o : spec.defaultOrder(sort);
+  const set = (p: URLSearchParams, s: S, so: SortOrder = spec.defaultOrder(s)) => {
+    if (s === spec.byDefault) p.delete('sort'); else p.set('sort', s);
+    if (so === spec.defaultOrder(s)) p.delete('order'); else p.set('order', so);
+  };
   // выбранная сортировка — сменить направление, другая — включить её в обычном направлении
-  const toggle = (p: URLSearchParams, s: EditionSort) => setEditionSort(p, s, s === sort ? flipOrder(order) : defaultOrder(s));
+  const toggle = (p: URLSearchParams, s: S) => set(p, s, s === sort ? flipOrder(order) : spec.defaultOrder(s));
   // ссылка на этот же раздел с изменёнными параметрами (сортировка в адресе — в каноническом виде)
-  const href = (mut: (p: URLSearchParams) => void) => hrefWith(page, params, (p) => { setEditionSort(p, sort, order); mut(p); });
-  // заголовок столбца таблицы: адрес меняется без новой записи в истории и без прокрутки наверх, как в «Произведениях»
-  const table: TableSort = { current: sort, order, onSort: (c: TableColumn) => replaceParams(page, (p) => toggle(p, c)) };
-  return { sort, order, toggle, href, table };
-}
-
-export function EditionSortSwitch({ page, params }: { page: string; params: URLSearchParams }) {
-  const { sort, order, toggle, href } = editionSortState(page, params);
-  const item = (s: EditionSort, label: string): [string, string, string, string?] => (s === sort
+  const href = (mut: (p: URLSearchParams) => void) => hrefWith(page, params, (p) => { set(p, sort, order); mut(p); });
+  // кнопка над списком: [ключ, подпись со стрелкой у выбранной, ссылка, подсказка]
+  const item = (s: S, label: string): [string, string, string, string?] => (s === sort
     ? [s, `${label}${orderMark(order)}`, href((p) => toggle(p, s)), `${orderTitle(order)}; нажмите, чтобы ${orderTitle(flipOrder(order))}`]
     : [s, label, href((p) => toggle(p, s))]);
+  // заголовок столбца таблицы: адрес меняется без новой записи в истории и без прокрутки наверх
+  const onColumn = (c: S) => replaceParams(page, (p) => toggle(p, c));
+  return { sort, order, toggle, href, item, onColumn };
+}
+
+// Кнопки сортировки над списком: [[ключ, подпись], …]
+export function SortButtons<S extends string>({ state, items }: { state: ReturnType<typeof sortState<S>>; items: [S, string][] }) {
   return (
     <>
       <span className="ed-sort-label">Сортировка:</span>
-      <SwitchGroup current={sort} items={[
-        item('title', 'по алфавиту'),
-        item('year', 'по году издания'),
-        item('publisher', 'по издательству'),
-        item('added', 'по дате добавления'),
-      ]} />
+      <SwitchGroup current={state.sort} items={items.map(([k, label]) => state.item(k, label))} />
     </>
   );
+}
+
+// Сортировка изданий: по умолчанию — по алфавиту, «по дате добавления» — новые сверху
+const EDITION_SPEC: SortSpec<EditionSort> = { parse: editionSortOf, byDefault: 'title', defaultOrder };
+export function editionSortState(page: string, params: URLSearchParams) {
+  const st = sortState(page, params, EDITION_SPEC);
+  const table: TableSort = { current: st.sort, order: st.order, onSort: (c: TableColumn) => st.onColumn(c) };
+  return { ...st, table };
+}
+
+export function EditionSortSwitch({ page, params }: { page: string; params: URLSearchParams }) {
+  return <SortButtons state={editionSortState(page, params)} items={[
+    ['title', 'по алфавиту'], ['year', 'по году издания'], ['publisher', 'по издательству'], ['added', 'по дате добавления'],
+  ]} />;
 }

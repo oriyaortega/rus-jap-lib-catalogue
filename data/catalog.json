@@ -2,6 +2,10 @@
  "_note": "Издания внесены 8 ноября 2026 г. из таблицы пользователя, Фантлаба (серия «Библиотека японской литературы», переводы Е. А. Рябовой, поиск произведений по стране «Япония»), каталога «Поляндрии NoAge», «Лабиринта» (серия Orientalia et Classica), профиля В. В. Щепкина на сайте ВШЭ и статьи о Е. С. Штейнере в Википедии.",
  "news": [
   {
+   "date": "2026-11-27",
+   "text": "Добавлены ещё две книги Ad Marginem из серии «hide books»: сборник рассказов «Где начинается Европа» {author:tavadaeko} и «Философия туриста» {author:adzumakhiroki}."
+  },
+  {
    "date": "2026-11-25",
    "text": "По данным Фантлаба добавлены 558 изданий, в которых выходили произведения каталога: теперь они есть и в списке «Публикации на русском» на страницах произведений, и среди изданий каталога."
   },
@@ -2250,11 +2254,16 @@
   {
    "wikidata": "Q451058",
    "name_ru": "Тавада Ёко",
-   "name_orig": "多和 田葉子",
+   "name_orig": "多和田葉子",
    "sort": "Тавада",
    "id": "tavadaeko",
    "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/YokoTawadaP1040207.JPG?width=240",
-   "image": "images/person_tavadaeko.jpg"
+   "image": "images/person_tavadaeko.jpg",
+   "bio": "Ёко Тавада (род. 1960) — немецкая писательница японского происхождения, лауреат многих японских и немецких литературных премий (в т. ч. премии Акутагавы 1993 года и медали Гёте 2005 года). Пишет на японском и немецком языках. Выступает как поэт, прозаик, драматург, часто сотрудничает с художниками и музыкантами.",
+   "bio_src": {
+    "name": "издательство Ad Marginem",
+    "url": "https://admarginem.ru/product/gde-nachinaetsya-evropa/"
+   }
   },
   {
    "wikidata": "Q11414045",
@@ -21905,6 +21914,20 @@
    "name_ru": "Сапцина Ульяна",
    "short": "У. Сапцина",
    "sort": "Сапцина"
+  },
+  {
+   "id": "klyuchakmargar",
+   "wikidata": null,
+   "name_ru": "Ключак Маргарита",
+   "short": "М. Ключак",
+   "sort": "Ключак"
+  },
+  {
+   "id": "kolpenkoyuliya",
+   "wikidata": null,
+   "name_ru": "Колпенко Юлия",
+   "short": "Ю. Колпенко",
+   "sort": "Колпенко"
   }
  ],
  "books": [
@@ -53207,7 +53230,7 @@
    "print_run": 7000,
    "cover": "images/cover_fb286540.jpg",
    "source": "https://fantlab.ru/edition286540",
-   "genre": "роман",
+   "genre": "очерки",
    "sources": [
     "fantlab"
    ],
@@ -53216,9 +53239,9 @@
    },
    "added": "2026-11-08",
    "tags": [
-    "художественная",
+    "нехудожественная",
     "переводная",
-    "роман"
+    "очерки"
    ],
    "orig_year": null,
    "title_orig": null,
@@ -75247,7 +75270,7 @@
   },
   {
    "id": "bja4072",
-   "title_ru": "\u0001 \u0002 В.] История сформирования и военных действий в войну 1904—1905 гг. 2-й батареи 5-й Сибирской стрелковой артиллерийской бригады. Писана по запискам подпор. С. В. Жеденова, участника войны",
+   "title_ru": "История сформирования и военных действий в войну 1904—1905 гг. 2-й батареи 5-й Сибирской стрелковой артиллерийской бригады. Писана по запискам подпор. С. В. Жеденова, участника войны",
    "authors": [],
    "year": 1912,
    "city": "Москва",
@@ -82780,7 +82803,7 @@
   },
   {
    "id": "bja4937",
-   "title_ru": "\u0001 \u0002 Воспоминания и мысли о последней войне (1904—1905 гг.). Стоянка на Шахэ. Мукденский погром. Сыпингайские позиции",
+   "title_ru": "Воспоминания и мысли о последней войне (1904—1905 гг.). Стоянка на Шахэ. Мукденский погром. Сыпингайские позиции",
    "authors": [],
    "year": 1906,
    "city": "Санкт-Петербург",
@@ -123334,7 +123357,7 @@
    "city": "Москва",
    "publisher": null,
    "pages": 38,
-   "genre": "повесть",
+   "genre": "история",
    "work_note": "Серия: АН СССР. Ин-т народов Азии. Памятники лит. народов Востока. Тексты. Большая серия.",
    "links": [],
    "sources": [
@@ -123343,9 +123366,9 @@
    "added": "2026-11-09",
    "translators": [],
    "tags": [
-    "художественная",
+    "нехудожественная",
     "переводная",
-    "повесть"
+    "история"
    ],
    "orig_year": null,
    "title_orig": null,
@@ -123727,7 +123750,7 @@
   },
   {
    "id": "bjc3922",
-   "title_ru": "ПИОНОЕЫЙ фонарь",
+   "title_ru": "Пионовый фонарь",
    "authors": [
     "entesanyu"
    ],
@@ -184838,7 +184861,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 1",
@@ -184852,7 +184875,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -185364,7 +185387,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 2",
@@ -185378,7 +185401,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -185673,7 +185696,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 3",
@@ -185687,7 +185710,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -185938,7 +185961,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 4",
@@ -185952,7 +185975,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -188421,7 +188444,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 5",
@@ -188435,7 +188458,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -189304,7 +189327,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 6",
@@ -189318,7 +189341,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -190212,7 +190235,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 7",
@@ -190226,7 +190249,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -190257,7 +190280,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 8",
@@ -190271,7 +190294,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -190302,7 +190325,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 9",
@@ -190316,7 +190339,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -190677,7 +190700,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 10",
@@ -190691,7 +190714,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -193253,7 +193276,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 11",
@@ -193267,7 +193290,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -193298,7 +193321,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 12",
@@ -193312,7 +193335,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -195257,7 +195280,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 13",
@@ -195271,7 +195294,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -195302,7 +195325,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 14",
@@ -195316,7 +195339,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -195347,7 +195370,7 @@
    "authors": [
     "miurakenta"
    ],
-   "genre": "новеллы",
+   "genre": "манга",
    "orig_year": null,
    "added": "2026-11-25",
    "title_ru": "Берсерк. Том 15",
@@ -195361,7 +195384,7 @@
    "tags": [
     "художественная",
     "переводная",
-    "новеллы"
+    "манга"
    ],
    "sources": [
     "fantlab"
@@ -197343,6 +197366,85 @@
      "p": "303"
     }
    ]
+  },
+  {
+   "id": "am17",
+   "title_ru": "Где начинается Европа",
+   "authors": [
+    "tavadaeko"
+   ],
+   "year": 2026,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 176,
+   "isbn": "978-5-908038-83-6",
+   "genre": "новеллы",
+   "work_note": "Сборник рассказов: рассказчица оказывается в Японии, России (Сибирь, Москва) и Германии и описывает фрагментарный мир, где даже город или человеческое тело могут оказаться своего рода текстом. Рассказы из разных авторских сборников, впервые переведённые на русский с японского и немецкого. Книга 2005 года по версии Times Literary Supplement. Оригинальное название: どこからヨーロッパが始まる.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/gde-nachinaetsya-evropa/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-27",
+   "translators": [
+    "slaschevaanna",
+    "klyuchakmargar",
+    "kolpenkoyuliya"
+   ],
+   "tags": [
+    "художественная",
+    "переводная",
+    "новеллы"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am17.jpg",
+   "cover_src": "https://admarginem.ru/product/gde-nachinaetsya-evropa/",
+   "series": {
+    "id": "hidebooks"
+   }
+  },
+  {
+   "id": "am18",
+   "title_ru": "Философия туриста",
+   "authors": [
+    "adzumakhiroki"
+   ],
+   "year": 2025,
+   "city": "Москва",
+   "publisher": "Ad Marginem",
+   "pages": 400,
+   "isbn": "978-5-91103-824-3",
+   "genre": "очерки",
+   "work_note": "Японский философ видит в фигуре туриста метафору Другого — способ бытия, отвечающий миру, где глобализация и национализм странным образом сосуществуют. Философский анализ, эссеистика, математика, поездки в Чернобыль, рассуждения о семье, «жутком», вторичном творчестве, интерфейсах и Достоевском. Оригинальное название: 観光客の哲学.",
+   "links": [
+    {
+     "name": "Ad Marginem",
+     "url": "https://admarginem.ru/product/filosofiya-turista/"
+    }
+   ],
+   "sources": [],
+   "added": "2026-11-27",
+   "translators": [
+    "matveenkovalent"
+   ],
+   "tags": [
+    "нехудожественная",
+    "переводная",
+    "очерки",
+    "философия"
+   ],
+   "orig_year": null,
+   "title_orig": null,
+   "title_romaji": null,
+   "cover": "images/cover_am18.jpg",
+   "cover_src": "https://admarginem.ru/product/filosofiya-turista/",
+   "series": {
+    "id": "hidebooks"
+   }
   }
  ],
  "series": [
@@ -203046,113 +203148,6 @@
    "year": 1982
   },
   {
-   "id": "w138722",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Инженер Сетевой Сферы / NSE: Net Sphere Engineer",
-   "title_orig": "ネットスフィアエンジニア",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 138722,
-   "year": 2005
-  },
-  {
-   "id": "w138908",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Посылка; Package; Parcel",
-   "title_orig": "小包",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 138908,
-   "year": 2003
-  },
-  {
-   "id": "w138909",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Абара / Abara #1",
-   "title_orig": "アバラ #1",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 138909,
-   "year": 2006
-  },
-  {
-   "id": "w138910",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Абара / Abara #2",
-   "title_orig": "アバラ #2",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 138910,
-   "year": 2006
-  },
-  {
-   "id": "w138912",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Мертвяки; デッド・ヘッズ",
-   "title_orig": null,
-   "title_romaji": "Dead Heads",
-   "kind": "манга",
-   "fantlab": 138912,
-   "year": 2002
-  },
-  {
-   "id": "w138914",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Абара / Abara",
-   "title_orig": "アバラ",
-   "title_romaji": null,
-   "kind": "цикл",
-   "fantlab": 138914
-  },
-  {
-   "id": "w138916",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Сабрина; Sabrina",
-   "title_orig": "サブリナ",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 138916,
-   "year": 2002
-  },
-  {
-   "id": "w138925",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Blame! Том 1",
-   "title_orig": null,
-   "title_romaji": "Blame! #01",
-   "kind": "манга",
-   "fantlab": 138925,
-   "year": 1998
-  },
-  {
-   "id": "w138926",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Blame! Том 2",
-   "title_orig": null,
-   "title_romaji": "Blame! #02",
-   "kind": "манга",
-   "fantlab": 138926,
-   "year": 1998
-  },
-  {
    "id": "w140786",
    "authors": [
     "kikutikhideyu"
@@ -204503,7 +204498,10 @@
    "title_orig": "怪談牡丹灯籠",
    "title_romaji": null,
    "kind": "повесть",
-   "fantlab": 185676
+   "fantlab": 185676,
+   "books": [
+    "bjc3922"
+   ]
   },
   {
    "id": "w185687",
@@ -204673,114 +204671,6 @@
    "year": 2008
   },
   {
-   "id": "w225454",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Dominion: Tank Police, яп. ドミニオン",
-   "title_orig": null,
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 225454,
-   "year": 1985
-  },
-  {
-   "id": "w225457",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Отряд особого назначения",
-   "title_orig": "攻殻機動隊",
-   "title_romaji": "Kōkaku Kidōtai",
-   "kind": "цикл",
-   "fantlab": 225457,
-   "year": 1991
-  },
-  {
-   "id": "w225458",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Призрак в доспехах",
-   "title_orig": "攻殻機動隊 The Ghost in the Shell",
-   "title_romaji": "Kōkaku Kidōtai Za Gōsuto in za Sheru",
-   "kind": "манга",
-   "fantlab": 225458,
-   "year": 1990
-  },
-  {
-   "id": "w225460",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Orion, яп. 仙術超攻殻オリオン; Senjutsu Chōkōkaku Orion",
-   "title_orig": null,
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 225460,
-   "year": 1991
-  },
-  {
-   "id": "w225465",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Призрак в доспехах 2. Человеко-машинный интерфейс",
-   "title_orig": "攻殻機動隊 2 Man-Machine Interface",
-   "title_romaji": "Kōkaku Kidōtai Ni Manmashīn Intāfēsu",
-   "kind": "манга",
-   "fantlab": 225465,
-   "year": 1997
-  },
-  {
-   "id": "w225467",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Призрак в доспехах 1.5: Процессор с человеческой погрешностью",
-   "title_orig": "攻殻機動隊",
-   "title_romaji": "Kōkaku Kidōtai Ni Manmashīn Intāfēsu",
-   "kind": "сборник",
-   "fantlab": 225467,
-   "year": 2003
-  },
-  {
-   "id": "w225469",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Dominion: Tank Police, яп. ドミニオン",
-   "title_orig": null,
-   "title_romaji": null,
-   "kind": "цикл",
-   "fantlab": 225469,
-   "year": 1986
-  },
-  {
-   "id": "w225472",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Wild Mountain Cherry; яп. Yamazakura",
-   "title_orig": null,
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 225472,
-   "year": 1992
-  },
-  {
-   "id": "w225473",
-   "authors": [
-    "masamunesiro"
-   ],
-   "title_ru": "Judgement; яп. Shimban",
-   "title_orig": null,
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 225473,
-   "year": 1992
-  },
-  {
    "id": "w225564",
    "authors": [
     "tatsumitakayu"
@@ -204793,30 +204683,6 @@
    "year": 2004
   },
   {
-   "id": "w226856",
-   "authors": [
-    "miyadzakikhayao"
-   ],
-   "title_ru": "Shuna's Journey; Путешествие Сюны; Путешествие Суны",
-   "title_orig": "シュナの旅",
-   "title_romaji": "Shuna no Tabi",
-   "kind": "манга",
-   "fantlab": 226856,
-   "year": 1983
-  },
-  {
-   "id": "w226859",
-   "authors": [
-    "miyadzakikhayao"
-   ],
-   "title_ru": "Nausicaä of the Valley of Wind; Наусика из Долины Ветров; Навсикая из Долины Ветров",
-   "title_orig": "風の谷のナウシカ",
-   "title_romaji": "Kaze no Tani no Naushika",
-   "kind": "графический роман",
-   "fantlab": 226859,
-   "year": 1994
-  },
-  {
    "id": "w226878",
    "authors": [
     "khayasidakyu"
@@ -204827,90 +204693,6 @@
    "kind": "цикл",
    "fantlab": 226878,
    "year": 2000
-  },
-  {
-   "id": "w226883",
-   "authors": [
-    "matsumototaye"
-   ],
-   "title_ru": "Tekkonkinkreet; Tekkon Kinkurito; Black & White; Железобетон",
-   "title_orig": "鉄コン筋クリート",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226883,
-   "year": 1994
-  },
-  {
-   "id": "w226884",
-   "authors": [
-    "matsumototaye"
-   ],
-   "title_ru": "Brothers of Japan; Братья из Японии",
-   "title_orig": "日本の兄弟",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226884,
-   "year": 1995
-  },
-  {
-   "id": "w226889",
-   "authors": [
-    "asinanokhitos"
-   ],
-   "title_ru": "Поездка за покупками в Иокогаму",
-   "title_orig": "ヨコハマ買い出し紀行",
-   "title_romaji": "Yokohama kaidashi kikō",
-   "kind": "цикл",
-   "fantlab": 226889,
-   "year": 2006
-  },
-  {
-   "id": "w226891",
-   "authors": [
-    "itodzyund"
-   ],
-   "title_ru": "Spiral; Спираль",
-   "title_orig": "うずまき",
-   "title_romaji": "Uzumaki",
-   "kind": "манга",
-   "fantlab": 226891,
-   "year": 1999
-  },
-  {
-   "id": "w226893",
-   "authors": [
-    "khinokhides"
-   ],
-   "title_ru": "Мальчик-личинка",
-   "title_orig": "毒虫小僧",
-   "title_romaji": "Dokumushi Kozō",
-   "kind": "манга",
-   "fantlab": 226893,
-   "year": 1975
-  },
-  {
-   "id": "w226894",
-   "authors": [
-    "khinokhides"
-   ],
-   "title_ru": "Онинбо и адские личинки",
-   "title_orig": "地獄虫を食う! 鬼んぼ",
-   "title_romaji": "Jigoku Mushi Woku! Oninbo",
-   "kind": "манга",
-   "fantlab": 226894,
-   "year": 1987
-  },
-  {
-   "id": "w226895",
-   "authors": [
-    "khinokhides"
-   ],
-   "title_ru": "Коллекция ужасов",
-   "title_orig": "コレクション",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226895,
-   "year": 1996
   },
   {
    "id": "w226896",
@@ -204926,100 +204708,6 @@
    "year": 2006
   },
   {
-   "id": "w226897",
-   "authors": [
-    "tomekey"
-   ],
-   "title_ru": "Луно. Дочь тьмы",
-   "title_orig": null,
-   "title_romaji": "Luno",
-   "kind": "манга",
-   "fantlab": 226897,
-   "year": 2002
-  },
-  {
-   "id": "w226898",
-   "authors": [
-    "takakhasitsutom"
-   ],
-   "title_ru": "Skyhigh; Небесная высь",
-   "title_orig": "スカイハイ",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226898,
-   "year": 2001
-  },
-  {
-   "id": "w226899",
-   "authors": [
-    "takakhasitsutom"
-   ],
-   "title_ru": "Blue Heaven; Синие небеса",
-   "title_orig": "ブルーヘヴン",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226899,
-   "year": 2002
-  },
-  {
-   "id": "w226900",
-   "authors": [
-    "takakhasitsutom"
-   ],
-   "title_ru": "Dead Flowers; Мёртвые цветы",
-   "title_orig": "デッド・フラワーズ",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226900,
-   "year": 2005
-  },
-  {
-   "id": "w226901",
-   "authors": [
-    "takakhasitsutom"
-   ],
-   "title_ru": "Sidooh; Сидо -Путь Самурая-",
-   "title_orig": "SIDOOH ―士道―",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 226901,
-   "year": 2005
-  },
-  {
-   "id": "w226902",
-   "authors": [
-    "takakhasitsutom"
-   ],
-   "title_ru": "Angel's Share: Подарок Ангела",
-   "title_orig": "天使のわけまえ",
-   "title_romaji": "Tenshi no Wakemae",
-   "kind": "манга",
-   "fantlab": 226902
-  },
-  {
-   "id": "w226905",
-   "authors": [
-    "yamamotokhideo"
-   ],
-   "title_ru": "Homunculus; Гомункул",
-   "title_orig": "ホムンクルス",
-   "title_romaji": "Homunkurusu",
-   "kind": "манга",
-   "fantlab": 226905
-  },
-  {
-   "id": "w226906",
-   "authors": [
-    "yamamotokhideo"
-   ],
-   "title_ru": "殺し屋1; Ichi the Killer; Убийца Ити",
-   "title_orig": "殺し屋イチ",
-   "title_romaji": "Koroshiya Ichi",
-   "kind": "манга",
-   "fantlab": 226906,
-   "year": 2001
-  },
-  {
    "id": "w226908",
    "authors": [
     "kogayun"
@@ -205029,53 +204717,6 @@
    "title_romaji": "Raburesu",
    "kind": "цикл",
    "fantlab": 226908
-  },
-  {
-   "id": "w226919",
-   "authors": [
-    "maruosuekhi"
-   ],
-   "title_ru": "Приют влюблённого психопата",
-   "title_orig": "月的愛人―ルナティックラヴァーズ",
-   "title_romaji": null,
-   "kind": "сборник",
-   "fantlab": 226919,
-   "year": 1997
-  },
-  {
-   "id": "w226920",
-   "authors": [
-    "maruosuekhi"
-   ],
-   "title_ru": "Шоу уродов господина Араси",
-   "title_orig": "少女椿",
-   "title_romaji": "Shoujo Tsubaki",
-   "kind": "манга",
-   "fantlab": 226920,
-   "year": 1984
-  },
-  {
-   "id": "w226921",
-   "authors": [
-    "miurakenta"
-   ],
-   "title_ru": "Берсерк",
-   "title_orig": "ベルセルク",
-   "title_romaji": "Beruseruku",
-   "kind": "цикл",
-   "fantlab": 226921
-  },
-  {
-   "id": "w226927",
-   "authors": [
-    "khinokhides"
-   ],
-   "title_ru": "Мандала, принцесса ада",
-   "title_orig": "怪奇! 地獄まんだら",
-   "title_romaji": "Kaiki! Jigoku mandara",
-   "kind": "манга",
-   "fantlab": 226927,
-   "year": 1982
   },
   {
    "id": "w228142",
@@ -205088,53 +204729,6 @@
    "kind": "роман",
    "fantlab": 228142,
    "year": 1999
-  },
-  {
-   "id": "w228477",
-   "authors": [
-    "takamikosyun"
-   ],
-   "title_ru": "Королевская битва",
-   "title_orig": "バトル・ロワイアル",
-   "title_romaji": "Batoru rowaiaru",
-   "kind": "цикл",
-   "fantlab": 228477
-  },
-  {
-   "id": "w228478",
-   "authors": [
-    "takamikosyun"
-   ],
-   "title_ru": "Королевская битва. Том 1",
-   "title_orig": "バトル・ロワイアル #1",
-   "title_romaji": "Batoru rowaiaru #1",
-   "kind": "манга",
-   "fantlab": 228478,
-   "year": 2003
-  },
-  {
-   "id": "w228480",
-   "authors": [
-    "takamikosyun"
-   ],
-   "title_ru": "Королевская битва. Том 2",
-   "title_orig": "バトル・ロワイアル #2",
-   "title_romaji": "Batoru rowaiaru #2",
-   "kind": "манга",
-   "fantlab": 228480,
-   "year": 2003
-  },
-  {
-   "id": "w228484",
-   "authors": [
-    "takamikosyun"
-   ],
-   "title_ru": "Королевская битва. Том 3",
-   "title_orig": "バトル・ロワイアル #3",
-   "title_romaji": "Batoru rowaiaru #3",
-   "kind": "манга",
-   "fantlab": 228484,
-   "year": 2003
   },
   {
    "id": "w230525",
@@ -206163,30 +205757,6 @@
    "kind": "пьеса",
    "fantlab": 256221,
    "year": 1956
-  },
-  {
-   "id": "w257730",
-   "authors": [
-    "asanoinio"
-   ],
-   "title_ru": "Голограф на Радужном поле",
-   "title_orig": "虹ヶ原ホログラフ",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 257730,
-   "year": 2005
-  },
-  {
-   "id": "w257731",
-   "authors": [
-    "asanoinio"
-   ],
-   "title_ru": "Соланин",
-   "title_orig": null,
-   "title_romaji": "Solanin",
-   "kind": "цикл",
-   "fantlab": 257731,
-   "year": 2005
   },
   {
    "id": "w259687",
@@ -207772,18 +207342,6 @@
    "year": 1948
   },
   {
-   "id": "w322800",
-   "authors": [
-    "nikheytsutom"
-   ],
-   "title_ru": "Нарушение карантина",
-   "title_orig": null,
-   "title_romaji": "Breaking Quarantine",
-   "kind": "комикс",
-   "fantlab": 322800,
-   "year": 2006
-  },
-  {
    "id": "w327461",
    "authors": [
     "khosisinit"
@@ -207793,18 +207351,6 @@
    "title_romaji": null,
    "kind": "рассказ",
    "fantlab": 327461
-  },
-  {
-   "id": "w328377",
-   "authors": [
-    "maruosuekhi"
-   ],
-   "title_ru": "Необыкновенная история острова Панорама",
-   "title_orig": "パノラマ島綺譚",
-   "title_romaji": null,
-   "kind": "манга",
-   "fantlab": 328377,
-   "year": 2008
   },
   {
    "id": "w333168",
@@ -208019,21 +207565,6 @@
    "foreign": true
   },
   {
-   "id": "fw-47ronin",
-   "title_ru": "47 ронинов",
-   "title_orig": "47 Ronin",
-   "authors": [
-    "richardsonmayk"
-   ],
-   "year": 2014,
-   "lang": "английский",
-   "kind": "комикс",
-   "books": [
-    "x118"
-   ],
-   "foreign": true
-  },
-  {
    "id": "fw-ferveur",
    "title_ru": "Час откровения",
    "title_orig": "Une heure de ferveur",
@@ -208230,19 +207761,4550 @@
    "foreign": true
   },
   {
-   "id": "fw-wakkanai",
-   "title_ru": "Вакканай",
-   "title_orig": null,
+   "id": "wc-b7",
    "authors": [
-    "chuminmaksi"
+    "murasaki"
    ],
-   "year": 2026,
-   "lang": "русский",
-   "kind": "графический роман",
+   "title_ru": "Повесть о Гэндзи",
+   "title_orig": "源氏物語",
+   "title_romaji": "Genji monogatari",
+   "kind": "моногатари",
    "books": [
-    "p19"
+    "b7",
+    "hy371080",
+    "hy371081",
+    "hy371082",
+    "hy638132"
+   ]
+  },
+  {
+   "id": "wc-b6",
+   "authors": [
+    "sei"
+   ],
+   "title_ru": "Записки у изголовья",
+   "title_orig": "枕草子",
+   "title_romaji": "Makura no sōshi",
+   "kind": "дзуйхицу",
+   "books": [
+    "b6",
+    "x101",
+    "wj582",
+    "s3"
+   ]
+  },
+  {
+   "id": "wc-s3",
+   "authors": [
+    "chomei"
+   ],
+   "title_ru": "Записки из кельи",
+   "title_orig": "方丈記",
+   "title_romaji": "Hōjōki",
+   "kind": "дзуйхицу",
+   "year": 1212,
+   "books": [
+    "s3"
+   ]
+  },
+  {
+   "id": "wc-s3-3",
+   "authors": [
+    "kenko"
+   ],
+   "title_ru": "Записки от скуки",
+   "title_orig": "徒然草",
+   "title_romaji": "Tsurezuregusa",
+   "kind": "дзуйхицу",
+   "books": [
+    "s3",
+    "bjc3737"
+   ]
+  },
+  {
+   "id": "wc-x136",
+   "authors": [],
+   "title_ru": "Исэ моногатари",
+   "title_orig": "伊勢物語",
+   "title_romaji": "Ise monogatari",
+   "kind": "моногатари",
+   "books": [
+    "x136",
+    "bjb5449"
+   ]
+  },
+  {
+   "id": "wc-iv1147",
+   "authors": [],
+   "title_ru": "Кокинвакасю (Собрание старых и новых песен Японии)",
+   "title_orig": "古今和歌集",
+   "title_romaji": "Kokin wakashū",
+   "kind": "антология",
+   "year": 905,
+   "books": [
+    "iv1147",
+    "iv1148",
+    "iv1149",
+    "wj266",
+    "wj93"
+   ]
+  },
+  {
+   "id": "wc-az151",
+   "authors": [],
+   "title_ru": "Синкокинсю (Новое собрание старых и новых песен Японии)",
+   "title_orig": "新古今和歌集",
+   "title_romaji": "Shin kokin wakashū",
+   "kind": "антология",
+   "year": 1205,
+   "books": [
+    "az151",
+    "wj92"
+   ]
+  },
+  {
+   "id": "wc-wj820",
+   "authors": [],
+   "title_ru": "Сто стихотворений ста поэтов (Хякунин иссю)",
+   "title_orig": "小倉百人一首",
+   "title_romaji": "Hyakunin isshu",
+   "kind": "антология",
+   "books": [
+    "wj820",
+    "wj1013"
+   ]
+  },
+  {
+   "id": "wc-x14",
+   "authors": [],
+   "title_ru": "Манъёсю",
+   "title_orig": "万葉集",
+   "title_romaji": "Man'yōshū",
+   "kind": "антология",
+   "books": [
+    "x14"
+   ]
+  },
+  {
+   "id": "wc-s6",
+   "authors": [
+    "ogai"
+   ],
+   "title_ru": "Дикий гусь",
+   "title_orig": "雁",
+   "title_romaji": "Gan",
+   "kind": "повесть",
+   "year": 1911,
+   "books": [
+    "s6"
+   ]
+  },
+  {
+   "id": "wc-s6-10",
+   "authors": [
+    "ogai"
+   ],
+   "title_ru": "Танцовщица",
+   "title_orig": "舞姫",
+   "title_romaji": "Maihime",
+   "kind": "рассказ",
+   "year": 1890,
+   "books": [
+    "s6"
+   ]
+  },
+  {
+   "id": "wc-s6-11",
+   "authors": [
+    "toson"
+   ],
+   "title_ru": "Нарушенный завет",
+   "title_orig": "破戒",
+   "title_romaji": "Hakai",
+   "kind": "роман",
+   "year": 1906,
+   "books": [
+    "s6",
+    "bjb5725",
+    "bjb5726"
+   ]
+  },
+  {
+   "id": "wc-x100",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Кокоро",
+   "title_orig": "こゝろ",
+   "title_romaji": "Kokoro",
+   "kind": "роман",
+   "year": 1914,
+   "books": [
+    "x100",
+    "bjb5696"
+   ]
+  },
+  {
+   "id": "wc-hy817078",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Сансиро",
+   "title_orig": "三四郎",
+   "title_romaji": "Sanshirō",
+   "kind": "роман",
+   "year": 1908,
+   "books": [
+    "hy817078"
+   ]
+  },
+  {
+   "id": "wc-hy817078-14",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Затем",
+   "title_orig": "それから",
+   "title_romaji": "Sorekara",
+   "kind": "роман",
+   "year": 1909,
+   "books": [
+    "hy817078"
+   ]
+  },
+  {
+   "id": "wc-hy817078-15",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Врата",
+   "title_orig": "門",
+   "title_romaji": "Mon",
+   "kind": "роман",
+   "year": 1910,
+   "books": [
+    "hy817078"
+   ]
+  },
+  {
+   "id": "wc-s7",
+   "authors": [
+    "arishima"
+   ],
+   "title_ru": "Женщина",
+   "title_orig": "或る女",
+   "title_romaji": "Aru onna",
+   "kind": "роман",
+   "year": 1919,
+   "books": [
+    "s7",
+    "bjc3904",
+    "bjc3905",
+    "bjb5579"
+   ]
+  },
+  {
+   "id": "wc-bjc3905",
+   "authors": [
+    "arishima"
+   ],
+   "title_ru": "Потомок Каина",
+   "title_orig": "カインの末裔",
+   "title_romaji": "Kain no matsuei",
+   "kind": "повесть",
+   "year": 1917,
+   "books": [
+    "bjc3905"
+   ]
+  },
+  {
+   "id": "wc-az120",
+   "authors": [
+    "tokutomiroka"
+   ],
+   "title_ru": "Куросиво",
+   "title_orig": "黒潮",
+   "title_romaji": "Kuroshio",
+   "kind": "роман",
+   "year": 1903,
+   "books": [
+    "az120",
+    "bjb5779"
+   ]
+  },
+  {
+   "id": "wc-az117",
+   "authors": [
+    "syunsuytamen"
+   ],
+   "title_ru": "Сливовый календарь любви",
+   "title_orig": "春色梅児誉美",
+   "title_romaji": "Shunshoku umegoyomi",
+   "kind": "роман",
+   "books": [
+    "az117",
+    "az138"
+   ]
+  },
+  {
+   "id": "wc-bjc4195",
+   "authors": [
+    "oekendz"
+   ],
+   "title_ru": "Опоздавшая молодёжь",
+   "title_orig": "遅れてきた青年",
+   "title_romaji": "Okurete kita seinen",
+   "kind": "роман",
+   "year": 1962,
+   "books": [
+    "bjc4195",
+    "r519746"
+   ]
+  },
+  {
+   "id": "wc-r488025",
+   "authors": [
+    "oekendz"
+   ],
+   "title_ru": "Вырывай ростки, истребляй детёнышей",
+   "title_orig": "芽むしり仔撃ち",
+   "title_romaji": "Memushiri kouchi",
+   "kind": "роман",
+   "year": 1958,
+   "books": [
+    "r488025",
+    "r519746"
+   ]
+  },
+  {
+   "id": "wc-hy702203",
+   "authors": [
+    "dazai"
+   ],
+   "title_ru": "Исповедь «неполноценного» человека",
+   "title_orig": "人間失格",
+   "title_romaji": "Ningen shikkaku",
+   "kind": "повесть",
+   "year": 1948,
+   "books": [
+    "hy702203",
+    "b9"
+   ]
+  },
+  {
+   "id": "wc-bjc3911",
+   "authors": [
+    "kobayasitakid"
+   ],
+   "title_ru": "Краболов",
+   "title_orig": "蟹工船",
+   "title_romaji": "Kani kōsen",
+   "kind": "повесть",
+   "year": 1929,
+   "books": [
+    "bjc3911",
+    "bjb5640"
+   ]
+  },
+  {
+   "id": "wc-bjb5823",
+   "authors": [
+    "khosoivakid"
+   ],
+   "title_ru": "Текстильщик Кодзи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjb5823",
+    "bjb5824"
+   ]
+  },
+  {
+   "id": "wc-hy806761",
+   "authors": [
+    "tanidzakidzyun"
+   ],
+   "title_ru": "Ключ",
+   "title_orig": "鍵",
+   "title_romaji": "Kagi",
+   "kind": "роман",
+   "year": 1956,
+   "books": [
+    "hy806761"
+   ]
+  },
+  {
+   "id": "wc-hy806761-26",
+   "authors": [
+    "tanidzakidzyun"
+   ],
+   "title_ru": "Дневник безумного старика",
+   "title_orig": "瘋癲老人日記",
+   "title_romaji": "Fūten rōjin nikki",
+   "kind": "роман",
+   "year": 1961,
+   "books": [
+    "hy806761"
+   ]
+  },
+  {
+   "id": "wc-az94",
+   "authors": [
+    "ikharasayka"
+   ],
+   "title_ru": "Пять женщин, предавшихся любви",
+   "title_orig": "好色五人女",
+   "title_romaji": "Kōshoku gonin onna",
+   "kind": "повесть",
+   "year": 1686,
+   "books": [
+    "az94"
+   ]
+  },
+  {
+   "id": "wc-x64",
+   "authors": [
+    "ikharasayka"
+   ],
+   "title_ru": "История любовных похождений одинокой женщины",
+   "title_orig": "好色一代女",
+   "title_romaji": "Kōshoku ichidai onna",
+   "kind": "повесть",
+   "year": 1686,
+   "books": [
+    "x64",
+    "az94"
+   ]
+  },
+  {
+   "id": "wc-hy782628",
+   "authors": [
+    "ikharasayka"
+   ],
+   "title_ru": "Любовные похождения одинокого мужчины",
+   "title_orig": "好色一代男",
+   "title_romaji": "Kōshoku ichidai otoko",
+   "kind": "повесть",
+   "year": 1682,
+   "books": [
+    "hy782628"
+   ]
+  },
+  {
+   "id": "wc-x36",
+   "authors": [],
+   "title_ru": "Сказание о доме Тайра",
+   "title_orig": "平家物語",
+   "title_romaji": "Heike monogatari",
+   "kind": "моногатари",
+   "books": [
+    "x36",
+    "az144"
+   ]
+  },
+  {
+   "id": "wc-iv1124",
+   "authors": [
+    "osaragidziro"
+   ],
+   "title_ru": "Ронины из Ако, или Повесть о сорока семи верных вассалах",
+   "title_orig": "赤穂浪士",
+   "title_romaji": "Akō rōshi",
+   "kind": "роман",
+   "year": 1928,
+   "books": [
+    "iv1124"
+   ]
+  },
+  {
+   "id": "wc-hy734556",
+   "authors": [
+    "otokhikokaga"
+   ],
+   "title_ru": "Столица в огне",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман-эпопея",
+   "books": [
+    "hy734556"
+   ]
+  },
+  {
+   "id": "wc-bjc4154",
+   "authors": [
+    "nogamiyaeko"
+   ],
+   "title_ru": "Лабиринт",
+   "title_orig": "迷路",
+   "title_romaji": "Meiro",
+   "kind": "роман",
+   "books": [
+    "bjc4154"
+   ]
+  },
+  {
+   "id": "wc-bjc3726",
+   "authors": [],
+   "title_ru": "Песни Хиросимы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3726"
+   ]
+  },
+  {
+   "id": "wc-wj580",
+   "authors": [
+    "basho"
+   ],
+   "title_ru": "Басё. Лирика",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "wj580"
+   ]
+  },
+  {
+   "id": "wc-wj821",
+   "authors": [
+    "basho"
+   ],
+   "title_ru": "«…Любуясь прекрасным, я жил, как хотел» (путевые дневники, избранная проза)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "wj821"
+   ]
+  },
+  {
+   "id": "wc-ms36",
+   "authors": [],
+   "title_ru": "Кара моногатари. Средневековые японские рассказы о Китае",
+   "title_orig": "唐物語",
+   "title_romaji": "Kara monogatari",
+   "kind": "моногатари",
+   "books": [
+    "ms36"
+   ]
+  },
+  {
+   "id": "wc-wj939",
+   "authors": [],
+   "title_ru": "Средневековые японские рассказы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj939"
+   ]
+  },
+  {
+   "id": "wc-bjc3719",
+   "authors": [],
+   "title_ru": "Сборник японской научной фантастики",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3719"
+   ]
+  },
+  {
+   "id": "wc-b1",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Ваш покорный слуга кот",
+   "title_orig": "吾輩は猫である",
+   "title_romaji": "Wagahai wa neko de aru",
+   "kind": "роман",
+   "books": [
+    "b1",
+    "az50"
+   ]
+  },
+  {
+   "id": "wc-s4",
+   "authors": [
+    "kanami",
+    "zeami",
+    "nobumitsu",
+    "chikamatsu"
+   ],
+   "title_ru": "Ночная песня погонщика Ёсаку из Тамба",
+   "title_orig": "丹波与作待夜の小室節",
+   "title_romaji": "Tamba Yosaku matsuyo no komurobushi",
+   "kind": "антология",
+   "books": [
+    "s4"
+   ]
+  },
+  {
+   "id": "wc-x5",
+   "authors": [
+    "yumenokyusak"
+   ],
+   "title_ru": "Край льда",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "x5"
+   ]
+  },
+  {
+   "id": "wc-x11",
+   "authors": [],
+   "title_ru": "Ёкёку - классическая японская драма",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "x11"
+   ]
+  },
+  {
+   "id": "wc-x17",
+   "authors": [],
+   "title_ru": "10 вечеров",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "x17"
+   ]
+  },
+  {
+   "id": "wc-x18",
+   "authors": [],
+   "title_ru": "Горшок белых хризантем",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "x18"
+   ]
+  },
+  {
+   "id": "wc-x19",
+   "authors": [],
+   "title_ru": "Сказки народов Востока",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "x19"
+   ]
+  },
+  {
+   "id": "wc-x38",
+   "authors": [],
+   "title_ru": "Классическая драма Востока",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "x38"
+   ]
+  },
+  {
+   "id": "wc-x60",
+   "authors": [
+    "ibusemasud"
+   ],
+   "title_ru": "Красные листья. Восточный альманах. Выпуск 8",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "x60"
+   ]
+  },
+  {
+   "id": "wc-x62",
+   "authors": [
+    "idzumisikib",
+    "murasaki",
+    "sugavaranotakas"
+   ],
+   "title_ru": "Дневники придворных дам древней Японии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "дзуйхицу",
+   "books": [
+    "x62"
+   ]
+  },
+  {
+   "id": "wc-x63",
+   "authors": [
+    "ikharasayka"
+   ],
+   "title_ru": "Избранное",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "x63"
+   ]
+  },
+  {
+   "id": "wc-x83",
+   "authors": [
+    "miyabemiyuki"
+   ],
+   "title_ru": "Виртуальная семья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x83"
+   ]
+  },
+  {
+   "id": "wc-x84",
+   "authors": [
+    "miyabemiyuki"
+   ],
+   "title_ru": "Перекрестный огонь",
+   "title_orig": "クロスファイア",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x84"
+   ]
+  },
+  {
+   "id": "wc-x85",
+   "authors": [
+    "miyadzavakendz"
+   ],
+   "title_ru": "Ночь на Серебряной реке",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "x85"
+   ]
+  },
+  {
+   "id": "wc-x106",
+   "authors": [
+    "fudzivaraiori"
+   ],
+   "title_ru": "Зонтик для террориста",
+   "title_orig": "テロリストのパラソル",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x106"
+   ]
+  },
+  {
+   "id": "wc-x107",
+   "authors": [
+    "fudzivaraiori"
+   ],
+   "title_ru": "Праздник подсолнухов",
+   "title_orig": "向日葵的祭典",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x107"
+   ]
+  },
+  {
+   "id": "wc-x108",
+   "authors": [
+    "fudzivaraiori"
+   ],
+   "title_ru": "Тьма на ладони",
+   "title_orig": "てのひらの闇",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x108"
+   ]
+  },
+  {
+   "id": "wc-x120",
+   "authors": [
+    "niiminanki"
+   ],
+   "title_ru": "Лисёнок Гон",
+   "title_orig": "ごるぎつね",
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "x120"
+   ]
+  },
+  {
+   "id": "wc-x121",
+   "authors": [],
+   "title_ru": "Бабочки и хризантемы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "x121"
+   ]
+  },
+  {
+   "id": "wc-x129",
+   "authors": [],
+   "title_ru": "Одинокий сверчок",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "x129"
+   ]
+  },
+  {
+   "id": "wc-x131",
+   "authors": [
+    "motoyayukiko"
+   ],
+   "title_ru": "Брак с другими видами",
+   "title_orig": "異類婚姻譚",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x131"
+   ]
+  },
+  {
+   "id": "wc-x145",
+   "authors": [
+    "endosyusak"
+   ],
+   "title_ru": "Молчание",
+   "title_orig": "沈黙",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x145"
+   ]
+  },
+  {
+   "id": "wc-x146",
+   "authors": [
+    "endosyusak"
+   ],
+   "title_ru": "Скандал",
+   "title_orig": "スキャンダル",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "x146"
+   ]
+  },
+  {
+   "id": "wc-x147",
+   "authors": [],
+   "title_ru": "Сказки народов Азии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "x147"
+   ]
+  },
+  {
+   "id": "wc-r407052",
+   "authors": [
+    "murakamiryu"
+   ],
+   "title_ru": "Дети из камеры хранения",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r407052",
+    "r419839",
+    "r419840",
+    "r80115",
+    "r421046",
+    "r494159",
+    "r447591"
+   ]
+  },
+  {
+   "id": "wc-r456545",
+   "authors": [
+    "motodzirokadzi"
+   ],
+   "title_ru": "Лимон",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "r456545",
+    "r406399"
+   ]
+  },
+  {
+   "id": "wc-r87123",
+   "authors": [
+    "miyadzavakendz"
+   ],
+   "title_ru": "Звезда Козодоя",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "r87123"
+   ]
+  },
+  {
+   "id": "wc-r251135",
+   "authors": [
+    "nagatsukitappe"
+   ],
+   "title_ru": "Re:Zero. Жизнь с нуля в альтернативном мире. Том 4",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r251135"
+   ]
+  },
+  {
+   "id": "wc-r269931",
+   "authors": [
+    "nakamurafumin"
+   ],
+   "title_ru": "Карманник. Королевство",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r269931"
+   ]
+  },
+  {
+   "id": "wc-r287131",
+   "authors": [
+    "nisioisin"
+   ],
+   "title_ru": "Death Note. Другая тетрадь: Дело о серийных убийствах В. В. в Лос-Анджелесе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r287131"
+   ]
+  },
+  {
+   "id": "wc-r367094",
+   "authors": [
+    "aoyamamitik"
+   ],
+   "title_ru": "Вы найдете это в библиотеке",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r367094"
+   ]
+  },
+  {
+   "id": "wc-r366439",
+   "authors": [
+    "keyitirokhiran"
+   ],
+   "title_ru": "Незнакомец",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r366439"
+   ]
+  },
+  {
+   "id": "wc-r328093",
+   "authors": [
+    "morimitomikh"
+   ],
+   "title_ru": "Пингвинья тропа",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r328093"
+   ]
+  },
+  {
+   "id": "wc-r390458",
+   "authors": [
+    "miurasion"
+   ],
+   "title_ru": "Рассекая ветер",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r390458"
+   ]
+  },
+  {
+   "id": "wc-r483276",
+   "authors": [
+    "okadzakitakum"
+   ],
+   "title_ru": "Тайны кофейни в Киото. Том 1",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r483276"
+   ]
+  },
+  {
+   "id": "wc-r483280",
+   "authors": [
+    "okadzakitakum"
+   ],
+   "title_ru": "Тайны кофейни в Киото. Том 2",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "r483280"
+   ]
+  },
+  {
+   "id": "wc-r477436",
+   "authors": [
+    "idzumikeka"
+   ],
+   "title_ru": "Песня при свете фонарей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "r477436"
+   ]
+  },
+  {
+   "id": "wc-p1",
+   "authors": [
+    "oyamadakhirok"
+   ],
+   "title_ru": "Комбинат",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p1"
+   ]
+  },
+  {
+   "id": "wc-p2",
+   "authors": [
+    "oyamadakhirok"
+   ],
+   "title_ru": "Нора",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "p2"
+   ]
+  },
+  {
+   "id": "wc-p3",
+   "authors": [
+    "tavadaeko"
+   ],
+   "title_ru": "Мемуары белого медведя",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p3"
+   ]
+  },
+  {
+   "id": "wc-p4",
+   "authors": [
+    "esidaatsukhi"
+   ],
+   "title_ru": "Спокойной ночи, Токио",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "p4"
+   ]
+  },
+  {
+   "id": "wc-p5",
+   "authors": [
+    "aoyamananae"
+   ],
+   "title_ru": "Брошенцы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p5"
+   ]
+  },
+  {
+   "id": "wc-p6",
+   "authors": [
+    "isiiyuka"
+   ],
+   "title_ru": "Вековая грязь",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "p6"
+   ]
+  },
+  {
+   "id": "wc-p7",
+   "authors": [
+    "tatsukhikosibus"
+   ],
+   "title_ru": "Записки о путешествии принца Такаоки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p7"
+   ]
+  },
+  {
+   "id": "wc-p8",
+   "authors": [
+    "ogavaito"
+   ],
+   "title_ru": "Канцтовары Цубаки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p8"
+   ]
+  },
+  {
+   "id": "wc-p9",
+   "authors": [
+    "ogavaito"
+   ],
+   "title_ru": "Ресторанчик «Улитка»",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p9"
+   ]
+  },
+  {
+   "id": "wc-p10",
+   "authors": [
+    "ogavaito"
+   ],
+   "title_ru": "Республика счастья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p10"
+   ]
+  },
+  {
+   "id": "wc-p11",
+   "authors": [
+    "muratakieko"
+   ],
+   "title_ru": "Люди-птицы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p11"
+   ]
+  },
+  {
+   "id": "wc-p12",
+   "authors": [
+    "kavakamikhirom"
+   ],
+   "title_ru": "Люди тут у нас",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "p12"
+   ]
+  },
+  {
+   "id": "wc-p13",
+   "authors": [
+    "ogavaeko"
+   ],
+   "title_ru": "Любимое уравнение профессора",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p13"
+   ]
+  },
+  {
+   "id": "wc-p14",
+   "authors": [
+    "ogavaeko"
+   ],
+   "title_ru": "Полиция памяти",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p14"
+   ]
+  },
+  {
+   "id": "wc-p15",
+   "authors": [
+    "arikavakhiro"
+   ],
+   "title_ru": "Электричка Ханкю",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "p15"
+   ]
+  },
+  {
+   "id": "wc-az5",
+   "authors": [
+    "issa"
+   ],
+   "title_ru": "Поэзия японского сада",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "az5"
+   ]
+  },
+  {
+   "id": "wc-az6",
+   "authors": [
+    "katayamakeiti"
+   ],
+   "title_ru": "Оплакивая любовь в самом центре мира",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az6"
+   ]
+  },
+  {
+   "id": "wc-az9",
+   "authors": [
+    "khanadananak"
+   ],
+   "title_ru": "Девушка из книжного магазина",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az9"
+   ]
+  },
+  {
+   "id": "wc-az17",
+   "authors": [
+    "arikavakhiro"
+   ],
+   "title_ru": "Хроники странствующего кота",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az17",
+    "az47",
+    "az60",
+    "az119"
+   ]
+  },
+  {
+   "id": "wc-az18",
+   "authors": [
+    "kadonoeyko"
+   ],
+   "title_ru": "Ведьмина служба доставки. Кн.1",
+   "title_orig": "魔女の宅急便",
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "az18"
+   ]
+  },
+  {
+   "id": "wc-az24",
+   "authors": [
+    "issa"
+   ],
+   "title_ru": "Кошки японской поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "az24"
+   ]
+  },
+  {
+   "id": "wc-az26",
+   "authors": [
+    "esikavaeydzi"
+   ],
+   "title_ru": "Десять меченосцев",
+   "title_orig": "宮本武蔵",
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az26"
+   ]
+  },
+  {
+   "id": "wc-az32",
+   "authors": [
+    "sakagutiango"
+   ],
+   "title_ru": "Домик в бамбуковых зарослях",
+   "title_orig": "竹薮の家",
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "az32"
+   ]
+  },
+  {
+   "id": "wc-az56",
+   "authors": [
+    "arikavakhiro"
+   ],
+   "title_ru": "Прощание с котом",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az56"
+   ]
+  },
+  {
+   "id": "wc-az57",
+   "authors": [
+    "ayamakot"
+   ],
+   "title_ru": "Плюшевый друг",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "az57"
+   ]
+  },
+  {
+   "id": "wc-az62",
+   "authors": [
+    "muratakieko"
+   ],
+   "title_ru": "Женщина для удовольствий. Исповедь гейши",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az62"
+   ]
+  },
+  {
+   "id": "wc-az66",
+   "authors": [
+    "khoritatsuo"
+   ],
+   "title_ru": "Ветер крепчает",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az66"
+   ]
+  },
+  {
+   "id": "wc-az68",
+   "authors": [
+    "seomayko"
+   ],
+   "title_ru": "Эстафета передается",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "az68"
+   ]
+  },
+  {
+   "id": "wc-az70",
+   "authors": [],
+   "title_ru": "Сказание о Ёсицунэ",
+   "title_orig": "義経記",
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "az70"
+   ]
+  },
+  {
+   "id": "wc-az79",
+   "authors": [
+    "issa"
+   ],
+   "title_ru": "Женщины японской поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "az79"
+   ]
+  },
+  {
+   "id": "wc-az86",
+   "authors": [
+    "tidzurumio"
+   ],
+   "title_ru": "Секрет двух волшебниц",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "az86"
+   ]
+  },
+  {
+   "id": "wc-az96",
+   "authors": [
+    "sei",
+    "murasaki"
+   ],
+   "title_ru": "Сияние полной луны: Японские лирические дневники",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "дзуйхицу",
+   "books": [
+    "az96"
+   ]
+  },
+  {
+   "id": "wc-az102",
+   "authors": [],
+   "title_ru": "Мир в капле росы. Весна. Лето. Хайку на все времена",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "az102"
+   ]
+  },
+  {
+   "id": "wc-az128",
+   "authors": [
+    "kadonoeyko"
+   ],
+   "title_ru": "Ведьмина служба доставки. Кн.2. Кики и новое колдовство",
+   "title_orig": "魔女の宅急便その2 キキと新しい魔法",
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "az128"
+   ]
+  },
+  {
+   "id": "wc-az148",
+   "authors": [
+    "nijo"
+   ],
+   "title_ru": "Непрошеная повесть",
+   "title_orig": "とわずがたり",
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "az148"
+   ]
+  },
+  {
+   "id": "wc-bb88519",
+   "authors": [],
+   "title_ru": "Японские мифы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bb88519",
+    "bb170887"
+   ]
+  },
+  {
+   "id": "wc-bb86615",
+   "authors": [],
+   "title_ru": "Японские мифы и легенды. Главные предания страны восходящего солнца",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bb86615"
+   ]
+  },
+  {
+   "id": "wc-bb91170",
+   "authors": [
+    "kavamuragenki"
+   ],
+   "title_ru": "Сотня цветов. Японская драма о сыне, матери и ускользающей во времени памяти",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bb91170"
+   ]
+  },
+  {
+   "id": "wc-bb94006",
+   "authors": [],
+   "title_ru": "Боги, духи и ёкаи японской мифологии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bb94006",
+    "bb170889"
+   ]
+  },
+  {
+   "id": "wc-bb90063",
+   "authors": [
+    "sadzanamisandz"
+   ],
+   "title_ru": "Сказания Древней Японии. Мифы и легенды",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bb90063"
+   ]
+  },
+  {
+   "id": "wc-hy297958",
+   "authors": [
+    "sikimasao"
+   ],
+   "title_ru": "Стихи и проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "hy297958"
+   ]
+  },
+  {
+   "id": "wc-hy300337",
+   "authors": [],
+   "title_ru": "Повесть о смуте годов Хэйдзи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "hy300337"
+   ]
+  },
+  {
+   "id": "wc-hy310476",
+   "authors": [
+    "toson"
+   ],
+   "title_ru": "Избранные произведения",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "hy310476"
+   ]
+  },
+  {
+   "id": "wc-hy329768",
+   "authors": [
+    "inoueyasusi"
+   ],
+   "title_ru": "Лоулань",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy329768"
+   ]
+  },
+  {
+   "id": "wc-hy329773",
+   "authors": [
+    "ekhemmi"
+   ],
+   "title_ru": "Теплая вода под красным мостом",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy329773"
+   ]
+  },
+  {
+   "id": "wc-hy329774",
+   "authors": [
+    "marikokoike"
+   ],
+   "title_ru": "Без аккомпанемента",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy329774"
+   ]
+  },
+  {
+   "id": "wc-hy329775",
+   "authors": [
+    "kavakamikhirom"
+   ],
+   "title_ru": "Манадзуру",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy329775"
+   ]
+  },
+  {
+   "id": "wc-hy329776",
+   "authors": [
+    "nakagamikendz"
+   ],
+   "title_ru": "Берег мертвых деревьев",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy329776"
+   ]
+  },
+  {
+   "id": "wc-hy365571",
+   "authors": [],
+   "title_ru": "Японские сказания о войнах и мятежах",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "hy365571"
+   ]
+  },
+  {
+   "id": "wc-hy383271",
+   "authors": [],
+   "title_ru": "Странники в вечности. Японская классическая поэзия странствий",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "hy383271"
+   ]
+  },
+  {
+   "id": "wc-hy384196",
+   "authors": [
+    "ekunikaori"
+   ],
+   "title_ru": "Божественная лодка",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy384196"
+   ]
+  },
+  {
+   "id": "wc-hy425736",
+   "authors": [
+    "otokhikokaga"
+   ],
+   "title_ru": "Приговор",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy425736"
+   ]
+  },
+  {
+   "id": "wc-hy429546",
+   "authors": [
+    "rekan"
+   ],
+   "title_ru": "Хижина \"Мерка риса\"",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "hy429546"
+   ]
+  },
+  {
+   "id": "wc-hy429549",
+   "authors": [
+    "khinokeydz"
+   ],
+   "title_ru": "Остров мечты",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy429549"
+   ]
+  },
+  {
+   "id": "wc-hy429550",
+   "authors": [
+    "ketaronisim"
+   ],
+   "title_ru": "Остров Южный Камуи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy429550"
+   ]
+  },
+  {
+   "id": "wc-hy429551",
+   "authors": [
+    "kurumatanitekits"
+   ],
+   "title_ru": "Неудавшееся Двойное Самоубийство у Водопадов Акамэ",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy429551"
+   ]
+  },
+  {
+   "id": "wc-hy432252",
+   "authors": [
+    "tsusimayuko"
+   ],
+   "title_ru": "Смеющийся волк",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy432252"
+   ]
+  },
+  {
+   "id": "wc-hy433087",
+   "authors": [],
+   "title_ru": "Предания о дзэнском монахе Иккю по прозвищу \"Безумное Облако\"",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "hy433087"
+   ]
+  },
+  {
+   "id": "wc-hy448824",
+   "authors": [
+    "furukavakhideo"
+   ],
+   "title_ru": "Белка, голос!",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy448824"
+   ]
+  },
+  {
+   "id": "wc-hy448825",
+   "authors": [
+    "yumiri"
+   ],
+   "title_ru": "Золотая лихорадка",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy448825"
+   ]
+  },
+  {
+   "id": "wc-hy464238",
+   "authors": [
+    "bandomasak"
+   ],
+   "title_ru": "Дорога-Мандала",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy464238"
+   ]
+  },
+  {
+   "id": "wc-hy472923",
+   "authors": [
+    "chomei"
+   ],
+   "title_ru": "Записки без названия. Беседы с Сётэцу",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "дзуйхицу",
+   "books": [
+    "hy472923"
+   ]
+  },
+  {
+   "id": "wc-hy515144",
+   "authors": [
+    "senookappa"
+   ],
+   "title_ru": "Мальчик по прозвищу \"Эйч\"",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy515144"
+   ]
+  },
+  {
+   "id": "wc-hy522249",
+   "authors": [
+    "sayge"
+   ],
+   "title_ru": "Горная хижина. Самое сокровенное. Сайгё-моногатари",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "hy522249"
+   ]
+  },
+  {
+   "id": "wc-hy550688",
+   "authors": [],
+   "title_ru": "Повесть о братьях Сога. Сога моногатари",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "hy550688"
+   ]
+  },
+  {
+   "id": "wc-hy567004",
+   "authors": [
+    "basho"
+   ],
+   "title_ru": "Избранная проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "hy567004"
+   ]
+  },
+  {
+   "id": "wc-hy626399",
+   "authors": [
+    "ukon",
+    "ise",
+    "nakatsukasa"
+   ],
+   "title_ru": "Драгоценная нить. Женская поэзия Японии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "hy626399"
+   ]
+  },
+  {
+   "id": "wc-hy676173",
+   "authors": [
+    "dazai"
+   ],
+   "title_ru": "Избранные произведения",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "hy676173"
+   ]
+  },
+  {
+   "id": "wc-hy686032",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Изголовье из трав. Избранное",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "hy686032"
+   ]
+  },
+  {
+   "id": "wc-hy712829",
+   "authors": [],
+   "title_ru": "Рассказы, собранные в Удзи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "hy712829"
+   ]
+  },
+  {
+   "id": "wc-hy749078",
+   "authors": [],
+   "title_ru": "Мерцание зарниц. Буддийская поэзия японского средневековья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "hy749078"
+   ]
+  },
+  {
+   "id": "wc-hy766584",
+   "authors": [
+    "ogai"
+   ],
+   "title_ru": "Избранные произведения",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "hy766584"
+   ]
+  },
+  {
+   "id": "wc-hy786770",
+   "authors": [
+    "otokhikokaga"
+   ],
+   "title_ru": "Такаяма Укон",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "hy786770"
+   ]
+  },
+  {
+   "id": "wc-fb213088",
+   "authors": [
+    "murakamiryu"
+   ],
+   "title_ru": "Мисо-суп",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "fb213088",
+    "fb210951",
+    "fb256182"
+   ]
+  },
+  {
+   "id": "wc-fb349829",
+   "authors": [
+    "yumotokadzu"
+   ],
+   "title_ru": "Друзья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "fb349829",
+    "fb366561"
+   ]
+  },
+  {
+   "id": "wc-fb364383",
+   "authors": [
+    "ivamurakadzu"
+   ],
+   "title_ru": "Колыбельная",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "fb364383"
+   ]
+  },
+  {
+   "id": "wc-gs4",
+   "authors": [
+    "kavamuragenki"
+   ],
+   "title_ru": "Если все кошки в мире исчезнут",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs4"
+   ]
+  },
+  {
+   "id": "wc-gs5",
+   "authors": [
+    "kavamuragenki"
+   ],
+   "title_ru": "Если твоя память исчезнет",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs5"
+   ]
+  },
+  {
+   "id": "wc-gs6",
+   "authors": [
+    "kavamuragenki"
+   ],
+   "title_ru": "Человек с миллионом. Что мы теряем, когда находим деньги",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs6"
+   ]
+  },
+  {
+   "id": "wc-gs7",
+   "authors": [
+    "kitagavayasusi"
+   ],
+   "title_ru": "Благодаря встрече с тобой. Семь свиданий, которые изменили мою жизнь",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs7"
+   ]
+  },
+  {
+   "id": "wc-gs8",
+   "authors": [
+    "kitagavayasusi"
+   ],
+   "title_ru": "Счастье за поворотом",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs8"
+   ]
+  },
+  {
+   "id": "wc-gs10",
+   "authors": [
+    "aoyamamitik"
+   ],
+   "title_ru": "Какао по четвергам",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs10"
+   ]
+  },
+  {
+   "id": "wc-gs11",
+   "authors": [
+    "aoyamamitik"
+   ],
+   "title_ru": "Понедельник в матча-кафе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs11"
+   ]
+  },
+  {
+   "id": "wc-gs15",
+   "authors": [
+    "kasivaykhisas"
+   ],
+   "title_ru": "Ресторанчик Камогава",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs15"
+   ]
+  },
+  {
+   "id": "wc-gs16",
+   "authors": [
+    "kasivaykhisas"
+   ],
+   "title_ru": "Ресторанчик Камогава. Записки с кухни",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs16"
+   ]
+  },
+  {
+   "id": "wc-gs17",
+   "authors": [
+    "kasivaykhisas"
+   ],
+   "title_ru": "Ресторанчик Камогава. Забытые рецепты",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs17"
+   ]
+  },
+  {
+   "id": "wc-gs18",
+   "authors": [
+    "khigasinokeygo"
+   ],
+   "title_ru": "Магазин чудес «Намия»",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs18"
+   ]
+  },
+  {
+   "id": "wc-gs19",
+   "authors": [
+    "isidase"
+   ],
+   "title_ru": "Вам прописана кошка",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs19"
+   ]
+  },
+  {
+   "id": "wc-gs20",
+   "authors": [
+    "kavagutitosik"
+   ],
+   "title_ru": "Пока не остыл кофе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs20"
+   ]
+  },
+  {
+   "id": "wc-gs21",
+   "authors": [
+    "kavagutitosik"
+   ],
+   "title_ru": "Кофе еще не остыл. Новые истории из волшебного кафе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs21"
+   ]
+  },
+  {
+   "id": "wc-gs22",
+   "authors": [
+    "kavagutitosik"
+   ],
+   "title_ru": "Пока ты помнишь. Истории из волшебного кафе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs22"
+   ]
+  },
+  {
+   "id": "wc-gs23",
+   "authors": [
+    "kavagutitosik"
+   ],
+   "title_ru": "Прежде, чем мы попрощаемся. Новые истории из волшебного кафе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs23"
+   ]
+  },
+  {
+   "id": "wc-gs24",
+   "authors": [
+    "simenonagi"
+   ],
+   "title_ru": "Рыжий кот Фута из кафе между мирами",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs24"
+   ]
+  },
+  {
+   "id": "wc-gs25",
+   "authors": [
+    "simenonagi"
+   ],
+   "title_ru": "Рыжий кот Фута и затерянный домик в горах",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs25"
+   ]
+  },
+  {
+   "id": "wc-gs26",
+   "authors": [
+    "yagisavasatos"
+   ],
+   "title_ru": "Дни в книжном Морисаки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs26"
+   ]
+  },
+  {
+   "id": "wc-gs27",
+   "authors": [
+    "yagisavasatos"
+   ],
+   "title_ru": "Вечера в книжном Морисаки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs27"
+   ]
+  },
+  {
+   "id": "wc-gs30",
+   "authors": [
+    "takakhasiyuta"
+   ],
+   "title_ru": "Котенок и кафе на краю океана",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs30"
+   ]
+  },
+  {
+   "id": "wc-gs31",
+   "authors": [
+    "kurisukhieko"
+   ],
+   "title_ru": "Лунная почтовая служба",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs31"
+   ]
+  },
+  {
+   "id": "wc-gs32",
+   "authors": [
+    "kurisukhieko"
+   ],
+   "title_ru": "Лавка сладостей на Сумеречной аллее",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs32"
+   ]
+  },
+  {
+   "id": "wc-gs33",
+   "authors": [
+    "keiaono"
+   ],
+   "title_ru": "Девушка из книжного",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs33"
+   ]
+  },
+  {
+   "id": "wc-gs34",
+   "authors": [
+    "kavakamitetsuya"
+   ],
+   "title_ru": "Что я узнала в книжном «Кобаяси»",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs34"
+   ]
+  },
+  {
+   "id": "wc-gs35",
+   "authors": [
+    "yamamotoyukikhi"
+   ],
+   "title_ru": "Цветочная лавка на перекрестке судеб. Каждый цветок хранит чью-то историю",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs35"
+   ]
+  },
+  {
+   "id": "wc-gs36",
+   "authors": [
+    "natorisavak"
+   ],
+   "title_ru": "Книжный магазинчик по пятницам. Весна",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs36"
+   ]
+  },
+  {
+   "id": "wc-gs37",
+   "authors": [
+    "aotsukikairi"
+   ],
+   "title_ru": "Книжная лавка с ароматом кофе",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs37"
+   ]
+  },
+  {
+   "id": "wc-gs38",
+   "authors": [
+    "motidzukimai"
+   ],
+   "title_ru": "Кошачье кафе \"Полнолуние\"",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs38"
+   ]
+  },
+  {
+   "id": "wc-gs39",
+   "authors": [
+    "sukegavaduria"
+   ],
+   "title_ru": "Коты Синдзюку",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs39"
+   ]
+  },
+  {
+   "id": "wc-gs40",
+   "authors": [
+    "sukegavaduria"
+   ],
+   "title_ru": "Бобовые сласти",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs40"
+   ]
+  },
+  {
+   "id": "wc-gs41",
+   "authors": [
+    "nakayamasitir"
+   ],
+   "title_ru": "Спросите у бабушки Сидзуки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs41"
+   ]
+  },
+  {
+   "id": "wc-gs42",
+   "authors": [
+    "nakayamasitir"
+   ],
+   "title_ru": "Бабушка Сидзука и худший в мире напарник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs42"
+   ]
+  },
+  {
+   "id": "wc-gs43",
+   "authors": [
+    "khigasigavatokuya"
+   ],
+   "title_ru": "Детектив за обедом. Убийство подают горячим",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs43"
+   ]
+  },
+  {
+   "id": "wc-gs44",
+   "authors": [
+    "natsukavasosuk"
+   ],
+   "title_ru": "Кот, который любил книги",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs44"
+   ]
+  },
+  {
+   "id": "wc-gs45",
+   "authors": [
+    "nasikikakho"
+   ],
+   "title_ru": "Ведьма Запада мертва",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs45"
+   ]
+  },
+  {
+   "id": "wc-gs46",
+   "authors": [
+    "mureyoko"
+   ],
+   "title_ru": "Дни хлеба, супа и котов",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs46"
+   ]
+  },
+  {
+   "id": "wc-gs47",
+   "authors": [
+    "kendziueda"
+   ],
+   "title_ru": "Магазинчик нужных слов",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs47"
+   ]
+  },
+  {
+   "id": "wc-gs48",
+   "authors": [
+    "kanekoyumi"
+   ],
+   "title_ru": "Подводная библиотека",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs48"
+   ]
+  },
+  {
+   "id": "wc-gs49",
+   "authors": [
+    "kavamuragenki"
+   ],
+   "title_ru": "Выход 8. Одно решение может изменить все",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs49"
+   ]
+  },
+  {
+   "id": "wc-gs50",
+   "authors": [
+    "matidasonok"
+   ],
+   "title_ru": "Песнь одиноких китов на частоте 52 Гц",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs50"
+   ]
+  },
+  {
+   "id": "wc-gs51",
+   "authors": [
+    "tsudzimuramidzu"
+   ],
+   "title_ru": "Одинокий замок в зазеркалье",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs51"
+   ]
+  },
+  {
+   "id": "wc-gs52",
+   "authors": [
+    "khaseseysyu"
+   ],
+   "title_ru": "Мальчик и пёс",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs52"
+   ]
+  },
+  {
+   "id": "wc-gs53",
+   "authors": [
+    "takedaayano"
+   ],
+   "title_ru": "Звучи, эуфониум! Добро пожаловать в духовой оркестр старшей школы Китаудзи. Том 1",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs53"
+   ]
+  },
+  {
+   "id": "wc-gs54",
+   "authors": [
+    "khiiragisanak"
+   ],
+   "title_ru": "Фотоателье господина Хирасаки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs54"
+   ]
+  },
+  {
+   "id": "wc-gs55",
+   "authors": [
+    "kharadakhika"
+   ],
+   "title_ru": "Дневник преступлений Кирико",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "gs55"
+   ]
+  },
+  {
+   "id": "wc-iv968",
+   "authors": [],
+   "title_ru": "Песни осеннего ветра: Новые шедевры танка и хайку японского Серебряного века в переводах А. А. Долина",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv968"
+   ]
+  },
+  {
+   "id": "wc-iv1136",
+   "authors": [
+    "dolinaleks"
+   ],
+   "title_ru": "Одинокий всплеск. Избранные стихотворения японских тетрадей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "iv1136"
+   ],
+   "foreign": true,
+   "lang": "русский"
+  },
+  {
+   "id": "wc-iv1139",
+   "authors": [],
+   "title_ru": "Алая камелия. Лирика «веселых кварталов» эпохи Эдо",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv1139"
+   ]
+  },
+  {
+   "id": "wc-iv1140",
+   "authors": [],
+   "title_ru": "Ветер в соснах. Классическая поэзия танка эпохи Эдо",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv1140"
+   ]
+  },
+  {
+   "id": "wc-iv1141",
+   "authors": [],
+   "title_ru": "Цветы ямабуки. Шедевры поэзии хайку Серебряного века",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv1141"
+   ]
+  },
+  {
+   "id": "wc-iv1142",
+   "authors": [],
+   "title_ru": "Багряные пионы. Шедевры поэзии танка Серебряного века",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv1142"
+   ]
+  },
+  {
+   "id": "wc-iv1143",
+   "authors": [
+    "sikimasao"
+   ],
+   "title_ru": "Масаока Сики. Стихи и проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "iv1143"
+   ]
+  },
+  {
+   "id": "wc-iv1144",
+   "authors": [
+    "ivaf75e84fd"
+   ],
+   "title_ru": "Танэда Сантока. Стихи и проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "iv1144"
+   ]
+  },
+  {
+   "id": "wc-iv5487",
+   "authors": [],
+   "title_ru": "Опадающие цветы вишни: Тринадцать веков японской поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "iv5487"
+   ]
+  },
+  {
+   "id": "wc-iv5729",
+   "authors": [],
+   "title_ru": "Ямато-моногатари",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "iv5729"
+   ]
+  },
+  {
+   "id": "wc-bja7038",
+   "authors": [],
+   "title_ru": "Душа Японии. Японские романы, повести, рассказы, баллады, танки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bja7038"
+   ]
+  },
+  {
+   "id": "wc-bja7039",
+   "authors": [],
+   "title_ru": "Китай и Япония в их поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bja7039"
+   ]
+  },
+  {
+   "id": "wc-bja7039a",
+   "authors": [],
+   "title_ru": "Первый художественно-литературный сборник «Произведения современных японских писателей»",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bja7039a"
+   ]
+  },
+  {
+   "id": "wc-bja7040",
+   "authors": [
+    "khernl"
+   ],
+   "title_ru": "Душа Японии. Из сборников Кокоро, Кью-Шу и Ицумо",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bja7040"
+   ],
+   "foreign": true,
+   "lang": "английский"
+  },
+  {
+   "id": "wc-bja7042",
+   "authors": [],
+   "title_ru": "Японская лирика",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bja7042"
+   ]
+  },
+  {
+   "id": "wc-bja7043",
+   "authors": [],
+   "title_ru": "Японские рассказы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bja7043"
+   ]
+  },
+  {
+   "id": "wc-bja7347",
+   "authors": [
+    "markineesio"
+   ],
+   "title_ru": "Мое детство. Автобиография японского художника",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bja7347"
+   ]
+  },
+  {
+   "id": "wc-bja7365",
+   "authors": [
+    "fukaurakeske"
+   ],
+   "title_ru": "Принцесса любви",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bja7365"
+   ]
+  },
+  {
+   "id": "wc-bja7369",
+   "authors": [
+    "tseoraookur"
+   ],
+   "title_ru": "Унтер-офицер",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bja7369"
+   ]
+  },
+  {
+   "id": "wc-bja7374",
+   "authors": [],
+   "title_ru": "Битва обезьяны с крабом",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7374"
+   ]
+  },
+  {
+   "id": "wc-bja7375",
+   "authors": [],
+   "title_ru": "Волшебный пепел",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7375"
+   ]
+  },
+  {
+   "id": "wc-bja7377",
+   "authors": [],
+   "title_ru": "Заяц и барсук. Японские народные сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7377"
+   ]
+  },
+  {
+   "id": "wc-bja7378",
+   "authors": [],
+   "title_ru": "Заяц из Инаба",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7378"
+   ]
+  },
+  {
+   "id": "wc-bja7379",
+   "authors": [],
+   "title_ru": "Зеркальце из Матсуямы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7379"
+   ]
+  },
+  {
+   "id": "wc-bja7380",
+   "authors": [],
+   "title_ru": "Зимний бамбук",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7380"
+   ]
+  },
+  {
+   "id": "wc-bja7381",
+   "authors": [
+    "infantevp"
+   ],
+   "title_ru": "Зачарованный лес",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7381"
+   ],
+   "foreign": true,
+   "lang": "русский"
+  },
+  {
+   "id": "wc-bja7382",
+   "authors": [],
+   "title_ru": "Медуза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7382"
+   ]
+  },
+  {
+   "id": "wc-bja7384",
+   "authors": [],
+   "title_ru": "О воробье с отрезанным языком",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7384"
+   ]
+  },
+  {
+   "id": "wc-bja7385",
+   "authors": [],
+   "title_ru": "Осьмиголовая змея",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7385"
+   ]
+  },
+  {
+   "id": "wc-bja7387",
+   "authors": [],
+   "title_ru": "Путешествие двух лягушек. Два соседа. Сказка из жизни морского дна",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7387"
+   ]
+  },
+  {
+   "id": "wc-bja7388",
+   "authors": [
+    "rinderf"
+   ],
+   "title_ru": "Японские легенды",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7388"
    ],
    "foreign": true
+  },
+  {
+   "id": "wc-bja7390",
+   "authors": [],
+   "title_ru": "Рыбак Урашима",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7390"
+   ]
+  },
+  {
+   "id": "wc-bja7391",
+   "authors": [
+    "sadzanamisandz"
+   ],
+   "title_ru": "Нихон мукаси банаси. Сказания древней Японии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7391"
+   ]
+  },
+  {
+   "id": "wc-bja7392",
+   "authors": [],
+   "title_ru": "Свадьба мышки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7392"
+   ]
+  },
+  {
+   "id": "wc-bja7393",
+   "authors": [],
+   "title_ru": "Сказки народов Дальнего Востока",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7393"
+   ]
+  },
+  {
+   "id": "wc-bja7394",
+   "authors": [],
+   "title_ru": "Сражение обезьян с крабами",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7394"
+   ]
+  },
+  {
+   "id": "wc-bja7395",
+   "authors": [],
+   "title_ru": "Старик и черти",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7395"
+   ]
+  },
+  {
+   "id": "wc-bja7396",
+   "authors": [],
+   "title_ru": "Торжество лисички",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7396"
+   ]
+  },
+  {
+   "id": "wc-bja7397",
+   "authors": [],
+   "title_ru": "Удивительное приключение",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7397"
+   ]
+  },
+  {
+   "id": "wc-bja7398",
+   "authors": [],
+   "title_ru": "Урасима, или маленький рыбак",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7398"
+   ]
+  },
+  {
+   "id": "wc-bja7399",
+   "authors": [
+    "ferrank"
+   ],
+   "title_ru": "Японские предания и сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7399"
+   ],
+   "foreign": true
+  },
+  {
+   "id": "wc-bja7400",
+   "authors": [
+    "khernl"
+   ],
+   "title_ru": "Японские сказки. Кваидан",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7400"
+   ],
+   "foreign": true,
+   "lang": "английский"
+  },
+  {
+   "id": "wc-bja7401",
+   "authors": [],
+   "title_ru": "Японские волшебные сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7401"
+   ]
+  },
+  {
+   "id": "wc-bja7402",
+   "authors": [],
+   "title_ru": "Японские детские сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7402"
+   ]
+  },
+  {
+   "id": "wc-bja7404",
+   "authors": [],
+   "title_ru": "Японские народные сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7404",
+    "bja7405",
+    "bjb5852"
+   ]
+  },
+  {
+   "id": "wc-bja7406",
+   "authors": [],
+   "title_ru": "Японские сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7406",
+    "bjb5853",
+    "bjb5854",
+    "bjb5855"
+   ]
+  },
+  {
+   "id": "wc-bja7407",
+   "authors": [],
+   "title_ru": "Японские сказки. Добрые сыновья. Женихи Готару-Гиме, принцессы Светляков. Храбрый рыцарь",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7407"
+   ]
+  },
+  {
+   "id": "wc-bja7409",
+   "authors": [],
+   "title_ru": "Японские сказки и легенды",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bja7409"
+   ]
+  },
+  {
+   "id": "wc-bjb5440",
+   "authors": [],
+   "title_ru": "«Ад». Сборник рассказов японских пролетарских писателей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5440"
+   ]
+  },
+  {
+   "id": "wc-bjb5441",
+   "authors": [],
+   "title_ru": "«Восток». Сборник первый. Литература Китая и Японии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5441"
+   ]
+  },
+  {
+   "id": "wc-bjb5442",
+   "authors": [],
+   "title_ru": "Сборник японской революционной литературы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5442"
+   ]
+  },
+  {
+   "id": "wc-bjb5443",
+   "authors": [],
+   "title_ru": "Япония. Сборник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5443"
+   ]
+  },
+  {
+   "id": "wc-bjb5444",
+   "authors": [],
+   "title_ru": "Японская поэзия. Сборник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5444",
+    "bjb5445"
+   ]
+  },
+  {
+   "id": "wc-bjb5446",
+   "authors": [],
+   "title_ru": "Японская пролетарская литература",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5446"
+   ]
+  },
+  {
+   "id": "wc-bjb5447",
+   "authors": [],
+   "title_ru": "Японская революционная литература. Сборник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5447"
+   ]
+  },
+  {
+   "id": "wc-bjb5448",
+   "authors": [],
+   "title_ru": "Японские повести. (Сборник произведений прогрессивных японских писателей)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5448"
+   ]
+  },
+  {
+   "id": "wc-bjb5450",
+   "authors": [],
+   "title_ru": "Кёгэн — японский средневековый фарс",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5450"
+   ]
+  },
+  {
+   "id": "wc-bjb5451",
+   "authors": [],
+   "title_ru": "Песни Ямато. (Танка)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjb5451"
+   ]
+  },
+  {
+   "id": "wc-bjb5573",
+   "authors": [
+    "akutagawa"
+   ],
+   "title_ru": "Расёмон",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5573"
+   ]
+  },
+  {
+   "id": "wc-bjb5606",
+   "authors": [
+    "isikavatakub"
+   ],
+   "title_ru": "Стихи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5606"
+   ]
+  },
+  {
+   "id": "wc-bjb5626",
+   "authors": [
+    "katokadzu"
+   ],
+   "title_ru": "Под натиском волн",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5626"
+   ]
+  },
+  {
+   "id": "wc-bjb5632",
+   "authors": [
+    "kinositadzyund"
+   ],
+   "title_ru": "Успение лягушки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "пьеса",
+   "books": [
+    "bjb5632"
+   ]
+  },
+  {
+   "id": "wc-bjb5639",
+   "authors": [
+    "kobayasitakid"
+   ],
+   "title_ru": "Избранное",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5639"
+   ]
+  },
+  {
+   "id": "wc-bjb5642",
+   "authors": [
+    "kobayasitakid"
+   ],
+   "title_ru": "Рассказы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5642"
+   ]
+  },
+  {
+   "id": "wc-bjb5661",
+   "authors": [
+    "kunikidadoppo"
+   ],
+   "title_ru": "Избранные рассказы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5661"
+   ]
+  },
+  {
+   "id": "wc-bjb5674",
+   "authors": [
+    "miyamotoyuriko"
+   ],
+   "title_ru": "Повести",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5674"
+   ]
+  },
+  {
+   "id": "wc-bjb5684",
+   "authors": [
+    "nakanisiinosu"
+   ],
+   "title_ru": "Детство Дэнсаку",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjb5684"
+   ]
+  },
+  {
+   "id": "wc-bjb5685",
+   "authors": [
+    "nakanisiinosu"
+   ],
+   "title_ru": "Маньчжурия",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjb5685"
+   ]
+  },
+  {
+   "id": "wc-bjb5686",
+   "authors": [
+    "nakanisiinosu"
+   ],
+   "title_ru": "Произрастающие на красной глине",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5686"
+   ]
+  },
+  {
+   "id": "wc-bjb5687",
+   "authors": [
+    "nakanisiinosu"
+   ],
+   "title_ru": "Смерть Кихэя",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5687",
+    "bjb5688",
+    "bjc4142"
+   ]
+  },
+  {
+   "id": "wc-bjb5695",
+   "authors": [
+    "soseki"
+   ],
+   "title_ru": "Мальчуган",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjb5695"
+   ]
+  },
+  {
+   "id": "wc-bjb5740",
+   "authors": [
+    "takakurateru"
+   ],
+   "title_ru": "Воды Хаконэ",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5740"
+   ]
+  },
+  {
+   "id": "wc-bjb5741",
+   "authors": [
+    "takakurateru"
+   ],
+   "title_ru": "Песенка свиньи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5741"
+   ]
+  },
+  {
+   "id": "wc-bjb5752",
+   "authors": [
+    "tanidzakidzyun"
+   ],
+   "title_ru": "Любовь глупца",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5752"
+   ]
+  },
+  {
+   "id": "wc-bjb5753",
+   "authors": [
+    "tanidzakiseydz"
+   ],
+   "title_ru": "Гейша Эйко",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5753"
+   ]
+  },
+  {
+   "id": "wc-bjb5757",
+   "authors": [
+    "tokunagasunao"
+   ],
+   "title_ru": "Дни детства",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5757"
+   ]
+  },
+  {
+   "id": "wc-bjb5758",
+   "authors": [
+    "tokunagasunao"
+   ],
+   "title_ru": "Тихие горы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5758",
+    "bjb5759"
+   ]
+  },
+  {
+   "id": "wc-bjb5760",
+   "authors": [
+    "tokunagasunao"
+   ],
+   "title_ru": "Токио, город безработных",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5760"
+   ]
+  },
+  {
+   "id": "wc-bjb5762",
+   "authors": [
+    "tokunagasunao"
+   ],
+   "title_ru": "Улица без солнца. Японский пролетарский роман",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5762"
+   ]
+  },
+  {
+   "id": "wc-bjb5788",
+   "authors": [
+    "fukunagakeske"
+   ],
+   "title_ru": "Записки о будущей японо-американской войне",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5788"
+   ]
+  },
+  {
+   "id": "wc-bjb5801",
+   "authors": [
+    "khayasitorao"
+   ],
+   "title_ru": "Кровавый документ",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5801"
+   ]
+  },
+  {
+   "id": "wc-bjb5810",
+   "authors": [
+    "khayasifusao"
+   ],
+   "title_ru": "Книга картин без картинок",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5810"
+   ]
+  },
+  {
+   "id": "wc-bjb5826",
+   "authors": [
+    "khottaesie"
+   ],
+   "title_ru": "Шестерни",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjb5826"
+   ]
+  },
+  {
+   "id": "wc-bjb5830",
+   "authors": [
+    "egutikan"
+   ],
+   "title_ru": "Любовь и тюрьма",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5830"
+   ]
+  },
+  {
+   "id": "wc-bjb5838",
+   "authors": [
+    "yamamotoyudzo"
+   ],
+   "title_ru": "Жизнь женщины",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjb5838",
+    "bjb5839"
+   ]
+  },
+  {
+   "id": "wc-bjb5848",
+   "authors": [],
+   "title_ru": "Барсук и лисенок",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjb5848"
+   ]
+  },
+  {
+   "id": "wc-bjb5849",
+   "authors": [],
+   "title_ru": "Воробей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjb5849"
+   ]
+  },
+  {
+   "id": "wc-bjb5850",
+   "authors": [],
+   "title_ru": "Длинное имя",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjb5850"
+   ]
+  },
+  {
+   "id": "wc-bjb5851",
+   "authors": [],
+   "title_ru": "Три телки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjb5851"
+   ]
+  },
+  {
+   "id": "wc-bjc3720",
+   "authors": [],
+   "title_ru": "Журавлиные перья. Современные японские пьесы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3720"
+   ]
+  },
+  {
+   "id": "wc-bjc3722",
+   "authors": [],
+   "title_ru": "Из японской поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3722"
+   ]
+  },
+  {
+   "id": "wc-bjc3723",
+   "authors": [],
+   "title_ru": "Красная лягушка. Новеллы японских писателей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3723"
+   ]
+  },
+  {
+   "id": "wc-bjc3724",
+   "authors": [],
+   "title_ru": "Лети, журавлик! Рассказы японских писателей",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3724"
+   ]
+  },
+  {
+   "id": "wc-bjc3728",
+   "authors": [],
+   "title_ru": "Птица, птица красная. Стихи японских поэтов",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3728"
+   ]
+  },
+  {
+   "id": "wc-bjc3729",
+   "authors": [],
+   "title_ru": "Три поэта из Хиросимы: Тамики Хара, Санкити Тогэ, Мунэтоси Фукагава",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3729"
+   ]
+  },
+  {
+   "id": "wc-bjc3730",
+   "authors": [],
+   "title_ru": "Японская новелла. 1945—1960",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3730"
+   ]
+  },
+  {
+   "id": "wc-bjc3733",
+   "authors": [],
+   "title_ru": "Японские трехстишия. Хокку",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "bjc3733",
+    "bjc3734"
+   ]
+  },
+  {
+   "id": "wc-bjc3735",
+   "authors": [],
+   "title_ru": "Древние Фудоки (Хитати, Харима, Бунго, Хидзэн)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "произведение (прочее)",
+   "books": [
+    "bjc3735"
+   ]
+  },
+  {
+   "id": "wc-bjc3736",
+   "authors": [],
+   "title_ru": "Идзумо-Фудоки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "произведение (прочее)",
+   "books": [
+    "bjc3736"
+   ]
+  },
+  {
+   "id": "wc-bjc3768",
+   "authors": [
+    "ikharasayka"
+   ],
+   "title_ru": "Новеллы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3768"
+   ]
+  },
+  {
+   "id": "wc-bjc3841",
+   "authors": [
+    "chikamatsu"
+   ],
+   "title_ru": "Драматические поэмы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3841"
+   ]
+  },
+  {
+   "id": "wc-bjc3842",
+   "authors": [
+    "chikamatsu"
+   ],
+   "title_ru": "Драмы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3842"
+   ]
+  },
+  {
+   "id": "wc-bjc3901a",
+   "authors": [
+    "akutagawa"
+   ],
+   "title_ru": "Избранное",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3901a"
+   ]
+  },
+  {
+   "id": "wc-bjc3907",
+   "authors": [
+    "isikavatakub"
+   ],
+   "title_ru": "Избранная лирика",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3907"
+   ]
+  },
+  {
+   "id": "wc-bjc3908",
+   "authors": [
+    "isikavatakub"
+   ],
+   "title_ru": "Лирика",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3908"
+   ]
+  },
+  {
+   "id": "wc-bjc3919",
+   "authors": [
+    "toson"
+   ],
+   "title_ru": "Семья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc3919"
+   ]
+  },
+  {
+   "id": "wc-bjc3939",
+   "authors": [
+    "abetomod"
+   ],
+   "title_ru": "Белый обелиск",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc3939"
+   ]
+  },
+  {
+   "id": "wc-bjc3949",
+   "authors": [
+    "asidatakak"
+   ],
+   "title_ru": "Избранное",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc3949"
+   ]
+  },
+  {
+   "id": "wc-bjc3957",
+   "authors": [
+    "gomikavadzyump"
+   ],
+   "title_ru": "Условия человеческого существования",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc3957"
+   ]
+  },
+  {
+   "id": "wc-bjc3983",
+   "authors": [
+    "inuitomik"
+   ],
+   "title_ru": "Песнь о чайках",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "bjc3983"
+   ]
+  },
+  {
+   "id": "wc-bjc3987",
+   "authors": [
+    "isikavatatsud"
+   ],
+   "title_ru": "Стена человеческая",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc3987"
+   ]
+  },
+  {
+   "id": "wc-bjc3988",
+   "authors": [
+    "isikavatatsud"
+   ],
+   "title_ru": "Тростник под ветром",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc3988"
+   ]
+  },
+  {
+   "id": "wc-bjc4023",
+   "authors": [
+    "kaykotakes"
+   ],
+   "title_ru": "Японская трехгрошовая опера",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4023"
+   ]
+  },
+  {
+   "id": "wc-bjc4034",
+   "authors": [
+    "katayamasedzo"
+   ],
+   "title_ru": "Дети зари",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4034"
+   ]
+  },
+  {
+   "id": "wc-bjc4043",
+   "authors": [
+    "kiptatsu"
+   ],
+   "title_ru": "Суд над Пак Талем",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4043"
+   ]
+  },
+  {
+   "id": "wc-bjc4058",
+   "authors": [
+    "kodzimanobuo"
+   ],
+   "title_ru": "Похитители завтрашнего дня. Сборник научно-фантастических произведений",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4058"
+   ]
+  },
+  {
+   "id": "wc-bjc4087",
+   "authors": [
+    "matsumotoseyte"
+   ],
+   "title_ru": "Подводное течение",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4087"
+   ]
+  },
+  {
+   "id": "wc-bjc4088",
+   "authors": [
+    "matsumotoseyte"
+   ],
+   "title_ru": "Черное евангелие",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4088"
+   ]
+  },
+  {
+   "id": "wc-bjc4093",
+   "authors": [
+    "matsumotoseyte"
+   ],
+   "title_ru": "Приключения Таро в стране гор",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjc4093"
+   ]
+  },
+  {
+   "id": "wc-bjc4112",
+   "authors": [
+    "morikadzu"
+   ],
+   "title_ru": "Мост Коропоккуру",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4112"
+   ]
+  },
+  {
+   "id": "wc-bjc4114",
+   "authors": [
+    "morimotokaoru"
+   ],
+   "title_ru": "Жизнь женщины",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "пьеса",
+   "books": [
+    "bjc4114"
+   ]
+  },
+  {
+   "id": "wc-bjc4127",
+   "authors": [
+    "nakagavarieko"
+   ],
+   "title_ru": "Детский сад «Тюльпан»",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4127"
+   ]
+  },
+  {
+   "id": "wc-bjc4129",
+   "authors": [
+    "nakadzonoeysuk"
+   ],
+   "title_ru": "Сеятели ночи",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4129"
+   ]
+  },
+  {
+   "id": "wc-bjc4130",
+   "authors": [
+    "nakadzonoeysuk"
+   ],
+   "title_ru": "Тайный рейс",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4130"
+   ]
+  },
+  {
+   "id": "wc-bjc4134",
+   "authors": [
+    "nakamototakak"
+   ],
+   "title_ru": "Взлетная полоса",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4134"
+   ]
+  },
+  {
+   "id": "wc-bjc4135",
+   "authors": [
+    "nakamototakak"
+   ],
+   "title_ru": "Мать",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4135"
+   ]
+  },
+  {
+   "id": "wc-bjc4144",
+   "authors": [
+    "nakanosagekh"
+   ],
+   "title_ru": "Волны Японии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "стихи",
+   "books": [
+    "bjc4144"
+   ]
+  },
+  {
+   "id": "wc-bjc4145",
+   "authors": [
+    "nakanosagekh"
+   ],
+   "title_ru": "Пляшущий мужчина. Повести и рассказы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4145"
+   ]
+  },
+  {
+   "id": "wc-bjc4160",
+   "authors": [
+    "nomakhiros"
+   ],
+   "title_ru": "Зона пустоты",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4160"
+   ]
+  },
+  {
+   "id": "wc-bjc4193",
+   "authors": [
+    "okharatomie"
+   ],
+   "title_ru": "Ее звали О-эн",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4193"
+   ]
+  },
+  {
+   "id": "wc-bjc4206",
+   "authors": [
+    "sataineko"
+   ],
+   "title_ru": "Пока не угаснет пламя",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4206"
+   ]
+  },
+  {
+   "id": "wc-bjc4239",
+   "authors": [
+    "takakurateru"
+   ],
+   "title_ru": "Волк",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4239"
+   ]
+  },
+  {
+   "id": "wc-bjc4275",
+   "authors": [
+    "fukaosumak"
+   ],
+   "title_ru": "Избранная лирика",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4275"
+   ]
+  },
+  {
+   "id": "wc-bjc4295",
+   "authors": [
+    "khayasafumik"
+   ],
+   "title_ru": "Шесть рассказов",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "bjc4295"
+   ]
+  },
+  {
+   "id": "wc-bjc4313",
+   "authors": [
+    "khosoyagendz"
+   ],
+   "title_ru": "Из глубины бушующего моря",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4313"
+   ]
+  },
+  {
+   "id": "wc-bjc4314",
+   "authors": [
+    "khosoyagendz"
+   ],
+   "title_ru": "Памятник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4314"
+   ]
+  },
+  {
+   "id": "wc-bjc4315",
+   "authors": [
+    "khosoyagendz"
+   ],
+   "title_ru": "Суд",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4315"
+   ]
+  },
+  {
+   "id": "wc-bjc4327",
+   "authors": [
+    "endosyusak"
+   ],
+   "title_ru": "Женщина, которую я бросил",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4327"
+   ]
+  },
+  {
+   "id": "wc-bjc4327a",
+   "authors": [
+    "endosyusak"
+   ],
+   "title_ru": "Море и яд",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4327a"
+   ]
+  },
+  {
+   "id": "wc-bjc4328",
+   "authors": [
+    "endosyusak"
+   ],
+   "title_ru": "Супружеская жизнь",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "повесть",
+   "books": [
+    "bjc4328"
+   ]
+  },
+  {
+   "id": "wc-bjc4345",
+   "authors": [
+    "yamasirotomoe"
+   ],
+   "title_ru": "Песня тележки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "роман",
+   "books": [
+    "bjc4345"
+   ]
+  },
+  {
+   "id": "wc-bjc4349",
+   "authors": [],
+   "title_ru": "Десять вечеров. Японские народные сказки",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjc4349"
+   ]
+  },
+  {
+   "id": "wc-bjc4350",
+   "authors": [],
+   "title_ru": "Земляника под снегом. Сказки японских островов",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сказки",
+   "books": [
+    "bjc4350"
+   ]
+  },
+  {
+   "id": "wc-am7",
+   "authors": [
+    "nakadzimaatsusi"
+   ],
+   "title_ru": "Атоллы",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "am7"
+   ]
+  },
+  {
+   "id": "wc-wj89",
+   "authors": [],
+   "title_ru": "Синсэн вака — поэтическая антология X в",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj89"
+   ]
+  },
+  {
+   "id": "wc-wj90",
+   "authors": [],
+   "title_ru": "Утаавасэ. Поэтические турниры в средневековой Японии (IX—XIII вв.)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj90"
+   ]
+  },
+  {
+   "id": "wc-wj91",
+   "authors": [],
+   "title_ru": "У Заставы Одинокой сосны: Японские пятистишия",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj91"
+   ]
+  },
+  {
+   "id": "wc-wj262",
+   "authors": [],
+   "title_ru": "Из современной японской поэзии",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj262"
+   ]
+  },
+  {
+   "id": "wc-wj263",
+   "authors": [],
+   "title_ru": "Осенние цикады: Из японской лирики позднего средневековья",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj263"
+   ]
+  },
+  {
+   "id": "wc-wj264",
+   "authors": [],
+   "title_ru": "Голоса вещей: Послевоенная японская поэзия",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj264"
+   ]
+  },
+  {
+   "id": "wc-wj265",
+   "authors": [],
+   "title_ru": "Лунные блики: Классическая японская поэзия конца XIX-первой половины XX в",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj265"
+   ]
+  },
+  {
+   "id": "wc-wj277",
+   "authors": [],
+   "title_ru": "Басё и поэты Золотого века хайку",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj277"
+   ]
+  },
+  {
+   "id": "wc-wj835",
+   "authors": [],
+   "title_ru": "Стихи японских императоров",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj835"
+   ]
+  },
+  {
+   "id": "wc-wj880",
+   "authors": [
+    "kobayasiissa"
+   ],
+   "title_ru": "Стихи и проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "wj880"
+   ]
+  },
+  {
+   "id": "wc-wj883",
+   "authors": [
+    "basho"
+   ],
+   "title_ru": "Стихи и проза",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "wj883"
+   ]
+  },
+  {
+   "id": "wc-wj884",
+   "authors": [
+    "idzumisikib"
+   ],
+   "title_ru": "Собрание стихотворений. Дневник",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "сборник",
+   "books": [
+    "wj884"
+   ]
+  },
+  {
+   "id": "wc-wj937",
+   "authors": [],
+   "title_ru": "Отоги-дзоси, Гэндзи-обезьяна (японские рассказы XIV—XVI вв.)",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "антология",
+   "books": [
+    "wj937"
+   ]
+  },
+  {
+   "id": "wc-wj938",
+   "authors": [],
+   "title_ru": "Торикаэбая моногатари, или Путаница",
+   "title_orig": null,
+   "title_romaji": null,
+   "kind": "моногатари",
+   "books": [
+    "wj938"
+   ]
+  },
+  {
+   "id": "wc-am17",
+   "authors": [
+    "tavadaeko"
+   ],
+   "title_ru": "Где начинается Европа",
+   "title_orig": "どこからヨーロッパが始まる",
+   "title_romaji": "Doko kara Yōroppa ga hajimaru",
+   "kind": "сборник",
+   "books": [
+    "am17"
+   ]
   }
  ]
 }

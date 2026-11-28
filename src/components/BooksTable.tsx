@@ -14,7 +14,8 @@ const COLUMNS: [TableColumn, string, string][] = [
 export const orderMark = (o: SortOrder): string => (o === 'asc' ? ' ▴' : ' ▾');
 export const orderTitle = (o: SortOrder): string => (o === 'asc' ? 'по возрастанию' : 'по убыванию');
 
-export function BooksTable({ groups, groupId = () => '', sort }: { groups: [string | null, Book[]][]; groupId?: (g: string) => string; sort?: TableSort }) {
+// counts — число книг каждой группы целиком (группы могут быть отрисованы не до конца)
+export function BooksTable({ groups, groupId = () => '', sort, counts }: { groups: [string | null, Book[]][]; groupId?: (g: string) => string; sort?: TableSort; counts?: number[] }) {
   const m = useCatalog();
   const th = ([k, label, cls]: [TableColumn, string, string]) => {
     if (!sort) return <th key={k} className={cls || undefined}>{label}</th>;
@@ -31,7 +32,7 @@ export function BooksTable({ groups, groupId = () => '', sort }: { groups: [stri
       <thead><tr>{COLUMNS.map(th)}</tr></thead>
       {groups.map(([g, list], i) => (
         <tbody key={i}>
-          {g && <tr className="grp" id={groupId(g)}><th colSpan={5}>{g}</th></tr>}
+          {g && <tr className="grp" id={groupId(g)}><th colSpan={5}>{`${g} `}{counts && <span>{counts[i]}</span>}</th></tr>}
           {list.map((b) => (
             <tr key={b.id}>
               <td><a href={`#/book/${b.id}`}>{b.title_ru}</a></td>

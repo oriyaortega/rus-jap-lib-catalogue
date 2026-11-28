@@ -1,5 +1,7 @@
 // Регрессия на настоящем каталоге (data/catalog.json): числа совпадали с тем, что показывала исходная версия сайта;
 // 25 ноября 2026 г. добавлены 558 изданий с Фантлаба (fe…), числа обновлены.
+// 26 ноября 2026 г.: 15 томов «Берсерка» (fe…) переведены из «новелл» в мангу.
+// 27 ноября 2026 г.: ещё две книги Ad Marginem (am17, am18).
 // Викиданные не загружаются, поэтому проверяются только запросы, не зависящие от них.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -33,9 +35,9 @@ describe('каталог', () => {
     expect(search('雪国')).toHaveLength(3);
     // «Murakami» латиницей находится через метки Викиданных — здесь их нет
     expect(search('Murakami')).toHaveLength(0);
-    expect(search('', ['манга'])).toHaveLength(175);
-    expect(search('', ['манга', 'переводная'])).toHaveLength(173);
-    expect(search('', ['переводная'])).toHaveLength(1378);
+    expect(search('', ['манга'])).toHaveLength(190);
+    expect(search('', ['манга', 'переводная'])).toHaveLength(188);
+    expect(search('', ['переводная'])).toHaveLength(1380);
     expect(search('', ['нехудожественная', 'политика'])).toHaveLength(583);
   });
 
@@ -57,7 +59,7 @@ describe('каталог', () => {
   });
 
   it('номер последней карточки японскими цифрами', () => {
-    expect(kanjiNum(catalog.books.length)).toBe('四千五百五十九');
+    expect(kanjiNum(catalog.books.length)).toBe('四千五百六十一');
   });
 });
 
@@ -77,5 +79,13 @@ describe('страницы произведений', () => {
         if (p.book) expect(m.book(p.book), `${wid}: ${p.book}`).toBeTruthy();
       }
     }
+  });
+  it('каждое художественное издание (кроме манги) относится хотя бы к одному произведению; манги и комиксов в «Произведениях» нет', () => {
+    const fiction = new Set(['роман', 'новеллы', 'поэзия', 'повесть', 'сказки', 'моногатари', 'драма', 'дзуйхицу']);
+    const covered = new Set((catalog.works || []).flatMap((w) => booksOf(w.id)));
+    const missing = catalog.books.filter((b) => fiction.has(b.genre) && !covered.has(b.id)).map((b) => b.id);
+    expect(missing).toEqual([]);
+    expect((catalog.works || []).filter((w) => ['манга', 'комикс', 'графический роман'].includes(w.kind || '')).map((w) => w.id)).toEqual([]);
+    for (const w of catalog.works || []) for (const id of w.books || []) expect(m.book(id), `${w.id}: ${id}`).toBeTruthy();
   });
 });

@@ -3,6 +3,11 @@ import { Fragment, type ReactNode } from 'react';
 
 export const SectionTitle = ({ children }: { children: ReactNode }) => <h2 className="section-title">{children}</h2>;
 
+// Заголовок группы над карточками (буква, год, издательство…) с числом записей группы — одинаковый во всех перечнях
+export const GroupHeading = ({ id, label, count }: { id?: string; label: string; count: number }) => (
+  <h3 className="group-h" id={id}>{`${label} `}<span>{count}</span></h3>
+);
+
 export const ExtLink = ({ href, children, lang }: { href: string; children: ReactNode; lang?: string }) => (
   <a href={href} target="_blank" rel="noopener" lang={lang}>{children}</a>
 );

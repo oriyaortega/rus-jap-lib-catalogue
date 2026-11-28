@@ -47,3 +47,7 @@
 - В окружении нет `bs4` и `lxml`, поэтому используется свой маленький DOM на `html.parser`, см. [`parse_list.py`](../scripts/wikipedia-japanologists/parse_list.py).
 - Первый элемент с классом `mw-parser-output` бывает `<span>`. Разделы статьи лежат в `<section>`, нужные списки — их прямые `ul > li`.
 - Категории: API `list=categorymembers`, QID — `prop=pageprops` пакетами по 50 (см. [`cats.py`](../scripts/wikipedia-japanologists/cats.py), [`qids.py`](../scripts/wikipedia-japanologists/qids.py)).
+
+## Ad Marginem: весь магазин
+
+Сайт на WooCommerce. Весь каталог (около 1140 позиций) отдаёт открытый API магазина: `/wp-json/wc/store/v1/products?per_page=100&page=N` — название, ISBN (`sku`), рубрики, атрибуты (год, перевод, оригинальное название), краткое описание, обложка. Автора и полной аннотации в API нет: авторы — в `/book-author-sitemap.xml` (страница автора перечисляет его книги), аннотация — на странице книги (`.text-annotation`, выходные данные — `.item-description`). Страницы книг весят около 0,5 МБ, поэтому их загружали только для отобранных книг. Серии: `/series-sitemap.xml` (например, `/series/hidebooks/`).

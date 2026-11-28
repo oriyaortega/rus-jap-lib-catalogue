@@ -1,9 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   type EditionKeys, type EditionSort, type SortOrder, authorWorks, defaultOrder, editionComparator, editionGroupOf, editionOrderOf, editionSortOf, booksOfYear,
-  editionGroupId, flipOrder, groupRuns, letterOf, nonfictionGroups, nonfictionTitle, sortPeople,
+  editionGroupId, flipOrder, groupRuns, letterOf, letterRuns, sortPeople,
 } from './grouping';
 import { authors, book, books, catalog } from '../test/fixtures';
+import { titleKey } from './text';
 
 const ids = (l: { id: string }[]) => l.map((b) => b.id);
 
@@ -121,29 +122,11 @@ describe('Издания', () => {
   });
 });
 
-describe('Нехудожественная литература', () => {
-  it('разделы в постоянном порядке, прочие — после, по алфавиту', () => {
-    const list = [
-      book({ id: '1', genre: 'учебник' }), book({ id: '2', genre: 'история' }), book({ id: '3', genre: 'путеводитель' }),
-      book({ id: '4', genre: 'исследование' }), book({ id: '5', genre: 'история' }), book({ id: '6', genre: 'альбом' }),
-    ];
-    const groups = nonfictionGroups(list, (x, y) => Number(y.id) - Number(x.id));
-    expect(groups.map(([g, l]) => [g, ids(l)])).toEqual([
-      ['история', ['5', '2']], ['исследование', ['4']], ['учебник', ['1']], ['альбом', ['6']], ['путеводитель', ['3']],
-    ]);
-  });
-  it('внутри разделов — сортировка «Изданий», в обе стороны', () => {
-    const list = [
-      book({ id: '1', genre: 'история', year: 1990 }), book({ id: '2', genre: 'история', year: 2010 }),
-      book({ id: '3', genre: 'история' }), book({ id: '4', genre: 'учебник', year: 2000 }),
-    ];
-    const keys: EditionKeys = { bookNo: new Map(), authorSort: () => '', seriesName: () => '' };
-    const byYear = (o: SortOrder) => nonfictionGroups(list, editionComparator('year', o, keys)).map(([g, l]) => [g, ids(l)]);
-    expect(byYear('asc')).toEqual([['история', ['1', '2', '3']], ['учебник', ['4']]]);
-    expect(byYear('desc')).toEqual([['история', ['2', '1', '3']], ['учебник', ['4']]]);
-  });
-  it('заголовки разделов', () => {
-    expect(nonfictionTitle('справочник')).toBe('Справочники и словари');
-    expect(nonfictionTitle('альбом')).toBe('Альбом');
+describe('letterRuns', () => {
+  it('буквы по названию без кавычек; номера — от начала раздела во всём списке', () => {
+    const items = ['«Акико»', 'Аист', 'Береза', 'Yuki', '1Q84'].map((t) => ({ t }));
+    const r = letterRuns(items, (x) => titleKey(x.t), 'WJ', 10);
+    expect(r.groups.map(([g, l]) => [g, l.length])).toEqual([['А', 2], ['Б', 1], ['A–Z', 1], ['0–9', 1]]);
+    expect(r.nav.map((n) => [n.label, n.index, n.target])).toEqual([['А', 10, 'WJ-А'], ['Б', 12, 'WJ-Б'], ['A–Z', 13, 'WJ-A_Z'], ['0–9', 14, 'WJ-0_9']]);
   });
 });

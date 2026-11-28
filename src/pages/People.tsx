@@ -14,7 +14,8 @@ export function AuthorsPage({ params }: { params: URLSearchParams }) {
   };
   return (
     <LettersPage params={params} title="Авторы" hrefBase="author" prefix="A" people={people} extra={extra}
-      sub={`по русскому алфавиту · ${plural(m.catalog.authors.length, ['автор', 'автора', 'авторов'])}`} />
+      count={(p) => m.booksOf(p.id).length} countLabel="по числу изданий" bornSort
+      sub={`авторы изданий каталога · ${plural(m.catalog.authors.length, ['автор', 'автора', 'авторов'])}`} />
   );
 }
 
@@ -28,6 +29,7 @@ export function TranslatorsPage({ params }: { params: URLSearchParams }) {
   return (
     <LettersPage params={params} title="Переводчики" hrefBase="translator" prefix="T" extra={extra}
       people={m.catalog.translators.map((t) => m.translatorInfo(t.id))}
-      sub={`по русскому алфавиту · ${plural(m.catalog.translators.length, ['переводчик', 'переводчика', 'переводчиков'])}`} />
+      count={(p) => m.translationsOf(p.id).length} countLabel="по числу переводов"
+      sub={`переводчики изданий каталога · ${plural(m.catalog.translators.length, ['переводчик', 'переводчика', 'переводчиков'])}`} />
   );
 }

@@ -2,7 +2,7 @@
 import { describe, expect, it } from 'vitest';
 import { newestBooks, recentlyAdded } from './home';
 import { ANON, translationsByAuthor } from './translator';
-import { filterWorks, workComparator, workYear } from './works';
+import { filterWorks, workComparator, workSortOf, workYear } from './works';
 import { ALWAYS_TAGS, TYPE_TAGS, parseTags, tagCloud, tagCounts, toggleTag, tokenize } from './tags';
 import { isRussianName, profileFacts, profileHeading } from './people';
 import { bookSources, printRun } from './book';
@@ -49,6 +49,16 @@ describe('Произведения', () => {
     expect([...works].sort(workComparator('year', first)).map((w) => w.id)).toEqual(['w2', 'w1', 'fw', 'w3']);
     expect([...works].sort(workComparator('title', first)).map((w) => w.title_ru)).toEqual(['Золотой храм', 'Исповедь маски', 'Сёгун', 'Хайку']);
     expect([...works].sort(workComparator('???', first)).map((w) => w.id)).toEqual(works.map((w) => w.id));
+  });
+  it('направление: по убыванию меняется только основной ключ, без года — всё равно в конце', () => {
+    const first = (w: { authors: string[] }) => w.authors[0];
+    expect([...works].sort(workComparator('year', first, 'desc')).map((w) => w.id)).toEqual(['fw', 'w1', 'w2', 'w3']);
+    expect([...works].sort(workComparator('title', first, 'desc')).map((w) => w.title_ru)).toEqual(['Хайку', 'Сёгун', 'Исповедь маски', 'Золотой храм']);
+  });
+  it('сортировка из адреса: по умолчанию — по алфавиту', () => {
+    expect(workSortOf(null)).toBe('title');
+    expect(workSortOf('year')).toBe('year');
+    expect(workSortOf('publisher')).toBe('title');
   });
   it('год создания', () => {
     expect(workYear(1956)).toBe(1956);

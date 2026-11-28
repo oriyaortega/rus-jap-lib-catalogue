@@ -35,7 +35,8 @@ export function WorkFuda({ work: w }: { work: Work }) {
   const orig = (w.title_orig || '').split(' / ')[0];
   return (
     <div className="fuda" style={fc(kindColor(w.kind))} aria-hidden="true">
-      {w.year != null && w.year > 0 && <span className="fuda-no" lang="ja">{kanjiNum(w.year)}</span>}
+      {/* полоса сверху есть всегда, как у карточек книг; без года (или до н. э.) — пустая */}
+      <span className="fuda-no" lang="ja">{w.year != null && w.year > 0 ? kanjiNum(w.year) : ' '}</span>
       {orig && !w.foreign
         ? <span className="fuda-v" lang="ja">{orig}</span>
         : <span className={`fuda-v ru${w.title_ru.length > 100 ? ' long' : ''}`}>{w.title_ru}</span>}
@@ -81,32 +82,55 @@ export function BookDeck({ books, className = '' }: { books: Book[]; className?:
   );
 }
 
+// Колода произведений («Произведения»): карточка, автор и название; под ними — оригинал, год создания, вид
+export function WorkDeck({ works }: { works: Work[] }) {
+  const m = useCatalog();
+  return (
+    <div className="deck">
+      {works.map((w) => {
+        const orig = (w.title_orig || '').split(' / ')[0];
+        const meta = [w.year != null ? workYearText(w.year) : '', w.kind || '', w.foreign ? w.lang || '' : ''].filter(Boolean).join(', ');
+        return (
+          <div key={w.id}>
+            <a className="fuda-link" href={`#/work/${w.id}`}>
+              <WorkFuda work={w} />
+              <div className="caption">{w.authors.map((a) => m.authorInfo(a).name_ru).join(', ')}<span className="t">{w.title_ru}</span></div>
+            </a>
+            <div className="caption" style={{ marginTop: 0 }}>
+              {orig && <span lang={w.foreign ? undefined : 'ja'}>{orig}</span>}
+              {orig && meta && <br />}
+              {meta}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+const workYearText = (y: number) => (y < 0 ? `${-y} до н. э.` : String(y));
+
 // Колода людей; marker(p) может вернуть отметку (например, букву), которая встаёт в ряд перед карточкой
-export function PeopleDeck({ people, hrefBase, extra, marker }: {
+export function PeopleDeck({ people, hrefBase, extra }: {
   people: PersonInfo[];
   hrefBase: string;
   extra?: (p: PersonInfo) => ReactNode;
-  marker?: (p: PersonInfo) => ReactNode;
 }) {
   return (
     <div className="deck small">
       {people.map((p, i) => (
-        <PeopleDeckItem key={`${p.id}-${i}`} person={p} hrefBase={hrefBase} extra={extra} marker={marker} />
+        <PeopleDeckItem key={`${p.id}-${i}`} person={p} hrefBase={hrefBase} extra={extra} />
       ))}
     </div>
   );
 }
 
-function PeopleDeckItem({ person: p, hrefBase, extra, marker }: {
-  person: PersonInfo; hrefBase: string; extra?: (p: PersonInfo) => ReactNode; marker?: (p: PersonInfo) => ReactNode;
+function PeopleDeckItem({ person: p, hrefBase, extra }: {
+  person: PersonInfo; hrefBase: string; extra?: (p: PersonInfo) => ReactNode;
 }) {
   return (
-    <>
-      {marker?.(p)}
-      <a className="fuda-link" href={`#/${hrefBase}/${p.id}`}>
-        <Yomifuda person={p} />
-        <div className="caption"><span className="t">{p.name_ru}</span>{lifeYears(p.w)}{extra && <><br />{extra(p)}</>}</div>
-      </a>
-    </>
+    <a className="fuda-link" href={`#/${hrefBase}/${p.id}`}>
+      <Yomifuda person={p} />
+      <div className="caption"><span className="t">{p.name_ru}</span>{lifeYears(p.w)}{extra && <><br />{extra(p)}</>}</div>
+    </a>
   );
 }
